@@ -5,8 +5,8 @@
     let isValidPath = true;
   
     onMount(() => {
-        // We only support the root path (query params are OK)
-        isValidPath = window.location.pathname === '/' || window.location.pathname === '';
+        const pathnameTrimmed = window.location.pathname.replace(/^\/+|\/+$/g, '');
+        isValidPath = pathnameTrimmed === 'connections';
     });
 </script>
 
