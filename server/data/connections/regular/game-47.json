@@ -1,0 +1,26 @@
+{
+  "id": "47",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Desserts",
+      "difficulty": 0,
+      "words": ["BROWNIE", "SUNDAE", "CHEESECAKE", "TIRAMISU", "PUDDING"]
+    },
+    {
+      "name": "Things that fold",
+      "difficulty": 1,
+      "words": ["LAUNDRY", "CHAIR", "POKER HAND", "MAP", "COMPANY"]
+    },
+    {
+      "name": "Word _____",
+      "difficulty": 2,
+      "words": ["PLAY", "SEARCH", "SALAD", "PRESS", "SMITH"]
+    },
+    {
+      "name": "Greek gods",
+      "difficulty": 3,
+      "words": ["ZEUS", "HERA", "APOLLO", "ATHENA", "POSEIDON"]
+    }
+  ]
+}

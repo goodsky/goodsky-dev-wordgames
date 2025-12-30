@@ -1,0 +1,26 @@
+{
+  "id": "62",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Things at a wedding",
+      "difficulty": 0,
+      "words": ["BRIDE", "CAKE", "RING", "VEIL", "BOUQUET"]
+    },
+    {
+      "name": "Things that bloom or blossom",
+      "difficulty": 1,
+      "words": ["FLOWER", "LOVE", "CAREER", "CHERRY", "YOUTH"]
+    },
+    {
+      "name": "Water _____",
+      "difficulty": 2,
+      "words": ["FALL", "MELON", "PROOF", "SHED", "COLOR"]
+    },
+    {
+      "name": "Friends character names",
+      "difficulty": 3,
+      "words": ["ROSS", "RACHEL", "MONICA", "CHANDLER", "PHOEBE"]
+    }
+  ]
+}

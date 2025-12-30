@@ -1,0 +1,26 @@
+{
+  "id": "70",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Things at a concert",
+      "difficulty": 0,
+      "words": ["STAGE", "SPEAKER", "TICKET", "CROWD", "ENCORE"]
+    },
+    {
+      "name": "Things that clatter",
+      "difficulty": 1,
+      "words": ["DISHES", "HOOVES", "TEETH", "KEYBOARD", "BLINDS"]
+    },
+    {
+      "name": "Dead _____",
+      "difficulty": 2,
+      "words": ["END", "LINE", "WEIGHT", "BEAT", "HEAT"]
+    },
+    {
+      "name": "Types of clouds",
+      "difficulty": 3,
+      "words": ["CUMULUS", "STRATUS", "CIRRUS", "NIMBUS", "CUMULONIMBUS"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "67",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Things in a hospital",
+      "difficulty": 0,
+      "words": ["NURSE", "STRETCHER", "SCALPEL", "GURNEY", "STETHOSCOPE"]
+    },
+    {
+      "name": "Things that wobble",
+      "difficulty": 1,
+      "words": ["JELLO", "BABY", "TABLE", "CONFIDENCE", "TURKEY"]
+    },
+    {
+      "name": "Side _____",
+      "difficulty": 2,
+      "words": ["KICK", "SHOW", "WALK", "EFFECT", "ARM"]
+    },
+    {
+      "name": "Famous Williams",
+      "difficulty": 3,
+      "words": ["SHAKESPEARE", "SHATNER", "TELL", "PRINCE", "SERENA"]
+    }
+  ]
+}

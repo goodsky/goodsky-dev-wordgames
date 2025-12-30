@@ -1,0 +1,26 @@
+{
+  "id": "3",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Shades of blue",
+      "difficulty": 0,
+      "words": ["NAVY", "SKY", "ROYAL", "TEAL", "COBALT"]
+    },
+    {
+      "name": "Things you can crack",
+      "difficulty": 1,
+      "words": ["CODE", "EGG", "JOKE", "KNUCKLES", "SMILE"]
+    },
+    {
+      "name": "Words that follow 'Black'",
+      "difficulty": 2,
+      "words": ["JACK", "BIRD", "BERRY", "SMITH", "MARKET"]
+    },
+    {
+      "name": "Anagrams of each other (STATE/TASTE/etc.)",
+      "difficulty": 3,
+      "words": ["LISTEN", "SILENT", "ENLIST", "TINSEL"]
+    }
+  ]
+}

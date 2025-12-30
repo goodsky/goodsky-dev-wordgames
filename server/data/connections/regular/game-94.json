@@ -1,0 +1,26 @@
+{
+  "id": "94",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "French food",
+      "difficulty": 0,
+      "words": ["CREPE", "CROISSANT", "BAGUETTE", "QUICHE", "SOUFFLE"]
+    },
+    {
+      "name": "Things that trickle",
+      "difficulty": 1,
+      "words": ["WATER", "BLOOD", "SWEAT", "INFORMATION", "MONEY"]
+    },
+    {
+      "name": "PointBlank _____",
+      "difficulty": 2,
+      "words": ["RANGE", "REFUSAL", "QUESTION", "SHOT", "ANSWER"]
+    },
+    {
+      "name": "Steven Spielberg films",
+      "difficulty": 3,
+      "words": ["JAWS", "ET", "MUNICH", "LINCOLN", "HOOK"]
+    }
+  ]
+}

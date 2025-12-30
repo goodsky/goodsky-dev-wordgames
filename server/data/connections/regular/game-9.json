@@ -1,0 +1,26 @@
+{
+  "id": "9",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Things in a wallet",
+      "difficulty": 0,
+      "words": ["CASH", "LICENSE", "CARD", "PHOTO", "RECEIPT"]
+    },
+    {
+      "name": "Things that can be 'tight'",
+      "difficulty": 1,
+      "words": ["BUDGET", "SCHEDULE", "SPOT", "SHIP", "LIP"]
+    },
+    {
+      "name": "Words before 'man'",
+      "difficulty": 2,
+      "words": ["IRON", "SPIDER", "BAT", "ANT", "SUPER"]
+    },
+    {
+      "name": "Countries hidden in phrases",
+      "difficulty": 3,
+      "words": ["FINAL AND ANSWER", "NOT SPAIN", "EPIC HILARIOUS", "MAUI SAW IT"]
+    }
+  ]
+}

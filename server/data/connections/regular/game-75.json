@@ -1,0 +1,26 @@
+{
+  "id": "75",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Social media platforms",
+      "difficulty": 0,
+      "words": ["INSTAGRAM", "TWITTER", "TIKTOK", "FACEBOOK", "SNAPCHAT"]
+    },
+    {
+      "name": "Things that bubble",
+      "difficulty": 1,
+      "words": ["CHAMPAGNE", "BATH", "LAUGHTER", "CAULDRON", "ENTHUSIASM"]
+    },
+    {
+      "name": "Straight _____",
+      "difficulty": 2,
+      "words": ["FACE", "SHOOTER", "JACKET", "ARROW", "EDGE"]
+    },
+    {
+      "name": "Bones in the human body",
+      "difficulty": 3,
+      "words": ["FEMUR", "TIBIA", "FIBULA", "HUMERUS", "RADIUS"]
+    }
+  ]
+}

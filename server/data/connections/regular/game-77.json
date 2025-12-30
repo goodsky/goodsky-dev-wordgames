@@ -1,0 +1,26 @@
+{
+  "id": "77",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Winter activities",
+      "difficulty": 0,
+      "words": ["SKIING", "SLEDDING", "SKATING", "SNOWBALL", "HOCKEY"]
+    },
+    {
+      "name": "Things that thunder",
+      "difficulty": 1,
+      "words": ["STORM", "APPLAUSE", "HOOVES", "VOICE", "HEART"]
+    },
+    {
+      "name": "Round _____",
+      "difficulty": 2,
+      "words": ["TABLE", "TRIP", "HOUSE", "ROBIN", "UP"]
+    },
+    {
+      "name": "Ocean's Eleven characters",
+      "difficulty": 3,
+      "words": ["DANNY", "RUSTY", "LINUS", "BASHER", "SAUL"]
+    }
+  ]
+}

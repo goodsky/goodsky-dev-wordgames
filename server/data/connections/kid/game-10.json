@@ -1,0 +1,26 @@
+{
+  "id": "k10",
+  "kidMode": true,
+  "categories": [
+    {
+      "name": "Pets",
+      "difficulty": 0,
+      "words": ["🐶", "🐱", "🐰", "🐹", "🐠", "🐦"]
+    },
+    {
+      "name": "Things with Wheels",
+      "difficulty": 1,
+      "words": ["🚗", "🚌", "🚲", "🛴", "🚂", "🚒"]
+    },
+    {
+      "name": "Yummy Fruits",
+      "difficulty": 2,
+      "words": ["🍎", "🍌", "🍇", "🍓", "🍊", "🍉"]
+    },
+    {
+      "name": "In the Sky",
+      "difficulty": 3,
+      "words": ["Sun", "Moon", "Stars", "Clouds", "Rainbows"]
+    }
+  ]
+}

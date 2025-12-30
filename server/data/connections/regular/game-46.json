@@ -1,0 +1,26 @@
+{
+  "id": "46",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Things in space",
+      "difficulty": 0,
+      "words": ["PLANET", "ASTEROID", "COMET", "STAR", "SATELLITE"]
+    },
+    {
+      "name": "Things that slip",
+      "difficulty": 1,
+      "words": ["TONGUE", "MIND", "COVER", "KNOT", "ICE"]
+    },
+    {
+      "name": "Master _____",
+      "difficulty": 2,
+      "words": ["PIECE", "MIND", "CLASS", "KEY", "STROKE"]
+    },
+    {
+      "name": "James Bond movies",
+      "difficulty": 3,
+      "words": ["GOLDFINGER", "THUNDERBALL", "SKYFALL", "SPECTRE", "CASINO ROYALE"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "100",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Things with scales",
+      "difficulty": 0,
+      "words": ["FISH", "SNAKE", "PIANO", "JUSTICE", "MAP"]
+    },
+    {
+      "name": "Things that echo",
+      "difficulty": 1,
+      "words": ["VOICE", "CAVE", "SENTIMENT", "CHAMBER", "FOOTSTEPS"]
+    },
+    {
+      "name": "World _____",
+      "difficulty": 2,
+      "words": ["CUP", "SERIES", "RECORD", "WAR", "CLASS"]
+    },
+    {
+      "name": "Words that are also music notes",
+      "difficulty": 3,
+      "words": ["ACE", "BEE", "SEA", "DEE", "GEE"]
+    }
+  ]
+}

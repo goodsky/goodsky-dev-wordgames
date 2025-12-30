@@ -1,0 +1,65 @@
+{
+  "id": "k3",
+  "kidMode": true,
+  "categories": [
+    {
+      "name": "Red Things",
+      "difficulty": 0,
+      "words": [
+        {"text": "Apple", "lightColor": "#ff6b6b", "darkColor": "#cc0000"},
+        {"text": "Fire Truck", "lightColor": "#ff6b6b", "darkColor": "#cc0000"},
+        {"text": "Heart", "lightColor": "#ff6b6b", "darkColor": "#cc0000"},
+        {"text": "Strawberry", "lightColor": "#ff6b6b", "darkColor": "#cc0000"},
+        {"text": "Tomato", "lightColor": "#ff6b6b", "darkColor": "#cc0000"},
+        {"text": "Cherry", "lightColor": "#ff6b6b", "darkColor": "#cc0000"},
+        {"text": "Ladybug", "lightColor": "#ff6b6b", "darkColor": "#cc0000"},
+        {"text": "Rose", "lightColor": "#ff6b6b", "darkColor": "#cc0000"},
+        {"text": "Stop Sign", "lightColor": "#ff6b6b", "darkColor": "#cc0000"}
+      ]
+    },
+    {
+      "name": "Yellow Things",
+      "difficulty": 1,
+      "words": [
+        {"text": "Sun", "lightColor": "#ffd93d", "darkColor": "#cc9900"},
+        {"text": "Banana", "lightColor": "#ffd93d", "darkColor": "#cc9900"},
+        {"text": "Lemon", "lightColor": "#ffd93d", "darkColor": "#cc9900"},
+        {"text": "Star", "lightColor": "#ffd93d", "darkColor": "#cc9900"},
+        {"text": "School Bus", "lightColor": "#ffd93d", "darkColor": "#cc9900"},
+        {"text": "Cheese", "lightColor": "#ffd93d", "darkColor": "#cc9900"},
+        {"text": "Sunflower", "lightColor": "#ffd93d", "darkColor": "#cc9900"},
+        {"text": "Corn", "lightColor": "#ffd93d", "darkColor": "#cc9900"}
+      ]
+    },
+    {
+      "name": "Blue Things",
+      "difficulty": 2,
+      "words": [
+        {"text": "Sky", "lightColor": "#74b9ff", "darkColor": "#0066cc"},
+        {"text": "Ocean", "lightColor": "#74b9ff", "darkColor": "#0066cc"},
+        {"text": "Blueberry", "lightColor": "#74b9ff", "darkColor": "#0066cc"},
+        {"text": "Whale", "lightColor": "#74b9ff", "darkColor": "#0066cc"},
+        {"text": "Rain", "lightColor": "#74b9ff", "darkColor": "#0066cc"},
+        {"text": "Jeans", "lightColor": "#74b9ff", "darkColor": "#0066cc"},
+        {"text": "Dolphin", "lightColor": "#74b9ff", "darkColor": "#0066cc"},
+        {"text": "Ice", "lightColor": "#74b9ff", "darkColor": "#0066cc"},
+        {"text": "Bluebird", "lightColor": "#74b9ff", "darkColor": "#0066cc"}
+      ]
+    },
+    {
+      "name": "Green Things",
+      "difficulty": 3,
+      "words": [
+        {"text": "Grass", "lightColor": "#6bcb77", "darkColor": "#228b22"},
+        {"text": "Frog", "lightColor": "#6bcb77", "darkColor": "#228b22"},
+        {"text": "Leaf", "lightColor": "#6bcb77", "darkColor": "#228b22"},
+        {"text": "Tree", "lightColor": "#6bcb77", "darkColor": "#228b22"},
+        {"text": "Broccoli", "lightColor": "#6bcb77", "darkColor": "#228b22"},
+        {"text": "Turtle", "lightColor": "#6bcb77", "darkColor": "#228b22"},
+        {"text": "Peas", "lightColor": "#6bcb77", "darkColor": "#228b22"},
+        {"text": "Alligator", "lightColor": "#6bcb77", "darkColor": "#228b22"},
+        {"text": "Pickle", "lightColor": "#6bcb77", "darkColor": "#228b22"}
+      ]
+    }
+  ]
+}

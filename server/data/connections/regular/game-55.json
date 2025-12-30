@@ -1,0 +1,26 @@
+{
+  "id": "55",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Things in a park",
+      "difficulty": 0,
+      "words": ["BENCH", "FOUNTAIN", "PLAYGROUND", "GRASS", "PATH"]
+    },
+    {
+      "name": "Things that pump",
+      "difficulty": 1,
+      "words": ["HEART", "GAS", "IRON", "MUSIC", "FIST"]
+    },
+    {
+      "name": "Free _____",
+      "difficulty": 2,
+      "words": ["FALL", "THROW", "LANCE", "RANGE", "STYLE"]
+    },
+    {
+      "name": "Capital cities that are not the largest city",
+      "difficulty": 3,
+      "words": ["CANBERRA", "OTTAWA", "BRASILIA", "ANKARA", "PRETORIA"]
+    }
+  ]
+}

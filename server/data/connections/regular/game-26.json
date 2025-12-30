@@ -1,0 +1,26 @@
+{
+  "id": "26",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Baked goods",
+      "difficulty": 0,
+      "words": ["BREAD", "COOKIE", "CAKE", "PIE", "MUFFIN"]
+    },
+    {
+      "name": "Things that sting",
+      "difficulty": 1,
+      "words": ["BEE", "INSULT", "JELLYFISH", "EYES", "WOUND"]
+    },
+    {
+      "name": "Wild _____",
+      "difficulty": 2,
+      "words": ["CARD", "GOOSE", "WEST", "FIRE", "CHILD"]
+    },
+    {
+      "name": "Slang for $100",
+      "difficulty": 3,
+      "words": ["BENJAMIN", "CENTURY", "C-NOTE", "HUNDO", "BILL"]
+    }
+  ]
+}

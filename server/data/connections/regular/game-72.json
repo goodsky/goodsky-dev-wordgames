@@ -1,0 +1,26 @@
+{
+  "id": "72",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Things at a bar",
+      "difficulty": 0,
+      "words": ["STOOL", "TAP", "COASTER", "SHOT GLASS", "JUKEBOX"]
+    },
+    {
+      "name": "Things that sizzle",
+      "difficulty": 1,
+      "words": ["BACON", "CHEMISTRY", "STEAK", "SUMMER", "WIRE"]
+    },
+    {
+      "name": "_____ Test",
+      "difficulty": 2,
+      "words": ["ACID", "BLOOD", "STRESS", "LITMUS", "ROAD"]
+    },
+    {
+      "name": "Authors with single-word pen names",
+      "difficulty": 3,
+      "words": ["VOLTAIRE", "PLATO", "HOMER", "COLETTE", "BANKSY"]
+    }
+  ]
+}

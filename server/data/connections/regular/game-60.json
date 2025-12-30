@@ -1,0 +1,26 @@
+{
+  "id": "60",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Martial arts",
+      "difficulty": 0,
+      "words": ["KARATE", "JUDO", "TAEKWONDO", "KUNG FU", "AIKIDO"]
+    },
+    {
+      "name": "Things that shine",
+      "difficulty": 1,
+      "words": ["STAR", "SHOE", "EXAMPLE", "BALD HEAD", "ARMOR"]
+    },
+    {
+      "name": "Brick _____",
+      "difficulty": 2,
+      "words": ["WALL", "ROAD", "LAYER", "HOUSE", "AND MORTAR"]
+    },
+    {
+      "name": "Things measured in carats/karats",
+      "difficulty": 3,
+      "words": ["DIAMOND", "GOLD", "RUBY", "SAPPHIRE", "EMERALD"]
+    }
+  ]
+}

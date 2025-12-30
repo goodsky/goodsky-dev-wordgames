@@ -1,0 +1,26 @@
+{
+  "id": "98",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Korean food",
+      "difficulty": 0,
+      "words": ["KIMCHI", "BIBIMBAP", "BULGOGI", "JAPCHAE", "KIMBAP"]
+    },
+    {
+      "name": "Things that thump",
+      "difficulty": 1,
+      "words": ["HEART", "BASS", "FIST", "BUNNY", "HEAD"]
+    },
+    {
+      "name": "Smoke _____",
+      "difficulty": 2,
+      "words": ["SCREEN", "SIGNAL", "ALARM", "SHOW", "STACK"]
+    },
+    {
+      "name": "Hogwarts houses",
+      "difficulty": 3,
+      "words": ["GRYFFINDOR", "SLYTHERIN", "RAVENCLAW", "HUFFLEPUFF"]
+    }
+  ]
+}

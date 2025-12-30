@@ -1,0 +1,26 @@
+{
+  "id": "23",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Cartoon characters",
+      "difficulty": 0,
+      "words": ["SPONGEBOB", "BART", "BUGS", "MICKEY", "SCOOBY"]
+    },
+    {
+      "name": "Things you can skip",
+      "difficulty": 1,
+      "words": ["STONE", "ROPE", "TOWN", "BEAT", "CLASS"]
+    },
+    {
+      "name": "Words ending in '-tion'",
+      "difficulty": 2,
+      "words": ["STATION", "NATION", "MOTION", "POTION", "PORTION"]
+    },
+    {
+      "name": "Car brands that are also words",
+      "difficulty": 3,
+      "words": ["FORD", "DODGE", "RAM", "JAGUAR", "BEETLE"]
+    }
+  ]
+}

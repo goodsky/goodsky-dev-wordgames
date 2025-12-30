@@ -1,0 +1,26 @@
+{
+  "id": "80",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Indian food",
+      "difficulty": 0,
+      "words": ["CURRY", "NAAN", "SAMOSA", "TIKKA", "BIRYANI"]
+    },
+    {
+      "name": "Things that creak",
+      "difficulty": 1,
+      "words": ["FLOORBOARD", "DOOR", "BED", "SWING", "CHAIR"]
+    },
+    {
+      "name": "Glass _____",
+      "difficulty": 2,
+      "words": ["CEILING", "HOUSE", "JAW", "SLIPPER", "EYE"]
+    },
+    {
+      "name": "Game of Thrones houses",
+      "difficulty": 3,
+      "words": ["STARK", "LANNISTER", "TARGARYEN", "BARATHEON", "GREYJOY"]
+    }
+  ]
+}

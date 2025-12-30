@@ -1,0 +1,26 @@
+{
+  "id": "90",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Things with laces",
+      "difficulty": 0,
+      "words": ["SHOE", "CORSET", "DRESS", "CURTAIN", "GLOVE"]
+    },
+    {
+      "name": "Things that sparkle",
+      "difficulty": 1,
+      "words": ["DIAMOND", "WINE", "EYES", "WATER", "PERSONALITY"]
+    },
+    {
+      "name": "Brain _____",
+      "difficulty": 2,
+      "words": ["STORM", "FREEZE", "WASH", "WAVE", "CHILD"]
+    },
+    {
+      "name": "Poker players (famous)",
+      "difficulty": 3,
+      "words": ["HELLMUTH", "BRUNSON", "NEGREANU", "IVEY", "MONEYMAKER"]
+    }
+  ]
+}

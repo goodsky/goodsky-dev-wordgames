@@ -1,0 +1,26 @@
+{
+  "id": "8",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Sandwich types",
+      "difficulty": 0,
+      "words": ["CLUB", "REUBEN", "BLT", "CUBAN", "HOAGIE"]
+    },
+    {
+      "name": "Things you can 'draw'",
+      "difficulty": 1,
+      "words": ["PICTURE", "BATH", "CONCLUSION", "BLOOD", "CROWD"]
+    },
+    {
+      "name": "Famous Johns",
+      "difficulty": 2,
+      "words": ["LENNON", "WICK", "WAYNE", "LEGEND", "CENA"]
+    },
+    {
+      "name": "Compound words with 'LIGHT'",
+      "difficulty": 3,
+      "words": ["FLASH", "SPOT", "HIGH", "MOON", "DAY"]
+    }
+  ]
+}

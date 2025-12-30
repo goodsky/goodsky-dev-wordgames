@@ -1,0 +1,26 @@
+{
+  "id": "27",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Cocktails",
+      "difficulty": 0,
+      "words": ["MARTINI", "MARGARITA", "MOJITO", "DAIQUIRI", "COSMOPOLITAN"]
+    },
+    {
+      "name": "Things that hang",
+      "difficulty": 1,
+      "words": ["PICTURE", "BAT", "LAUNDRY", "JURY", "THREAT"]
+    },
+    {
+      "name": "Land _____",
+      "difficulty": 2,
+      "words": ["MARK", "LORD", "SLIDE", "MINE", "FILL"]
+    },
+    {
+      "name": "Words spelled with Roman numerals",
+      "difficulty": 3,
+      "words": ["MIX", "CIVIL", "LIVID", "MIMIC", "MAXIM"]
+    }
+  ]
+}

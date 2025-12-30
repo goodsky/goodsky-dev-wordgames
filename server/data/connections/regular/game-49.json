@@ -1,0 +1,26 @@
+{
+  "id": "49",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Things at an airport",
+      "difficulty": 0,
+      "words": ["RUNWAY", "TERMINAL", "GATE", "LUGGAGE", "CUSTOMS"]
+    },
+    {
+      "name": "Things that swing",
+      "difficulty": 1,
+      "words": ["BAT", "MOOD", "DOOR", "PENDULUM", "VOTE"]
+    },
+    {
+      "name": "_____ Game",
+      "difficulty": 2,
+      "words": ["BOARD", "END", "VIDEO", "BLAME", "WAITING"]
+    },
+    {
+      "name": "Types of triangles",
+      "difficulty": 3,
+      "words": ["EQUILATERAL", "ISOSCELES", "SCALENE", "RIGHT", "OBTUSE"]
+    }
+  ]
+}

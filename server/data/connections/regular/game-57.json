@@ -1,0 +1,26 @@
+{
+  "id": "57",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Things at a circus",
+      "difficulty": 0,
+      "words": ["CLOWN", "TRAPEZE", "LION", "ACROBAT", "RINGMASTER"]
+    },
+    {
+      "name": "Things that wave",
+      "difficulty": 1,
+      "words": ["FLAG", "OCEAN", "HAND", "HAIR", "HEAT"]
+    },
+    {
+      "name": "Day _____",
+      "difficulty": 2,
+      "words": ["DREAM", "LIGHT", "BREAK", "CARE", "TRADER"]
+    },
+    {
+      "name": "Lord of the Rings characters",
+      "difficulty": 3,
+      "words": ["FRODO", "GANDALF", "ARAGORN", "LEGOLAS", "GIMLI"]
+    }
+  ]
+}

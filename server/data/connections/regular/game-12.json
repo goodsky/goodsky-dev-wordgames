@@ -1,0 +1,26 @@
+{
+  "id": "12",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Vegetables",
+      "difficulty": 0,
+      "words": ["CARROT", "BROCCOLI", "SPINACH", "CELERY", "ONION"]
+    },
+    {
+      "name": "Things that spin",
+      "difficulty": 1,
+      "words": ["TOP", "WHEEL", "DRYER", "RECORD", "TORNADO"]
+    },
+    {
+      "name": "Snake _____ ",
+      "difficulty": 2,
+      "words": ["BITE", "OIL", "EYES", "CHARMER", "PIT"]
+    },
+    {
+      "name": "Words that can mean 'zero'",
+      "difficulty": 3,
+      "words": ["LOVE", "NIL", "ZILCH", "NADA", "GOOSE EGG"]
+    }
+  ]
+}

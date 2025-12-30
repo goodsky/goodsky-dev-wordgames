@@ -1,0 +1,26 @@
+{
+  "id": "15",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Pizza toppings",
+      "difficulty": 0,
+      "words": ["PEPPERONI", "MUSHROOM", "SAUSAGE", "OLIVE", "PEPPER"]
+    },
+    {
+      "name": "Things that can 'strike'",
+      "difficulty": 1,
+      "words": ["LIGHTNING", "CLOCK", "MATCH", "BOWLER", "COBRA"]
+    },
+    {
+      "name": "Red _____",
+      "difficulty": 2,
+      "words": ["CARPET", "FLAG", "HERRING", "TAPE", "BULL"]
+    },
+    {
+      "name": "Words where 'GH' is silent",
+      "difficulty": 3,
+      "words": ["DAUGHTER", "THROUGH", "WEIGHT", "KNIGHT", "FIGHT"]
+    }
+  ]
+}

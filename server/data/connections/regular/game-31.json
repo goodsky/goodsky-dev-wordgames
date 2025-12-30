@@ -1,0 +1,26 @@
+{
+  "id": "31",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Berries",
+      "difficulty": 0,
+      "words": ["STRAWBERRY", "BLUEBERRY", "RASPBERRY", "BLACKBERRY", "CRANBERRY"]
+    },
+    {
+      "name": "Things that click",
+      "difficulty": 1,
+      "words": ["MOUSE", "TONGUE", "CAMERA", "HEELS", "IDEA"]
+    },
+    {
+      "name": "_____ Band",
+      "difficulty": 2,
+      "words": ["ROCK", "RUBBER", "WEDDING", "GARAGE", "BOY"]
+    },
+    {
+      "name": "Compound words with body parts",
+      "difficulty": 3,
+      "words": ["EARRING", "KNEECAP", "THUMBNAIL", "EYEBROW", "LIPSTICK"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "43",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Flowers",
+      "difficulty": 0,
+      "words": ["ROSE", "TULIP", "DAISY", "LILY", "ORCHID"]
+    },
+    {
+      "name": "Things that rush",
+      "difficulty": 1,
+      "words": ["WATER", "BLOOD", "GOLD", "HOUR", "SUGAR"]
+    },
+    {
+      "name": "Full _____",
+      "difficulty": 2,
+      "words": ["MOON", "HOUSE", "THROTTLE", "CIRCLE", "MONTY"]
+    },
+    {
+      "name": "Zodiac signs",
+      "difficulty": 3,
+      "words": ["ARIES", "TAURUS", "GEMINI", "LEO", "VIRGO"]
+    }
+  ]
+}

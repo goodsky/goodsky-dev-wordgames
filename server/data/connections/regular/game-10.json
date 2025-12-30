@@ -1,0 +1,26 @@
+{
+  "id": "10",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Types of coffee drinks",
+      "difficulty": 0,
+      "words": ["LATTE", "ESPRESSO", "MOCHA", "CAPPUCCINO", "AMERICANO"]
+    },
+    {
+      "name": "Things with hands",
+      "difficulty": 1,
+      "words": ["CLOCK", "POKER", "CARDS", "HELPING", "DECK"]
+    },
+    {
+      "name": "Words after 'DEAD'",
+      "difficulty": 2,
+      "words": ["LINE", "END", "LOCK", "POOL", "BEAT"]
+    },
+    {
+      "name": "U.S. state capitals that are also common words",
+      "difficulty": 3,
+      "words": ["PHOENIX", "JACKSON", "DOVER", "CONCORD", "LINCOLN"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "89",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Things with handles",
+      "difficulty": 0,
+      "words": ["MUG", "DOOR", "SUITCASE", "PAN", "UMBRELLA"]
+    },
+    {
+      "name": "Things that shimmer",
+      "difficulty": 1,
+      "words": ["GLITTER", "WATER", "MIRAGE", "STAR", "SILK"]
+    },
+    {
+      "name": "Baby _____",
+      "difficulty": 2,
+      "words": ["BOOM", "SHOWER", "FACE", "SITTER", "RUTH"]
+    },
+    {
+      "name": "Types of doctors",
+      "difficulty": 3,
+      "words": ["CARDIOLOGIST", "DERMATOLOGIST", "NEUROLOGIST", "ONCOLOGIST", "PEDIATRICIAN"]
+    }
+  ]
+}

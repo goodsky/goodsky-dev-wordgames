@@ -1,0 +1,26 @@
+{
+  "id": "6",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Card games",
+      "difficulty": 0,
+      "words": ["POKER", "BRIDGE", "HEARTS", "SPADES", "RUMMY"]
+    },
+    {
+      "name": "Things that can be 'broken'",
+      "difficulty": 1,
+      "words": ["RECORD", "HEART", "NEWS", "PROMISE", "ICE"]
+    },
+    {
+      "name": "Words that can follow 'Fire'",
+      "difficulty": 2,
+      "words": ["FLY", "TRUCK", "PLACE", "CRACKER", "WORKS"]
+    },
+    {
+      "name": "Greek letters used in math/science",
+      "difficulty": 3,
+      "words": ["DELTA", "SIGMA", "OMEGA", "ALPHA", "PI"]
+    }
+  ]
+}

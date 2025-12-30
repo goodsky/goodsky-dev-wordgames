@@ -1,0 +1,26 @@
+{
+  "id": "99",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Thai food",
+      "difficulty": 0,
+      "words": ["PAD THAI", "TOM YUM", "GREEN CURRY", "SATAY", "PAPAYA SALAD"]
+    },
+    {
+      "name": "Things that clang",
+      "difficulty": 1,
+      "words": ["BELL", "SWORD", "POTS", "CHAINS", "GATE"]
+    },
+    {
+      "name": "Third _____",
+      "difficulty": 2,
+      "words": ["PARTY", "EYE", "WHEEL", "DEGREE", "BASE"]
+    },
+    {
+      "name": "Wes Anderson films",
+      "difficulty": 3,
+      "words": ["RUSHMORE", "BUDAPEST", "MOONRISE", "TENENBAUMS", "DARJEELING"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "28",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Camping gear",
+      "difficulty": 0,
+      "words": ["TENT", "FLASHLIGHT", "SLEEPING BAG", "COMPASS", "LANTERN"]
+    },
+    {
+      "name": "Things that spread",
+      "difficulty": 1,
+      "words": ["BUTTER", "RUMOR", "DISEASE", "FIRE", "EAGLE"]
+    },
+    {
+      "name": "_____ Eye",
+      "difficulty": 2,
+      "words": ["BLACK", "EAGLE", "PRIVATE", "BULL", "RED"]
+    },
+    {
+      "name": "Beatles songs",
+      "difficulty": 3,
+      "words": ["HELP", "YESTERDAY", "REVOLUTION", "IMAGINE", "BLACKBIRD"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "5",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Citrus fruits",
+      "difficulty": 0,
+      "words": ["LEMON", "LIME", "ORANGE", "GRAPEFRUIT", "TANGERINE"]
+    },
+    {
+      "name": "Things with rings",
+      "difficulty": 1,
+      "words": ["SATURN", "PHONE", "CIRCUS", "TREE", "BOXING"]
+    },
+    {
+      "name": "_____ Stone",
+      "difficulty": 2,
+      "words": ["ROLLING", "KIDNEY", "STEPPING", "CORNER", "MILE"]
+    },
+    {
+      "name": "Words spelled the same forwards and backwards",
+      "difficulty": 3,
+      "words": ["LEVEL", "RADAR", "KAYAK", "CIVIC", "ROTOR"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "k11",
+  "kidMode": true,
+  "categories": [
+    {
+      "name": "Balls",
+      "difficulty": 0,
+      "words": ["⚽", "🏀", "🎾", "⚾", "🏐", "🏈"]
+    },
+    {
+      "name": "Hearts",
+      "difficulty": 1,
+      "words": ["❤️", "💜", "💙", "💚", "💛", "🧡"]
+    },
+    {
+      "name": "Animals with Spots",
+      "difficulty": 2,
+      "words": ["🐄", "🦒", "🐞", "🐆", "🐕‍🦺", "🦜"]
+    },
+    {
+      "name": "Circle Things",
+      "difficulty": 3,
+      "words": ["Sun", "Moon", "Cookie", "Ball", "Wheel", "Clock"]
+    }
+  ]
+}

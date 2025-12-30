@@ -1,0 +1,26 @@
+{
+  "id": "19",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Things in a gym",
+      "difficulty": 0,
+      "words": ["TREADMILL", "DUMBBELL", "BENCH", "MAT", "MIRROR"]
+    },
+    {
+      "name": "Things that roll",
+      "difficulty": 1,
+      "words": ["DICE", "THUNDER", "CREDITS", "EYES", "DOUGH"]
+    },
+    {
+      "name": "Golden _____",
+      "difficulty": 2,
+      "words": ["GATE", "RETRIEVER", "GLOBE", "RULE", "RATIO"]
+    },
+    {
+      "name": "Homophones (sound like numbers)",
+      "difficulty": 3,
+      "words": ["WON", "TOO", "ATE", "FORE", "SICKS"]
+    }
+  ]
+}

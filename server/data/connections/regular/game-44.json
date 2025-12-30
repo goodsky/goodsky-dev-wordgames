@@ -1,0 +1,26 @@
+{
+  "id": "44",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Weather phenomena",
+      "difficulty": 0,
+      "words": ["RAIN", "SNOW", "HAIL", "THUNDER", "FOG"]
+    },
+    {
+      "name": "Things that drop",
+      "difficulty": 1,
+      "words": ["BALL", "NAME", "MIC", "PRICE", "JAW"]
+    },
+    {
+      "name": "_____ Hand",
+      "difficulty": 2,
+      "words": ["SECOND", "UPPER", "FREE", "SHORT", "FARM"]
+    },
+    {
+      "name": "Tarot cards",
+      "difficulty": 3,
+      "words": ["FOOL", "TOWER", "LOVERS", "DEATH", "STAR"]
+    }
+  ]
+}

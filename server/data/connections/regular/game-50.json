@@ -1,0 +1,26 @@
+{
+  "id": "50",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Arcade games",
+      "difficulty": 0,
+      "words": ["PAC-MAN", "TETRIS", "GALAGA", "DONKEY KONG", "FROGGER"]
+    },
+    {
+      "name": "Things that fade",
+      "difficulty": 1,
+      "words": ["COLOR", "MEMORY", "JEANS", "STAR", "GLORY"]
+    },
+    {
+      "name": "Open _____",
+      "difficulty": 2,
+      "words": ["HOUSE", "BOOK", "MIND", "BAR", "SEASON"]
+    },
+    {
+      "name": "Magic: The Gathering card types",
+      "difficulty": 3,
+      "words": ["CREATURE", "INSTANT", "SORCERY", "ENCHANTMENT", "ARTIFACT"]
+    }
+  ]
+}

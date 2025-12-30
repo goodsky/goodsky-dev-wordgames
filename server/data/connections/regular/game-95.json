@@ -1,0 +1,26 @@
+{
+  "id": "95",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Mediterranean food",
+      "difficulty": 0,
+      "words": ["HUMMUS", "FALAFEL", "PITA", "TZATZIKI", "GYRO"]
+    },
+    {
+      "name": "Things that rumble",
+      "difficulty": 1,
+      "words": ["THUNDER", "STOMACH", "ENGINE", "CROWD", "JUNGLE"]
+    },
+    {
+      "name": "Out of _____",
+      "difficulty": 2,
+      "words": ["BOUNDS", "SIGHT", "TOUCH", "POCKET", "BODY"]
+    },
+    {
+      "name": "Planets moons",
+      "difficulty": 3,
+      "words": ["TITAN", "EUROPA", "GANYMEDE", "CALLISTO", "TRITON"]
+    }
+  ]
+}

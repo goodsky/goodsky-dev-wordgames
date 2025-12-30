@@ -1,0 +1,26 @@
+{
+  "id": "64",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Magazines",
+      "difficulty": 0,
+      "words": ["TIME", "VOGUE", "PEOPLE", "FORTUNE", "SPORTS ILLUSTRATED"]
+    },
+    {
+      "name": "Things that rattle",
+      "difficulty": 1,
+      "words": ["SNAKE", "BABY TOY", "NERVES", "CAGE", "SABER"]
+    },
+    {
+      "name": "Back _____",
+      "difficulty": 2,
+      "words": ["BONE", "STAGE", "FIRE", "PACK", "TRACK"]
+    },
+    {
+      "name": "Stephen King novels",
+      "difficulty": 3,
+      "words": ["IT", "CARRIE", "MISERY", "CHRISTINE", "CUJO"]
+    }
+  ]
+}

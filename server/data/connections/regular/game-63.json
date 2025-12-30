@@ -1,0 +1,26 @@
+{
+  "id": "63",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Trees",
+      "difficulty": 0,
+      "words": ["OAK", "MAPLE", "PINE", "WILLOW", "BIRCH"]
+    },
+    {
+      "name": "Things that soar",
+      "difficulty": 1,
+      "words": ["EAGLE", "PRICES", "SPIRITS", "KITE", "TEMPERATURE"]
+    },
+    {
+      "name": "_____ Control",
+      "difficulty": 2,
+      "words": ["REMOTE", "BIRTH", "QUALITY", "PEST", "MISSION"]
+    },
+    {
+      "name": "Mario Kart characters",
+      "difficulty": 3,
+      "words": ["MARIO", "LUIGI", "PEACH", "TOAD", "YOSHI"]
+    }
+  ]
+}

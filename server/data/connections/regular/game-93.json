@@ -1,0 +1,26 @@
+{
+  "id": "93",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Things at a library",
+      "difficulty": 0,
+      "words": ["BOOKS", "SHELVES", "CARD", "LIBRARIAN", "SILENCE"]
+    },
+    {
+      "name": "Things that screech",
+      "difficulty": 1,
+      "words": ["BRAKES", "OWL", "CHALK", "BAT", "HALT"]
+    },
+    {
+      "name": "Final _____",
+      "difficulty": 2,
+      "words": ["CUT", "FANTASY", "WORD", "COUNTDOWN", "FOUR"]
+    },
+    {
+      "name": "Rock bands with animal names",
+      "difficulty": 3,
+      "words": ["EAGLES", "SCORPIONS", "STRAY CATS", "TURTLES", "BUFFALO"]
+    }
+  ]
+}

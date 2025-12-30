@@ -1,0 +1,26 @@
+{
+  "id": "25",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Garden tools",
+      "difficulty": 0,
+      "words": ["SHOVEL", "RAKE", "HOE", "TROWEL", "SHEARS"]
+    },
+    {
+      "name": "Things that bounce",
+      "difficulty": 1,
+      "words": ["BALL", "CHECK", "IDEA", "LIGHT", "BABY"]
+    },
+    {
+      "name": "_____ Point",
+      "difficulty": 2,
+      "words": ["POWER", "TURNING", "BREAKING", "TALKING", "BOILING"]
+    },
+    {
+      "name": "Chess pieces",
+      "difficulty": 3,
+      "words": ["KING", "QUEEN", "BISHOP", "KNIGHT", "ROOK"]
+    }
+  ]
+}

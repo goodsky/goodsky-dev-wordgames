@@ -1,0 +1,26 @@
+{
+  "id": "97",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Greek food",
+      "difficulty": 0,
+      "words": ["GYRO", "SOUVLAKI", "SPANAKOPITA", "MOUSSAKA", "DOLMAS"]
+    },
+    {
+      "name": "Things that whoosh",
+      "difficulty": 1,
+      "words": ["WIND", "CAR", "DOOR", "CAPE", "SKIRT"]
+    },
+    {
+      "name": "Bottom _____",
+      "difficulty": 2,
+      "words": ["LINE", "DOLLAR", "FEEDER", "OUT", "UP"]
+    },
+    {
+      "name": "Marvel villains",
+      "difficulty": 3,
+      "words": ["THANOS", "LOKI", "MAGNETO", "ULTRON", "HELA"]
+    }
+  ]
+}

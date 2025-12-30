@@ -1,0 +1,26 @@
+{
+  "id": "40",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Precious stones",
+      "difficulty": 0,
+      "words": ["DIAMOND", "RUBY", "EMERALD", "SAPPHIRE", "PEARL"]
+    },
+    {
+      "name": "Things that flash",
+      "difficulty": 1,
+      "words": ["LIGHTNING", "CAMERA", "MEMORY", "MOB", "LIGHT"]
+    },
+    {
+      "name": "Long _____",
+      "difficulty": 2,
+      "words": ["SHOT", "ISLAND", "STORY", "FACE", "JUMP"]
+    },
+    {
+      "name": "Elements named after scientists",
+      "difficulty": 3,
+      "words": ["EINSTEINIUM", "CURIUM", "FERMIUM", "NOBELIUM", "MENDELEVIUM"]
+    }
+  ]
+}

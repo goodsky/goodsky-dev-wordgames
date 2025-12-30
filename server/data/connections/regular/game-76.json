@@ -1,0 +1,26 @@
+{
+  "id": "76",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Mexican food",
+      "difficulty": 0,
+      "words": ["TACO", "BURRITO", "ENCHILADA", "QUESADILLA", "TAMALE"]
+    },
+    {
+      "name": "Things that flicker",
+      "difficulty": 1,
+      "words": ["CANDLE", "LIGHT", "HOPE", "SCREEN", "EYELID"]
+    },
+    {
+      "name": "Snap _____",
+      "difficulty": 2,
+      "words": ["CHAT", "SHOT", "JUDGMENT", "DECISION", "DRAGON"]
+    },
+    {
+      "name": "Famous Davids",
+      "difficulty": 3,
+      "words": ["BOWIE", "BECKHAM", "LETTERMAN", "COPPERFIELD", "ATTENBOROUGH"]
+    }
+  ]
+}

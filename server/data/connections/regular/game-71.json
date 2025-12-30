@@ -1,0 +1,26 @@
+{
+  "id": "71",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Things in the ocean",
+      "difficulty": 0,
+      "words": ["CORAL", "SEAWEED", "SUBMARINE", "ANCHOR", "SHIPWRECK"]
+    },
+    {
+      "name": "Things that screech",
+      "difficulty": 1,
+      "words": ["OWL", "BRAKES", "MONKEY", "CHALK", "TIRES"]
+    },
+    {
+      "name": "Pipe _____",
+      "difficulty": 2,
+      "words": ["DREAM", "LINE", "WRENCH", "ORGAN", "BOMB"]
+    },
+    {
+      "name": "Hitchcock films",
+      "difficulty": 3,
+      "words": ["PSYCHO", "VERTIGO", "BIRDS", "ROPE", "REBECCA"]
+    }
+  ]
+}

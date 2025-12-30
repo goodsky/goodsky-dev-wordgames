@@ -1,0 +1,26 @@
+{
+  "id": "73",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Things with screens",
+      "difficulty": 0,
+      "words": ["PHONE", "TV", "LAPTOP", "TABLET", "CINEMA"]
+    },
+    {
+      "name": "Things that rustle",
+      "difficulty": 1,
+      "words": ["LEAVES", "PAPER", "CATTLE", "SILK", "BUSHES"]
+    },
+    {
+      "name": "Middle _____",
+      "difficulty": 2,
+      "words": ["GROUND", "EAST", "SCHOOL", "AGE", "MAN"]
+    },
+    {
+      "name": "One-hit wonder songs (artists)",
+      "difficulty": 3,
+      "words": ["TOTO", "DEVO", "LIPPS", "SOFT CELL", "TONI BASIL"]
+    }
+  ]
+}

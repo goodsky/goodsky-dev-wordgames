@@ -1,0 +1,26 @@
+{
+  "id": "52",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Parts of a car",
+      "difficulty": 0,
+      "words": ["ENGINE", "BUMPER", "HOOD", "TRUNK", "FENDER"]
+    },
+    {
+      "name": "Things that slide",
+      "difficulty": 1,
+      "words": ["TROMBONE", "SCALE", "BASE", "DOOR", "PRESENTATION"]
+    },
+    {
+      "name": "Clean _____",
+      "difficulty": 2,
+      "words": ["SLATE", "SWEEP", "CUT", "BREAK", "HOUSE"]
+    },
+    {
+      "name": "Disney Princesses",
+      "difficulty": 3,
+      "words": ["ARIEL", "BELLE", "JASMINE", "MULAN", "TIANA"]
+    }
+  ]
+}

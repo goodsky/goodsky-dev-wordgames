@@ -1,0 +1,26 @@
+{
+  "id": "41",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Dog breeds",
+      "difficulty": 0,
+      "words": ["POODLE", "BULLDOG", "BEAGLE", "LABRADOR", "HUSKY"]
+    },
+    {
+      "name": "Things that bloom",
+      "difficulty": 1,
+      "words": ["FLOWER", "ROMANCE", "ALGAE", "YOUTH", "TALENT"]
+    },
+    {
+      "name": "_____ Room",
+      "difficulty": 2,
+      "words": ["LIVING", "ESCAPE", "BATH", "BOARD", "ELBOW"]
+    },
+    {
+      "name": "Currencies",
+      "difficulty": 3,
+      "words": ["PESO", "YEN", "EURO", "POUND", "FRANC"]
+    }
+  ]
+}

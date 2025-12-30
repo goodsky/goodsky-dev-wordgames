@@ -1,0 +1,26 @@
+{
+  "id": "74",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Things at a spa",
+      "difficulty": 0,
+      "words": ["MASSAGE", "SAUNA", "FACIAL", "ROBE", "CUCUMBER"]
+    },
+    {
+      "name": "Things that glide",
+      "difficulty": 1,
+      "words": ["SWAN", "SKATER", "PLANE", "DANCER", "SNAKE"]
+    },
+    {
+      "name": "Blank _____",
+      "difficulty": 2,
+      "words": ["CHECK", "SLATE", "STARE", "CANVAS", "SPACE"]
+    },
+    {
+      "name": "Clue board game suspects",
+      "difficulty": 3,
+      "words": ["SCARLET", "PLUM", "MUSTARD", "PEACOCK", "GREEN"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "k8",
+  "kidMode": true,
+  "categories": [
+    {
+      "name": "Hands",
+      "difficulty": 0,
+      "words": ["👋", "✋", "🤚", "🖐️", "✌️", "🤞", "👆", "👇", "👈", "👉", "👍", "👎", "👏", "🤙", "🤘"]
+    },
+    {
+      "name": "Moving Body",
+      "difficulty": 1,
+      "words": ["🏃", "🚶", "💃", "🕺", "🤸", "🧘", "🚴", "🏋️"]
+    },
+    {
+      "name": "Feet",
+      "difficulty": 2,
+      "words": ["👣", "🦶", "🩴", "👟", "🥾", "👠", "🥿"]
+    },
+    {
+      "name": "Body Words",
+      "difficulty": 3,
+      "words": ["Head", "Shoulders", "Knees", "Toes", "Eyes", "Ears", "Mouth", "Nose", "Arms", "Legs"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "68",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Coffee shop menu items",
+      "difficulty": 0,
+      "words": ["LATTE", "SCONE", "CROISSANT", "BAGEL", "MUFFIN"]
+    },
+    {
+      "name": "Things that steam",
+      "difficulty": 1,
+      "words": ["KETTLE", "ANGER", "TRAIN", "VEGETABLE", "BATHROOM"]
+    },
+    {
+      "name": "Night _____",
+      "difficulty": 2,
+      "words": ["MARE", "CLUB", "OWL", "SHIFT", "STAND"]
+    },
+    {
+      "name": "Planets in order from sun (first 5)",
+      "difficulty": 3,
+      "words": ["MERCURY", "VENUS", "EARTH", "MARS", "JUPITER"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "k4",
+  "kidMode": true,
+  "categories": [
+    {
+      "name": "Things I Wear",
+      "difficulty": 0,
+      "words": ["👕", "👖", "🧦", "👟", "🎒", "🧢"]
+    },
+    {
+      "name": "Things I Eat",
+      "difficulty": 1,
+      "words": ["🍕", "🍎", "🥪", "🍪", "🥛", "🍌"]
+    },
+    {
+      "name": "Things That Go",
+      "difficulty": 2,
+      "words": ["🚗", "✈️", "🚂", "🚌", "🚁", "🚀"]
+    },
+    {
+      "name": "Animal Sounds",
+      "difficulty": 3,
+      "words": ["Moo", "Woof", "Meow", "Oink", "Quack", "Baa"]
+    }
+  ]
+}

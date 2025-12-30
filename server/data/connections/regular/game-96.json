@@ -1,0 +1,26 @@
+{
+  "id": "96",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Vietnamese food",
+      "difficulty": 0,
+      "words": ["PHO", "BANH MI", "SPRING ROLL", "BUN", "VERMICELLI"]
+    },
+    {
+      "name": "Things that buzz",
+      "difficulty": 1,
+      "words": ["BEE", "PHONE", "EXCITEMENT", "RAZOR", "RUMOR"]
+    },
+    {
+      "name": "Rock _____",
+      "difficulty": 2,
+      "words": ["STAR", "BOTTOM", "SOLID", "CLIMBING", "SALT"]
+    },
+    {
+      "name": "Bond actors (last names)",
+      "difficulty": 3,
+      "words": ["CONNERY", "MOORE", "BROSNAN", "CRAIG", "DALTON"]
+    }
+  ]
+}

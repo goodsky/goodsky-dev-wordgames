@@ -1,0 +1,26 @@
+{
+  "id": "56",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Pizza styles",
+      "difficulty": 0,
+      "words": ["NEAPOLITAN", "CHICAGO", "NEW YORK", "SICILIAN", "DETROIT"]
+    },
+    {
+      "name": "Things that jingle",
+      "difficulty": 1,
+      "words": ["BELLS", "KEYS", "CHANGE", "COMMERCIAL", "NERVES"]
+    },
+    {
+      "name": "Cross _____",
+      "difficulty": 2,
+      "words": ["WORD", "FIRE", "ROADS", "FIT", "COUNTRY"]
+    },
+    {
+      "name": "Nobel Prize winners (first names)",
+      "difficulty": 3,
+      "words": ["ALBERT", "MARIE", "BARACK", "NELSON", "MALALA"]
+    }
+  ]
+}

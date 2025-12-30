@@ -1,0 +1,26 @@
+{
+  "id": "58",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Asian cuisines",
+      "difficulty": 0,
+      "words": ["SUSHI", "PAD THAI", "PHO", "DIM SUM", "RAMEN"]
+    },
+    {
+      "name": "Things that wrap",
+      "difficulty": 1,
+      "words": ["GIFT", "BURRITO", "SNAKE", "MUSIC", "BANDAGE"]
+    },
+    {
+      "name": "Half _____",
+      "difficulty": 2,
+      "words": ["TIME", "BAKED", "HEARTED", "PIPE", "BROTHER"]
+    },
+    {
+      "name": "Pixar movies",
+      "difficulty": 3,
+      "words": ["UP", "COCO", "BRAVE", "SOUL", "WALL-E"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "29",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Desk items",
+      "difficulty": 0,
+      "words": ["STAPLER", "PENCIL", "MONITOR", "LAMP", "MOUSE"]
+    },
+    {
+      "name": "Things that can be 'flat'",
+      "difficulty": 1,
+      "words": ["TIRE", "NOTE", "EARTH", "SCREEN", "RATE"]
+    },
+    {
+      "name": "Air _____",
+      "difficulty": 2,
+      "words": ["FORCE", "GUITAR", "TIGHT", "BALL", "HEAD"]
+    },
+    {
+      "name": "Countries that share name with food brands",
+      "difficulty": 3,
+      "words": ["TURKEY", "CHINA", "CHILE", "JORDAN", "BELGIUM"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "83",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Things with strings",
+      "difficulty": 0,
+      "words": ["GUITAR", "PUPPET", "KITE", "VIOLIN", "YO-YO"]
+    },
+    {
+      "name": "Things that flutter",
+      "difficulty": 1,
+      "words": ["BUTTERFLY", "FLAG", "HEART", "EYELASH", "PAGES"]
+    },
+    {
+      "name": "Chicken _____",
+      "difficulty": 2,
+      "words": ["POX", "OUT", "SOUP", "FEED", "HAWK"]
+    },
+    {
+      "name": "Greek alphabet letters",
+      "difficulty": 3,
+      "words": ["BETA", "GAMMA", "THETA", "LAMBDA", "EPSILON"]
+    }
+  ]
+}

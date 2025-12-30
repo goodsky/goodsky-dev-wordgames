@@ -1,0 +1,26 @@
+{
+  "id": "20",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Board games",
+      "difficulty": 0,
+      "words": ["CHESS", "SCRABBLE", "MONOPOLY", "CLUE", "RISK"]
+    },
+    {
+      "name": "Things that are 'sweet'",
+      "difficulty": 1,
+      "words": ["DEAL", "TOOTH", "SPOT", "TALK", "REVENGE"]
+    },
+    {
+      "name": "Double _____ ",
+      "difficulty": 2,
+      "words": ["DUTCH", "AGENT", "TAKE", "STANDARD", "TROUBLE"]
+    },
+    {
+      "name": "Words from Japanese",
+      "difficulty": 3,
+      "words": ["KARAOKE", "TSUNAMI", "ORIGAMI", "EMOJI", "FUTON"]
+    }
+  ]
+}

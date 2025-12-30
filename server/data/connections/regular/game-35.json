@@ -1,0 +1,26 @@
+{
+  "id": "35",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Herbs and spices",
+      "difficulty": 0,
+      "words": ["BASIL", "OREGANO", "THYME", "ROSEMARY", "SAGE"]
+    },
+    {
+      "name": "Things that glow",
+      "difficulty": 1,
+      "words": ["FIREFLY", "STAR", "REVIEW", "SKIN", "STICK"]
+    },
+    {
+      "name": "Quick _____",
+      "difficulty": 2,
+      "words": ["SAND", "FIX", "SILVER", "DRAW", "TIME"]
+    },
+    {
+      "name": "Oscar-winning directors (first names)",
+      "difficulty": 3,
+      "words": ["STEVEN", "MARTIN", "FRANCIS", "JAMES", "RIDLEY"]
+    }
+  ]
+}

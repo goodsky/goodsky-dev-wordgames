@@ -1,0 +1,26 @@
+{
+  "id": "86",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Things with zippers",
+      "difficulty": 0,
+      "words": ["JACKET", "BAG", "TENT", "JEANS", "SUITCASE"]
+    },
+    {
+      "name": "Things that whirl",
+      "difficulty": 1,
+      "words": ["HELICOPTER", "MIND", "DERVISH", "POOL", "DANCER"]
+    },
+    {
+      "name": "Tiger _____",
+      "difficulty": 2,
+      "words": ["WOODS", "LILY", "SHARK", "KING", "BALM"]
+    },
+    {
+      "name": "Oscar categories",
+      "difficulty": 3,
+      "words": ["PICTURE", "DIRECTOR", "ACTOR", "SCREENPLAY", "EDITING"]
+    }
+  ]
+}

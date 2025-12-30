@@ -1,0 +1,26 @@
+{
+  "id": "36",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Furniture",
+      "difficulty": 0,
+      "words": ["COUCH", "TABLE", "CHAIR", "DRESSER", "BED"]
+    },
+    {
+      "name": "Things that burn",
+      "difficulty": 1,
+      "words": ["FIRE", "BRIDGE", "CALORIES", "CANDLE", "RUBBER"]
+    },
+    {
+      "name": "_____ Market",
+      "difficulty": 2,
+      "words": ["STOCK", "FLEA", "BLACK", "FARMERS", "SUPER"]
+    },
+    {
+      "name": "Brands named after founders",
+      "difficulty": 3,
+      "words": ["FORD", "DISNEY", "TESLA", "HILTON", "CHANEL"]
+    }
+  ]
+}

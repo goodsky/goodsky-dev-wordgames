@@ -1,0 +1,26 @@
+{
+  "id": "22",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Ocean creatures",
+      "difficulty": 0,
+      "words": ["WHALE", "DOLPHIN", "OCTOPUS", "JELLYFISH", "CRAB"]
+    },
+    {
+      "name": "Things that grow",
+      "difficulty": 1,
+      "words": ["PLANT", "BEARD", "SUSPICION", "BUSINESS", "FOND"]
+    },
+    {
+      "name": "Paper _____",
+      "difficulty": 2,
+      "words": ["TRAIL", "WEIGHT", "TIGER", "CLIP", "CUT"]
+    },
+    {
+      "name": "Internet/tech acronyms",
+      "difficulty": 3,
+      "words": ["URL", "HTML", "FAQ", "CAPTCHA", "WIFI"]
+    }
+  ]
+}

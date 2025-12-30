@@ -1,0 +1,26 @@
+{
+  "id": "42",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Types of bread",
+      "difficulty": 0,
+      "words": ["SOURDOUGH", "RYE", "WHEAT", "WHITE", "PUMPERNICKEL"]
+    },
+    {
+      "name": "Things that twist",
+      "difficulty": 1,
+      "words": ["ARM", "PLOT", "FATE", "PRETZEL", "KNIFE"]
+    },
+    {
+      "name": "Blue _____",
+      "difficulty": 2,
+      "words": ["CHIP", "PRINT", "BLOOD", "MOON", "COLLAR"]
+    },
+    {
+      "name": "US Presidents on currency",
+      "difficulty": 3,
+      "words": ["WASHINGTON", "LINCOLN", "JACKSON", "GRANT", "JEFFERSON"]
+    }
+  ]
+}

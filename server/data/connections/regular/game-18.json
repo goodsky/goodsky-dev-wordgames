@@ -1,0 +1,26 @@
+{
+  "id": "18",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Ice cream flavors",
+      "difficulty": 0,
+      "words": ["VANILLA", "CHOCOLATE", "STRAWBERRY", "MINT", "ROCKY ROAD"]
+    },
+    {
+      "name": "Things you can catch",
+      "difficulty": 1,
+      "words": ["COLD", "BALL", "FISH", "BUS", "DRIFT"]
+    },
+    {
+      "name": "Silent letters at start",
+      "difficulty": 2,
+      "words": ["KNIGHT", "GNOME", "PSALM", "WRECK", "PNEUMONIA"]
+    },
+    {
+      "name": "Monopoly properties",
+      "difficulty": 3,
+      "words": ["BOARDWALK", "PARK PLACE", "BALTIC", "MARVIN GARDENS", "VENTNOR"]
+    }
+  ]
+}

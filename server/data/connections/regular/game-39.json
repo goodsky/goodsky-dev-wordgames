@@ -1,0 +1,26 @@
+{
+  "id": "39",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Dairy products",
+      "difficulty": 0,
+      "words": ["MILK", "BUTTER", "YOGURT", "CREAM", "CHEESE"]
+    },
+    {
+      "name": "Things that crawl",
+      "difficulty": 1,
+      "words": ["BABY", "SPIDER", "TRAFFIC", "SKIN", "PUB"]
+    },
+    {
+      "name": "_____ Drive",
+      "difficulty": 2,
+      "words": ["HARD", "TEST", "SEX", "FLASH", "DRUNK"]
+    },
+    {
+      "name": "Star Wars planets",
+      "difficulty": 3,
+      "words": ["TATOOINE", "HOTH", "ENDOR", "NABOO", "DAGOBAH"]
+    }
+  ]
+}

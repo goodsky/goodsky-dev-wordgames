@@ -1,0 +1,59 @@
+{
+  "id": "k14",
+  "kidMode": true,
+  "categories": [
+    {
+      "name": "White Things",
+      "difficulty": 0,
+      "words": [
+        {"text": "Snow", "lightColor": "#d0d0d0", "darkColor": "#888888"},
+        {"text": "Cloud", "lightColor": "#d0d0d0", "darkColor": "#888888"},
+        {"text": "Milk", "lightColor": "#d0d0d0", "darkColor": "#888888"},
+        {"text": "Polar Bear", "lightColor": "#d0d0d0", "darkColor": "#888888"},
+        {"text": "Egg", "lightColor": "#d0d0d0", "darkColor": "#888888"},
+        {"text": "Snowman", "lightColor": "#d0d0d0", "darkColor": "#888888"},
+        {"text": "Bunny", "lightColor": "#d0d0d0", "darkColor": "#888888"},
+        {"text": "Moon", "lightColor": "#d0d0d0", "darkColor": "#888888"}
+      ]
+    },
+    {
+      "name": "Black Things",
+      "difficulty": 1,
+      "words": [
+        {"text": "Night Sky", "lightColor": "#666666", "darkColor": "#aaaaaa"},
+        {"text": "Bat", "lightColor": "#666666", "darkColor": "#aaaaaa"},
+        {"text": "Spider", "lightColor": "#666666", "darkColor": "#aaaaaa"},
+        {"text": "Crow", "lightColor": "#666666", "darkColor": "#aaaaaa"},
+        {"text": "Tire", "lightColor": "#666666", "darkColor": "#aaaaaa"},
+        {"text": "Panther", "lightColor": "#666666", "darkColor": "#aaaaaa"},
+        {"text": "Penguin", "lightColor": "#666666", "darkColor": "#aaaaaa"},
+        {"text": "Orca", "lightColor": "#666666", "darkColor": "#aaaaaa"}
+      ]
+    },
+    {
+      "name": "Gray Things",
+      "difficulty": 2,
+      "words": [
+        {"text": "Elephant", "lightColor": "#999999", "darkColor": "#777777"},
+        {"text": "Rock", "lightColor": "#999999", "darkColor": "#777777"},
+        {"text": "Mouse", "lightColor": "#999999", "darkColor": "#777777"},
+        {"text": "Dolphin", "lightColor": "#999999", "darkColor": "#777777"},
+        {"text": "Rhino", "lightColor": "#999999", "darkColor": "#777777"},
+        {"text": "Hippo", "lightColor": "#999999", "darkColor": "#777777"},
+        {"text": "Koala", "lightColor": "#999999", "darkColor": "#777777"}
+      ]
+    },
+    {
+      "name": "Silver Things",
+      "difficulty": 3,
+      "words": [
+        {"text": "Spoon", "lightColor": "#c0c0c0", "darkColor": "#808080"},
+        {"text": "Robot", "lightColor": "#c0c0c0", "darkColor": "#808080"},
+        {"text": "Spaceship", "lightColor": "#c0c0c0", "darkColor": "#808080"},
+        {"text": "Star", "lightColor": "#c0c0c0", "darkColor": "#808080"},
+        {"text": "Mirror", "lightColor": "#c0c0c0", "darkColor": "#808080"},
+        {"text": "Coin", "lightColor": "#c0c0c0", "darkColor": "#808080"}
+      ]
+    }
+  ]
+}

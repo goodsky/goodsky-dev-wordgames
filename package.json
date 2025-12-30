@@ -1,0 +1,32 @@
+{
+  "name": "wordgames",
+  "version": "1.0.0",
+  "description": "Package for hosting word games build with Svelte and Express.",
+  "homepage": "https://github.com/goodsky/goodsky-dev-wordgames#readme",
+  "bugs": {
+    "url": "https://github.com/goodsky/goodsky-dev-wordgames/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goodsky/goodsky-dev-wordgames.git"
+  },
+  "license": "MIT",
+  "author": "Skyler Goodell",
+  "scripts": {
+    "install:connections": "cd clients/connections && npm install --include=dev",
+    "install:spellingbee": "cd clients/spellingbee && npm install --include=dev",
+    "install:server": "cd server && npm install",
+    "postinstall": "npm run install:connections && npm run install:spellingbee && npm run install:server",
+    "build:connections": "cd clients/connections && npm run build",
+    "build:spellingbee": "cd clients/spellingbee && npm run build",
+    "build": "npm run build:connections && npm run build:spellingbee",
+    "start": "cd server && npm start",
+    "dev:connections": "cd clients/connections && npm run dev",
+    "dev:spellingbee": "cd clients/spellingbee && npm run dev",
+    "dev:server": "cd server && npm run dev",
+    "dev": "concurrently \"npm run dev:connections\" \"npm run dev:spellingbee\" \"npm run dev:server\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

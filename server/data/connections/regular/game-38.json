@@ -1,0 +1,26 @@
+{
+  "id": "38",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Birds",
+      "difficulty": 0,
+      "words": ["EAGLE", "SPARROW", "HAWK", "ROBIN", "CROW"]
+    },
+    {
+      "name": "Things that ring",
+      "difficulty": 1,
+      "words": ["BELL", "PHONE", "EARS", "TRUE", "CIRCUS"]
+    },
+    {
+      "name": "Top _____",
+      "difficulty": 2,
+      "words": ["SECRET", "DOG", "NOTCH", "GUN", "SHELF"]
+    },
+    {
+      "name": "Video game consoles",
+      "difficulty": 3,
+      "words": ["SWITCH", "PLAYSTATION", "XBOX", "WII", "GENESIS"]
+    }
+  ]
+}

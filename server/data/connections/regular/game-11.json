@@ -1,0 +1,26 @@
+{
+  "id": "11",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Things you blow",
+      "difficulty": 0,
+      "words": ["WHISTLE", "CANDLE", "NOSE", "BUBBLE", "HORN"]
+    },
+    {
+      "name": "Types of bridges",
+      "difficulty": 1,
+      "words": ["SUSPENSION", "DRAWBRIDGE", "COVERED", "ARCH", "DENTAL"]
+    },
+    {
+      "name": "_____ House",
+      "difficulty": 2,
+      "words": ["WHITE", "TREE", "OPERA", "FULL", "WARE"]
+    },
+    {
+      "name": "Things that are measured in degrees",
+      "difficulty": 3,
+      "words": ["TEMPERATURE", "ANGLE", "BURN", "COLLEGE", "MURDER"]
+    }
+  ]
+}

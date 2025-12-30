@@ -1,0 +1,26 @@
+{
+  "id": "45",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Condiments",
+      "difficulty": 0,
+      "words": ["KETCHUP", "MUSTARD", "MAYO", "RELISH", "SALSA"]
+    },
+    {
+      "name": "Things that wipe",
+      "difficulty": 1,
+      "words": ["FLOOR", "MEMORY", "SLATE", "SMILE", "WINDSHIELD"]
+    },
+    {
+      "name": "Hard _____",
+      "difficulty": 2,
+      "words": ["BALL", "CORE", "WARE", "COPY", "SHIP"]
+    },
+    {
+      "name": "Shakespeare plays",
+      "difficulty": 3,
+      "words": ["HAMLET", "OTHELLO", "MACBETH", "TEMPEST", "TWELFTH NIGHT"]
+    }
+  ]
+}

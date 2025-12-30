@@ -1,0 +1,26 @@
+{
+  "id": "37",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Types of shoes",
+      "difficulty": 0,
+      "words": ["SNEAKER", "BOOT", "SANDAL", "LOAFER", "HEEL"]
+    },
+    {
+      "name": "Things that freeze",
+      "difficulty": 1,
+      "words": ["WATER", "ASSETS", "COMPUTER", "FRAME", "PERSON"]
+    },
+    {
+      "name": "Green _____",
+      "difficulty": 2,
+      "words": ["LIGHT", "THUMB", "CARD", "HOUSE", "BAY"]
+    },
+    {
+      "name": "Seinfeld characters",
+      "difficulty": 3,
+      "words": ["JERRY", "GEORGE", "ELAINE", "KRAMER", "NEWMAN"]
+    }
+  ]
+}

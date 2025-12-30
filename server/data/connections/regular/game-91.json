@@ -1,0 +1,26 @@
+{
+  "id": "91",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Japanese food",
+      "difficulty": 0,
+      "words": ["SASHIMI", "TEMPURA", "UDON", "MISO", "TERIYAKI"]
+    },
+    {
+      "name": "Things that crackle",
+      "difficulty": 1,
+      "words": ["FIRE", "RADIO", "LIGHTNING", "BACON", "LEAVES"]
+    },
+    {
+      "name": "Cut _____",
+      "difficulty": 2,
+      "words": ["THROAT", "SCENE", "RATE", "OFF", "ABOVE"]
+    },
+    {
+      "name": "Dungeons & Dragons classes",
+      "difficulty": 3,
+      "words": ["WIZARD", "ROGUE", "CLERIC", "RANGER", "PALADIN"]
+    }
+  ]
+}

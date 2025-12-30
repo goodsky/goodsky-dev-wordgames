@@ -1,0 +1,26 @@
+{
+  "id": "33",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Musical instruments",
+      "difficulty": 0,
+      "words": ["GUITAR", "VIOLIN", "DRUMS", "FLUTE", "TRUMPET"]
+    },
+    {
+      "name": "Things that sink",
+      "difficulty": 1,
+      "words": ["SHIP", "HEART", "SUN", "TEETH", "FEELING"]
+    },
+    {
+      "name": "_____ Trip",
+      "difficulty": 2,
+      "words": ["ROAD", "EGO", "GUILT", "FIELD", "ROUND"]
+    },
+    {
+      "name": "Movie franchises with numbers",
+      "difficulty": 3,
+      "words": ["ROCKY", "SAW", "HALLOWEEN", "SCREAM", "FRIDAY"]
+    }
+  ]
+}

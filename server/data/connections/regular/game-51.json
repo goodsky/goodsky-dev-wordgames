@@ -1,0 +1,26 @@
+{
+  "id": "51",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Types of wine",
+      "difficulty": 0,
+      "words": ["MERLOT", "CHARDONNAY", "PINOT", "CABERNET", "RIESLING"]
+    },
+    {
+      "name": "Things that crash",
+      "difficulty": 1,
+      "words": ["COMPUTER", "MARKET", "WAVE", "PARTY", "COURSE"]
+    },
+    {
+      "name": "_____ Play",
+      "difficulty": 2,
+      "words": ["FAIR", "FOUL", "POWER", "FORE", "HORSE"]
+    },
+    {
+      "name": "Words containing all five vowels",
+      "difficulty": 3,
+      "words": ["EDUCATION", "SEQUOIA", "EQUATION", "AUTOMOBILE", "COMMUNICATE"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "82",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Italian food",
+      "difficulty": 0,
+      "words": ["LASAGNA", "RISOTTO", "GNOCCHI", "RAVIOLI", "BRUSCHETTA"]
+    },
+    {
+      "name": "Things that pulsate",
+      "difficulty": 1,
+      "words": ["HEART", "MUSIC", "LIGHT", "VEIN", "CITY"]
+    },
+    {
+      "name": "Fresh _____",
+      "difficulty": 2,
+      "words": ["AIR", "START", "PRINCE", "WATER", "MEAT"]
+    },
+    {
+      "name": "Monopoly tokens",
+      "difficulty": 3,
+      "words": ["THIMBLE", "IRON", "DOG", "CAR", "HAT"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "92",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Chinese food",
+      "difficulty": 0,
+      "words": ["DUMPLINGS", "FRIED RICE", "CHOW MEIN", "KUNG PAO", "WONTON"]
+    },
+    {
+      "name": "Things that patter",
+      "difficulty": 1,
+      "words": ["RAIN", "FEET", "HEART", "SALESMEN", "CONVERSATION"]
+    },
+    {
+      "name": "Second _____",
+      "difficulty": 2,
+      "words": ["HAND", "NATURE", "GUESS", "BASE", "FIDDLE"]
+    },
+    {
+      "name": "Famous Roberts",
+      "difficulty": 3,
+      "words": ["DE NIRO", "DOWNEY", "PLANT", "FROST", "REDFORD"]
+    }
+  ]
+}

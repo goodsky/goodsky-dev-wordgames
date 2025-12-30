@@ -1,0 +1,26 @@
+{
+  "id": "k12",
+  "kidMode": true,
+  "categories": [
+    {
+      "name": "Baby Animals",
+      "difficulty": 0,
+      "words": ["🐣", "🐥", "🐤", "🐰", "🐱", "🐶"]
+    },
+    {
+      "name": "Winter Things",
+      "difficulty": 1,
+      "words": ["❄️", "⛄", "🧊", "🐧", "🎿", "☃️"]
+    },
+    {
+      "name": "Bedtime",
+      "difficulty": 2,
+      "words": ["🌙", "⭐", "🛏️", "🧸", "😴", "📖"]
+    },
+    {
+      "name": "Favorite Foods",
+      "difficulty": 3,
+      "words": ["Pizza", "Cookie", "Ice Cream", "Apple", "Banana", "Cheese"]
+    }
+  ]
+}

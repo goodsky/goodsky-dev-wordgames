@@ -1,0 +1,26 @@
+{
+  "id": "61",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Root vegetables",
+      "difficulty": 0,
+      "words": ["POTATO", "BEET", "TURNIP", "RADISH", "PARSNIP"]
+    },
+    {
+      "name": "Things that crumble",
+      "difficulty": 1,
+      "words": ["COOKIE", "EMPIRE", "RELATIONSHIP", "WALL", "RESOLVE"]
+    },
+    {
+      "name": "Sweet _____",
+      "difficulty": 2,
+      "words": ["HEART", "TALK", "SPOT", "POTATO", "TOOTH"]
+    },
+    {
+      "name": "One-word country names ending in 'A'",
+      "difficulty": 3,
+      "words": ["CANADA", "ARGENTINA", "AUSTRALIA", "INDIA", "KENYA"]
+    }
+  ]
+}

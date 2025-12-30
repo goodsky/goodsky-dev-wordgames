@@ -1,0 +1,26 @@
+{
+  "id": "14",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Kitchen appliances",
+      "difficulty": 0,
+      "words": ["BLENDER", "TOASTER", "MICROWAVE", "MIXER", "OVEN"]
+    },
+    {
+      "name": "Things that can be 'hard'",
+      "difficulty": 1,
+      "words": ["DRIVE", "ROCK", "FEELINGS", "COPY", "SELL"]
+    },
+    {
+      "name": "Words before 'BALL'",
+      "difficulty": 2,
+      "words": ["BASE", "BASKET", "EYE", "SNOW", "CRYSTAL"]
+    },
+    {
+      "name": "Four-letter words for 'crazy'",
+      "difficulty": 3,
+      "words": ["NUTS", "LOCO", "DAFT", "WILD", "WACK"]
+    }
+  ]
+}

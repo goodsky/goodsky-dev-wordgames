@@ -1,0 +1,26 @@
+{
+  "id": "13",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Olympic sports",
+      "difficulty": 0,
+      "words": ["SWIMMING", "FENCING", "ROWING", "ARCHERY", "JUDO"]
+    },
+    {
+      "name": "Things with wings",
+      "difficulty": 1,
+      "words": ["AIRPLANE", "BUFFALO", "ANGEL", "BUILDING", "CHICKEN"]
+    },
+    {
+      "name": "Types of shots",
+      "difficulty": 2,
+      "words": ["MOON", "FLU", "SCREEN", "MUG", "SLAP"]
+    },
+    {
+      "name": "Things that are 'loaded'",
+      "difficulty": 3,
+      "words": ["DICE", "QUESTION", "BAKED POTATO", "RICH PERSON", "GUN"]
+    }
+  ]
+}

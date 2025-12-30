@@ -1,0 +1,26 @@
+{
+  "id": "k9",
+  "kidMode": true,
+  "categories": [
+    {
+      "name": "Happy Feelings",
+      "difficulty": 0,
+      "words": ["😊", "😄", "🥰", "😁", "🤗", "😃", "😀", "😆", "🤩", "😍", "🙂"]
+    },
+    {
+      "name": "Sad Feelings",
+      "difficulty": 1,
+      "words": ["😢","🥺", "😞", "😔", "☹️", "🙁"]
+    },
+    {
+      "name": "Sleepy Feelings",
+      "difficulty": 2,
+      "words": ["😴", "🥱", "😪", "🛏️", "🌙"]
+    },
+    {
+      "name": "Feeling Words",
+      "difficulty": 2,
+      "words": ["Happy", "Sad", "Angry", "Disappointed", "Calm", "Excited", "Tired", "Scared"]
+    }
+  ]
+}

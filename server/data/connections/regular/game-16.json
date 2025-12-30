@@ -1,0 +1,26 @@
+{
+  "id": "16",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Zoo animals",
+      "difficulty": 0,
+      "words": ["LION", "ELEPHANT", "GIRAFFE", "ZEBRA", "MONKEY"]
+    },
+    {
+      "name": "Things that pop",
+      "difficulty": 1,
+      "words": ["BALLOON", "CORN", "BUBBLE", "CHAMPAGNE", "QUESTION"]
+    },
+    {
+      "name": "_____ Dog",
+      "difficulty": 2,
+      "words": ["HOT", "TOP", "UNDER", "CORN", "SEA"]
+    },
+    {
+      "name": "Poker hand rankings",
+      "difficulty": 3,
+      "words": ["FLUSH", "STRAIGHT", "FULL HOUSE", "PAIR", "HIGH CARD"]
+    }
+  ]
+}

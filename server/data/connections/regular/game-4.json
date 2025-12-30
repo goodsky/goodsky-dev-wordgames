@@ -1,0 +1,26 @@
+{
+  "id": "4",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Types of dance",
+      "difficulty": 0,
+      "words": ["SALSA", "WALTZ", "TANGO", "BALLET", "TAP"]
+    },
+    {
+      "name": "Things that can be 'running'",
+      "difficulty": 1,
+      "words": ["WATER", "NOSE", "MATE", "JOKE", "TOTAL"]
+    },
+    {
+      "name": "Fish that are also other things",
+      "difficulty": 2,
+      "words": ["BASS", "SOLE", "PERCH", "DRUM", "RAY"]
+    },
+    {
+      "name": "Hidden body parts",
+      "difficulty": 3,
+      "words": ["CALF", "PALM", "TEMPLE", "CHEST", "CROWN"]
+    }
+  ]
+}

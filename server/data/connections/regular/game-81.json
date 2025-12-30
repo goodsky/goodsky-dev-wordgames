@@ -1,0 +1,26 @@
+{
+  "id": "81",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Things with pockets",
+      "difficulty": 0,
+      "words": ["JACKET", "JEANS", "POOL TABLE", "BILLIARDS", "KANGAROO"]
+    },
+    {
+      "name": "Things that gurgle",
+      "difficulty": 1,
+      "words": ["BABY", "DRAIN", "STOMACH", "BROOK", "COFFEE MAKER"]
+    },
+    {
+      "name": "Main _____",
+      "difficulty": 2,
+      "words": ["STREET", "FRAME", "STAY", "SQUEEZE", "EVENT"]
+    },
+    {
+      "name": "Harry Potter spells",
+      "difficulty": 3,
+      "words": ["LUMOS", "ACCIO", "EXPECTO", "EXPELLIARMUS", "STUPEFY"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "88",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Things with pedals",
+      "difficulty": 0,
+      "words": ["BIKE", "PIANO", "CAR", "ORGAN", "FLOWER"]
+    },
+    {
+      "name": "Things that quiver",
+      "difficulty": 1,
+      "words": ["ARROW", "LIP", "VOICE", "LEAF", "JELLY"]
+    },
+    {
+      "name": "Crazy _____",
+      "difficulty": 2,
+      "words": ["GLUE", "EIGHTS", "HORSE", "QUILT", "RICH"]
+    },
+    {
+      "name": "Types of whales",
+      "difficulty": 3,
+      "words": ["BLUE", "HUMPBACK", "ORCA", "BELUGA", "SPERM"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "87",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Summer activities",
+      "difficulty": 0,
+      "words": ["SWIMMING", "BARBECUE", "CAMPING", "HIKING", "SURFING"]
+    },
+    {
+      "name": "Things that ripple",
+      "difficulty": 1,
+      "words": ["WATER", "MUSCLE", "EFFECT", "FLAG", "FABRIC"]
+    },
+    {
+      "name": "Chain _____",
+      "difficulty": 2,
+      "words": ["REACTION", "GANG", "LINK", "MAIL", "SAW"]
+    },
+    {
+      "name": "Broadway musicals",
+      "difficulty": 3,
+      "words": ["CATS", "RENT", "WICKED", "HAMILTON", "CHICAGO"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "k1",
+  "kidMode": true,
+  "categories": [
+    {
+      "name": "Farm Animals",
+      "difficulty": 0,
+      "words": ["🐄", "🐖", "🐎", "🐑", "🐐"]
+    },
+    {
+      "name": "Ocean Animals",
+      "difficulty": 1,
+      "words": ["🐟", "🐳", "🦈", "🐬", "🐠"]
+    },
+    {
+      "name": "Bugs",
+      "difficulty": 2,
+      "words": ["🐛", "🐞", "🐜", "🦗", "🪲", "🐌"]
+    },
+    {
+      "name": "Birds",
+      "difficulty": 3,
+      "words": ["🦅", "🦉", "🦢", "🕊️", "🦜"]
+    }
+  ]
+}

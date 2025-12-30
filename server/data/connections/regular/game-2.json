@@ -1,0 +1,26 @@
+{
+  "id": "2",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Breakfast foods",
+      "difficulty": 0,
+      "words": ["BACON", "WAFFLE", "OMELET", "PANCAKE", "TOAST"]
+    },
+    {
+      "name": "Words before 'board'",
+      "difficulty": 1,
+      "words": ["SKATE", "SNOW", "CARD", "CHALK", "SURF"]
+    },
+    {
+      "name": "Famous Michaels",
+      "difficulty": 2,
+      "words": ["JORDAN", "JACKSON", "SCOTT", "CERA", "PHELPS"]
+    },
+    {
+      "name": "Things with keys but no locks",
+      "difficulty": 3,
+      "words": ["PIANO", "KEYBOARD", "MAP", "FLORIDA", "ANSWER"]
+    }
+  ]
+}

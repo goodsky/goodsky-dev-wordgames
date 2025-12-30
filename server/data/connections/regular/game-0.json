@@ -1,0 +1,26 @@
+{
+  "id": "0",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "PLANETS",
+      "difficulty": 0,
+      "words": ["MARS", "VENUS", "SATURN", "JUPITER", "EARTH", "NEPTUNE", "MERCURY", "URANUS"]
+    },
+    {
+      "name": "BREAKFAST FOODS",
+      "difficulty": 1,
+      "words": ["WAFFLE", "PANCAKE", "BACON", "OATMEAL", "EGGS", "TOAST", "CHEERIOS"]
+    },
+    {
+      "name": "CARD GAMES",
+      "difficulty": 2,
+      "words": ["POKER", "BRIDGE", "HEARTS", "SPADES", "RUMMY", "GOFISH"]
+    },
+    {
+      "name": "THINGS THAT ARE ORANGE",
+      "difficulty": 3,
+      "words": ["PUMPKIN", "CARROT", "BASKETBALL", "TIGER", "GOLDFISH", "CHEDDAR"]
+    }
+  ]
+}

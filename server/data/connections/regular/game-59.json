@@ -1,0 +1,26 @@
+{
+  "id": "59",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Things that bark",
+      "difficulty": 0,
+      "words": ["DOG", "TREE", "SEAL", "COUGH", "ORDERS"]
+    },
+    {
+      "name": "Things that split",
+      "difficulty": 1,
+      "words": ["BANANA", "ATOM", "HAIR", "CHECK", "DECISION"]
+    },
+    {
+      "name": "_____ Show",
+      "difficulty": 2,
+      "words": ["TALK", "GAME", "SIDE", "ROAD", "PEEP"]
+    },
+    {
+      "name": "Chemical element symbols that spell words",
+      "difficulty": 3,
+      "words": ["IRON", "COPPER", "TIN", "SILVER", "GOLD"]
+    }
+  ]
+}

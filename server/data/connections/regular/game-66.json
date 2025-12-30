@@ -1,0 +1,26 @@
+{
+  "id": "66",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Sauces",
+      "difficulty": 0,
+      "words": ["MARINARA", "ALFREDO", "TERIYAKI", "BARBECUE", "HOLLANDAISE"]
+    },
+    {
+      "name": "Things that churn",
+      "difficulty": 1,
+      "words": ["BUTTER", "STOMACH", "WATER", "THOUGHTS", "EMPLOYEES"]
+    },
+    {
+      "name": "High _____",
+      "difficulty": 2,
+      "words": ["FIVE", "SCHOOL", "ROAD", "NOON", "JINX"]
+    },
+    {
+      "name": "Words that rhyme with 'ock'",
+      "difficulty": 3,
+      "words": ["CLOCK", "ROCK", "STOCK", "BLOCK", "SHOCK"]
+    }
+  ]
+}

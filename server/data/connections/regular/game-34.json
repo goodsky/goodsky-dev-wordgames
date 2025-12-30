@@ -1,0 +1,26 @@
+{
+  "id": "34",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Tropical fruits",
+      "difficulty": 0,
+      "words": ["MANGO", "PAPAYA", "COCONUT", "PINEAPPLE", "GUAVA"]
+    },
+    {
+      "name": "Things that shoot",
+      "difficulty": 1,
+      "words": ["GUN", "STAR", "BASKET", "PHOTOGRAPHER", "PAIN"]
+    },
+    {
+      "name": "Big _____",
+      "difficulty": 2,
+      "words": ["DEAL", "BANG", "APPLE", "FOOT", "SHOT"]
+    },
+    {
+      "name": "Words from Italian",
+      "difficulty": 3,
+      "words": ["PAPARAZZI", "GRAFFITI", "CONFETTI", "BROCCOLI", "ZUCCHINI"]
+    }
+  ]
+}

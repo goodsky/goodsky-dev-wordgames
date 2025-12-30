@@ -1,0 +1,26 @@
+{
+  "id": "30",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Things in a toolbox",
+      "difficulty": 0,
+      "words": ["HAMMER", "WRENCH", "SCREWDRIVER", "PLIERS", "TAPE"]
+    },
+    {
+      "name": "Things that can be 'blind'",
+      "difficulty": 1,
+      "words": ["DATE", "SPOT", "SIDE", "FAITH", "ALLEY"]
+    },
+    {
+      "name": "Hot _____",
+      "difficulty": 2,
+      "words": ["DOG", "SHOT", "TAKE", "HEAD", "SAUCE"]
+    },
+    {
+      "name": "Programming languages",
+      "difficulty": 3,
+      "words": ["PYTHON", "RUBY", "RUST", "SWIFT", "GO"]
+    }
+  ]
+}

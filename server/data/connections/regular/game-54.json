@@ -1,0 +1,26 @@
+{
+  "id": "54",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Seafood",
+      "difficulty": 0,
+      "words": ["SHRIMP", "LOBSTER", "SALMON", "TUNA", "SCALLOP"]
+    },
+    {
+      "name": "Things that beam",
+      "difficulty": 1,
+      "words": ["LIGHT", "SMILE", "BALANCE", "SUN", "LASER"]
+    },
+    {
+      "name": "_____ Cut",
+      "difficulty": 2,
+      "words": ["SHORT", "PAPER", "FINAL", "CREW", "BUZZ"]
+    },
+    {
+      "name": "Words that are their own opposites (contranyms)",
+      "difficulty": 3,
+      "words": ["SANCTION", "CLEAVE", "DUST", "OVERSIGHT", "FAST"]
+    }
+  ]
+}

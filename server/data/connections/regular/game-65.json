@@ -1,0 +1,26 @@
+{
+  "id": "65",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Things with blades",
+      "difficulty": 0,
+      "words": ["FAN", "KNIFE", "SKATE", "HELICOPTER", "GRASS"]
+    },
+    {
+      "name": "Things that fizz",
+      "difficulty": 1,
+      "words": ["SODA", "CHAMPAGNE", "BATH BOMB", "ANTACID", "ENERGY"]
+    },
+    {
+      "name": "Key _____",
+      "difficulty": 2,
+      "words": ["BOARD", "STONE", "CHAIN", "NOTE", "WEST"]
+    },
+    {
+      "name": "Avengers characters",
+      "difficulty": 3,
+      "words": ["THOR", "HULK", "STARK", "WIDOW", "HAWKEYE"]
+    }
+  ]
+}

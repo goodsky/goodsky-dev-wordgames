@@ -1,0 +1,26 @@
+{
+  "id": "1",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Things that are pitched",
+      "difficulty": 0,
+      "words": ["TENT", "BASEBALL", "IDEA", "VOICE", "FIT"]
+    },
+    {
+      "name": "British slang for money",
+      "difficulty": 1,
+      "words": ["QUID", "BOB", "TENNER", "FIVER", "GRAND"]
+    },
+    {
+      "name": "_____ Queen",
+      "difficulty": 2,
+      "words": ["DAIRY", "DRAG", "BEAUTY", "DRAMA", "PROM"]
+    },
+    {
+      "name": "Poker terms that are also everyday words",
+      "difficulty": 3,
+      "words": ["FOLD", "CHECK", "RAISE", "CALL", "BLIND"]
+    }
+  ]
+}

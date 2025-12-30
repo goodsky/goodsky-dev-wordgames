@@ -1,0 +1,26 @@
+{
+  "id": "78",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Things that squeak",
+      "difficulty": 0,
+      "words": ["MOUSE", "DOOR", "SHOE", "TOY", "FLOOR"]
+    },
+    {
+      "name": "Things that brew",
+      "difficulty": 1,
+      "words": ["COFFEE", "STORM", "TROUBLE", "BEER", "PLOT"]
+    },
+    {
+      "name": "Cover _____",
+      "difficulty": 2,
+      "words": ["STORY", "UP", "LETTER", "CHARGE", "BAND"]
+    },
+    {
+      "name": "Office characters",
+      "difficulty": 3,
+      "words": ["MICHAEL", "DWIGHT", "JIM", "PAM", "KEVIN"]
+    }
+  ]
+}

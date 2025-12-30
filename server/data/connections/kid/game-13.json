@@ -1,0 +1,61 @@
+{
+  "id": "k13",
+  "kidMode": true,
+  "categories": [
+    {
+      "name": "Orange Things",
+      "difficulty": 0,
+      "words": [
+        {"text": "Pumpkin", "lightColor": "#ffa500", "darkColor": "#cc7000"},
+        {"text": "Carrot", "lightColor": "#ffa500", "darkColor": "#cc7000"},
+        {"text": "Basketball", "lightColor": "#ffa500", "darkColor": "#cc7000"},
+        {"text": "Goldfish", "lightColor": "#ffa500", "darkColor": "#cc7000"},
+        {"text": "Tiger", "lightColor": "#ffa500", "darkColor": "#cc7000"},
+        {"text": "Orange", "lightColor": "#ffa500", "darkColor": "#cc7000"},
+        {"text": "Clownfish", "lightColor": "#ffa500", "darkColor": "#cc7000"},
+        {"text": "Fox", "lightColor": "#ffa500", "darkColor": "#cc7000"}
+      ]
+    },
+    {
+      "name": "Pink Things",
+      "difficulty": 1,
+      "words": [
+        {"text": "Flamingo", "lightColor": "#ff69b4", "darkColor": "#cc3399"},
+        {"text": "Pig", "lightColor": "#ff69b4", "darkColor": "#cc3399"},
+        {"text": "Cotton Candy", "lightColor": "#ff69b4", "darkColor": "#cc3399"},
+        {"text": "Bubble Gum", "lightColor": "#ff69b4", "darkColor": "#cc3399"},
+        {"text": "Piglet", "lightColor": "#ff69b4", "darkColor": "#cc3399"},
+        {"text": "Rose", "lightColor": "#ff69b4", "darkColor": "#cc3399"},
+        {"text": "Cupcake", "lightColor": "#ff69b4", "darkColor": "#cc3399"},
+        {"text": "Tongue", "lightColor": "#ff69b4", "darkColor": "#cc3399"}
+      ]
+    },
+    {
+      "name": "Purple Things",
+      "difficulty": 2,
+      "words": [
+        {"text": "Grape", "lightColor": "#9b59b6", "darkColor": "#7b2d8e"},
+        {"text": "Eggplant", "lightColor": "#9b59b6", "darkColor": "#7b2d8e"},
+        {"text": "Plum", "lightColor": "#9b59b6", "darkColor": "#7b2d8e"},
+        {"text": "Butterfly", "lightColor": "#9b59b6", "darkColor": "#7b2d8e"},
+        {"text": "Lavender", "lightColor": "#9b59b6", "darkColor": "#7b2d8e"},
+        {"text": "Violet", "lightColor": "#9b59b6", "darkColor": "#7b2d8e"},
+        {"text": "Jellyfish", "lightColor": "#9b59b6", "darkColor": "#7b2d8e"}
+      ]
+    },
+    {
+      "name": "Brown Things",
+      "difficulty": 3,
+      "words": [
+        {"text": "Bear", "lightColor": "#cd853f", "darkColor": "#8b4513"},
+        {"text": "Chocolate", "lightColor": "#cd853f", "darkColor": "#8b4513"},
+        {"text": "Tree Trunk", "lightColor": "#cd853f", "darkColor": "#8b4513"},
+        {"text": "Mud", "lightColor": "#cd853f", "darkColor": "#8b4513"},
+        {"text": "Cookie", "lightColor": "#cd853f", "darkColor": "#8b4513"},
+        {"text": "Acorn", "lightColor": "#cd853f", "darkColor": "#8b4513"},
+        {"text": "Puppy", "lightColor": "#cd853f", "darkColor": "#8b4513"},
+        {"text": "Potato", "lightColor": "#cd853f", "darkColor": "#8b4513"}
+      ]
+    }
+  ]
+}

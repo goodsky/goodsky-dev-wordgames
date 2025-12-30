@@ -1,0 +1,26 @@
+{
+  "id": "53",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Gym exercises",
+      "difficulty": 0,
+      "words": ["SQUAT", "LUNGE", "PLANK", "CRUNCH", "DEADLIFT"]
+    },
+    {
+      "name": "Things that hum",
+      "difficulty": 1,
+      "words": ["BIRD", "ENGINE", "REFRIGERATOR", "TUNE", "ACTIVITY"]
+    },
+    {
+      "name": "Stone _____",
+      "difficulty": 2,
+      "words": ["COLD", "AGE", "WALL", "THROW", "FRUIT"]
+    },
+    {
+      "name": "Batman villains",
+      "difficulty": 3,
+      "words": ["JOKER", "RIDDLER", "PENGUIN", "CATWOMAN", "BANE"]
+    }
+  ]
+}

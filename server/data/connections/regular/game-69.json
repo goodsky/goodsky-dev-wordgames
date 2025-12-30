@@ -1,0 +1,26 @@
+{
+  "id": "69",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Fast food chains",
+      "difficulty": 0,
+      "words": ["MCDONALDS", "WENDYS", "TACO BELL", "KFC", "SUBWAY"]
+    },
+    {
+      "name": "Things that smolder",
+      "difficulty": 1,
+      "words": ["FIRE", "LOOK", "EMBER", "PASSION", "RUINS"]
+    },
+    {
+      "name": "Loose _____",
+      "difficulty": 2,
+      "words": ["CANNON", "END", "CHANGE", "LIPS", "LEAF"]
+    },
+    {
+      "name": "Simpson family members",
+      "difficulty": 3,
+      "words": ["HOMER", "MARGE", "BART", "LISA", "MAGGIE"]
+    }
+  ]
+}

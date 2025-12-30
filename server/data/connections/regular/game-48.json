@@ -1,0 +1,26 @@
+{
+  "id": "48",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Cat breeds",
+      "difficulty": 0,
+      "words": ["SIAMESE", "PERSIAN", "MAINE COON", "TABBY", "BENGAL"]
+    },
+    {
+      "name": "Things that expand",
+      "difficulty": 1,
+      "words": ["UNIVERSE", "WAISTLINE", "BUSINESS", "MIND", "FOAM"]
+    },
+    {
+      "name": "Blind _____",
+      "difficulty": 2,
+      "words": ["SPOT", "DATE", "SIDE", "FOLD", "FAITH"]
+    },
+    {
+      "name": "Nobel Prize categories",
+      "difficulty": 3,
+      "words": ["PEACE", "PHYSICS", "CHEMISTRY", "LITERATURE", "MEDICINE"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "32",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Types of hats",
+      "difficulty": 0,
+      "words": ["BERET", "FEDORA", "BEANIE", "COWBOY", "BOWLER"]
+    },
+    {
+      "name": "Things that float",
+      "difficulty": 1,
+      "words": ["BOAT", "IDEA", "BALLOON", "ICE", "LOAN"]
+    },
+    {
+      "name": "Running _____",
+      "difficulty": 2,
+      "words": ["START", "MATE", "WATER", "JOKE", "TOTAL"]
+    },
+    {
+      "name": "Words that end in silent E but sound like they shouldn't",
+      "difficulty": 3,
+      "words": ["PLAGUE", "ROGUE", "VAGUE", "TONGUE", "LEAGUE"]
+    }
+  ]
+}

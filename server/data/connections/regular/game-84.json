@@ -1,0 +1,26 @@
+{
+  "id": "84",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Things at a carnival",
+      "difficulty": 0,
+      "words": ["FERRIS WHEEL", "COTTON CANDY", "BUMPER CARS", "GAMES", "PRIZES"]
+    },
+    {
+      "name": "Things that splatter",
+      "difficulty": 1,
+      "words": ["PAINT", "MUD", "RAIN", "BLOOD", "GREASE"]
+    },
+    {
+      "name": "Monkey _____",
+      "difficulty": 2,
+      "words": ["BARS", "BUSINESS", "WRENCH", "SEE", "SUIT"]
+    },
+    {
+      "name": "Shakespeare insults",
+      "difficulty": 3,
+      "words": ["KNAVE", "ROGUE", "VILLAIN", "WRETCH", "SCOUNDREL"]
+    }
+  ]
+}

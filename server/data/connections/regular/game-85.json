@@ -1,0 +1,26 @@
+{
+  "id": "85",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Things with feathers",
+      "difficulty": 0,
+      "words": ["BIRD", "PILLOW", "ARROW", "DUSTER", "BOA"]
+    },
+    {
+      "name": "Things that swirl",
+      "difficulty": 1,
+      "words": ["TORNADO", "WATER", "DRESS", "CREAM", "THOUGHTS"]
+    },
+    {
+      "name": "Belly _____",
+      "difficulty": 2,
+      "words": ["BUTTON", "FLOP", "DANCE", "LAUGH", "ACHE"]
+    },
+    {
+      "name": "Breakfast cereal mascots",
+      "difficulty": 3,
+      "words": ["TONY", "TOUCAN SAM", "SNAP", "CRACKLE", "POP"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "24",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Things at a beach",
+      "difficulty": 0,
+      "words": ["SAND", "WAVE", "TOWEL", "SHELL", "UMBRELLA"]
+    },
+    {
+      "name": "Things that tick",
+      "difficulty": 1,
+      "words": ["CLOCK", "BOMB", "BOX", "INSECT", "PERSON"]
+    },
+    {
+      "name": "Silver _____",
+      "difficulty": 2,
+      "words": ["SCREEN", "LINING", "BULLET", "FOX", "SPOON"]
+    },
+    {
+      "name": "Taylor Swift album titles",
+      "difficulty": 3,
+      "words": ["REPUTATION", "FOLKLORE", "MIDNIGHTS", "EVERMORE", "LOVER"]
+    }
+  ]
+}

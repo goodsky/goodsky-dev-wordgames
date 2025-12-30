@@ -1,0 +1,26 @@
+{
+  "id": "k15",
+  "kidMode": true,
+  "categories": [
+    {
+      "name": "Babies",
+      "difficulty": 0,
+      "words": ["🐣", "🐥", "🍼", "👶", "🐤", "🚼"]
+    },
+    {
+      "name": "Words for Mom",
+      "difficulty": 1,
+      "words": ["Mama", "Mommy", "Mom", "Mother", "Momma", "Mum"]
+    },
+    {
+      "name": "Words for Dad",
+      "difficulty": 2,
+      "words": ["Papa", "Daddy", "Dad", "Father", "Pops", "Pa"]
+    },
+    {
+      "name": "My Family",
+      "difficulty": 3,
+      "words": ["Isaac", "Sylvia", "Skyler", "Kristin"]
+    }
+  ]
+}

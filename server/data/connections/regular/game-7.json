@@ -1,0 +1,26 @@
+{
+  "id": "7",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Pasta shapes",
+      "difficulty": 0,
+      "words": ["PENNE", "RIGATONI", "FUSILLI", "SPAGHETTI", "BOW TIE"]
+    },
+    {
+      "name": "Things with teeth",
+      "difficulty": 1,
+      "words": ["COMB", "SAW", "GEAR", "ZIPPER", "SHARK"]
+    },
+    {
+      "name": "Double letter words (AA, EE, OO, etc.)",
+      "difficulty": 2,
+      "words": ["BALLOON", "COFFEE", "VACUUM", "AARDVARK", "COMMITTEE"]
+    },
+    {
+      "name": "NATO phonetic alphabet",
+      "difficulty": 3,
+      "words": ["JULIET", "OSCAR", "VICTOR", "LIMA", "ROMEO"]
+    }
+  ]
+}

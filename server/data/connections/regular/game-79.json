@@ -1,0 +1,26 @@
+{
+  "id": "79",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Things with buttons",
+      "difficulty": 0,
+      "words": ["SHIRT", "REMOTE", "ELEVATOR", "KEYBOARD", "ARCADE"]
+    },
+    {
+      "name": "Things that simmer",
+      "difficulty": 1,
+      "words": ["SOUP", "ANGER", "SAUCE", "TENSION", "FEUD"]
+    },
+    {
+      "name": "Soft _____",
+      "difficulty": 2,
+      "words": ["BALL", "WARE", "SPOT", "SERVE", "TOUCH"]
+    },
+    {
+      "name": "Periodic table groups",
+      "difficulty": 3,
+      "words": ["ALKALI", "HALOGEN", "NOBLE", "TRANSITION", "LANTHANIDE"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "21",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Types of cheese",
+      "difficulty": 0,
+      "words": ["CHEDDAR", "BRIE", "GOUDA", "SWISS", "FETA"]
+    },
+    {
+      "name": "Things that leak",
+      "difficulty": 1,
+      "words": ["PIPE", "SECRET", "ROOF", "NEWS", "BATTERY"]
+    },
+    {
+      "name": "_____ War",
+      "difficulty": 2,
+      "words": ["CIVIL", "COLD", "STAR", "TUG", "PRICE"]
+    },
+    {
+      "name": "Rhymes with 'night'",
+      "difficulty": 3,
+      "words": ["SIGHT", "KITE", "BITE", "WRITE", "MIGHT"]
+    }
+  ]
+}

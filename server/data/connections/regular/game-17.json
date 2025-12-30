@@ -1,0 +1,26 @@
+{
+  "id": "17",
+  "kidMode": false,
+  "categories": [
+    {
+      "name": "Types of nuts",
+      "difficulty": 0,
+      "words": ["WALNUT", "ALMOND", "CASHEW", "PECAN", "PISTACHIO"]
+    },
+    {
+      "name": "Things that drip",
+      "difficulty": 1,
+      "words": ["FAUCET", "CANDLE", "SWEAT", "SARCASM", "COFFEE"]
+    },
+    {
+      "name": "Words after 'BACK'",
+      "difficulty": 2,
+      "words": ["FIRE", "GROUND", "BONE", "LASH", "DOOR"]
+    },
+    {
+      "name": "TV shows with color in the title",
+      "difficulty": 3,
+      "words": ["ORANGE", "BREAKING BAD", "GREY'S", "WHITE LOTUS", "BLACKLIST"]
+    }
+  ]
+}

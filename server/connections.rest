@@ -1,0 +1,22 @@
+### =================
+### Production
+### =================
+
+## Get the reported words
+GET https://connections.goodsky.dev/api/report
+
+
+### Clear the report
+DELETE https://connections.goodsky.dev/api/report
+
+
+### =================
+### DEVELOPMENT
+### =================
+
+## Get the reported words
+GET http://localhost:3000/api/report
+
+
+### Clear the report
+DELETE http://localhost:3000/api/report
