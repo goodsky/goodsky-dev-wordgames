@@ -1,5 +1,4 @@
 const express = require('express');
-const path = require('path');
 const { getValidWords } = require('./dictionary');
 
 // Common letters for random puzzle generation (weighted by frequency)
@@ -18,7 +17,7 @@ function generateSmartNewGame(dictionary, minLength = 4) {
     
     // Try each letter as center
     for (const centerLetter of letters) {
-      const validWords = getValidWords(dictionary, letters, minLength);
+      const validWords = getValidWords(letters, minLength);
       const scoringWords = validWords.filter(word => word.includes(centerLetter));
       
       // Calculate score based on:
@@ -62,7 +61,7 @@ const router = express.Router();
 router.get('/newgame', (req, res) => {
   const minLength = parseInt(req.query.minLength) || 4;
   
-  const result = generateSmartNewGame(dictionary, minLength);
+  const result = generateSmartNewGame(minLength);
   
   if (!result) {
     return res.status(500).json({ error: 'Failed to generate valid game' });
@@ -76,7 +75,4 @@ router.get('/newgame', (req, res) => {
   });
 });
 
-module.exports = {
-    router,
-    getValidWords
-};
+module.exports = router;

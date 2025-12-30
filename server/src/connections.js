@@ -2,6 +2,8 @@ const express = require('express');
 const path = require('path');
 const fs = require('fs');
 
+const connectionsReportRouter = require('./connectionsReport');
+
 const GAMES_DIR = path.join(__dirname, '../data/connections');
 
 // Store all games in memory
@@ -179,6 +181,8 @@ function selectGameWords(game, requestedWords) {
 loadGames();
 
 const router = express.Router();
+
+router.use('/report', connectionsReportRouter);
 
 // API endpoint to get a new game
 // Query params:

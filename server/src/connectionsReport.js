@@ -17,7 +17,7 @@ if (!fs.existsSync(STORAGE_PATH)) {
   fs.mkdirSync(STORAGE_PATH, { recursive: true });
 }
 
-const REPORTED_GAMES_FILE = path.join(STORAGE_PATH, 'reported.json');
+const REPORTED_GAMES_FILE = path.join(STORAGE_PATH, 'connections_reports.json');
 
 function readReportedGames() {
   if (!fs.existsSync(REPORTED_GAMES_FILE)) {
@@ -46,7 +46,6 @@ function formatReportedGames() {
   reportedGames.forEach(report => {
     if (!mergedReports[report.gameId]) {
       mergedReports[report.gameId] = {
-        gameId: report.gameId,
         comments: [
           report.comment,
           report.words,
@@ -62,7 +61,7 @@ function formatReportedGames() {
     }
   });
 
-  return reportedGames;
+  return mergedReports;
 }
 
 // POST endpoint to report a game

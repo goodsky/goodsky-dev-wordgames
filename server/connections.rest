@@ -3,20 +3,29 @@
 ### =================
 
 ## Get the reported words
-GET https://connections.goodsky.dev/api/report
+GET https://wordgames.goodsky.dev/api/connections/report
 
 
 ### Clear the report
-DELETE https://connections.goodsky.dev/api/report
-
+DELETE https://wordgames.goodsky.dev/api/connections/report
 
 ### =================
 ### DEVELOPMENT
 ### =================
 
 ## Get the reported words
-GET http://localhost:3000/api/report
+GET http://localhost:3000/api/connections/report
 
 
 ### Clear the report
-DELETE http://localhost:3000/api/report
+DELETE http://localhost:3000/api/connections/report
+
+### Send a report
+POST http://localhost:3000/api/connections/report
+Content-Type: application/json
+
+{
+    "gameId": "test",
+    "words": ["example", "testword", "anotherword"],
+    "comment": "These are test words for reporting."
+}

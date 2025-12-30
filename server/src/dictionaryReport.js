@@ -17,8 +17,8 @@ if (!fs.existsSync(STORAGE_PATH)) {
   fs.mkdirSync(STORAGE_PATH, { recursive: true });
 }
 
-const REPORTED_ADD_FILE = path.join(STORAGE_PATH, 'reported_add.txt');
-const REPORTED_REMOVE_FILE = path.join(STORAGE_PATH, 'reported_remove.txt');
+const REPORTED_ADD_FILE = path.join(STORAGE_PATH, 'dictionary_add.txt');
+const REPORTED_REMOVE_FILE = path.join(STORAGE_PATH, 'dictionary_remove.txt');
 
 // Helper functions for file operations
 function readReportedWords(filePath) {

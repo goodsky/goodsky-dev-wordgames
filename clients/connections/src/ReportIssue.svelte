@@ -18,7 +18,7 @@
         submitError = '';
 
         try {
-            const response = await fetch('/api/report', {
+            const response = await fetch('/api/connections/report', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

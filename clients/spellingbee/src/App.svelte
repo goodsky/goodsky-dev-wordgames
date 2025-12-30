@@ -72,7 +72,7 @@
   // Fetch new game from server
   async function fetchNewGame() {
     try {
-      const response = await fetch(`/api/newgame?minLength=${minWordLength}`);
+      const response = await fetch(`/api/spellingbee/newgame?minLength=${minWordLength}`);
       const data = await response.json();
       
       centerLetter = data.centerLetter;
@@ -435,7 +435,7 @@
     <!-- Control buttons -->
     <div class="controls">
       <button class="delete" onclick={handleDelete} disabled={allWordsFound || noPossibleWords}>Delete</button>
-      <button onclick={handleCycle} disabled={allWordsFound || noPossibleWords}><img src="/cycle.svg" alt="Cycle" /></button>
+      <button onclick={handleCycle} disabled={allWordsFound || noPossibleWords}><img src="/spellingbee/cycle.svg" alt="Cycle" /></button>
       {#if hintMode}
         <button class="hint" onclick={handleHint} disabled={allWordsFound || noPossibleWords}>💡</button>
       {/if}

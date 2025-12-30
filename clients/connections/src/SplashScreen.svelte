@@ -7,7 +7,7 @@
 </script>
 
 <div class="splash-screen">
-  <img src="/idea.svg" alt="Connections Lightbulb" class="splash-icon" />
+  <img src="/connections/idea.svg" alt="Connections Lightbulb" class="splash-icon" />
   <h1 class="splash-title"><b>Connections</b></h1>
   <h3>Create four groups of four categories!</h3>
   <h3><i>Now with Kid Mode for ages 4+!</i></h3>

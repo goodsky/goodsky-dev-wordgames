@@ -2,7 +2,12 @@ const express = require('express');
 const path = require('path');
 const fs = require('fs');
 
+const dictionaryReportRouter = require('./dictionaryReport');
+
 const dictPath = path.join(__dirname, '../data/dictionary/dict.txt');
+
+// Load dictionary on startup
+const dictionary = loadDictionary();
 
 function loadDictionary() {
   try {
@@ -15,7 +20,7 @@ function loadDictionary() {
   }
 }
 
-function getValidWords(dictionary, letters, minLength) {
+function getValidWords(letters, minLength) {
   const availableLetters = letters.map(l => l.toUpperCase());
   const letterSet = new Set(availableLetters);
 
@@ -32,10 +37,9 @@ function getValidWords(dictionary, letters, minLength) {
   return validWords;
 }
 
-// Load dictionary on startup
-const dictionary = loadDictionary();
-
 const router = express.Router();
+
+router.use('/report', dictionaryReportRouter);
 
 // API endpoint to get valid words based on available letters and min length
 router.post('/', (req, res) => {
@@ -49,7 +53,7 @@ router.post('/', (req, res) => {
     return res.status(400).json({ error: 'valid minLength is required' });
   }
 
-  const validWords = getValidWords(dictionary, letters, minLength);
+  const validWords = getValidWords(letters, minLength);
 
   res.json({ 
     validWords,
@@ -57,4 +61,4 @@ router.post('/', (req, res) => {
   });
 });
 
-module.exports = router;
+module.exports = { router, getValidWords };

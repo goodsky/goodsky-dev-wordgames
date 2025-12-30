@@ -80,7 +80,7 @@
         isLoading = true;
         
         try {
-            let url = `/api/newgame?kidmode=${kidMode}`;
+            let url = `/api/connections/newgame?kidmode=${kidMode}`;
             if (specificGameId) {
                 url += `&id=${specificGameId}`;
             }
