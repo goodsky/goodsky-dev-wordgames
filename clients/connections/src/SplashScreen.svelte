@@ -7,7 +7,7 @@
 </script>
 
 <div class="splash-screen">
-  <img src="/connections/idea.svg" alt="Connections Lightbulb" class="splash-icon" />
+  <div class="splash-icon"></div>
   <h1 class="splash-title"><b>Connections</b></h1>
   <h3>Create four groups of four categories!</h3>
   <h3><i>Now with Kid Mode for ages 4+!</i></h3>
@@ -43,8 +43,13 @@
   }
 
   .splash-icon {
-    width: 100px;
-    height: 100px;
+    width: 128px;
+    height: 128px;
+    background-color: #651476;
+    mask: url('/connections/idea.svg') no-repeat center;
+    -webkit-mask: url('/connections/idea.svg') no-repeat center;
+    mask-size: contain;
+    -webkit-mask-size: contain;
   }
 
   .play-button {

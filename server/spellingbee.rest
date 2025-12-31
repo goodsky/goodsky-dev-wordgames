@@ -1,2 +1,14 @@
+### =================
+### Production
+### =================
+
+### Get a New Game
+GET http://wordgames.goodsky.dev/api/spellingbee/newgame
+
+### =================
+### DEVELOPMENT
+### (Localhost)
+### =================
+
 ### Get a New Game
 GET http://localhost:3000/api/spellingbee/newgame
