@@ -2,6 +2,7 @@
   import ReportWord from './ReportWord.svelte';
   import Help from './Help.svelte';
   import SplashScreen from './SplashScreen.svelte';
+    import MenuBar from './MenuBar.svelte';
 
   // Parse URL parameters for puzzle configuration
   const urlParams = new URLSearchParams(window.location.search);
@@ -220,19 +221,6 @@
     }
   }
 
-  function toggleMenu(event) {
-    event.stopPropagation();
-    menuOpen = !menuOpen;
-  }
-
-  function toggleKidAssist() {
-    kidAssistMode = !kidAssistMode;
-  }
-
-  function toggleHintMode() {
-    hintMode = !hintMode;
-  }
-
   function toggleWordsList() {
     wordsListExpanded = !wordsListExpanded;
   }
@@ -327,31 +315,14 @@
 
 <main>
   <div class="game-container">
-    <!-- Menu bar at top -->
-    <div class="header">
-      <button 
-        class="kid-assist-button" 
-        class:active={kidAssistMode}
-        onclick={toggleKidAssist}
-      >
-        Kid Assist
-        <span class="status-box">{kidAssistMode ? 'ON' : 'OFF'}</span>
-      </button>
-      <div class="header-buttons">
-        <button class="help-button" onclick={openHowToPlay} title="How to Play">ⓘ</button>
-        <button class="menu-button" onclick={toggleMenu}>☰</button>
-      </div>
-      {#if menuOpen}
-        <div class="menu-dropdown">
-          <button class="menu-item" onclick={resetPuzzle}>New Puzzle</button>
-          <button class="menu-item" onclick={shareGame}>Share Game</button>
-          <button class="menu-item" onclick={openReportModal}>Report Word</button>
-          <button class="menu-item" class:active={hintMode} onclick={toggleHintMode}>
-            Hint Mode: <span class="status-box">{hintMode ? 'ON' : 'OFF'}</span>
-          </button>
-        </div>
-      {/if}
-    </div>
+    <MenuBar
+      bind:kidMode={kidAssistMode}
+      bind:hintMode={hintMode}
+      onNewGame={resetPuzzle}
+      onShareGame={shareGame}
+      onHowToPlay={openHowToPlay}
+      onReportIssue={openReportModal}
+      />
 
     <!-- Found words section -->
     <div class="found-words">
@@ -475,142 +446,6 @@
     overflow-y: auto;
   }
 
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1rem;
-    position: relative;
-    flex-shrink: 0;
-  }
-
-  .kid-assist-button {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    background: white;
-    border: 2px solid #ddd;
-    border-radius: 8px;
-    padding: 0.5rem 0.75rem;
-    cursor: pointer;
-    transition: all 0.2s;
-    font-size: 0.9rem;
-  }
-
-  .kid-assist-button:hover {
-    background: #f0f0f0;
-  }
-
-  .kid-assist-button.active {
-    background: #ffd43b;
-    color: #333;
-    border-color: #fcc419;
-  }
-
-  .status-box {
-    background: rgba(0, 0, 0, 0.1);
-    padding: 0.2rem 0.5rem;
-    border-radius: 4px;
-    font-size: 0.75rem;
-    font-weight: bold;
-    min-width: 32px;
-    text-align: center;
-  }
-
-  .kid-assist-button.active .status-box {
-    background: rgba(255, 255, 255, 0.3);
-  }
-
-  .header-buttons {
-    display: flex;
-    gap: 0.5rem;
-    align-items: center;
-  }
-
-  .help-button {
-    background: white;
-    border: 2px solid #ddd;
-    border-radius: 8px;
-    font-size: 1.5rem;
-    width: 48px;
-    height: 48px;
-    cursor: pointer;
-    transition: all 0.2s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #333;
-  }
-
-  .help-button:hover {
-    background: #f0f0f0;
-    transform: scale(1.05);
-  }
-
-  .menu-button {
-    background: white;
-    border: 2px solid #ddd;
-    border-radius: 8px;
-    font-size: 1.5rem;
-    width: 48px;
-    height: 48px;
-    cursor: pointer;
-    transition: all 0.2s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .menu-button:hover {
-    background: #f0f0f0;
-    transform: scale(1.05);
-  }
-
-  .menu-dropdown {
-    position: absolute;
-    top: 56px;
-    right: 0;
-    background: white;
-    border: 2px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    min-width: 150px;
-    z-index: 100;
-  }
-
-  .menu-item {
-    display: block;
-    width: 100%;
-    padding: 0.75rem 1rem;
-    border: none;
-    background: white;
-    text-align: left;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: background 0.2s;
-  }
-
-  .menu-item:hover {
-    background: #f0f0f0;
-  }
-
-  .menu-item.active {
-    background: #ffd43b;
-    color: #333;
-  }
-
-  .menu-item.active:hover {
-    background: #fcc419;
-  }
-
-  .menu-item:first-child {
-    border-radius: 6px 6px 0 0;
-  }
-
-  .menu-item:last-child {
-    border-radius: 0 0 6px 6px;
-  }
-
   .found-words {
     background: white;
     padding: 1rem;
@@ -631,24 +466,23 @@
 
   .words-list-container {
     position: relative;
-    margin: 0.25rem 0 1rem 0;
+    margin: 0.25rem 0 0.25rem 0;
+    display: flex;
+    align-items: stretch;
+    min-height: 30px;
   }
 
   .expand-button {
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-    background: white;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    flex-shrink: 0;
+    border: none;
+    background: linear-gradient(to right, transparent, white 30%);
     font-size: 1rem;
     cursor: pointer;
-    padding: 0.5rem;
+    padding: 0 0.5rem 0 2rem;
+    margin-left: -2rem;
     color: #666;
-    transition: all 0.2s;
+    transition: color 0.2s;
     z-index: 10;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
   .expand-button:hover {
@@ -656,11 +490,10 @@
   }
 
   .words-list {
+    flex: 1;
     display: flex;
     flex-wrap: nowrap;
     gap: 0.5rem;
-    min-height: 40px;
-    max-height: 40px;
     overflow-x: auto;
     overflow-y: hidden;
     align-items: center;
@@ -925,7 +758,7 @@
   }
 
   .controls button {
-    padding: 0.75rem 1.25rem;
+    padding: 0.5rem 1.25rem;
     font-size: 1rem;
     border: 2px solid #ddd;
     border-radius: 32px;
@@ -961,7 +794,7 @@
 
   .controls button.hint {
     font-size: 1.5rem;
-    padding: 0.75rem 1rem;
+    padding: 0.5rem 1rem;
   }
 
   .controls button.hint:hover {
@@ -985,10 +818,6 @@
   @media (max-height: 750px) {
     .game-container {
       padding: 0.25rem;
-    }
-
-    .header {
-      margin-bottom: 0.25rem;
     }
 
     .found-words {

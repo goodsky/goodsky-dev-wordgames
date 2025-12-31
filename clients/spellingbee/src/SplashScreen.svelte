@@ -10,7 +10,7 @@
   <img src="/spellingbee/bee-128.png" alt="Bee" class="splash-bee" />
   <h1 class="splash-title"><b>Spelling Bee</b></h1>
   <h3>How many words can you make with 7 letters?</h3>
-  <h3><i>Now with Kid Assist mode for ages 4+!</i></h3>
+  <h3><i>Now with Kid Mode for ages 4+!</i></h3>
   <button class="play-button" onclick={handlePlayClick}>Play</button>
 </div>
 

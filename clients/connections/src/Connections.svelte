@@ -381,15 +381,15 @@
         <SplashScreen onPlay={handlePlayClick} />
     {/if}
 
-    <MenuBar 
-        bind:kidMode={kidMode}
-        onNewGame={handleNewGame} 
-        onShareGame={handleShareGame}
-        onHowToPlay={handleHowToPlay}
-        onReportIssue={handleReportIssue}
-    />
-
     <main class="game-content">
+        <MenuBar 
+            bind:kidMode={kidMode}
+            onNewGame={handleNewGame} 
+            onShareGame={handleShareGame}
+            onHowToPlay={handleHowToPlay}
+            onReportIssue={handleReportIssue}
+            />
+
         {#if isLoading}
             <div class="loading">Loading...</div>
         {:else}

@@ -1,5 +1,5 @@
 <script>
-    let { kidMode = $bindable(false), onNewGame, onShareGame, onHowToPlay, onReportIssue } = $props();
+    let { kidMode = $bindable(false), hintMode = $bindable(false), onNewGame, onShareGame, onHowToPlay, onReportIssue } = $props();
     
     let menuOpen = $state(false);
 
@@ -30,6 +30,10 @@
         kidMode = !kidMode;
     }
 
+    function toggleHintMode() {
+        hintMode = !hintMode;
+    }
+
     // Close menu when clicking outside
     function handleClickOutside(event) {
         if (menuOpen && !event.target.closest('.menu-container')) {
@@ -47,11 +51,7 @@
                 <path d="m15 18-6-6 6-6"/>
             </svg>
         </button>
-        <button 
-            class="kid-mode-button" 
-            class:active={kidMode}
-            onclick={handleKidModeToggle}
-        >
+        <button class="kid-mode-button" class:active={kidMode} onclick={handleKidModeToggle}>
             Kid Mode
             <span class="status-box">{kidMode ? 'ON' : 'OFF'}</span>
         </button>
@@ -85,6 +85,9 @@
                     <button class="menu-item" onclick={handleReportIssue}>
                         Report Issue
                     </button>
+                    <button class="menu-item" class:active={hintMode} onclick={toggleHintMode}>
+                        Hint Mode: <span class="status-box">{hintMode ? 'ON' : 'OFF'}</span>
+                    </button>
                 </div>
             {/if}
         </div>
@@ -97,9 +100,9 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 1rem 1.5rem 1rem 0;
-        border-bottom: 1px solid #3a3a3c;
-        margin-bottom: 0.125rem;
+        padding: 0.5rem 1.5rem 0.5rem 0;
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 1rem;
     }
 
     .left-section,
@@ -120,7 +123,7 @@
     .go-back-button {
         background: none;
         border: none;
-        color: #3a3a3c;
+        color: #333;
         cursor: pointer;
         padding: 0.5rem 1rem 0.5rem 1rem;
         border-radius: 8px;
@@ -133,10 +136,10 @@
         align-items: center;
         gap: 0.5rem;
         padding: 0.5rem 0.75rem;
-        background-color: transparent;
-        border: 1px solid #3a3a3c;
+        background-color: white;
+        border: 2px solid #ddd;
         border-radius: 8px;
-        color: #818384;
+        color: #333;
         font-size: 0.875rem;
         font-weight: 500;
         white-space: nowrap;
@@ -145,38 +148,37 @@
     }
 
     .kid-mode-button:hover {
-        border-color: #5a5a5c;
-        color: #ffffff;
+        background-color: #f0f0f0;
+        border-color: #ccc;
     }
 
     .kid-mode-button.active {
-        background-color: #ba81c5;
-        border-color: #ba81c5;
-        color: #000000;
+        background-color: #ffd43b;
+        border-color: #fcc419;
+        color: #333;
     }
 
     .kid-mode-button.active:hover {
-        background-color: #c99ad3;
-        border-color: #c99ad3;
+        background-color: #fcc419;
+        border-color: #fab005;
     }
 
     .status-box {
         padding: 0.25rem 0.375rem;
-        background-color: #3a3a3c;
+        background-color: rgba(0, 0, 0, 0.1);
         border-radius: 4px;
         font-size: 0.75rem;
         font-weight: 600;
         transition: background-color 0.2s;
-        min-width: 2rem;
+        width: 2.5rem;
         text-align: center;
     }
 
     .kid-mode-button.active .status-box {
-        background-color: rgba(0, 0, 0, 0.2);
-        color: #000000;
+        background-color: rgba(255, 255, 255, 0.3);
+        color: #333;
     }
 
-    /* Menu Button and Dropdown */
     .menu-container {
         position: relative;
         display: flex;
@@ -187,38 +189,38 @@
     .help-button {
         background: none;
         border: none;
-        color: #818384;
+        color: #333;
         cursor: pointer;
         padding: 0.5rem;
-        border-radius: 4px;
+        border-radius: 8px;
         display: flex;
         align-items: center;
         justify-content: center;
         font-size: 1.25rem;
-        transition: color 0.2s, background-color 0.2s;
+        transition: all 0.2s;
     }
 
     .help-button:hover {
-        color: #ffffff;
-        background-color: #3a3a3c;
+        background-color: #ffffff;
+        transform: scale(1.10);
     }
 
     .menu-button {
         background: none;
         border: none;
-        color: #818384;
+        color: #333;
         cursor: pointer;
         padding: 0.5rem;
-        border-radius: 4px;
+        border-radius: 8px;
         display: flex;
         align-items: center;
         justify-content: center;
-        transition: color 0.2s, background-color 0.2s;
+        transition: all 0.2s;
     }
 
     .menu-button:hover {
-        color: #ffffff;
-        background-color: #3a3a3c;
+        background-color: #fff;
+        transform: scale(1.10);
     }
 
     .dropdown-menu {
@@ -226,13 +228,13 @@
         top: 100%;
         right: 0;
         margin-top: 0.5rem;
-        background-color: #1a1a1b;
-        border: 1px solid #3a3a3c;
+        background-color: white;
+        border: 2px solid #ddd;
         border-radius: 8px;
         overflow: hidden;
         min-width: 150px;
         z-index: 100;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     }
 
     .menu-item {
@@ -241,7 +243,7 @@
         padding: 0.75rem 1rem;
         background: none;
         border: none;
-        color: #ffffff;
+        color: #333;
         font-size: 0.875rem;
         text-align: left;
         cursor: pointer;
@@ -249,10 +251,19 @@
     }
 
     .menu-item:hover {
-        background-color: #3a3a3c;
+        background-color: #f0f0f0;
+    }
+
+    .menu-item.active {
+        background: #ffd43b;
+        color: #333;
+    }
+
+    .menu-item.active:hover {
+        background: #fcc419;
     }
 
     .menu-item + .menu-item {
-        border-top: 1px solid #3a3a3c;
+        border-top: 1px solid #ddd;
     }
 </style>
