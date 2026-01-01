@@ -11,7 +11,9 @@ import os
 import sys
 import urllib.request
 import zipfile
+import argparse
 from pathlib import Path
+from format_crossword_clues import format_crossword_clues_dictionary
 
 
 def download_file(url, dest_path):
@@ -58,6 +60,12 @@ def download_and_extract_zip(url, dest_path, extract_file):
 
 
 def main():
+    # Parse arguments
+    parser = argparse.ArgumentParser(description='Initialize crossword data by downloading and processing files.')
+    parser.add_argument('--no-cleanup', action='store_true', 
+                        help='Keep intermediate wordlist and clues files after processing')
+    args = parser.parse_args()
+    
     # Setup paths
     script_dir = Path(__file__).parent
     data_dir = script_dir / "data"
@@ -72,6 +80,8 @@ def main():
     clues_zip_url = "https://xd.saul.pw/xd-clues.zip"
     clues_path = data_dir / "clues.tsv"
     clues_zip_internal_path = "xd/clues.tsv"
+    
+    crossword_clues_file = data_dir / "crossword_clues.json"
     
     print("=" * 60)
     print("Crossword Data Initialization")
@@ -97,10 +107,41 @@ def main():
     # Summary
     print("=" * 60)
     if success1 and success2:
-        print("✓ All files ready!")
+        print("✓ All files downloaded!")
         print()
-        print(f"Word list: {wordlist_path}")
-        print(f"Clues:     {clues_path}")
+        
+        # Format the crossword clues dictionary
+        print("=" * 60)
+        print("Formatting crossword clues dictionary...")
+        print("=" * 60)
+        print()
+        
+        format_crossword_clues_dictionary(
+            str(wordlist_path), 
+            str(clues_path), 
+            str(crossword_clues_file)
+        )
+        
+        # Clean up intermediate files if --no-cleanup is not specified
+        if not args.no_cleanup:
+            print()
+            print("Cleaning up intermediate files...")
+            if wordlist_path.exists():
+                wordlist_path.unlink()
+                print(f"✓ Deleted {wordlist_path.name}")
+            if clues_path.exists():
+                clues_path.unlink()
+                print(f"✓ Deleted {clues_path.name}")
+        else:
+            print()
+            print(f"Keeping intermediate files (--no-cleanup specified):")
+            print(f"  Word list: {wordlist_path}")
+            print(f"  Clues:     {clues_path}")
+        
+        print()
+        print("=" * 60)
+        print("✓ Crossword data initialization complete!")
+        print(f"  Output: {crossword_clues_file}")
     else:
         print("✗ Some downloads failed. Please check the errors above.")
         sys.exit(1)

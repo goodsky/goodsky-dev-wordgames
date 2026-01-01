@@ -1,0 +1,6 @@
+__pycache__
+
+# intermediate crossword generation files
+clues.tsv
+spreadthewordlist*.txt
+crossword_clues.json
