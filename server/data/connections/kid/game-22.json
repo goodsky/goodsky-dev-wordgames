@@ -1,0 +1,56 @@
+{
+  "id": "k22",
+  "kidMode": true,
+  "categories": [
+    {
+      "name": "Starts with E",
+      "difficulty": 0,
+      "words": [
+        {"text": "Elephant", "altText": "Elephant starts with E"},
+        {"text": "Egg", "altText": "Egg starts with E"},
+        {"text": "Ear", "altText": "Ear starts with E"},
+        {"text": "Eye", "altText": "Eye starts with E"},
+        {"text": "Elbow", "altText": "Elbow starts with E"},
+        {"text": "Eagle", "altText": "Eagle starts with E"}
+      ]
+    },
+    {
+      "name": "Starts with F",
+      "difficulty": 1,
+      "words": [
+        {"text": "Fish", "altText": "Fish starts with F"},
+        {"text": "Frog", "altText": "Frog starts with F"},
+        {"text": "Flower", "altText": "Flower starts with F"},
+        {"text": "Fire", "altText": "Fire starts with F"},
+        {"text": "Fox", "altText": "Fox starts with F"},
+        {"text": "Feet", "altText": "Feet starts with F"}
+      ]
+    },
+    {
+      "name": "Starts with G",
+      "difficulty": 2,
+      "words": [
+        {"text": "Goat", "altText": "Goat starts with G"},
+        {"text": "Grape", "altText": "Grape starts with G"},
+        {"text": "Grass", "altText": "Grass starts with G"},
+        {"text": "Guitar", "altText": "Guitar starts with G"},
+        {"text": "Ghost", "altText": "Ghost starts with G"},
+        {"text": "Gift", "altText": "Gift starts with G"},
+        {"text": "Girl", "altText": "Girl starts with G"}
+      ]
+    },
+    {
+      "name": "Starts with H",
+      "difficulty": 3,
+      "words": [
+        {"text": "Hat", "altText": "Hat starts with H"},
+        {"text": "Horse", "altText": "Horse starts with H"},
+        {"text": "House", "altText": "House starts with H"},
+        {"text": "Heart", "altText": "Heart starts with H"},
+        {"text": "Hand", "altText": "Hand starts with H"},
+        {"text": "Hippo", "altText": "Hippo starts with H"},
+        {"text": "Honey", "altText": "Honey starts with H"}
+      ]
+    }
+  ]
+}

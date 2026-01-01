@@ -1,0 +1,47 @@
+{
+  "id": "k17",
+  "kidMode": true,
+  "categories": [
+    {
+      "name": "Musical Instruments",
+      "difficulty": 0,
+      "words": [
+        {"text": "🎸", "altText": "Guitar"},
+        {"text": "🎹", "altText": "Piano"},
+        {"text": "🥁", "altText": "Drum"},
+        {"text": "🎺", "altText": "Trumpet"},
+        {"text": "🎻", "altText": "Violin"},
+        {"text": "🪘", "altText": "Drum"},
+        {"text": "🎷", "altText": "Saxophone"}
+      ]
+    },
+    {
+      "name": "Party Time",
+      "difficulty": 1,
+      "words": [
+        {"text": "🎈", "altText": "Balloon"},
+        {"text": "🎂", "altText": "Birthday Cake"},
+        {"text": "🎁", "altText": "Present"},
+        {"text": "🎉", "altText": "Party Popper"},
+        {"text": "🎊", "altText": "Confetti"}
+      ]
+    },
+    {
+      "name": "Zoo Animals",
+      "difficulty": 2,
+      "words": [
+        {"text": "🐘", "altText": "Elephant"},
+        {"text": "🦒", "altText": "Giraffe"},
+        {"text": "🦓", "altText": "Zebra"},
+        {"text": "🦛", "altText": "Hippo"},
+        {"text": "🐻‍❄️", "altText": "Polar Bear"},
+        {"text": "🦘", "altText": "Kangaroo"}
+      ]
+    },
+    {
+      "name": "Rhymes with CAT",
+      "difficulty": 3,
+      "words": ["Bat", "Hat", "Mat", "Rat", "Sat", "Pat"]
+    }
+  ]
+}

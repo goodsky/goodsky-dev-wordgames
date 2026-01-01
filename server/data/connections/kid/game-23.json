@@ -1,0 +1,56 @@
+{
+  "id": "k23",
+  "kidMode": true,
+  "categories": [
+    {
+      "name": "Starts with J",
+      "difficulty": 0,
+      "words": [
+        {"text": "Juice", "altText": "Juice starts with J"},
+        {"text": "Jelly", "altText": "Jelly starts with J"},
+        {"text": "Jam", "altText": "Jam starts with J"},
+        {"text": "Jump", "altText": "Jump starts with J"},
+        {"text": "Jet", "altText": "Jet starts with J"},
+        {"text": "Jar", "altText": "Jar starts with J"}
+      ]
+    },
+    {
+      "name": "Starts with K",
+      "difficulty": 1,
+      "words": [
+        {"text": "Kite", "altText": "Kite starts with K"},
+        {"text": "King", "altText": "King starts with K"},
+        {"text": "Kangaroo", "altText": "Kangaroo starts with K"},
+        {"text": "Key", "altText": "Key starts with K"},
+        {"text": "Koala", "altText": "Koala starts with K"},
+        {"text": "Kitten", "altText": "Kitten starts with K"}
+      ]
+    },
+    {
+      "name": "Starts with L",
+      "difficulty": 2,
+      "words": [
+        {"text": "Lion", "altText": "Lion starts with L"},
+        {"text": "Lemon", "altText": "Lemon starts with L"},
+        {"text": "Leaf", "altText": "Leaf starts with L"},
+        {"text": "Lamp", "altText": "Lamp starts with L"},
+        {"text": "Ladder", "altText": "Ladder starts with L"},
+        {"text": "Lollipop", "altText": "Lollipop starts with L"},
+        {"text": "Lizard", "altText": "Lizard starts with L"}
+      ]
+    },
+    {
+      "name": "Starts with M",
+      "difficulty": 3,
+      "words": [
+        {"text": "Moon", "altText": "Moon starts with M"},
+        {"text": "Monkey", "altText": "Monkey starts with M"},
+        {"text": "Mouse", "altText": "Mouse starts with M"},
+        {"text": "Milk", "altText": "Milk starts with M"},
+        {"text": "Muffin", "altText": "Muffin starts with M"},
+        {"text": "Mountain", "altText": "Mountain starts with M"},
+        {"text": "Mixing", "altText": "Mixing starts with M"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "k20",
+  "kidMode": true,
+  "categories": [
+    {
+      "name": "Construction",
+      "difficulty": 0,
+      "words": [
+        {"text": "🏗️", "altText": "Crane"},
+        {"text": "🚧", "altText": "Construction Sign"},
+        {"text": "🧱", "altText": "Bricks"},
+        {"text": "🪵", "altText": "Wood"},
+        {"text": "🚜", "altText": "Tractor"},
+        {"text": "👷", "altText": "Builder"}
+      ]
+    },
+    {
+      "name": "Night Time",
+      "difficulty": 1,
+      "words": [
+        {"text": "🌙", "altText": "Moon"},
+        {"text": "⭐", "altText": "Star"},
+        {"text": "🦉", "altText": "Owl"},
+        {"text": "🦇", "altText": "Bat"},
+        {"text": "🌌", "altText": "Night Sky"},
+        {"text": "🔦", "altText": "Flashlight"},
+        {"text": "🏕️", "altText": "Camping"}
+      ]
+    },
+    {
+      "name": "Farm Fresh",
+      "difficulty": 2,
+      "words": [
+        {"text": "🥚", "altText": "Egg"},
+        {"text": "🧈", "altText": "Butter"},
+        {"text": "🥛", "altText": "Milk"},
+        {"text": "🧀", "altText": "Cheese"},
+        {"text": "🍞", "altText": "Bread"},
+        {"text": "🥓", "altText": "Bacon"}
+      ]
+    },
+    {
+      "name": "Starts with S",
+      "difficulty": 3,
+      "words": ["Sun", "Star", "Snake", "Sock", "Soap", "Spoon", "Sand"]
+    }
+  ]
+}

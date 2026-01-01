@@ -3,6 +3,7 @@
   import Help from './Help.svelte';
   import SplashScreen from './SplashScreen.svelte';
     import MenuBar from './MenuBar.svelte';
+  import { speakWord } from './textToSpeech.js';
 
   // Parse URL parameters for puzzle configuration
   const urlParams = new URLSearchParams(window.location.search);
@@ -47,6 +48,7 @@
   let lastSubmittedWord = $state('');
   let lastWordWasValid = $state(false);
   let showSplashScreen = $state(true);
+  let soundOn = $state(true);
   
   // Get a random unfound scoring word for Kid Assist mode
   let hintWord = $derived(
@@ -137,9 +139,24 @@
     }, duration);
   }
 
+  function canSayWord() {
+    return soundOn && kidAssistMode && hintWord && currentWord.length === hintWord.length;
+  }
+
+  function handleCurrentWordClick() {
+    if (canSayWord()) {
+      speakWord(hintWord);
+    }
+  }
+
   // Button handlers
   function handleLetterClick(letter) {
     currentWord += letter;
+    
+    // In kidAssist mode, speak the word when it's fully spelled
+    if (canSayWord()) {
+      speakWord(hintWord);
+    }
   }
 
   function handleDelete() {
@@ -317,6 +334,7 @@
   <div class="game-container">
     <MenuBar
       bind:kidMode={kidAssistMode}
+      bind:soundOn={soundOn}
       bind:hintMode={hintMode}
       onNewGame={resetPuzzle}
       onShareGame={shareGame}
@@ -368,7 +386,14 @@
     </div>
 
     <!-- Current word display -->
-    <div class="current-word" class:complete={kidAssistMode && hintWord && currentWord.length === hintWord.length}>
+    <!-- svelte-ignore a11y_click_events_have_key_events -->
+    <!-- svelte-ignore a11y_no_static_element_interactions -->
+    <div 
+      class="current-word" 
+      class:complete={kidAssistMode && hintWord && currentWord.length === hintWord.length}
+      class:clickable={kidAssistMode && hintWord && currentWord.length === hintWord.length}
+      onclick={handleCurrentWordClick}
+    >
       {#if allWordsFound}
         <span class="congrats">🎉 Congratulations! 🎉</span>
       {:else if noPossibleWords}
@@ -579,6 +604,10 @@
 
   .current-word.complete {
     color: #51cf66;
+  }
+
+  .current-word.clickable {
+    cursor: pointer;
   }
 
   .current-word .ghost {

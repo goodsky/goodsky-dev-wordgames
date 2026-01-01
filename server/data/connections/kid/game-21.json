@@ -1,0 +1,60 @@
+{
+  "id": "k21",
+  "kidMode": true,
+  "categories": [
+    {
+      "name": "Starts with A",
+      "difficulty": 0,
+      "words": [
+        {"text": "Apple", "altText": "Apple starts with A"},
+        {"text": "Ant", "altText": "Ant starts with A"},
+        {"text": "Airplane", "altText": "Airplane starts with A"},
+        {"text": "Alligator", "altText": "Alligator starts with A"},
+        {"text": "Astronaut", "altText": "Astronaut starts with A"},
+        {"text": "Avocado", "altText": "Avocado starts with A"},
+        {"text": "Acorn", "altText": "Acorn starts with A"}
+      ]
+    },
+    {
+      "name": "Starts with B",
+      "difficulty": 1,
+      "words": [
+        {"text": "Ball", "altText": "Ball starts with B"},
+        {"text": "Bear", "altText": "Bear starts with B"},
+        {"text": "Banana", "altText": "Banana starts with B"},
+        {"text": "Butterfly", "altText": "Butterfly starts with B"},
+        {"text": "Bird", "altText": "Bird starts with B"},
+        {"text": "Bus", "altText": "Bus starts with B"},
+        {"text": "Bunny", "altText": "Bunny starts with B"},
+        {"text": "Boat", "altText": "Boat starts with B"}
+      ]
+    },
+    {
+      "name": "Starts with C",
+      "difficulty": 2,
+      "words": [
+        {"text": "Cat", "altText": "Cat starts with C"},
+        {"text": "Car", "altText": "Car starts with C"},
+        {"text": "Cookie", "altText": "Cookie starts with C"},
+        {"text": "Cow", "altText": "Cow starts with C"},
+        {"text": "Cake", "altText": "Cake starts with C"},
+        {"text": "Carrot", "altText": "Carrot starts with C"},
+        {"text": "Cloud", "altText": "Cloud starts with C"},
+        {"text": "Cup", "altText": "Cup starts with C"}
+      ]
+    },
+    {
+      "name": "Starts with D",
+      "difficulty": 3,
+      "words": [
+        {"text": "Dog", "altText": "Dog starts with D"},
+        {"text": "Duck", "altText": "Duck starts with D"},
+        {"text": "Dinosaur", "altText": "Dinosaur starts with D"},
+        {"text": "Donut", "altText": "Donut starts with D"},
+        {"text": "Drum", "altText": "Drum starts with D"},
+        {"text": "Dolphin", "altText": "Dolphin starts with D"},
+        {"text": "Door", "altText": "Door starts with D"}
+      ]
+    }
+  ]
+}

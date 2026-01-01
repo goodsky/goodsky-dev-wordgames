@@ -1,5 +1,13 @@
 <script>
-    let { kidMode = $bindable(false), hintMode = $bindable(false), onNewGame, onShareGame, onHowToPlay, onReportIssue } = $props();
+    let {
+        kidMode = $bindable(false),
+        soundOn = $bindable(false),
+        hintMode = $bindable(false),
+        onNewGame,
+        onShareGame,
+        onHowToPlay,
+        onReportIssue
+    } = $props();
     
     let menuOpen = $state(false);
 
@@ -28,6 +36,10 @@
 
     function handleKidModeToggle() {
         kidMode = !kidMode;
+    }
+
+    function toggleSoundOn() {
+        soundOn = !soundOn;
     }
 
     function toggleHintMode() {
@@ -67,10 +79,10 @@
                 </svg>
             </button>
             <button class="menu-button" onclick={toggleMenu} aria-label="Open menu">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <circle cx="12" cy="12" r="1"></circle>
-                    <circle cx="12" cy="5" r="1"></circle>
-                    <circle cx="12" cy="19" r="1"></circle>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu-icon lucide-menu">
+                    <path d="M4 5h16"/>
+                    <path d="M4 12h16"/>
+                    <path d="M4 19h16"/>
                 </svg>
             </button>
             
@@ -84,6 +96,9 @@
                     </button>
                     <button class="menu-item" onclick={handleReportIssue}>
                         Report Issue
+                    </button>
+                    <button class="menu-item" onclick={toggleSoundOn}>
+                        Sound: <span class="status-box">{soundOn ? 'ON' : 'OFF'}</span>
                     </button>
                     <button class="menu-item" class:active={hintMode} onclick={toggleHintMode}>
                         Hint Mode: <span class="status-box">{hintMode ? 'ON' : 'OFF'}</span>

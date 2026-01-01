@@ -1,0 +1,55 @@
+{
+  "id": "k24",
+  "kidMode": true,
+  "categories": [
+    {
+      "name": "Starts with N",
+      "difficulty": 0,
+      "words": [
+        {"text": "Nose", "altText": "Nose starts with N"},
+        {"text": "Nest", "altText": "Nest starts with N"},
+        {"text": "Nut", "altText": "Nut starts with N"},
+        {"text": "Night", "altText": "Night starts with N"},
+        {"text": "Noodle", "altText": "Noodle starts with N"},
+        {"text": "Nurse", "altText": "Nurse starts with N"}
+      ]
+    },
+    {
+      "name": "Starts with O",
+      "difficulty": 1,
+      "words": [
+        {"text": "Orange", "altText": "Orange starts with O"},
+        {"text": "Owl", "altText": "Owl starts with O"},
+        {"text": "Octopus", "altText": "Octopus starts with O"},
+        {"text": "Otter", "altText": "Otter starts with O"},
+        {"text": "Ocean", "altText": "Ocean starts with O"},
+        {"text": "Onion", "altText": "Onion starts with O"}
+      ]
+    },
+    {
+      "name": "Starts with P",
+      "difficulty": 2,
+      "words": [
+        {"text": "Pizza", "altText": "Pizza starts with P"},
+        {"text": "Pig", "altText": "Pig starts with P"},
+        {"text": "Pumpkin", "altText": "Pumpkin starts with P"},
+        {"text": "Penguin", "altText": "Penguin starts with P"},
+        {"text": "Popcorn", "altText": "Popcorn starts with P"},
+        {"text": "Pancake", "altText": "Pancake starts with P"}
+      ]
+    },
+    {
+      "name": "Starts with R",
+      "difficulty": 3,
+      "words": [
+        {"text": "Rainbow", "altText": "Rainbow starts with R"},
+        {"text": "Rocket", "altText": "Rocket starts with R"},
+        {"text": "Rabbit", "altText": "Rabbit starts with R"},
+        {"text": "Rain", "altText": "Rain starts with R"},
+        {"text": "Robot", "altText": "Robot starts with R"},
+        {"text": "Ring", "altText": "Ring starts with R"},
+        {"text": "Rose", "altText": "Rose starts with R"}
+      ]
+    }
+  ]
+}

@@ -17,12 +17,26 @@
     {
       "name": "Words for Mom",
       "difficulty": 1,
-      "words": ["Mama", "Mommy", "Mom", "Mother", "Momma", "Mum"]
+      "words": [
+        {"text": "Mama", "backgroundColor": "#FF69B4"},
+        {"text": "Mommy", "backgroundColor": "#FF85C1"},
+        {"text": "Mom", "backgroundColor": "#FFB6C1"},
+        {"text": "Mother", "backgroundColor": "#DB7093"},
+        {"text": "Momma", "backgroundColor": "#FFC0CB"},
+        {"text": "Mum", "backgroundColor": "#FF1493"}
+      ]
     },
     {
       "name": "Words for Dad",
       "difficulty": 2,
-      "words": ["Papa", "Daddy", "Dad", "Father", "Pops", "Pa"]
+      "words": [
+        {"text": "Papa", "backgroundColor": "#4169E1"},
+        {"text": "Daddy", "backgroundColor": "#6495ED"},
+        {"text": "Dad", "backgroundColor": "#87CEEB"},
+        {"text": "Father", "backgroundColor": "#4682B4"},
+        {"text": "Pops", "backgroundColor": "#1E90FF"},
+        {"text": "Pa", "backgroundColor": "#00BFFF"}
+      ]
     },
     {
       "name": "My Family",

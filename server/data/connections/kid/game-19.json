@@ -1,0 +1,55 @@
+{
+  "id": "k19",
+  "kidMode": true,
+  "categories": [
+    {
+      "name": "Fairy Tale Friends",
+      "difficulty": 0,
+      "words": [
+        {"text": "🧚", "altText": "Fairy"},
+        {"text": "🧜‍♀️", "altText": "Mermaid"},
+        {"text": "👸", "altText": "Princess"},
+        {"text": "🤴", "altText": "Prince"},
+        {"text": "🧙", "altText": "Wizard"},
+        {"text": "🧟", "altText": "Monster"}
+      ]
+    },
+    {
+      "name": "Bath Time",
+      "difficulty": 1,
+      "words": [
+        {"text": "🛁", "altText": "Bathtub"},
+        {"text": "🧼", "altText": "Soap"},
+        {"text": "🪥", "altText": "Toothbrush"},
+        {"text": "🚿", "altText": "Shower"},
+        {"text": "🧴", "altText": "Shampoo"},
+        {"text": "🫧", "altText": "Bubbles"}
+      ]
+    },
+    {
+      "name": "Sports",
+      "difficulty": 2,
+      "words": [
+        {"text": "⚽", "altText": "Soccer"},
+        {"text": "🏀", "altText": "Basketball"},
+        {"text": "🏈", "altText": "Football"},
+        {"text": "⚾", "altText": "Baseball"},
+        {"text": "🎳", "altText": "Bowling"},
+        {"text": "🏓", "altText": "Ping Pong"},
+        {"text": "🥅", "altText": "Goal"}
+      ]
+    },
+    {
+      "name": "Color Words",
+      "difficulty": 3,
+      "words": [
+        {"text": "Red", "backgroundColor": "#ff6b6b"},
+        {"text": "Blue", "backgroundColor": "#74b9ff"},
+        {"text": "Green", "backgroundColor": "#6bcb77"},
+        {"text": "Yellow", "backgroundColor": "#ffd93d"},
+        {"text": "Orange", "backgroundColor": "#ffa500"},
+        {"text": "Purple", "backgroundColor": "#9b59b6"}
+      ]
+    }
+  ]
+}

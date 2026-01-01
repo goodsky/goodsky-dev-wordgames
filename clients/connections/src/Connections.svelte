@@ -4,6 +4,7 @@
     import SplashScreen from './SplashScreen.svelte';
     import ReportIssue from './ReportIssue.svelte';
     import { ensureAccessibleContrast, getSelectedBackgroundColor } from './colorAccessibility.js';
+    import { speakWord } from './textToSpeech';
 
     // Difficulty colors matching NYT (yellow, green, blue, purple)
     const DIFFICULTY_COLORS = [
@@ -137,28 +138,8 @@
             selectedWords = [...selectedWords, word];
             
             // In kid mode, speak the word aloud when selected
-            if (kidMode) {
+            if (kidMode && soundOn) {
                 speakWord(word.altText || word.text);
-            }
-        }
-    }
-
-    function speakWord(word) {
-        if ('speechSynthesis' in window && soundOn) {
-            // Cancel any currently speaking text
-            window.speechSynthesis.cancel();
-            
-            // Keep only ASCII characters (removes emojis and other Unicode symbols)
-            const textToSpeak = word.replace(/[^\x20-\x7E]/g, '').trim();
-            
-            // Only speak if there's text remaining after filtering
-            if (textToSpeak) {
-                const utterance = new SpeechSynthesisUtterance(textToSpeak);
-                utterance.rate = 0.75;  // Slightly slower for kids
-                utterance.pitch = 1.5; // Slightly higher pitch
-                utterance.volume = 1.0;
-                
-                window.speechSynthesis.speak(utterance);
             }
         }
     }
@@ -226,7 +207,7 @@
                 words = swapSolvedCategoryWords(matchedCategory);
 
                 // In kid mode, announce the category name
-                if (kidMode) {
+                if (kidMode && soundOn) {
                     speakWord(matchedCategory.name);
                 }
                 

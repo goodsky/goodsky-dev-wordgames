@@ -1,0 +1,57 @@
+{
+  "id": "k25",
+  "kidMode": true,
+  "categories": [
+    {
+      "name": "Starts with S",
+      "difficulty": 0,
+      "words": [
+        {"text": "Sun", "altText": "Sun starts with S"},
+        {"text": "Star", "altText": "Star starts with S"},
+        {"text": "Snake", "altText": "Snake starts with S"},
+        {"text": "Strawberry", "altText": "Strawberry starts with S"},
+        {"text": "Spider", "altText": "Spider starts with S"},
+        {"text": "Snowman", "altText": "Snowman starts with S"},
+        {"text": "Sandwich", "altText": "Sandwich starts with S"}
+      ]
+    },
+    {
+      "name": "Starts with T",
+      "difficulty": 1,
+      "words": [
+        {"text": "Tiger", "altText": "Tiger starts with T"},
+        {"text": "Train", "altText": "Train starts with T"},
+        {"text": "Tree", "altText": "Tree starts with T"},
+        {"text": "Turtle", "altText": "Turtle starts with T"},
+        {"text": "Tomato", "altText": "Tomato starts with T"},
+        {"text": "Tooth", "altText": "Tooth starts with T"},
+        {"text": "Truck", "altText": "Truck starts with T"}
+      ]
+    },
+    {
+      "name": "Starts with W",
+      "difficulty": 2,
+      "words": [
+        {"text": "Water", "altText": "Water starts with W"},
+        {"text": "Whale", "altText": "Whale starts with W"},
+        {"text": "Worm", "altText": "Worm starts with W"},
+        {"text": "Window", "altText": "Window starts with W"},
+        {"text": "Watermelon", "altText": "Watermelon starts with W"},
+        {"text": "Wolf", "altText": "Wolf starts with W"},
+        {"text": "Wagon", "altText": "Wagon starts with W"}
+      ]
+    },
+    {
+      "name": "Starts with Z",
+      "difficulty": 3,
+      "words": [
+        {"text": "Zebra", "altText": "Zebra starts with Z"},
+        {"text": "Zoo", "altText": "Zoo starts with Z"},
+        {"text": "Zipper", "altText": "Zipper starts with Z"},
+        {"text": "Zero", "altText": "Zero starts with Z"},
+        {"text": "Zigzag", "altText": "Zigzag starts with Z"},
+        {"text": "Zucchini", "altText": "Zucchini starts with Z"}
+      ]
+    }
+  ]
+}

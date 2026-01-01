@@ -1,0 +1,47 @@
+{
+  "id": "k16",
+  "kidMode": true,
+  "categories": [
+    {
+      "name": "Weather",
+      "difficulty": 0,
+      "words": [
+        {"text": "☀️", "altText": "Sunny"},
+        {"text": "🌧️", "altText": "Rainy"},
+        {"text": "⛈️", "altText": "Stormy"},
+        {"text": "🌨️", "altText": "Snowy"},
+        {"text": "⛅", "altText": "Cloudy"}
+      ]
+    },
+    {
+      "name": "Bugs That Fly",
+      "difficulty": 1,
+      "words": [
+        {"text": "🦋", "altText": "Butterfly"},
+        {"text": "🐝", "altText": "Bee"},
+        {"text": "🐞", "altText": "Ladybug"},
+        {"text": "🪰", "altText": "Fly"},
+        {"text": "🦟", "altText": "Mosquito"},
+        {"text": "🪲", "altText": "Beetle"}
+      ]
+    },
+    {
+      "name": "Jungle Animals",
+      "difficulty": 2,
+      "words": [
+        {"text": "🦁", "altText": "Lion"},
+        {"text": "🐒", "altText": "Monkey"},
+        {"text": "🦜", "altText": "Parrot"},
+        {"text": "🐍", "altText": "Snake"},
+        {"text": "🦎", "altText": "Lizard"},
+        {"text": "🐆", "altText": "Leopard"},
+        {"text": "🦍", "altText": "Gorilla"}
+      ]
+    },
+    {
+      "name": "Things That Are Hot",
+      "difficulty": 3,
+      "words": ["Fire", "Sun", "Soup", "Oven", "Cocoa", "Pizza"]
+    }
+  ]
+}

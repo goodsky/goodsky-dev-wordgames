@@ -1,0 +1,45 @@
+{
+  "id": "k26",
+  "kidMode": true,
+  "categories": [
+    {
+      "name": "Letters",
+      "difficulty": 0,
+      "words": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P"]
+    },
+    {
+      "name": "Numbers",
+      "difficulty": 1,
+      "words": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+    },
+    {
+      "name": "Favorite TV Shows",
+      "difficulty": 2,
+      "words": [
+        {"text": "Bluey", "backgroundColor": "#5DADE2"},
+        {"text": "Thomas", "backgroundColor": "#2980B9"},
+        {"text": "Curious George", "backgroundColor": "#F4D03F"},
+        {"text": "Super Why", "backgroundColor": "#27AE60"},
+        {"text": "Sesame Street", "backgroundColor": "#2ECC71"},
+        {"text": "Mr Rogers", "backgroundColor": "#E74C3C"},
+        {"text": "Daniel Tiger", "backgroundColor": "#E67E22"},
+        {"text": "Blippi", "backgroundColor": "#F39C12"},
+        {"text": "Ms Rachel", "backgroundColor": "#E91E63"}
+      ]
+    },
+    {
+      "name": "School Supplies",
+      "difficulty": 3,
+      "words": [
+        {"text": "✏️", "altText": "Pencil"},
+        {"text": "📚", "altText": "Books"},
+        {"text": "🎒", "altText": "Backpack"},
+        {"text": "✂️", "altText": "Scissors"},
+        {"text": "📏", "altText": "Ruler"},
+        {"text": "🖍️", "altText": "Crayon"},
+        {"text": "📓", "altText": "Notebook"},
+        {"text": "🖌️", "altText": "Paintbrush"}
+      ]
+    }
+  ]
+}

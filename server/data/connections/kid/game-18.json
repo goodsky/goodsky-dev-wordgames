@@ -1,0 +1,48 @@
+{
+  "id": "k18",
+  "kidMode": true,
+  "categories": [
+    {
+      "name": "Under the Sea",
+      "difficulty": 0,
+      "words": [
+        {"text": "🐙", "altText": "Octopus"},
+        {"text": "🦑", "altText": "Squid"},
+        {"text": "🦀", "altText": "Crab"},
+        {"text": "🦐", "altText": "Shrimp"},
+        {"text": "🐚", "altText": "Shell"},
+        {"text": "🪼", "altText": "Jellyfish"},
+        {"text": "🦭", "altText": "Seal"}
+      ]
+    },
+    {
+      "name": "Yummy Vegetables",
+      "difficulty": 1,
+      "words": [
+        {"text": "🥕", "altText": "Carrot"},
+        {"text": "🥦", "altText": "Broccoli"},
+        {"text": "🌽", "altText": "Corn"},
+        {"text": "🥒", "altText": "Cucumber"},
+        {"text": "🍅", "altText": "Tomato"},
+        {"text": "🥬", "altText": "Lettuce"},
+        {"text": "🫛", "altText": "Peas"}
+      ]
+    },
+    {
+      "name": "Tools",
+      "difficulty": 2,
+      "words": [
+        {"text": "🔨", "altText": "Hammer"},
+        {"text": "🪛", "altText": "Screwdriver"},
+        {"text": "🔧", "altText": "Wrench"},
+        {"text": "🪚", "altText": "Saw"},
+        {"text": "🪓", "altText": "Axe"}
+      ]
+    },
+    {
+      "name": "Number Words",
+      "difficulty": 3,
+      "words": ["One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight"]
+    }
+  ]
+}
