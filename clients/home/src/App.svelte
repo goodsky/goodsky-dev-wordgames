@@ -131,8 +131,8 @@
     align-self: center;
     justify-self: center;
     background-color: #651476;
-    mask: url('idea.svg') no-repeat center;
-    -webkit-mask: url('idea.svg') no-repeat center;
+    mask: url('/idea.svg') no-repeat center;
+    -webkit-mask: url('/idea.svg') no-repeat center;
     mask-size: contain;
     -webkit-mask-size: contain;
   }
