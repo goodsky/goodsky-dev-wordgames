@@ -68,7 +68,7 @@ k1, k2, k3, k4, k5, k6, k7, k8, k9, k10, k11, k12, k13, k14, k15
 ### game-11.json (k11) - Round Things
 - Balls (6): ⚽🏀🎾⚾🏐🏈
 - Hearts (6): ❤️💜💙💚💛🧡
-- Animals with Spots (6): 🐄🦒🐞🐆🐕‍🦺🦜
+- Animals (8): 🐶🐱🐘🦁🐻🐰🐷🐸
 - Circle Things (6): Sun, Moon, Cookie, Ball, Wheel, Clock
 
 ### game-12.json (k12) - Cozy Time
@@ -81,13 +81,14 @@ k1, k2, k3, k4, k5, k6, k7, k8, k9, k10, k11, k12, k13, k14, k15
 - Orange Things (8): Pumpkin, Carrot, Basketball, Goldfish, Tiger, Orange, Clownfish, Fox
 - Pink Things (8): Flamingo, Pig, Cotton Candy, Bubble Gum, Piglet, Rose, Cupcake, Tongue
 - Purple Things (7): Grape, Eggplant, Plum, Butterfly, Lavender, Violet, Jellyfish
-- Brown Things (8): Bear, Chocolate, Tree Trunk, Mud, Cookie, Acorn, Puppy, Potato
+- Black Things (8): Night Sky, Bat, Spider, Crow, Penguin, Orca, Gorilla, Panther
 
-### game-14.json (k14) - Neutral Colors (with colored text!)
-- White Things (8): Snow, Cloud, Milk, Polar Bear, Egg, Snowman, Bunny, Moon
-- Black Things (8): Night Sky, Bat, Spider, Crow, Tire, Panther, Penguin, Orca
-- Gray Things (7): Elephant, Rock, Mouse, Dolphin, Rhino, Hippo, Koala
-- Silver Things (6): Spoon, Robot, Spaceship, Star, Mirror, Coin
+### game-14.json (k14) - Seasonal Fun
+- Pollinators & Flowers (9): 🐝🦋🌸🌷🌻🌺🌼🪻🌹
+- Christmas (7): 🎄🎅🎁🦌❄️🔔⛄
+- Outer Space (9): 🚀🌙⭐🌎🛸☀️🪐🌟👨‍🚀
+- Drinks (6): 🥛🧃🥤🧋🍹☕
+
 
 ### game-15.json (k15) - Family
 - Babies (8): 🐣🐥🍼👶🐤🐛🥒🧒
@@ -97,7 +98,7 @@ k1, k2, k3, k4, k5, k6, k7, k8, k9, k10, k11, k12, k13, k14, k15
 
 ## Notes
 - Games use a mix of emojis and text words for variety
-- Color-focused games with colored text: k3 (Red/Yellow/Blue/Green), k13 (Orange/Pink/Purple/Brown), k14 (White/Black/Gray/Silver)
+- Color-focused games with colored text: k3 (Red/Yellow/Blue/Green), k13 (Orange/Pink/Purple/Brown)
 - Several games include word-based categories (k4 Animal Sounds, k7 Shape Words, k8 Body Words, k9 Feeling Words, k10 In the Sky, k11 Circle Things, k12 Favorite Foods)
 - Categories have 4-15 items depending on how many strong matches exist
 - Difficulty levels progress from very simple (0) to slightly more abstract (3)

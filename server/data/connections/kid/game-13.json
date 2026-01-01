@@ -9,11 +9,10 @@
         {"text": "Pumpkin", "lightColor": "#ffa500", "darkColor": "#cc7000"},
         {"text": "Carrot", "lightColor": "#ffa500", "darkColor": "#cc7000"},
         {"text": "Basketball", "lightColor": "#ffa500", "darkColor": "#cc7000"},
-        {"text": "Goldfish", "lightColor": "#ffa500", "darkColor": "#cc7000"},
         {"text": "Tiger", "lightColor": "#ffa500", "darkColor": "#cc7000"},
         {"text": "Orange", "lightColor": "#ffa500", "darkColor": "#cc7000"},
         {"text": "Clownfish", "lightColor": "#ffa500", "darkColor": "#cc7000"},
-        {"text": "Fox", "lightColor": "#ffa500", "darkColor": "#cc7000"}
+        {"text": "Jack-o-Lantern", "lightColor": "#ffa500", "darkColor": "#cc7000"}
       ]
     },
     {
@@ -25,8 +24,6 @@
         {"text": "Cotton Candy", "lightColor": "#ff69b4", "darkColor": "#cc3399"},
         {"text": "Bubble Gum", "lightColor": "#ff69b4", "darkColor": "#cc3399"},
         {"text": "Piglet", "lightColor": "#ff69b4", "darkColor": "#cc3399"},
-        {"text": "Rose", "lightColor": "#ff69b4", "darkColor": "#cc3399"},
-        {"text": "Cupcake", "lightColor": "#ff69b4", "darkColor": "#cc3399"},
         {"text": "Tongue", "lightColor": "#ff69b4", "darkColor": "#cc3399"}
       ]
     },
@@ -37,24 +34,21 @@
         {"text": "Grape", "lightColor": "#9b59b6", "darkColor": "#7b2d8e"},
         {"text": "Eggplant", "lightColor": "#9b59b6", "darkColor": "#7b2d8e"},
         {"text": "Plum", "lightColor": "#9b59b6", "darkColor": "#7b2d8e"},
-        {"text": "Butterfly", "lightColor": "#9b59b6", "darkColor": "#7b2d8e"},
         {"text": "Lavender", "lightColor": "#9b59b6", "darkColor": "#7b2d8e"},
-        {"text": "Violet", "lightColor": "#9b59b6", "darkColor": "#7b2d8e"},
-        {"text": "Jellyfish", "lightColor": "#9b59b6", "darkColor": "#7b2d8e"}
+        {"text": "Violet", "lightColor": "#9b59b6", "darkColor": "#7b2d8e"}
       ]
     },
     {
-      "name": "Brown Things",
+      "name": "Black Things",
       "difficulty": 3,
       "words": [
-        {"text": "Bear", "lightColor": "#cd853f", "darkColor": "#8b4513"},
-        {"text": "Chocolate", "lightColor": "#cd853f", "darkColor": "#8b4513"},
-        {"text": "Tree Trunk", "lightColor": "#cd853f", "darkColor": "#8b4513"},
-        {"text": "Mud", "lightColor": "#cd853f", "darkColor": "#8b4513"},
-        {"text": "Cookie", "lightColor": "#cd853f", "darkColor": "#8b4513"},
-        {"text": "Acorn", "lightColor": "#cd853f", "darkColor": "#8b4513"},
-        {"text": "Puppy", "lightColor": "#cd853f", "darkColor": "#8b4513"},
-        {"text": "Potato", "lightColor": "#cd853f", "darkColor": "#8b4513"}
+        {"text": "Night Sky", "lightColor": "#333333", "darkColor": "#666666"},
+        {"text": "Bat", "lightColor": "#333333", "darkColor": "#666666"},
+        {"text": "Spider", "lightColor": "#333333", "darkColor": "#666666"},
+        {"text": "Crow", "lightColor": "#333333", "darkColor": "#666666"},
+        {"text": "Penguin", "lightColor": "#333333", "darkColor": "#666666"},
+        {"text": "Gorilla", "lightColor": "#333333", "darkColor": "#666666"},
+        {"text": "Tires", "lightColor": "#333333", "darkColor": "#666666"}
       ]
     }
   ]
