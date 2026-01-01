@@ -412,7 +412,7 @@
                     {@const isCelebrating = celebratingWords.some(w => w.text === word.text)}
                     {@const rawColor = isCelebrating ? celebrationColor.text : (isSelected && word.lightColor ? word.lightColor : word.darkColor)}
                     {@const baseBgColor = isCelebrating ? celebrationColor.bg : (word.backgroundColor ? word.backgroundColor : null)}
-                    {@const bgColor = (isSelected && baseBgColor && !isCelebrating) ? getSelectedBackgroundColor(baseBgColor) : baseBgColor}
+                    {@const bgColor = (isSelected && !isCelebrating) ? null : baseBgColor}
                     {@const color = ensureAccessibleContrast(rawColor, bgColor)}
                     <button
                         class="word-tile"
