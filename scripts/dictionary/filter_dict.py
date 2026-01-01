@@ -69,15 +69,21 @@ def filter_dictionary(dict_file, filter_file, whatif=False):
             print(word)
 
 if __name__ == '__main__':
-    if len(sys.argv) < 3 or len(sys.argv) > 4:
-        print("Usage: python filter_dict.py <dict_file> <filter_file> [--whatif]")
+    import os
+    
+    # Determine script directory and default paths
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    default_dict_file = os.path.join(script_dir, '..', '..', 'server', 'data', 'dictionary', 'dict.txt')
+    
+    if len(sys.argv) < 2 or len(sys.argv) > 3:
+        print("Usage: python filter_dict.py <filter_file> [--whatif]")
         print("\nExample:")
-        print("  python filter_dict.py dict.txt profanity.txt")
-        print("  python filter_dict.py dict.txt profanity.txt --whatif")
+        print("  python filter_dict.py data/profanity.txt")
+        print("  python filter_dict.py data/names.txt --whatif")
+        print(f"\nDefault dictionary: {default_dict_file}")
         sys.exit(1)
 
-    dict_file = sys.argv[1]
-    filter_file = sys.argv[2]
-    whatif = len(sys.argv) == 4 and sys.argv[3] == '--whatif'
+    filter_file = sys.argv[1]
+    whatif = len(sys.argv) == 3 and sys.argv[2] == '--whatif'
 
-    filter_dictionary(dict_file, filter_file, whatif)
+    filter_dictionary(default_dict_file, filter_file, whatif)

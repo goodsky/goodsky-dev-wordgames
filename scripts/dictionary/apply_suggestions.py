@@ -115,10 +115,12 @@ def apply_suggestions(dict_file, suggestions_file, whatif=False):
 if __name__ == '__main__':
     # Determine script directory
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    data_dir = os.path.join(script_dir, '..', 'data', 'dictionary')
     
-    dict_file = os.path.join(data_dir, 'dict.txt')
-    suggestions_file = os.path.join(data_dir, 'suggestions.json')
+    # Input: suggestions.json is in ./data relative to script
+    suggestions_file = os.path.join(script_dir, 'data', 'suggestions.json')
+    
+    # Output: dict.txt is in server/data/dictionary
+    dict_file = os.path.join(script_dir, '..', '..', 'server', 'data', 'dictionary', 'dict.txt')
     
     # Check for whatif flag
     whatif = '--whatif' in sys.argv
