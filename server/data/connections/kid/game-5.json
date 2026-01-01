@@ -5,22 +5,54 @@
     {
       "name": "Cars & Trucks",
       "difficulty": 0,
-      "words": ["🚗", "🚙", "🚕", "🚒", "🚚", "🚐", "🏎️", "🚓", "🚑", "🛻", "🚜"]
+      "words": [
+        {"text": "🚗", "altText": "Car"},
+        {"text": "🚙", "altText": "Van"},
+        {"text": "🚕", "altText": "Taxi"},
+        {"text": "🚒", "altText": "Fire Truck"},
+        {"text": "🚚", "altText": "Mail Truck"},
+        {"text": "🚐", "altText": "Van"},
+        {"text": "🏎️", "altText": "Race Car"},
+        {"text": "🚓", "altText": "Police Car"},
+        {"text": "🚑", "altText": "Ambulance"},
+        {"text": "🛻", "altText": "Truck"},
+        {"text": "🚜", "altText": "Tractor"}
+      ]
     },
     {
       "name": "Fly in the Sky",
       "difficulty": 1,
-      "words": ["✈️", "🚁", "🚀", "🛩️", "🪁"]
+      "words": [
+        {"text": "✈️", "altText": "Airplane"},
+        {"text": "🚁", "altText": "Helicopter"},
+        {"text": "🚀", "altText": "Rocket"},
+        {"text": "🛩️", "altText": "Airplane"},
+        {"text": "🪁", "altText": "Kite"}
+      ]
     },
     {
       "name": "On the Water",
       "difficulty": 2,
-      "words": ["🚢", "⛵", "🛶", "🚤", "🛳️", "🚣", "⛴️"]
+      "words": [
+        {"text": "🚢", "altText": "Ship"},
+        {"text": "⛵", "altText": "Sailboat"},
+        {"text": "🛶", "altText": "Canoe"},
+        {"text": "🚤", "altText": "Speedboat"},
+        {"text": "🛳️", "altText": "Boat"},
+        {"text": "🚣", "altText": "Rowboat"},
+        {"text": "⛴️", "altText": "Ferry"}
+      ]
     },
     {
       "name": "On Tracks",
       "difficulty": 3,
-      "words": ["🚂", "🚃", "🚋", "🚝", "🚄"]
+      "words": [
+        {"text": "🚂", "altText": "Steam Train"},
+        {"text": "🚃", "altText": "Train"},
+        {"text": "🚋", "altText": "Trolley"},
+        {"text": "🚝", "altText": "Monorail"},
+        {"text": "🚄", "altText": "Train"}
+      ]
     }
   ]
 }

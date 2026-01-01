@@ -80,20 +80,24 @@ function getRandomGame(kidMode) {
 
 /**
  * Normalize a word to object format
- * @param {string|Object} word - Word as string or {text, lightColor, darkColor} object
- * @returns {Object} Normalized word object with {text, lightColor, darkColor}
+ * @param {string|Object} word - Word as string or {text, lightColor, darkColor, backgroundColor, altText} object
+ * @returns {Object} Normalized word object with {text, lightColor, darkColor, backgroundColor, altText}
  */
 function normalizeWord(word) {
     if (typeof word === 'string') {
-        return { text: word, lightColor: null, darkColor: null };
+        return { text: word, lightColor: null, darkColor: null, backgroundColor: null, altText: null };
     }
     const lightColor = word.lightColor || word.color || null;
     const darkColor = word.darkColor || word.color || null;
+    const backgroundColor = word.backgroundColor || null;
+    const altText = word.altText || null;
     
     return { 
         text: word.text, 
         lightColor,
-        darkColor
+        darkColor,
+        backgroundColor,
+        altText
     };
 }
 
@@ -231,7 +235,7 @@ router.get('/newgame', (req, res) => {
     res.json({
         id: game.id,
         kidMode: game.kidMode,
-        words: allWords.map(w => ({ text: w.text, lightColor: w.lightColor, darkColor: w.darkColor })),
+        words: allWords.map(w => ({ text: w.text, lightColor: w.lightColor, darkColor: w.darkColor, backgroundColor: w.backgroundColor, altText: w.altText })),
         categories: game.categories.map(cat => ({
             name: cat.name,
             difficulty: cat.difficulty,

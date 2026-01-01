@@ -5,22 +5,47 @@
     {
       "name": "Farm Animals",
       "difficulty": 0,
-      "words": ["🐄", "🐖", "🐎", "🐑", "🐐"]
+      "words": [
+        {"text": "🐄", "altText": "Cow"},
+        {"text": "🐖", "altText": "Pig"},
+        {"text": "🐎", "altText": "Horse"},
+        {"text": "🐑", "altText": "Sheep"},
+        {"text": "🐐", "altText": "Goat"}
+      ]
     },
     {
       "name": "Ocean Animals",
       "difficulty": 1,
-      "words": ["🐟", "🐳", "🦈", "🐬", "🐠"]
+      "words": [
+        {"text": "🐟", "altText": "Fish"},
+        {"text": "🐳", "altText": "Whale"},
+        {"text": "🦈", "altText": "Shark"},
+        {"text": "🐬", "altText": "Dolphin"},
+        {"text": "🐠", "altText": "Fish"}
+      ]
     },
     {
       "name": "Bugs",
       "difficulty": 2,
-      "words": ["🐛", "🐞", "🐜", "🦗", "🪲", "🐌"]
+      "words": [
+        {"text": "🐛", "altText": "Caterpillar"},
+        {"text": "🐞", "altText": "Ladybug"},
+        {"text": "🐜", "altText": "Ant"},
+        {"text": "🦗", "altText": "Cricket"},
+        {"text": "🪲", "altText": "Beetle"},
+        {"text": "🐌", "altText": "Snail"}
+      ]
     },
     {
       "name": "Birds",
       "difficulty": 3,
-      "words": ["🦅", "🦉", "🦢", "🕊️", "🦜"]
+      "words": [
+        {"text": "🦅", "altText": "Eagle"},
+        {"text": "🦉", "altText": "Owl"},
+        {"text": "🦢", "altText": "Swan"},
+        {"text": "🕊️", "altText": "Dove"},
+        {"text": "🦜", "altText": "Parrot"}
+      ]
     }
   ]
 }

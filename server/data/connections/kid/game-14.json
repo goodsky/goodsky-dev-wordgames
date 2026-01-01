@@ -5,22 +5,57 @@
     {
       "name": "Pollinators & Flowers",
       "difficulty": 0,
-      "words": ["🐝", "🦋", "🌸", "🌷", "🌻", "🌺", "🌼", "🪻", "🌹"]
+      "words": [
+        {"text": "🐝", "altText": "Bee"},
+        {"text": "🦋", "altText": "Butterfly"},
+        {"text": "🌸", "altText": "Flower"},
+        {"text": "🌷", "altText": "Flower"},
+        {"text": "🌻", "altText": "Flower"},
+        {"text": "🌺", "altText": "Flower"},
+        {"text": "🌼", "altText": "Flower"},
+        {"text": "🪻", "altText": "Flower"},
+        {"text": "🌹", "altText": "Flower"}
+      ]
     },
     {
       "name": "Christmas",
       "difficulty": 1,
-      "words": ["🎄", "🎅", "🎁", "🦌", "❄️", "🔔", "⛄"]
+      "words": [
+        {"text": "🎄", "altText": "Christmas Tree"},
+        {"text": "🎅", "altText": "Santa Claus"},
+        {"text": "🎁", "altText": "Present"},
+        {"text": "🦌", "altText": "Reindeer"},
+        {"text": "❄️", "altText": "Snowflake"},
+        {"text": "🔔", "altText": "Bell"},
+        {"text": "⛄", "altText": "Snowman"}
+      ]
     },
     {
       "name": "Outer Space",
       "difficulty": 2,
-      "words": ["🚀", "🌙", "⭐", "🌎", "🛸", "☀️", "🪐", "🌟", "👨‍🚀"]
+      "words": [
+        {"text": "🚀", "altText": "Rocket"},
+        {"text": "🌙", "altText": "Moon"},
+        {"text": "⭐", "altText": "Star"},
+        {"text": "🌎", "altText": "Earth"},
+        {"text": "🛸", "altText": "Space Capsule"},
+        {"text": "☀️", "altText": "Sun"},
+        {"text": "🪐", "altText": "Planet"},
+        {"text": "🌟", "altText": "Star"},
+        {"text": "👨‍🚀", "altText": "Astronaut"}
+      ]
     },
     {
       "name": "Drinks",
       "difficulty": 3,
-      "words": ["🥛", "🧃", "🥤", "🧋", "🍹", "☕"]
+      "words": [
+        {"text": "🥛", "altText": "Milk"},
+        {"text": "🧃", "altText": "Juice Box"},
+        {"text": "🥤", "altText": "Soda Cup"},
+        {"text": "🧋", "altText": "Bubble Tea"},
+        {"text": "🍹", "altText": "Fancy Drink"},
+        {"text": "☕", "altText": "Coffee"}
+      ]
     }
   ]
 }

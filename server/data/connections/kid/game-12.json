@@ -3,19 +3,40 @@
   "kidMode": true,
   "categories": [
     {
-      "name": "Baby Animals",
+      "name": "Animals",
       "difficulty": 0,
-      "words": ["🐣", "🐥", "🐤", "🐰", "🐱", "🐶"]
+      "words": [
+        {"text": "🐣", "altText": "Baby Chick"},
+        {"text": "🐥", "altText": "Baby Chick"},
+        {"text": "🐤", "altText": "Baby Chick"},
+        {"text": "🐰", "altText": "Bunny"},
+        {"text": "🐱", "altText": "Kitten"},
+        {"text": "🐶", "altText": "Puppy"}
+      ]
     },
     {
       "name": "Winter Things",
       "difficulty": 1,
-      "words": ["❄️", "⛄", "🧊", "🐧", "🎿", "☃️"]
+      "words": [
+        {"text": "❄️", "altText": "Snowflake"},
+        {"text": "⛄", "altText": "Snowman"},
+        {"text": "🧊", "altText": "Ice Cube"},
+        {"text": "🐧", "altText": "Penguin"},
+        {"text": "🎿", "altText": "Skis"},
+        {"text": "☃️", "altText": "Snowman with Snow"}
+      ]
     },
     {
       "name": "Bedtime",
       "difficulty": 2,
-      "words": ["🌙", "⭐", "🛏️", "🧸", "😴", "📖"]
+      "words": [
+        {"text": "🌙", "altText": "Moon"},
+        {"text": "⭐", "altText": "Star"},
+        {"text": "🛏️", "altText": "Bed"},
+        {"text": "🧸", "altText": "Teddy Bear"},
+        {"text": "😴", "altText": "Sleeping Face"},
+        {"text": "📖", "altText": "Bedtime Book"}
+      ]
     },
     {
       "name": "Favorite Foods",

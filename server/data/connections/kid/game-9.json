@@ -5,17 +5,42 @@
     {
       "name": "Happy Feelings",
       "difficulty": 0,
-      "words": ["😊", "😄", "🥰", "😁", "🤗", "😃", "😀", "😆", "🤩", "😍", "🙂"]
+      "words": [
+        {"text": "😊", "altText": "Smiling Face"},
+        {"text": "😄", "altText": "Grinning Face"},
+        {"text": "🥰", "altText": "Loving Face"},
+        {"text": "😁", "altText": "Happy Face"},
+        {"text": "🤗", "altText": "Hugging Face"},
+        {"text": "😃", "altText": "Big Smile"},
+        {"text": "😀", "altText": "Happy Face"},
+        {"text": "😆", "altText": "Laughing Face"},
+        {"text": "🤩", "altText": "Happy Face"},
+        {"text": "😍", "altText": "Happy Face"},
+        {"text": "🙂", "altText": "Smiling Face"}
+      ]
     },
     {
       "name": "Sad Feelings",
       "difficulty": 1,
-      "words": ["😢","🥺", "😞", "😔", "☹️", "🙁"]
+      "words": [
+        {"text": "😢", "altText": "Crying Face"},
+        {"text": "🥺", "altText": "Sad Face"},
+        {"text": "😞", "altText": "Frowning Face"},
+        {"text": "😔", "altText": "Sad Face"},
+        {"text": "☹️", "altText": "Frowning Face"},
+        {"text": "🙁", "altText": "Sad Face"}
+      ]
     },
     {
       "name": "Sleepy Feelings",
       "difficulty": 2,
-      "words": ["😴", "🥱", "😪", "🛏️", "🌙"]
+      "words": [
+        {"text": "😴", "altText": "Sleeping Face"},
+        {"text": "🥱", "altText": "Yawning Face"},
+        {"text": "😪", "altText": "Sleepy Face"},
+        {"text": "🛏️", "altText": "Bed"},
+        {"text": "🌙", "altText": "Sleepy Moon"}
+      ]
     },
     {
       "name": "Feeling Words",

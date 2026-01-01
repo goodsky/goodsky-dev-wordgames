@@ -5,17 +5,50 @@
     {
       "name": "Hands",
       "difficulty": 0,
-      "words": ["👋", "✋", "🤚", "🖐️", "✌️", "🤞", "👆", "👇", "👈", "👉", "👍", "👎", "👏", "🤙", "🤘"]
+      "words": [
+        {"text": "👋", "altText": "Waving Hand"},
+        {"text": "✋", "altText": "Hand"},
+        {"text": "🤚", "altText": "Hand"},
+        {"text": "🖐️", "altText": "Hand"},
+        {"text": "✌️", "altText": "Peace Hand"},
+        {"text": "🤞", "altText": "Crossed Fingers"},
+        {"text": "👆", "altText": "Hand Pointing"},
+        {"text": "👇", "altText": "Hand Pointing"},
+        {"text": "👈", "altText": "Hand Pointing"},
+        {"text": "👉", "altText": "Hand Pointing"},
+        {"text": "👍", "altText": "Thumbs Up"},
+        {"text": "👎", "altText": "Thumbs Down"},
+        {"text": "👏", "altText": "Clapping Hands"},
+        {"text": "🤙", "altText": "Hand"},
+        {"text": "🤘", "altText": "Rock On"}
+      ]
     },
     {
       "name": "Moving Body",
       "difficulty": 1,
-      "words": ["🏃", "🚶", "💃", "🕺", "🤸", "🧘", "🚴", "🏋️"]
+      "words": [
+        {"text": "🏃", "altText": "Running"},
+        {"text": "🚶", "altText": "Walking"},
+        {"text": "💃", "altText": "Dancing"},
+        {"text": "🕺", "altText": "Dancing"},
+        {"text": "🤸", "altText": "Cartwheel"},
+        {"text": "🧘", "altText": "Yoga"},
+        {"text": "🚴", "altText": "Biking"},
+        {"text": "🏋️", "altText": "Exercising"}
+      ]
     },
     {
       "name": "Feet",
       "difficulty": 2,
-      "words": ["👣", "🦶", "🩴", "👟", "🥾", "👠", "🥿"]
+      "words": [
+        {"text": "👣", "altText": "Feet"},
+        {"text": "🦶", "altText": "Foot"},
+        {"text": "🩴", "altText": "Flip Flop"},
+        {"text": "👟", "altText": "Sneaker"},
+        {"text": "🥾", "altText": "Hiking Boot"},
+        {"text": "👠", "altText": "High Heel"},
+        {"text": "🥿", "altText": "Flat Shoe"}
+      ]
     },
     {
       "name": "Body Words",

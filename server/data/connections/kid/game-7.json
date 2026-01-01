@@ -5,17 +5,57 @@
     {
       "name": "Circles",
       "difficulty": 0,
-      "words": ["⚽", "🍪", "🌕", "🍩", "⭕", "🏀", "🎱", "🥏", "🔴", "🟠", "🟡", "🟢", "🔵", "🟣"]
+      "words": [
+        {"text": "⚽", "altText": "Soccer Ball"},
+        {"text": "🍪", "altText": "Cookie"},
+        {"text": "🌕", "altText": "Full Moon"},
+        {"text": "🍩", "altText": "Donut"},
+        {"text": "🏀", "altText": "Basketball"},
+        {"text": "🎱", "altText": "Pool Ball"},
+        {"text": "🔴", "altText": "Red Circle"},
+        {"text": "🟠", "altText": "Orange Circle"},
+        {"text": "🟡", "altText": "Yellow Circle"},
+        {"text": "🟢", "altText": "Green Circle"},
+        {"text": "🔵", "altText": "Blue Circle"},
+        {"text": "🟣", "altText": "Purple Circle"}
+      ]
     },
     {
       "name": "Squares",
       "difficulty": 1,
-      "words": ["📦", "🎁", "🧱", "📺", "🪟", "🟥", "🟧", "🟨", "🟩", "🟦", "🟪", "⬛", "⬜"]
+      "words": [
+        {"text": "📦", "altText": "Box"},
+        {"text": "🎁", "altText": "Present"},
+        {"text": "🧱", "altText": "Brick"},
+        {"text": "📺", "altText": "TV"},
+        {"text": "🪟", "altText": "Window"},
+        {"text": "🟥", "altText": "Red Square"},
+        {"text": "🟧", "altText": "Orange Square"},
+        {"text": "🟨", "altText": "Yellow Square"},
+        {"text": "🟩", "altText": "Green Square"},
+        {"text": "🟦", "altText": "Blue Square"},
+        {"text": "🟪", "altText": "Purple Square"},
+        {"text": "⬛", "altText": "Black Square"},
+        {"text": "⬜", "altText": "White Square"}
+      ]
     },
     {
       "name": "Hearts",
       "difficulty": 2,
-      "words": ["❤️", "💜", "💙", "💚", "💛", "🧡", "🖤", "🤍", "🤎", "💗", "💖", "💝", "💘"]
+      "words": [
+        {"text": "❤️", "altText": "Red Heart"},
+        {"text": "💜", "altText": "Purple Heart"},
+        {"text": "💙", "altText": "Blue Heart"},
+        {"text": "💚", "altText": "Green Heart"},
+        {"text": "💛", "altText": "Yellow Heart"},
+        {"text": "🧡", "altText": "Orange Heart"},
+        {"text": "🖤", "altText": "Black Heart"},
+        {"text": "🤍", "altText": "White Heart"},
+        {"text": "🤎", "altText": "Brown Heart"},
+        {"text": "💗", "altText": "Heart"},
+        {"text": "💖", "altText": "Heart"},
+        {"text": "💝", "altText": "Heart"}
+      ]
     },
     {
       "name": "Shape Words",

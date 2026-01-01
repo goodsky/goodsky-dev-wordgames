@@ -5,17 +5,38 @@
     {
       "name": "Things I Wear",
       "difficulty": 0,
-      "words": ["👕", "👖", "🧦", "👟", "🎒", "🧢"]
+      "words": [
+        {"text": "👕", "altText": "T-Shirt"},
+        {"text": "👖", "altText": "Pants"},
+        {"text": "🧦", "altText": "Socks"},
+        {"text": "👟", "altText": "Sneaker"},
+        {"text": "🎒", "altText": "Backpack"},
+        {"text": "🧢", "altText": "Cap"}
+      ]
     },
     {
       "name": "Things I Eat",
       "difficulty": 1,
-      "words": ["🍕", "🍎", "🥪", "🍪", "🥛", "🍌"]
+      "words": [
+        {"text": "🍕", "altText": "Pizza"},
+        {"text": "🍎", "altText": "Apple"},
+        {"text": "🥪", "altText": "Sandwich"},
+        {"text": "🍪", "altText": "Cookie"},
+        {"text": "🥛", "altText": "Milk"},
+        {"text": "🍌", "altText": "Banana"}
+      ]
     },
     {
       "name": "Things That Go",
       "difficulty": 2,
-      "words": ["🚗", "✈️", "🚂", "🚌", "🚁", "🚀"]
+      "words": [
+        {"text": "🚗", "altText": "Car"},
+        {"text": "✈️", "altText": "Airplane"},
+        {"text": "🚂", "altText": "Train"},
+        {"text": "🚌", "altText": "Bus"},
+        {"text": "🚁", "altText": "Helicopter"},
+        {"text": "🚀", "altText": "Rocket"}
+      ]
     },
     {
       "name": "Animal Sounds",

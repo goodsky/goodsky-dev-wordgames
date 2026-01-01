@@ -11,22 +11,22 @@ Generate EASY and FUN word games for PRESCHOOL CHILDREN. Create 4 non-overlappin
       "name": "$CategoryName",
       "difficulty": 0,
       "words": [
-        "$Word1",
-        "$Word2",
-        "$Word3",
-        "$Word4",
-        { "text": "$Word5", "lightColor": "$CssForLightColor", "darkColor": "$CssForDarkColor$"},
+        { text: "$Emoji1", "altText": "$EmojiDescription" },
+        { text: "$Emoji2", "altText": "$EmojiDescription" },
+        { text: "$Emoji3", "altText": "$EmojiDescription" },
+        { text: "$Emoji4", "altText": "$EmojiDescription" },
+        { text: "$Emoji5", "altText": "$EmojiDescription" },
         ...]
     },
     {
       "name": "$CategoryName",
       "difficulty": 1,
       "words": [
-        "$Word1",
-        "$Word2",
-        "$Word3",
-        "$Word4",
-        { "text": "$Word5", "lightColor": "$CssForLightColor", "darkColor": "$CssForDarkColor$"},
+        { text: "$Emoji1", "altText": "$EmojiDescription" },
+        { text: "$Emoji2", "altText": "$EmojiDescription" },
+        { text: "$Emoji3", "altText": "$EmojiDescription" },
+        { text: "$Emoji4", "altText": "$EmojiDescription" },
+        { text: "$Emoji5", "altText": "$EmojiDescription" },
         ...]
     },
     {
@@ -37,7 +37,7 @@ Generate EASY and FUN word games for PRESCHOOL CHILDREN. Create 4 non-overlappin
         "$Word2",
         "$Word3",
         "$Word4",
-        { "text": "$Word5", "lightColor": "$CssForLightColor", "darkColor": "$CssForDarkColor$"},
+        { "text": "$Word5", "backgroundColor": "$ColorCode"},
         ...]
     },
     {
@@ -48,16 +48,16 @@ Generate EASY and FUN word games for PRESCHOOL CHILDREN. Create 4 non-overlappin
         "$Word2",
         "$Word3",
         "$Word4",
-        { "text": "$Word5", "lightColor": "$CssForLightColor", "darkColor": "$CssForDarkColor$"},
+        { "text": "$Word5", "backgroundColor": "$ColorCode"},
         ...]
     }
   ]
 }
 
-# About the Word Colors
- * You may OPTIONALLY supply colors to use for the word. ONLY specify a color if it is relevant to the category or puzzle. (e.g. you can make puzzles where the category is "Yellow Words".)
- * The lightColor is used for contract against dark backgrounds. The darkColor is used for contract against light backgrounds.
- * You can use any value that would be valid CSS used like this: `style="color: $CssForColor"`
+# About the Background Colors
+ * You may OPTIONALLY supply colors to use for the word. ONLY specify a color if it is relevant to the category or puzzle. (e.g. you can make puzzles where the category is "Yellow Words". Or the color is a key clue or flourish to the category)
+ * You can use any value that would be valid CSS used like this: `style="background-color: $ColorCode"`
+ * All colors in a category DO NOT need to be the same.
 
 # List of Existing Categories
  * The file CATEGORIES.md contains notes from all previous sessions that created games. THIS IS AN IMPORTANT FILE.
@@ -74,4 +74,7 @@ Generate EASY and FUN word games for PRESCHOOL CHILDREN. Create 4 non-overlappin
  * Categories MUST contain AT LEAST 4 words or emojis. If more than 4 words are supplied then 4 random words will be used. This can be desirable, because it increases the replayability of the game!
  * Categories CAN have many more than 4 words (8-12 is great!) BUT only when each word STRONGLY fits the category. Quality over quantity - don't add weak matches just to pad the list.
  * The categories must be VERY SIMPLE for a preschool level audience.
+ * Preschoolers love pictures, emojis, shapes, and colors. You are encouraged to use them in the games you create.
+ * Preschoolers are learning about words and letter sounds. You are encouraged (BUT NOT REQUIRED) to include a elementary vocabulary in one category per game. The game will read the words aloud for the players, to help them learn words and sounds.
+ * The categores in a game DO NOT need to share a theme. They can be totally random categories. In fact, for preschoolers having VERY DIFFERENT CATEGORIES in a game will make it easier to solve.
  * Be Creative, Playful and most of all HAVE FUN 😁

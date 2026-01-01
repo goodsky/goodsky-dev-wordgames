@@ -6,59 +6,59 @@
       "name": "Red Things",
       "difficulty": 0,
       "words": [
-        {"text": "Apple", "lightColor": "#ff6b6b", "darkColor": "#cc0000"},
-        {"text": "Fire Truck", "lightColor": "#ff6b6b", "darkColor": "#cc0000"},
-        {"text": "Heart", "lightColor": "#ff6b6b", "darkColor": "#cc0000"},
-        {"text": "Strawberry", "lightColor": "#ff6b6b", "darkColor": "#cc0000"},
-        {"text": "Tomato", "lightColor": "#ff6b6b", "darkColor": "#cc0000"},
-        {"text": "Cherry", "lightColor": "#ff6b6b", "darkColor": "#cc0000"},
-        {"text": "Ladybug", "lightColor": "#ff6b6b", "darkColor": "#cc0000"},
-        {"text": "Rose", "lightColor": "#ff6b6b", "darkColor": "#cc0000"},
-        {"text": "Stop Sign", "lightColor": "#ff6b6b", "darkColor": "#cc0000"}
+        {"text": "Apple", "backgroundColor": "#FA1616"},
+        {"text": "Fire Truck", "backgroundColor": "#FA1616"},
+        {"text": "Heart", "backgroundColor": "#FA1616"},
+        {"text": "Strawberry", "backgroundColor": "#FA1616"},
+        {"text": "Tomato", "backgroundColor": "#FA1616"},
+        {"text": "Cherry", "backgroundColor": "#FA1616"},
+        {"text": "Ladybug", "backgroundColor": "#FA1616"},
+        {"text": "Rose", "backgroundColor": "#FA1616"},
+        {"text": "Stop Sign", "backgroundColor": "#FA1616"}
       ]
     },
     {
       "name": "Yellow Things",
       "difficulty": 1,
       "words": [
-        {"text": "Sun", "lightColor": "#ffd93d", "darkColor": "#cc9900"},
-        {"text": "Banana", "lightColor": "#ffd93d", "darkColor": "#cc9900"},
-        {"text": "Lemon", "lightColor": "#ffd93d", "darkColor": "#cc9900"},
-        {"text": "Star", "lightColor": "#ffd93d", "darkColor": "#cc9900"},
-        {"text": "School Bus", "lightColor": "#ffd93d", "darkColor": "#cc9900"},
-        {"text": "Cheese", "lightColor": "#ffd93d", "darkColor": "#cc9900"},
-        {"text": "Sunflower", "lightColor": "#ffd93d", "darkColor": "#cc9900"},
-        {"text": "Corn", "lightColor": "#ffd93d", "darkColor": "#cc9900"}
+        {"text": "Sun", "backgroundColor": "#ffd93d"},
+        {"text": "Banana", "backgroundColor": "#ffd93d"},
+        {"text": "Lemon", "backgroundColor": "#ffd93d"},
+        {"text": "Star", "backgroundColor": "#ffd93d"},
+        {"text": "School Bus", "backgroundColor": "#ffd93d"},
+        {"text": "Cheese", "backgroundColor": "#ffd93d"},
+        {"text": "Sunflower", "backgroundColor": "#ffd93d"},
+        {"text": "Corn", "backgroundColor": "#ffd93d"}
       ]
     },
     {
       "name": "Blue Things",
       "difficulty": 2,
       "words": [
-        {"text": "Sky", "lightColor": "#74b9ff", "darkColor": "#0066cc"},
-        {"text": "Ocean", "lightColor": "#74b9ff", "darkColor": "#0066cc"},
-        {"text": "Blueberry", "lightColor": "#74b9ff", "darkColor": "#0066cc"},
-        {"text": "Whale", "lightColor": "#74b9ff", "darkColor": "#0066cc"},
-        {"text": "Rain", "lightColor": "#74b9ff", "darkColor": "#0066cc"},
-        {"text": "Jeans", "lightColor": "#74b9ff", "darkColor": "#0066cc"},
-        {"text": "Dolphin", "lightColor": "#74b9ff", "darkColor": "#0066cc"},
-        {"text": "Ice", "lightColor": "#74b9ff", "darkColor": "#0066cc"},
-        {"text": "Bluebird", "lightColor": "#74b9ff", "darkColor": "#0066cc"}
+        {"text": "Sky", "backgroundColor": "#0881FC"},
+        {"text": "Ocean", "backgroundColor": "#0881FC"},
+        {"text": "Blueberry", "backgroundColor": "#0881FC"},
+        {"text": "Whale", "backgroundColor": "#0881FC"},
+        {"text": "Rain", "backgroundColor": "#0881FC"},
+        {"text": "Jeans", "backgroundColor": "#0881FC"},
+        {"text": "Dolphin", "backgroundColor": "#0881FC"},
+        {"text": "Ice", "backgroundColor": "#0881FC"},
+        {"text": "Bluebird", "backgroundColor": "#0881FC"}
       ]
     },
     {
       "name": "Green Things",
       "difficulty": 3,
       "words": [
-        {"text": "Grass", "lightColor": "#6bcb77", "darkColor": "#228b22"},
-        {"text": "Frog", "lightColor": "#6bcb77", "darkColor": "#228b22"},
-        {"text": "Leaf", "lightColor": "#6bcb77", "darkColor": "#228b22"},
-        {"text": "Tree", "lightColor": "#6bcb77", "darkColor": "#228b22"},
-        {"text": "Broccoli", "lightColor": "#6bcb77", "darkColor": "#228b22"},
-        {"text": "Turtle", "lightColor": "#6bcb77", "darkColor": "#228b22"},
-        {"text": "Peas", "lightColor": "#6bcb77", "darkColor": "#228b22"},
-        {"text": "Alligator", "lightColor": "#6bcb77", "darkColor": "#228b22"},
-        {"text": "Pickle", "lightColor": "#6bcb77", "darkColor": "#228b22"}
+        {"text": "Grass", "backgroundColor": "#0DD225"},
+        {"text": "Frog", "backgroundColor": "#0DD225"},
+        {"text": "Leaf", "backgroundColor": "#0DD225"},
+        {"text": "Tree", "backgroundColor": "#0DD225"},
+        {"text": "Broccoli", "backgroundColor": "#0DD225"},
+        {"text": "Turtle", "backgroundColor": "#0DD225"},
+        {"text": "Peas", "backgroundColor": "#0DD225"},
+        {"text": "Alligator", "backgroundColor": "#0DD225"},
+        {"text": "Pickle", "backgroundColor": "#0DD225"}
       ]
     }
   ]

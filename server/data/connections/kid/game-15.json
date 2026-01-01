@@ -5,7 +5,14 @@
     {
       "name": "Babies",
       "difficulty": 0,
-      "words": ["🐣", "🐥", "🍼", "👶", "🐤", "🚼"]
+      "words": [
+        {"text": "🐣", "altText": "Baby Chick"},
+        {"text": "🐥", "altText": "Baby Chick"},
+        {"text": "🍼", "altText": "Baby Bottle"},
+        {"text": "👶", "altText": "Baby"},
+        {"text": "🐤", "altText": "Chick"},
+        {"text": "🚼", "altText": "Baby Symbol"}
+      ]
     },
     {
       "name": "Words for Mom",

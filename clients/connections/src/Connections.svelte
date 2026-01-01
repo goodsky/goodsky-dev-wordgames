@@ -3,6 +3,7 @@
     import MenuBar from './MenuBar.svelte';
     import SplashScreen from './SplashScreen.svelte';
     import ReportIssue from './ReportIssue.svelte';
+    import { ensureAccessibleContrast, getSelectedBackgroundColor } from './colorAccessibility.js';
 
     // Difficulty colors matching NYT (yellow, green, blue, purple)
     const DIFFICULTY_COLORS = [
@@ -15,7 +16,9 @@
     // Game state
     let kidMode = $state(false);
     let requestedGameId = $state(null); // Specific game ID requested via URL
+    let requestedKidGameId = $state(null); // Specific kid game ID requested via URL
     let requestedWords = $state(null); // Specific words requested via URL
+    let requestedKidWords = $state(null); // Specific kid words requested via URL
 
     let gameId = $state(null);      // Current game ID
     let words = $state([]);           // Current words in grid (not yet solved)
@@ -29,6 +32,7 @@
     let showOneAway = $state(false);     // Show "One away..." notification
     let showSplash = $state(true);       // Show splash screen on first load
     let isLoading = $state(true);
+    let soundOn = $state(true);
     
     // Game end states
     let gameWon = $state(false);
@@ -60,8 +64,13 @@
         const urlWords = params.get('words');
         
         kidMode = urlKidMode;
-        requestedGameId = urlGameId;
-        requestedWords = urlWords;
+        if (urlKidMode) {
+            requestedKidGameId = urlGameId;
+            requestedKidWords = urlWords;
+        } else {
+            requestedGameId = urlGameId;
+            requestedWords = urlWords;
+        }
         
         // Clear URL parameters to prevent them from persisting on refresh
         if (window.location.search) {
@@ -72,7 +81,7 @@
 
     // Watch for kid mode changes to load a new game
     $effect(() => {
-        loadGame(kidMode, requestedGameId, requestedWords);
+        loadGame(kidMode, kidMode ? requestedKidGameId : requestedGameId, kidMode ? requestedKidWords : requestedWords);
     });
 
     async function loadGame(kidMode, specificGameId = null, specificWords = null) {
@@ -129,13 +138,13 @@
             
             // In kid mode, speak the word aloud when selected
             if (kidMode) {
-                speakWord(word.text);
+                speakWord(word.altText || word.text);
             }
         }
     }
 
     function speakWord(word) {
-        if ('speechSynthesis' in window) {
+        if ('speechSynthesis' in window && soundOn) {
             // Cancel any currently speaking text
             window.speechSynthesis.cancel();
             
@@ -369,7 +378,7 @@
         
         // Use clamp() to scale with container while maintaining readable sizes
         if (hasEmoji && length <= 4) return 'clamp(1.5rem, 4vw, 2.5rem)'; // Emoji-only words
-        if (length <= 9) return 'clamp(0.75rem, 2.5vw, 1.0rem)';
+        if (length <= 8) return 'clamp(0.75rem, 2.5vw, 1.0rem)';
         if (length <= 13) return 'clamp(0.625rem, 2.25vw, 0.9rem)';
         if (length <= 18) return 'clamp(0.5rem, 2.0vw, 0.8rem)';
         return 'clamp(0.5rem, 1.75vw, 0.7rem)';
@@ -384,6 +393,7 @@
     <main class="game-content">
         <MenuBar 
             bind:kidMode={kidMode}
+            bind:soundOn={soundOn}
             onNewGame={handleNewGame} 
             onShareGame={handleShareGame}
             onHowToPlay={handleHowToPlay}
@@ -419,13 +429,17 @@
                 {#each words as word}
                     {@const isSelected = selectedWords.some(w => w.text === word.text)}
                     {@const isCelebrating = celebratingWords.some(w => w.text === word.text)}
-                    {@const wordColor = isCelebrating ? '' : (isSelected && word.lightColor ? word.lightColor : word.darkColor)}
+                    {@const rawColor = isCelebrating ? celebrationColor.text : (isSelected && word.lightColor ? word.lightColor : word.darkColor)}
+                    {@const baseBgColor = isCelebrating ? celebrationColor.bg : (word.backgroundColor ? word.backgroundColor : null)}
+                    {@const bgColor = (isSelected && baseBgColor && !isCelebrating) ? getSelectedBackgroundColor(baseBgColor) : baseBgColor}
+                    {@const color = ensureAccessibleContrast(rawColor, bgColor)}
                     <button
                         class="word-tile"
                         class:selected={isSelected}
                         class:shaking={shakingWords.some(w => w.text === word.text)}
                         class:celebrating={isCelebrating}
-                        style="{isCelebrating && celebrationColor ? `background-color: ${celebrationColor.bg}; color: ${celebrationColor.text};` : ''}{wordColor ? ` color: ${wordColor};` : ''} font-size: {getFontSize(word.text)};"
+                        style="{color ? `color: ${color};` : ''} {bgColor ? ` background-color: ${bgColor};` : ''} font-size: {getFontSize(word.text)};"
+                        aria-label={word.altText || word.text}
                         onclick={() => toggleWordSelection(word)}
                         disabled={gameWon || revealingCategories || isCelebrating}
                     >

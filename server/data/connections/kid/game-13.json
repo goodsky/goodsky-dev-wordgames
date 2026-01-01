@@ -6,49 +6,49 @@
       "name": "Orange Things",
       "difficulty": 0,
       "words": [
-        {"text": "Pumpkin", "lightColor": "#ffa500", "darkColor": "#cc7000"},
-        {"text": "Carrot", "lightColor": "#ffa500", "darkColor": "#cc7000"},
-        {"text": "Basketball", "lightColor": "#ffa500", "darkColor": "#cc7000"},
-        {"text": "Tiger", "lightColor": "#ffa500", "darkColor": "#cc7000"},
-        {"text": "Orange", "lightColor": "#ffa500", "darkColor": "#cc7000"},
-        {"text": "Clownfish", "lightColor": "#ffa500", "darkColor": "#cc7000"},
-        {"text": "Jack-o-Lantern", "lightColor": "#ffa500", "darkColor": "#cc7000"}
+        {"text": "Pumpkin", "backgroundColor": "#ffa500"},
+        {"text": "Carrot", "backgroundColor": "#ffa500"},
+        {"text": "Basketball", "backgroundColor": "#ffa500"},
+        {"text": "Tiger", "backgroundColor": "#ffa500"},
+        {"text": "Orange", "backgroundColor": "#ffa500"},
+        {"text": "Clownfish", "backgroundColor": "#ffa500"},
+        {"text": "Jack-o-Lantern", "backgroundColor": "#ffa500"}
       ]
     },
     {
       "name": "Pink Things",
       "difficulty": 1,
       "words": [
-        {"text": "Flamingo", "lightColor": "#ff69b4", "darkColor": "#cc3399"},
-        {"text": "Pig", "lightColor": "#ff69b4", "darkColor": "#cc3399"},
-        {"text": "Cotton Candy", "lightColor": "#ff69b4", "darkColor": "#cc3399"},
-        {"text": "Bubble Gum", "lightColor": "#ff69b4", "darkColor": "#cc3399"},
-        {"text": "Piglet", "lightColor": "#ff69b4", "darkColor": "#cc3399"},
-        {"text": "Tongue", "lightColor": "#ff69b4", "darkColor": "#cc3399"}
+        {"text": "Flamingo", "backgroundColor": "#ff69b4"},
+        {"text": "Pig", "backgroundColor": "#ff69b4"},
+        {"text": "Cotton Candy", "backgroundColor": "#ff69b4"},
+        {"text": "Bubble Gum", "backgroundColor": "#ff69b4"},
+        {"text": "Piglet", "backgroundColor": "#ff69b4"},
+        {"text": "Tongue", "backgroundColor": "#ff69b4"}
       ]
     },
     {
       "name": "Purple Things",
       "difficulty": 2,
       "words": [
-        {"text": "Grape", "lightColor": "#9b59b6", "darkColor": "#7b2d8e"},
-        {"text": "Eggplant", "lightColor": "#9b59b6", "darkColor": "#7b2d8e"},
-        {"text": "Plum", "lightColor": "#9b59b6", "darkColor": "#7b2d8e"},
-        {"text": "Lavender", "lightColor": "#9b59b6", "darkColor": "#7b2d8e"},
-        {"text": "Violet", "lightColor": "#9b59b6", "darkColor": "#7b2d8e"}
+        {"text": "Grape", "backgroundColor": "#A420DB"},
+        {"text": "Eggplant", "backgroundColor": "#A420DB"},
+        {"text": "Plum", "backgroundColor": "#A420DB"},
+        {"text": "Lavender", "backgroundColor": "#A420DB"},
+        {"text": "Violet", "backgroundColor": "#A420DB"}
       ]
     },
     {
       "name": "Black Things",
       "difficulty": 3,
       "words": [
-        {"text": "Night Sky", "lightColor": "#333333", "darkColor": "#666666"},
-        {"text": "Bat", "lightColor": "#333333", "darkColor": "#666666"},
-        {"text": "Spider", "lightColor": "#333333", "darkColor": "#666666"},
-        {"text": "Crow", "lightColor": "#333333", "darkColor": "#666666"},
-        {"text": "Penguin", "lightColor": "#333333", "darkColor": "#666666"},
-        {"text": "Gorilla", "lightColor": "#333333", "darkColor": "#666666"},
-        {"text": "Tires", "lightColor": "#333333", "darkColor": "#666666"}
+        {"text": "Night Sky", "backgroundColor": "#333333"},
+        {"text": "Bat", "backgroundColor": "#333333"},
+        {"text": "Spider", "backgroundColor": "#333333"},
+        {"text": "Crow", "backgroundColor": "#333333"},
+        {"text": "Penguin", "backgroundColor": "#333333"},
+        {"text": "Gorilla", "backgroundColor": "#333333"},
+        {"text": "Tires", "backgroundColor": "#333333"}
       ]
     }
   ]

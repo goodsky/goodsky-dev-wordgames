@@ -5,17 +5,40 @@
     {
       "name": "Balls",
       "difficulty": 0,
-      "words": ["⚽", "🏀", "🎾", "⚾", "🏐", "🏈"]
+      "words": [
+        {"text": "⚽", "altText": "Soccer Ball"},
+        {"text": "🏀", "altText": "Basketball"},
+        {"text": "🎾", "altText": "Tennis Ball"},
+        {"text": "⚾", "altText": "Baseball"},
+        {"text": "🏐", "altText": "Volleyball"},
+        {"text": "🏈", "altText": "Football"}
+      ]
     },
     {
       "name": "Hearts",
       "difficulty": 1,
-      "words": ["❤️", "💜", "💙", "💚", "💛", "🧡"]
+      "words": [
+        {"text": "❤️", "altText": "Red Heart"},
+        {"text": "💜", "altText": "Purple Heart"},
+        {"text": "💙", "altText": "Blue Heart"},
+        {"text": "💚", "altText": "Green Heart"},
+        {"text": "💛", "altText": "Yellow Heart"},
+        {"text": "🧡", "altText": "Orange Heart"}
+      ]
     },
     {
       "name": "Animals",
       "difficulty": 2,
-      "words": ["🐶", "🐱", "🐘", "🦁", "🐻", "🐰", "🐷", "🐸"]
+      "words": [
+        {"text": "🦖", "altText": "T-Rex"},
+        {"text": "🦕", "altText": "Dinosaur"},
+        {"text": "🦩", "altText": "Flamingo"},
+        {"text": "🦒", "altText": "Giraffe"},
+        {"text": "🦘", "altText": "Kangaroo"},
+        {"text": "🦔", "altText": "Hedgehog"},
+        {"text": "🦦", "altText": "Otter"},
+        {"text": "🦥", "altText": "Sloth"}
+      ]
     },
     {
       "name": "Circle Things",

@@ -1,5 +1,5 @@
 <script>
-    let { kidMode = $bindable(false), onNewGame, onShareGame, onHowToPlay, onReportIssue } = $props();
+    let { kidMode = $bindable(false), soundOn = $bindable(false), onNewGame, onShareGame, onHowToPlay, onReportIssue } = $props();
     
     let menuOpen = $state(false);
 
@@ -28,6 +28,10 @@
 
     function handleKidModeToggle() {
         kidMode = !kidMode;
+    }
+
+    function toggleSoundOn() {
+        soundOn = !soundOn;
     }
 
     // Close menu when clicking outside
@@ -84,6 +88,9 @@
                     </button>
                     <button class="menu-item" onclick={handleReportIssue}>
                         Report Issue
+                    </button>
+                    <button class="menu-item" onclick={toggleSoundOn}>
+                        Sound: <span class="status-box">{soundOn ? 'ON' : 'OFF'}</span>
                     </button>
                 </div>
             {/if}

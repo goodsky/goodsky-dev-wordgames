@@ -5,22 +5,60 @@
     {
       "name": "Fruits",
       "difficulty": 0,
-      "words": ["🍎", "🍌", "🍇", "🍊", "🍓", "🍑", "🍒", "🍋", "🍉", "🍐", "🥝", "🍍", "🫐"]
+      "words": [
+        {"text": "🍎", "altText": "Apple"},
+        {"text": "🍌", "altText": "Banana"},
+        {"text": "🍇", "altText": "Grapes"},
+        {"text": "🍊", "altText": "Orange"},
+        {"text": "🍓", "altText": "Strawberry"},
+        {"text": "🍑", "altText": "Peach"},
+        {"text": "🍒", "altText": "Cherries"},
+        {"text": "🍋", "altText": "Lemon"},
+        {"text": "🍉", "altText": "Watermelon"},
+        {"text": "🍐", "altText": "Pear"},
+        {"text": "🥝", "altText": "Kiwi"},
+        {"text": "🍍", "altText": "Pineapple"},
+        {"text": "🫐", "altText": "Blueberries"}
+      ]
     },
     {
       "name": "Utensils",
       "difficulty": 1,
-      "words": ["🍴", "🥄", "🔪", "🥢", "🍽️" ]
+      "words": [
+        {"text": "🍴", "altText": "Fork and Knife"},
+        {"text": "🥄", "altText": "Spoon"},
+        {"text": "🔪", "altText": "Knife"},
+        {"text": "🥢", "altText": "Chopsticks"},
+        {"text": "🍽️", "altText": "Plate"}
+      ]
     },
     {
       "name": "Sweets",
       "difficulty": 2,
-      "words": ["🍦", "🍪", "🍰", "🍭", "🧁", "🍩", "🍫", "🍬", "🎂", "🥧", "🍨"]
+      "words": [
+        {"text": "🍦", "altText": "Ice Cream"},
+        {"text": "🍪", "altText": "Cookie"},
+        {"text": "🍰", "altText": "Cake"},
+        {"text": "🍭", "altText": "Lollipop"},
+        {"text": "🧁", "altText": "Cupcake"},
+        {"text": "🍩", "altText": "Donut"},
+        {"text": "🍫", "altText": "Chocolate"},
+        {"text": "🍬", "altText": "Candy"},
+        {"text": "🎂", "altText": "Birthday Cake"},
+        {"text": "🥧", "altText": "Pie"},
+        {"text": "🍨", "altText": "Ice Cream"}
+      ]
     },
     {
       "name": "Drinks",
       "difficulty": 3,
-      "words": ["🥛", "🧃", "🍵", "🥤", "🧋"]
+      "words": [
+        {"text": "🥛", "altText": "Milk"},
+        {"text": "🧃", "altText": "Juice Box"},
+        {"text": "🍵", "altText": "Tea"},
+        {"text": "🥤", "altText": "Soda Cup"},
+        {"text": "🧋", "altText": "Bubble Tea"}
+      ]
     }
   ]
 }

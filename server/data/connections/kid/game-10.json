@@ -5,17 +5,38 @@
     {
       "name": "Pets",
       "difficulty": 0,
-      "words": ["🐶", "🐱", "🐰", "🐹", "🐠", "🐦"]
+      "words": [
+        {"text": "🐶", "altText": "Dog"},
+        {"text": "🐱", "altText": "Cat"},
+        {"text": "🐰", "altText": "Rabbit"},
+        {"text": "🐹", "altText": "Hamster"},
+        {"text": "🐠", "altText": "Fish"},
+        {"text": "🐦", "altText": "Bird"}
+      ]
     },
     {
       "name": "Things with Wheels",
       "difficulty": 1,
-      "words": ["🚗", "🚌", "🚲", "🛴", "🚂", "🚒"]
+      "words": [
+        {"text": "🚗", "altText": "Car"},
+        {"text": "🚌", "altText": "Bus"},
+        {"text": "🚲", "altText": "Bicycle"},
+        {"text": "🛴", "altText": "Scooter"},
+        {"text": "🚂", "altText": "Train"},
+        {"text": "🚒", "altText": "Fire Truck"}
+      ]
     },
     {
       "name": "Yummy Fruits",
       "difficulty": 2,
-      "words": ["🍎", "🍌", "🍇", "🍓", "🍊", "🍉"]
+      "words": [
+        {"text": "🍎", "altText": "Apple"},
+        {"text": "🍌", "altText": "Banana"},
+        {"text": "🍇", "altText": "Grapes"},
+        {"text": "🍓", "altText": "Strawberry"},
+        {"text": "🍊", "altText": "Orange"},
+        {"text": "🍉", "altText": "Watermelon"}
+      ]
     },
     {
       "name": "In the Sky",

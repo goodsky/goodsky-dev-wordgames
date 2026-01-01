@@ -5,22 +5,58 @@
     {
       "name": "Flowers",
       "difficulty": 0,
-      "words": ["🌸", "🌷", "🌻", "🌹", "🌺", "🌼", "🪻", "🪷", "💮", "🏵️"]
+      "words": [
+        {"text": "🌸", "altText": "Flower"},
+        {"text": "🌷", "altText": "Flower"},
+        {"text": "🌻", "altText": "Flower"},
+        {"text": "🌹", "altText": "Flower"},
+        {"text": "🌺", "altText": "Flower"},
+        {"text": "🌼", "altText": "Flower"},
+        {"text": "🪻", "altText": "Flower"},
+        {"text": "🪷", "altText": "Flower"},
+        {"text": "💮", "altText": "Flower"},
+        {"text": "🏵️", "altText": "Flower"}
+      ]
     },
     {
       "name": "Trees & Plants",
       "difficulty": 1,
-      "words": ["🌲", "🌴", "🌵", "🍀", "🌿", "🌳", "🎋", "🪴", "🌾", "🌱", "🎍"]
+      "words": [
+        {"text": "🌲", "altText": "Pine Tree"},
+        {"text": "🌴", "altText": "Palm Tree"},
+        {"text": "🌵", "altText": "Cactus"},
+        {"text": "🍀", "altText": "Leaves"},
+        {"text": "🌿", "altText": "Leaves"},
+        {"text": "🌳", "altText": "Tree"},
+        {"text": "🪴", "altText": "Potted Plant"},
+        {"text": "🌾", "altText": "Plant"},
+        {"text": "🌱", "altText": "Seedling"}
+      ]
     },
     {
       "name": "In the Sky",
       "difficulty": 2,
-      "words": ["☀️", "🌙", "⭐", "🌈", "🌞", "🌛", "🌜"]
+      "words": [
+        {"text": "☀️", "altText": "Sun"},
+        {"text": "🌙", "altText": "Moon"},
+        {"text": "⭐", "altText": "Star"},
+        {"text": "🌈", "altText": "Rainbow"},
+        {"text": "🌞", "altText": "Sun"},
+        {"text": "🌛", "altText": "Moon"},
+        {"text": "🌜", "altText": "Moon"}
+      ]
     },
     {
       "name": "In the Water",
       "difficulty": 3,
-      "words": ["🐟", "🐠", "🪸", "🦞"]
+      "words": [
+        {"text": "🐟", "altText": "Fish"},
+        {"text": "🐠", "altText": "Fish"},
+        {"text": "🪸", "altText": "Coral"},
+        {"text": "🦞", "altText": "Lobster"},
+        {"text": "🐬", "altText": "Dolphin"},
+        {"text": "🐳", "altText": "Whale"}
+      ]
     }
   ]
 }

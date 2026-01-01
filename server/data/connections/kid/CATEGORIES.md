@@ -68,7 +68,7 @@ k1, k2, k3, k4, k5, k6, k7, k8, k9, k10, k11, k12, k13, k14, k15
 ### game-11.json (k11) - Round Things
 - Balls (6): ⚽🏀🎾⚾🏐🏈
 - Hearts (6): ❤️💜💙💚💛🧡
-- Animals (8): 🐶🐱🐘🦁🐻🐰🐷🐸
+- Animals (8): 🦖🦕🦩🦒🦘🦔🦦🦥
 - Circle Things (6): Sun, Moon, Cookie, Ball, Wheel, Clock
 
 ### game-12.json (k12) - Cozy Time
