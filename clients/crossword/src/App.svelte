@@ -17,6 +17,19 @@
     const urlGameId = params.get('id');
 
     loadGame(urlGameId);
+
+    // Keep focus on grid for mobile keyboard
+    const handleVisibilityChange = () => {
+      if (!document.hidden && !showModal) {
+        setTimeout(focusNextBlank, 100);
+      }
+    };
+
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+
+    return () => {
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
+    };
   });
 
   async function loadGame(id) {
@@ -291,6 +304,8 @@
 
   function closeModal() {
     showModal = false;
+    // Refocus on grid after closing modal
+    setTimeout(focusNextBlank, 100);
   }
 
   function newGame() {
@@ -455,8 +470,10 @@
           </div>
 
         <div class="clue-display">
-          <button class="nav-button" onclick={previousClue} aria-label="Previous clue">
-            ←
+          <button class="clue-button" onclick={previousClue} aria-label="Previous clue">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
           </button>
           <div class="clue-content">
             <div class="clue-label">
@@ -466,8 +483,10 @@
               {clues[currentClueIndex]?.clue}
             </div>
           </div>
-          <button class="nav-button" onclick={nextClue} aria-label="Next clue">
-            →
+          <button class="clue-button" onclick={nextClue} aria-label="Next clue">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
           </button>
         </div>
       </div>
@@ -512,7 +531,9 @@
     padding: 20px;
     display: flex;
     justify-content: center;
-    min-height: 100vh;
+    height: 100vh;
+    height: 100dvh;
+    overflow: auto;
   }
 
   .container {
@@ -523,13 +544,9 @@
     max-width: 500px;
     width: 100%;
     container-type: inline-size;
-  }
-
-  h1 {
-    margin: 0 0 20px 0;
-    color: #333;
-    text-align: center;
-    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
   }
 
   .game-area {
@@ -537,6 +554,9 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    flex: 1;
+    min-height: 0;
+    overflow: auto;
   }
 
   .crossword-grid {
@@ -546,6 +566,7 @@
     width: 100%;
     max-width: 100%;
     aspect-ratio: var(--grid-cols) / var(--grid-rows);
+    flex-shrink: 1;
   }
 
   .cell {
@@ -608,9 +629,10 @@
     background: #f8f9fa;
     border-radius: 8px;
     border: 1px solid #dee2e6;
+    flex-shrink: 0;
   }
 
-  .nav-button {
+  .clue-button {
     flex-shrink: 0;
     width: 40px;
     height: 40px;
@@ -626,12 +648,12 @@
     user-select: none;
   }
 
-  .nav-button:hover {
+  .clue-button:hover {
     background: #333;
     color: white;
   }
 
-  .nav-button:active {
+  .clue-button:active {
     transform: scale(0.95);
   }
 
