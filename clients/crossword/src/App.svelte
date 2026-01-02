@@ -1,6 +1,7 @@
 <script>
   import { onMount } from "svelte";
 
+  let isLoading = $state(true);
   let gameId = $state(null);
   let rawGrid = $state([]); // 2D array from API: -1 = blocked, 0 = empty, N = clue index
   let clues = $state([]); // Array of clue objects
@@ -11,7 +12,78 @@
   let showModal = $state(false);
   let isCorrect = $state(false);
 
-  // Get cells that belong to the current clue
+  onMount(() => {
+    const params = new URLSearchParams(window.location.search);
+    const urlGameId = params.get('id');
+
+    loadGame(urlGameId);
+  });
+
+  async function loadGame(id) {
+    isLoading = true;
+    const url = `/api/crossword/newgame${id ? `?id=${id}` : ''}`;
+
+    try {
+      const response = await fetch(url);
+      if (!response.ok) {
+        throw new Error('Failed to load game');
+      }
+
+      const data = await response.json();
+
+      gameId = data.id;
+      rawGrid = data.grid;
+      
+      // Sort clues: across first, then by row, then by column
+      clues = data.clues.sort((a, b) => {
+        // First sort by direction (across before down)
+        if (a.direction !== b.direction) {
+          return a.direction === 'across' ? -1 : 1;
+        }
+        // Then by row
+        if (a.row !== b.row) {
+          return a.row - b.row;
+        }
+        // Then by column
+        return a.col - b.col;
+      });
+      
+      buildDisplayGrid(rawGrid);
+    } catch (error) {
+      console.error('Error loading game:', error);
+    } finally {
+      isLoading = false;
+    }
+  }
+
+  function buildDisplayGrid(rawGrid) {
+    const rows = rawGrid.length;
+    const cols = rawGrid[0]?.length || 0;
+    
+    const newGrid = [];
+    const newAnswers = [];
+    
+    for (let row = 0; row < rows; row++) {
+      newGrid[row] = [];
+      newAnswers[row] = [];
+      for (let col = 0; col < cols; col++) {
+        const cellValue = rawGrid[row][col];
+        newGrid[row][col] = {
+          blocked: cellValue === -1,
+          clueIndex: cellValue > 0 ? cellValue : null,
+          letter: ''
+        };
+        newAnswers[row][col] = '';
+      }
+    }
+    
+    grid = newGrid;
+    userAnswers = newAnswers;
+
+    setTimeout(focusNextBlank, 0);
+  }
+
+  // Get all cells in the current clue for highlighting
   function getHighlightedCells() {
     if (!clues[currentClueIndex]) return new Set();
     
@@ -31,6 +103,7 @@
     return cells;
   }
 
+  // Check if a cell is highlighted
   function isHighlighted(row, col) {
     const highlightedCells = getHighlightedCells();
     return highlightedCells.has(`${row}-${col}`);
@@ -71,15 +144,6 @@
     }
   }
 
-  function closeModal() {
-    showModal = false;
-  }
-
-  function newGame() {
-    showModal = false;
-    loadGame(null);
-  }
-
   // Find all clues that contain a specific cell
   function findCluesForCell(row, col) {
     return clues.filter((clue, index) => {
@@ -115,33 +179,6 @@
     }
   }
 
-  // Handle cell click - toggle between across/down if clicking same cell
-  function handleCellClick(row, col) {
-    const isSameCell = lastFocusedCell && lastFocusedCell.row === row && lastFocusedCell.col === col;
-    
-    if (isSameCell) {
-      // Toggle between across and down clues for this cell
-      const cellClues = findCluesForCell(row, col);
-      const currentClue = clues[currentClueIndex];
-      
-      // Find the other direction's clue
-      const otherClue = cellClues.find(clue => clue.direction !== currentClue.direction);
-      
-      if (otherClue) {
-        // Switch to the other clue
-        const otherIndex = clues.indexOf(otherClue);
-        if (otherIndex !== -1) {
-          currentClueIndex = otherIndex;
-        }
-      }
-    } else {
-      // New cell clicked - find a clue for this cell
-      updateClueForCell(row, col);
-    }
-    
-    lastFocusedCell = { row, col };
-  }
-
   // Get cells in the current clue word
   function getCurrentClueCells() {
     if (!clues[currentClueIndex]) return [];
@@ -162,17 +199,6 @@
     return cells;
   }
 
-  // Find next blank cell in the current clue word
-  function findNextBlankInWord() {
-    const cells = getCurrentClueCells();
-    for (const cell of cells) {
-      if (!userAnswers[cell.row][cell.col]) {
-        return cell;
-      }
-    }
-    return null;
-  }
-
   // Check if the current word is completely filled
   function isCurrentWordComplete() {
     const cells = getCurrentClueCells();
@@ -184,12 +210,55 @@
     return cells.length > 0;
   }
 
+  // Find next blank cell in the current clue word
+  function findNextBlankInWord() {
+    const cells = getCurrentClueCells();
+    for (const cell of cells) {
+      if (!userAnswers[cell.row][cell.col]) {
+        return cell;
+      }
+    }
+    return null;
+  }
+
   // Focus the next blank cell in the current word
   function focusNextBlank() {
     const nextBlank = findNextBlankInWord();
     if (nextBlank) {
       focusCell(nextBlank.row, nextBlank.col);
     }
+  }
+
+  function findNextCell(row, col) {
+    // Try next column first
+    if (col + 1 < grid[row].length && !grid[row][col + 1].blocked) {
+      return { row, col: col + 1 };
+    }
+    // Try next row
+    for (let r = row + 1; r < grid.length; r++) {
+      for (let c = 0; c < grid[r].length; c++) {
+        if (!grid[r][c].blocked) {
+          return { row: r, col: c };
+        }
+      }
+    }
+    return null;
+  }
+
+  function findPreviousCell(row, col) {
+    // Try previous column first
+    if (col - 1 >= 0 && !grid[row][col - 1].blocked) {
+      return { row, col: col - 1 };
+    }
+    // Try previous row
+    for (let r = row - 1; r >= 0; r--) {
+      for (let c = grid[r].length - 1; c >= 0; c--) {
+        if (!grid[r][c].blocked) {
+          return { row: r, col: c };
+        }
+      }
+    }
+    return null;
   }
 
   function previousClue() {
@@ -212,72 +281,21 @@
     setTimeout(focusNextBlank, 0);
   }
 
-  onMount(() => {
-    const params = new URLSearchParams(window.location.search);
-    const urlGameId = params.get('id');
-
-    loadGame(urlGameId);
-  });
-
-  function buildDisplayGrid(rawGrid) {
-    const rows = rawGrid.length;
-    const cols = rawGrid[0]?.length || 0;
-    
-    const newGrid = [];
-    const newAnswers = [];
-    
-    for (let row = 0; row < rows; row++) {
-      newGrid[row] = [];
-      newAnswers[row] = [];
-      for (let col = 0; col < cols; col++) {
-        const cellValue = rawGrid[row][col];
-        newGrid[row][col] = {
-          blocked: cellValue === -1,
-          clueIndex: cellValue > 0 ? cellValue : null,
-          letter: ''
-        };
-        newAnswers[row][col] = '';
-      }
+  function focusCell(row, col) {
+    const cell = document.querySelector(`[data-row="${row}"][data-col="${col}"]`);
+    if (cell instanceof HTMLElement) {
+      cell.focus();
+      lastFocusedCell = { row, col };
     }
-    
-    grid = newGrid;
-    userAnswers = newAnswers;
-
-    setTimeout(focusNextBlank, 0);
   }
 
-  async function loadGame(id) {
-    const url = `/api/crossword/newgame${id ? `?id=${id}` : ''}`;
+  function closeModal() {
+    showModal = false;
+  }
 
-    try {
-      const response = await fetch(url);
-      if (!response.ok) {
-        throw new Error('Failed to load game');
-      }
-
-      const data = await response.json();
-
-      gameId = data.id;
-      rawGrid = data.grid;
-      
-      // Sort clues: across first, then by row, then by column
-      clues = data.clues.sort((a, b) => {
-        // First sort by direction (across before down)
-        if (a.direction !== b.direction) {
-          return a.direction === 'across' ? -1 : 1;
-        }
-        // Then by row
-        if (a.row !== b.row) {
-          return a.row - b.row;
-        }
-        // Then by column
-        return a.col - b.col;
-      });
-      
-      buildDisplayGrid(rawGrid);
-    } catch (error) {
-      console.error('Error loading game:', error);
-    }
+  function newGame() {
+    showModal = false;
+    loadGame(null);
   }
 
   function handleInput(row, col, event) {
@@ -305,12 +323,31 @@
     }
   }
 
-  function focusCell(row, col) {
-    const cell = document.querySelector(`[data-row="${row}"][data-col="${col}"]`);
-    if (cell instanceof HTMLElement) {
-      cell.focus();
-      lastFocusedCell = { row, col };
+  // Handle cell click - toggle between across/down if clicking same cell
+  function handleCellClick(row, col) {
+    const isSameCell = lastFocusedCell && lastFocusedCell.row === row && lastFocusedCell.col === col;
+    
+    if (isSameCell) {
+      // Toggle between across and down clues for this cell
+      const cellClues = findCluesForCell(row, col);
+      const currentClue = clues[currentClueIndex];
+      
+      // Find the other direction's clue
+      const otherClue = cellClues.find(clue => clue.direction !== currentClue.direction);
+      
+      if (otherClue) {
+        // Switch to the other clue
+        const otherIndex = clues.indexOf(otherClue);
+        if (otherIndex !== -1) {
+          currentClueIndex = otherIndex;
+        }
+      }
+    } else {
+      // New cell clicked - find a clue for this cell
+      updateClueForCell(row, col);
     }
+    
+    lastFocusedCell = { row, col };
   }
 
   function handleKeyDown(row, col, event) {
@@ -379,50 +416,17 @@
       event.preventDefault();
     }
   }
-
-  function findNextCell(row, col) {
-    // Try next column first
-    if (col + 1 < grid[row].length && !grid[row][col + 1].blocked) {
-      return { row, col: col + 1 };
-    }
-    // Try next row
-    for (let r = row + 1; r < grid.length; r++) {
-      for (let c = 0; c < grid[r].length; c++) {
-        if (!grid[r][c].blocked) {
-          return { row: r, col: c };
-        }
-      }
-    }
-    return null;
-  }
-
-  function findPreviousCell(row, col) {
-    // Try previous column first
-    if (col - 1 >= 0 && !grid[row][col - 1].blocked) {
-      return { row, col: col - 1 };
-    }
-    // Try previous row
-    for (let r = row - 1; r >= 0; r--) {
-      for (let c = grid[r].length - 1; c >= 0; c--) {
-        if (!grid[r][c].blocked) {
-          return { row: r, col: c };
-        }
-      }
-    }
-    return null;
-  }
 </script>
 
 <main>
   <div class="container">
-    <h1>Crossword Puzzle</h1>
-    
-    {#if grid.length > 0}
+    {#if isLoading}
+      <p>Loading puzzle...</p>
+    {:else}
       <div class="game-area">
-        <div class="grid-container">
-          <div 
-            class="crossword-grid" 
-            style="grid-template-columns: repeat({grid[0].length}, 1fr); --grid-cols: {grid[0].length}; --grid-rows: {grid.length};"
+        <div 
+          class="crossword-grid" 
+          style="grid-template-columns: repeat({grid[0].length}, 1fr); --grid-cols: {grid[0].length}; --grid-rows: {grid.length};"
           >
             {#each grid as rowCells, rowIndex}
               {#each rowCells as cell, colIndex}
@@ -449,7 +453,6 @@
               {/each}
             {/each}
           </div>
-        </div>
 
         <div class="clue-display">
           <button class="nav-button" onclick={previousClue} aria-label="Previous clue">
@@ -468,13 +471,15 @@
           </button>
         </div>
       </div>
-    {:else}
-      <p>Loading puzzle...</p>
     {/if}
   </div>
 
   {#if showModal}
+    <!-- svelte-ignore a11y_click_events_have_key_events -->
+    <!-- svelte-ignore a11y_no_static_element_interactions -->
     <div class="modal-overlay" onclick={closeModal}>
+      <!-- svelte-ignore a11y_click_events_have_key_events -->
+      <!-- svelte-ignore a11y_no_static_element_interactions -->
       <div class="modal" onclick={(e) => e.stopPropagation()}>
         {#if isCorrect}
           <h2>🎉 Congratulations! 🎉</h2>
@@ -534,16 +539,10 @@
     gap: 20px;
   }
 
-  .grid-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-
   .crossword-grid {
     display: grid;
     gap: 0;
-    border: 2px solid #000;
+    border: none;
     width: 100%;
     max-width: 100%;
     aspect-ratio: var(--grid-cols) / var(--grid-rows);
@@ -553,6 +552,7 @@
     width: 100%;
     aspect-ratio: 1 / 1;
     border: 1px solid #000;
+    box-sizing: border-box;
     position: relative;
     background: white;
     transition: background-color 0.2s;
