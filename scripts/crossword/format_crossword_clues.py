@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
-
+"""
+Filters and formats crossword clue files from the raw datasets, reducing the size on disk.
+NOTE: This script is automatically called by init.py - you probably don't need to run it manually.
+"""
 import os
-import sys
 import json
 
 def read_clues(file_path, min_length=None, max_length=None, min_year=None, max_year=None):

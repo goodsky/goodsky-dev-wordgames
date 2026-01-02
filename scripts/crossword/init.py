@@ -1,13 +1,7 @@
 #!/usr/bin/env python3
 """
-Download crossword dictionary files.
-
-This script downloads:
-1. spreadthewordlist_caps.txt - A comprehensive word list from spreadthewordlist.com
-2. clues.tsv - Crossword clues from Saul.Pw's xd dataset
+Initialize the data files required for generating crossword game files.
 """
-
-import os
 import sys
 import urllib.request
 import zipfile
