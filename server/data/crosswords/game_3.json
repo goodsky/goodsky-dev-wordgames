@@ -1,0 +1,241 @@
+{
+  "shape": [
+    [
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0
+    ]
+  ],
+  "clues": [
+    {
+      "index": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "SLOW",
+      "clues": [
+        "Like old computers, irritatingly",
+        "Not busy, at work",
+        "Like a glacial pace",
+        "Like movies you might inadvertently fall asleep watching",
+        "Largo or lento",
+        "At a snail's pace",
+        "How Fuel moves on \"Something Like Human\"",
+        "Type of ride Foghat takes",
+        "Heed a speed bump",
+        "A little dense"
+      ]
+    },
+    {
+      "index": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "SHUNT",
+      "clues": [
+        "Surgical device that diverts blood",
+        "Turn aside",
+        "Railroad switch",
+        "Switch to another track",
+        "Surgical bypass tube",
+        "Move to the side",
+        "Way around the block?",
+        "Type of surgical implant",
+        "Sidetrack",
+        "Divert"
+      ]
+    },
+    {
+      "index": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "LANCE",
+      "clues": [
+        "Knight's spear",
+        "Disgraced cyclist Armstrong",
+        "Thrusting weapon",
+        "Medieval weapon",
+        "Outdated charging device?",
+        "Puncture",
+        "Tilter's tool",
+        "Weapon for tilts",
+        "Spearlike weapon",
+        "Sticker at Medieval Times?"
+      ]
+    },
+    {
+      "index": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "ONTAP",
+      "clues": [
+        "Ready at a pull",
+        "Ready to go",
+        "Like much beer at a bar",
+        "Coming up soon",
+        "Ready in a keg",
+        "Like some bar offerings",
+        "Like much 67-Down",
+        "From the keg",
+        "Easily served at the bar",
+        "Ready to be poured"
+      ]
+    },
+    {
+      "index": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "WEAN",
+      "clues": [
+        "Gradually withdraw from nursing",
+        "Gradually remove, as a foal from its mother's milk",
+        "Accustom to solid food, e.g.",
+        "Switch from suckling",
+        "Make less dependent on, with \"off\"",
+        "Get off the bottle, in a way",
+        "With 7-Down, slowly remove from",
+        "Gradually withdraw, as from the bottle",
+        "Gradually stop nursing",
+        "Train to abstain (from)"
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "SKIS",
+      "clues": [
+        "Runners down mountains",
+        "Races in the Super-G",
+        "Nordic gear",
+        "Snowmobile base",
+        "Runners on slopes",
+        "Slalom gear",
+        "Winter resort gear",
+        "Snow boards",
+        "They're worn on moguls",
+        "Biathlon pair"
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "SHANE",
+      "clues": [
+        "\"The L Word\" character ___ McCutcheon",
+        "Classic Alan Ladd film",
+        "Pogue MacGowan",
+        "Role reprised by Kate Moennig in \"The L Word: Generation Q\"",
+        "Ladd western",
+        "1949 novel set in Wyoming",
+        "One of the McMahons of WWE",
+        "1953 Alan Ladd film",
+        "1953 Western hero to whom Joey cried \"Come back!\"",
+        "\"The L Word\" role for Katherine Moennig"
+      ]
+    },
+    {
+      "index": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "KUNTA",
+      "clues": [
+        "Kinte in \"Roots\"",
+        "___ Kinte of \"Roots\"",
+        "LeVar's \"Roots\" role",
+        "\"Roots\" character Kinte",
+        "Kinte of \"Roots\"",
+        "Emmy-nominated role for LeVar",
+        "\"Roots\" hero Kinte",
+        "\"Roots\" name",
+        "__ Kinte (\"Roots\" patriarch)",
+        "Kinte of 'Roots'"
+      ]
+    },
+    {
+      "index": 7,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "INCAN",
+      "clues": [
+        "Like ancient Peruvians",
+        "Machu Picchu, e.g.",
+        "Alpaca herder of yore",
+        "1500s conqueror/conqueree",
+        "Like the sun god Inti",
+        "Like some ancient Peruvian pottery",
+        "Like the deities Inti and Mama Quilla",
+        "Like ancient Peru",
+        "Like Inti Punku",
+        "Describing Machu Picchu"
+      ]
+    },
+    {
+      "index": 8,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "STEP",
+      "clues": [
+        "One of twelve in AA",
+        "Instructions part",
+        "Way up",
+        "Part of a dance lesson",
+        "Instructions component",
+        "Aerobics prop",
+        "Choreographic concern",
+        "Flight part before a landing",
+        "Walk",
+        "Repeated cry at a dance class"
+      ]
+    }
+  ]
+}

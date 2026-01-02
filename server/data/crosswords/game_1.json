@@ -1,0 +1,232 @@
+{
+  "shape": [
+    [
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0
+    ]
+  ],
+  "clues": [
+    {
+      "index": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "CALL",
+      "clues": [
+        "Curtain ___ (post-show appearance)",
+        "Match a poker bet",
+        "Put yourself on the line?",
+        "Dial up",
+        "Word with roll or toll",
+        "\"Date\" for a long-distance couple, often",
+        "Lead a square dance",
+        "Cellular response?",
+        "Ump's announcement",
+        "Birdsong"
+      ]
+    },
+    {
+      "index": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "CULPA",
+      "clues": [
+        "Mea __: acknowledgment of fault",
+        "Mea ___ (acknowledgment of fault)",
+        "See 43-Down",
+        "Mea ____",
+        "It's Caesar's fault?",
+        "\"Mea\" follower",
+        "Mea __",
+        "Brutus's fault",
+        "Confessional word",
+        "\"Mea ___\""
+      ]
+    },
+    {
+      "index": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "ASTON",
+      "clues": [
+        "___ Martin (007's car)",
+        "___ Martin (Bond car)",
+        "___ Martin DB5 (\"Bondmobile\")",
+        "__ Clinton, historic English village that lent its name to a sports car",
+        "First name in British sports cars",
+        "__ Martin",
+        "Word before \"Villa\" or \"Martin\"",
+        "Start of an English auto name",
+        "___ Martin (007 auto)",
+        "___ Martin (British automaker)"
+      ]
+    },
+    {
+      "index": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "LHASA",
+      "clues": [
+        "High capital",
+        "Chinese provincial capital more than two miles above sea level",
+        "___ Apso (Tibetan dog breed)",
+        "Tibet's capital city",
+        "Capital that's home to the Norbulingka Palace",
+        "__ apso",
+        "__ apso (dog breed)",
+        "Asian capital whose trains offer oxygen masks",
+        "Capital at an elevation of 12,000 feet",
+        "\"The Forbidden City\""
+      ]
+    },
+    {
+      "index": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "LURE",
+      "clues": [
+        "Bait shop buy",
+        "Come-on",
+        "Angler's item",
+        "Inducement",
+        "Tackle box item",
+        "Thing on a bob",
+        "Attract, as a siren might",
+        "What catnip is to a cat",
+        "Fishing bait",
+        "It attracts fish"
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "MUSHU",
+      "clues": [
+        "Chinese menu option",
+        "Food-sounding \"Mulan\" dragon voiced by Eddie Murphy",
+        "Pork recipe",
+        "\"Mulan\" dragon voiced by Eddie Murphy",
+        "__ pork: Asian dish",
+        "-- pork (Chinese menu item)",
+        "Mulan's dragon pal",
+        "__ pork: Chinese menu item",
+        "Chinese pancake"
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "MATH",
+      "clues": [
+        "\"Do the ___\"",
+        "Arithmetic",
+        "Number cruncher's skill",
+        "Planes are studied in it",
+        "What Professor Moriarty was a professor of",
+        "SAT section",
+        "Addition, e.g.",
+        "Addition or subtraction, e.g.",
+        "Arithmetic or algebra, for short",
+        "Study with pluses and minuses"
+      ]
+    },
+    {
+      "index": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "ALTAR",
+      "clues": [
+        "Church platform",
+        "Table in a church",
+        "Communion site",
+        "Where to exchange vows",
+        "Offering site",
+        "Place to say \"I do\"",
+        "Final stop of bachelorhood",
+        "Place to tie the knot",
+        "Church part",
+        "Where many unions are formed"
+      ]
+    },
+    {
+      "index": 7,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "TPOSE",
+      "clues": [
+        "Arms-out stance seen in glitchy video games",
+        "Letter-shaped default position for a video game character"
+      ]
+    },
+    {
+      "index": 8,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "HANA",
+      "clues": [
+        "\"The English Patient\" nurse",
+        "Australian Open champ before Steffi's three-year winning streak",
+        "Alm\u00e1sy's caretaker, in \"The English Patient\"",
+        "Highway in Maui with 620 curves and 59 bridges",
+        "Mandl\u00edkov\u00e1 in the International Tennis Hall of Fame",
+        "\"Pitch Perfect\" actress __ Mae Lee",
+        "Rival of Martina and Chris",
+        "Actor ___ Mae Lee of \"Pitch Perfect\"",
+        "Mandlikova of '80s tennis",
+        "Easternmost town on Maui, on one end of 52 miles of twisty highway"
+      ]
+    }
+  ]
+}
