@@ -39,6 +39,22 @@ function getRandomGame() {
     return games[gameIds[randomIndex]];
 }
 
+function populatePuzzleGrid(shape, clues) {
+    // -1 = blocked cell
+    // 0 = empty cell
+    // N = clue index
+    const grid = shape.map(
+        row => row.map(cell => (cell === 1 ? 0 : -1))
+    );
+
+    clues.forEach(clueObj => {
+        const { index, direction, row, col, answer } = clueObj;
+        grid[row][col] = index;
+    });
+
+    return grid;
+}
+
 function selectRandomClue(clueObj) {
     const randomIndex = Math.floor(Math.random() * clueObj.clues.length);
     const clue = clueObj.clues[randomIndex];
@@ -80,7 +96,7 @@ router.get('/newgame', (req, res) => {
 
     game_object = {
         id: game.id,
-        shape: game.shape,
+        grid: populatePuzzleGrid(game.shape, game.clues),
         clues: game.clues.map(
             (clueObj) => selectRandomClue(clueObj)
         ),
