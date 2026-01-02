@@ -50,7 +50,7 @@ def main(game_file):
             game_file = f"{game_file}.json"
         
         # Check in the default server data directory
-        default_dir = Path(__file__).parent / ".." / ".." / "server" / "data" / "crosswords"
+        default_dir = Path(__file__).parent / ".." / ".." / "server" / "data" / "crossword"
         game_path = default_dir / game_file
     
     if not game_path.exists():

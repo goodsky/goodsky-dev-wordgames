@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 
 const connectionsRouter = require('./connections');
+const crosswordRouter = require('./crossword');
 const dictionaryRouter = require('./dictionary').router;
 const spellingbeeRouter = require('./spellingbee');
 
@@ -22,6 +23,7 @@ app.get('/connections', (req, res) => {
     res.sendFile(path.join(CONNECTIONS_DIR, 'index.html'));
 });
 
+app.use('/api/crossword', crosswordRouter);
 app.use('/crossword', express.static(CROSSWORD_DIR));
 app.get('/crossword', (req, res) => {
     res.sendFile(path.join(CROSSWORD_DIR, 'index.html'));

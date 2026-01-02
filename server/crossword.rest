@@ -1,0 +1,7 @@
+### =================
+### DEVELOPMENT
+### (Localhost)
+### =================
+
+## Get a new game
+GET http://localhost:3000/api/crossword/newgame

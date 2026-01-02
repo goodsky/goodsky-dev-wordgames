@@ -329,7 +329,7 @@ if __name__ == "__main__":
     clues_file = data_directory / "crossword_clues.json"
     shapes_file = data_directory / "crossword_shapes.json"
 
-    default_output_dir = Path(__file__).parent / ".." / ".." / "server" / "data" / "crosswords"
+    default_output_dir = Path(__file__).parent / ".." / ".." / "server" / "data" / "crossword"
     output_dir = args.output if args.output else default_output_dir
 
     main(clues_file, shapes_file, output_dir, games_to_generate=args.number, shape_name=args.shape, verbose=args.verbose)
