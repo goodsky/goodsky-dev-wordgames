@@ -7,6 +7,7 @@ const spellingbeeRouter = require('./spellingbee');
 
 const PUBLIC_DIR = path.join(__dirname, '../public');
 const CONNECTIONS_DIR = path.join(PUBLIC_DIR, 'connections');
+const CROSSWORD_DIR = path.join(PUBLIC_DIR, 'crossword');
 const HOME_DIR = path.join(PUBLIC_DIR, 'home');
 const SPELLINGBEE_DIR = path.join(PUBLIC_DIR, 'spellingbee');
 
@@ -19,6 +20,11 @@ app.use('/api/connections', connectionsRouter);
 app.use('/connections', express.static(CONNECTIONS_DIR));
 app.get('/connections', (req, res) => {
     res.sendFile(path.join(CONNECTIONS_DIR, 'index.html'));
+});
+
+app.use('/crossword', express.static(CROSSWORD_DIR));
+app.get('/crossword', (req, res) => {
+    res.sendFile(path.join(CROSSWORD_DIR, 'index.html'));
 });
 
 app.use('/api/spellingbee', spellingbeeRouter);
