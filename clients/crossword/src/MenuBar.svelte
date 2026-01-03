@@ -5,7 +5,9 @@
         onNewGame,
         onShareGame,
         onHowToPlay,
-        onReportIssue
+        onReportIssue,
+        onKidModeToggle,
+        onSoundToggle
     } = $props();
     
     let menuOpen = $state(false);
@@ -35,10 +37,12 @@
 
     function handleKidModeToggle() {
         kidMode = !kidMode;
+        onKidModeToggle?.();
     }
 
     function toggleSoundOn() {
         soundOn = !soundOn;
+        onSoundToggle?.();
     }
 
     // Close menu when clicking outside

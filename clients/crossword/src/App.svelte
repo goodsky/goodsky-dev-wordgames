@@ -225,13 +225,23 @@
 
   // Check if the current word is completely filled
   function isCurrentWordComplete() {
+    if (!lastFocusedCell) return false;
+    
     const cells = getCurrentClueCells();
+    
+    // Check all cells are filled
     for (const cell of cells) {
       if (!userAnswers[cell.row][cell.col]) {
         return false;
       }
     }
-    return cells.length > 0;
+    
+    // Check that focus is on the last cell of the word
+    if (cells.length === 0) return false;
+    const lastCell = cells[cells.length - 1];
+    const isOnLastCell = lastFocusedCell.row === lastCell.row && lastFocusedCell.col === lastCell.col;
+    
+    return isOnLastCell;
   }
 
   // Find next blank cell in the current clue word
@@ -253,20 +263,20 @@
     }
   }
 
-  function findNextCell(row, col) {
-    // Try next column first
-    if (col + 1 < grid[row].length && !grid[row][col + 1].blocked) {
-      return { row, col: col + 1 };
+  // Focus on the next cell in the word (assumes the word is not complete)
+  function focusNextCell() {
+    if (!lastFocusedCell) return;
+    
+    const cells = getCurrentClueCells();
+    const currentIndex = cells.findIndex(
+      cell => cell.row === lastFocusedCell.row && cell.col === lastFocusedCell.col
+    );
+    
+    // If current cell is in the word and not the last cell, move to next
+    if (currentIndex !== -1 && currentIndex < cells.length - 1) {
+      const nextCell = cells[currentIndex + 1];
+      focusCell(nextCell.row, nextCell.col);
     }
-    // Try next row
-    for (let r = row + 1; r < grid.length; r++) {
-      for (let c = 0; c < grid[r].length; c++) {
-        if (!grid[r][c].blocked) {
-          return { row: r, col: c };
-        }
-      }
-    }
-    return null;
   }
 
   function findPreviousCell(row, col) {
@@ -305,11 +315,43 @@
     setTimeout(focusNextBlank, 0);
   }
 
+  function toggleClueDirection() {
+    // Toggle between across and down clues for the last focused cell
+    if (!lastFocusedCell) return;
+    
+    const { row, col } = lastFocusedCell;
+    const cellClues = findCluesForCell(row, col);
+    const currentClue = clues[currentClueIndex];
+    
+    // Find the other direction's clue
+    const otherClue = cellClues.find(clue => clue.direction !== currentClue.direction);
+    
+    if (otherClue) {
+      // Switch to the other clue
+      const otherIndex = clues.indexOf(otherClue);
+      if (otherIndex !== -1) {
+        currentClueIndex = otherIndex;
+      }
+    }
+    
+    // Refocus the cell to maintain input focus
+    setTimeout(() => focusCell(row, col), 0);
+  }
+
   function focusCell(row, col) {
     const cell = document.querySelector(`[data-row="${row}"][data-col="${col}"]`);
     if (cell instanceof HTMLElement) {
       cell.focus();
       lastFocusedCell = { row, col };
+    }
+  }
+
+  function refocusGrid() {
+    // Refocus on last focused cell or next blank
+    if (lastFocusedCell) {
+      focusCell(lastFocusedCell.row, lastFocusedCell.col);
+    } else {
+      focusNextBlank();
     }
   }
 
@@ -329,6 +371,8 @@
     shareUrl = `${baseUrl}?id=${gameId}`;
     copiedToClipboard = false;
     showShareModal = true;
+    // Refocus grid after modal opens
+    setTimeout(refocusGrid, 100);
   }
 
   function copyShareUrl() {
@@ -342,20 +386,32 @@
 
   function closeShareModal() {
     showShareModal = false;
+    setTimeout(refocusGrid, 100);
   }
 
   function handleHowToPlay() {
     showHowToPlay = true;
+    setTimeout(refocusGrid, 100);
   }
 
   function closeHowToPlay() {
     showHowToPlay = false;
+    setTimeout(refocusGrid, 100);
   }
 
   function handleReportIssue() {
     // Stub implementation - will be implemented later
     console.log('Report issue functionality coming soon');
     alert('Report issue feature coming soon!');
+    setTimeout(refocusGrid, 100);
+  }
+
+  function handleKidModeToggle() {
+    setTimeout(refocusGrid, 100);
+  }
+
+  function handleSoundToggle() {
+    setTimeout(refocusGrid, 100);
   }
 
   function handlePlayClick() {
@@ -369,20 +425,7 @@
     const isSameCell = lastFocusedCell && lastFocusedCell.row === row && lastFocusedCell.col === col;
     
     if (isSameCell) {
-      // Toggle between across and down clues for this cell
-      const cellClues = findCluesForCell(row, col);
-      const currentClue = clues[currentClueIndex];
-      
-      // Find the other direction's clue
-      const otherClue = cellClues.find(clue => clue.direction !== currentClue.direction);
-      
-      if (otherClue) {
-        // Switch to the other clue
-        const otherIndex = clues.indexOf(otherClue);
-        if (otherIndex !== -1) {
-          currentClueIndex = otherIndex;
-        }
-      }
+      toggleClueDirection();
     } else {
       // New cell clicked - find a clue for this cell
       updateClueForCell(row, col);
@@ -419,8 +462,8 @@
       // Move to next clue if word is complete
       nextClue();
     } else {
-      // Otherwise, advance to next blank cell in the current word
-      focusNextBlank();
+      // Otherwise, advance to next cell in the current word
+      focusNextCell();
     }
   }
 
@@ -464,17 +507,15 @@
       }
       event.preventDefault();
     } else if (event.key === 'ArrowRight') {
-      const nextCell = findNextCell(row, col);
-      if (nextCell) {
-        updateClueForCell(nextCell.row, nextCell.col);
-        focusCell(nextCell.row, nextCell.col);
+      if (col + 1 < grid[row].length && !grid[row][col + 1].blocked) {
+        updateClueForCell(row, col + 1);
+        focusCell(row, col + 1);
       }
       event.preventDefault();
     } else if (event.key === 'ArrowLeft') {
-      const prevCell = findPreviousCell(row, col);
-      if (prevCell) {
-        updateClueForCell(prevCell.row, prevCell.col);
-        focusCell(prevCell.row, prevCell.col);
+      if (col - 1 >= 0 && !grid[row][col - 1].blocked) {
+        updateClueForCell(row, col - 1);
+        focusCell(row, col - 1);
       }
       event.preventDefault();
     } else if (event.key === 'ArrowDown') {
@@ -506,6 +547,8 @@
       onShareGame={handleShareGame}
       onHowToPlay={handleHowToPlay}
       onReportIssue={handleReportIssue}
+      onKidModeToggle={handleKidModeToggle}
+      onSoundToggle={handleSoundToggle}
     />
     {#if isLoading}
       <p>Loading puzzle...</p>
@@ -550,12 +593,14 @@
         </div>
 
         <div class="clue-display">
-          <button class="clue-button" onclick={previousClue} aria-label="Previous clue">
+          <button class="clue-button" onclick={previousClue} onmousedown={(e) => e.preventDefault()} aria-label="Previous clue">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <polyline points="15 18 9 12 15 6"></polyline>
             </svg>
           </button>
-          <div class="clue-content">
+          <!-- svelte-ignore a11y_click_events_have_key_events -->
+          <!-- svelte-ignore a11y_no_static_element_interactions -->
+          <div class="clue-content" onclick={toggleClueDirection} onmousedown={(e) => e.preventDefault()} role="button" tabindex="0">
             <div class="clue-label">
               {clues[currentClueIndex]?.index} {clues[currentClueIndex]?.direction}
             </div>
@@ -563,7 +608,7 @@
               {clues[currentClueIndex]?.clue}
             </div>
           </div>
-          <button class="clue-button" onclick={nextClue} aria-label="Next clue">
+          <button class="clue-button" onclick={nextClue} onmousedown={(e) => e.preventDefault()} aria-label="Next clue">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <polyline points="9 18 15 12 9 6"></polyline>
             </svg>
@@ -814,6 +859,10 @@
   .clue-content {
     flex: 1;
     min-width: 0;
+    cursor: pointer;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
   }
 
   .clue-label {
