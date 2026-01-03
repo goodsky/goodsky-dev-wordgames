@@ -391,26 +391,42 @@
     lastFocusedCell = { row, col };
   }
 
+  function handleInput(row, col, event) {
+    let value = event.target.value;
+    
+    // If multiple chars (selection didn't work), take the last one (newly typed)
+    if (value.length > 1) {
+      value = value.slice(-1);
+    }
+    
+    // Only process letters
+    if (!/^[a-zA-Z]$/.test(value)) {
+      // Reset to previous value if not a letter
+      event.target.value = grid[row][col].letter || '';
+      return;
+    }
+    
+    const letter = value.toUpperCase();
+    
+    userAnswers[row][col] = letter;
+    grid[row][col].letter = letter;
+    event.target.value = letter; // Ensure uppercase in input
+    
+    // Check if puzzle is complete
+    setTimeout(() => checkPuzzle(), 100);
+    
+    if (isCurrentWordComplete()) {
+      // Move to next clue if word is complete
+      nextClue();
+    } else {
+      // Otherwise, advance to next blank cell in the current word
+      focusNextBlank();
+    }
+  }
+
   function handleKeyDown(row, col, event) {
-    // Handle letter input
-    if (event.key.length === 1 && /^[a-zA-Z]$/.test(event.key)) {
-      event.preventDefault();
-      const letter = event.key.toUpperCase();
-      
-      userAnswers[row][col] = letter;
-      grid[row][col].letter = letter;
-      
-      // Check if puzzle is complete
-      setTimeout(() => checkPuzzle(), 100);
-      
-      if (isCurrentWordComplete()) {
-        // Move to next clue if word is complete
-        nextClue();
-      } else {
-        // Otherwise, advance to next blank cell in the current word
-        focusNextBlank();
-      }
-    } else if (event.key === 'Backspace') {
+    // Handle special keys only - letter input is handled by oninput
+    if (event.key === 'Backspace') {
       event.preventDefault();
       
       if (userAnswers[row][col]) {
@@ -518,7 +534,9 @@
                       autocapitalize="characters"
                       spellcheck="false"
                       value={cell.letter}
+                      oninput={(e) => handleInput(rowIndex, colIndex, e)}
                       onkeydown={(e) => handleKeyDown(rowIndex, colIndex, e)}
+                      onfocus={(e) => /** @type {HTMLInputElement} */ (e.target).select()}
                       onclick={() => handleCellClick(rowIndex, colIndex)}
                       data-row={rowIndex}
                       data-col={colIndex}
@@ -746,6 +764,10 @@
     outline: none;
     caret-color: transparent;
     padding: 0;
+  }
+
+  .cell-input::selection {
+    background: transparent;
   }
 
   .cell-input:focus {
