@@ -16,8 +16,8 @@ function loadGames() {
         fs.readdirSync(GAMES_DIR).forEach(file => {
             if (file.endsWith('.json')) {
                 const game = JSON.parse(fs.readFileSync(path.join(GAMES_DIR, file), 'utf8'));
-                // Extract game ID from filename (e.g., game_1.json -> "1")
-                const gameId = file.replace('game_', '').replace('.json', '');
+                // Extract game ID from filename (e.g., game_1.json -> "1", game_1.new.json -> "1")
+                const gameId = file.replace('game_', '').replace('.new.json', '').replace('.json', '');
                 games[gameId] = { ...game, id: gameId };
             }
         });

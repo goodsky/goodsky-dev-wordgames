@@ -1,0 +1,241 @@
+{
+  "clues": [
+    {
+      "index": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "BAYED",
+      "clues": [
+        "Sounded like coyotes",
+        "Ululated",
+        "Made a sound like a hound",
+        "Sang in the moonlight, maybe",
+        "Howled like a wolf",
+        "Was a howl-raiser",
+        "Serenaded the moon",
+        "Howled",
+        "Howled like a hound",
+        "Emulated a wolf"
+      ]
+    },
+    {
+      "index": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "BOI",
+      "clues": [
+        "OutKast rapper Big ___",
+        "Big -- (rapper)",
+        "'Sk8er --' (2002 Avril Lavigne hit)",
+        "Lesbian adopting a mannish look, in LGBT slang",
+        "Avril Lavigne's \"Sk8er ___\"",
+        "\"Sk8er ___\" (early-aughts hit for Avril Lavigne)",
+        "Certain genderqueer identity",
+        "Rapper Big __",
+        "Word after \"Big\" or \"Sk8er\"",
+        "Music producer ___-1da"
+      ]
+    },
+    {
+      "index": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "OLSEN",
+      "clues": [
+        "Co-worker of Kent and Lane",
+        "Surname of some famous twins",
+        "Lane associate",
+        "The ___ twins, stars of \"Holiday in the Sun\"",
+        "Surname of twin actresses",
+        "Elizabeth in six Marvel movies",
+        "Lois Lane colleague",
+        "Elizabeth who plays Wanda in {/WandaVision/}",
+        "\"Superman\" character Jimmy",
+        "Elizabeth of \"WandaVision\""
+      ]
+    },
+    {
+      "index": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "IMOLD",
+      "clues": [
+        "Self-deprecating remark from a Boomer",
+        "Exclamation upon realizing that people born in 2000 can legally drink now, maybe",
+        "\"I can't believe 'Legally Blonde' came out over 20 years ago!\"",
+        "Exclamation after realizing your younger colleagues don't get your references",
+        "Remark from one who feels out of touch",
+        "Exclamation after not understanding Gen Z slang, maybe",
+        "\"Things just ain't what they used to be\"",
+        "Jokey remark after missing a modern reference",
+        "Exclamation after realizing some Gen Alpha kids are 14, maybe",
+        "Comment after realizing you're sleepy at 8 p.m."
+      ]
+    },
+    {
+      "index": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "STP",
+      "clues": [
+        "Valvoline alternative",
+        "Frequent Nascar sponsor",
+        "Oomph! degreaser brand",
+        "Automotive brand paired with Armor All",
+        "'The Racer's Edge'",
+        "Havoline rival",
+        "Initials seen at Indy",
+        "Lucas Oil competitor",
+        "Talladega decal",
+        "Racing sponsor founded in 7 Down"
+      ]
+    },
+    {
+      "index": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "SALMA",
+      "clues": [
+        "Actress Hayek of \"Frida\"",
+        "Hayek in movies",
+        "Hayek of Hollywood",
+        "Hayek who portrays a psychic in \"House of Gucci\"",
+        "Hayek of \"Wild Wild West\"",
+        "Arabic name meaning \"peace\"",
+        "Frida Kahlo portrayer Hayek",
+        "\"Frida\" star Hayek",
+        "Hayek of \"Frida\"",
+        "\"Frida\" actress Hayek"
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 3,
+      "answer": "ANS",
+      "clues": [
+        "Interview seg.",
+        "R.S.V.P., e.g.: Abbr.",
+        "Q&A; part: Abbr.",
+        "Age units, in Arles",
+        "Years, to Yves",
+        "T or F, on tests",
+        "Q&A part: Abbr.",
+        "Y or N, possibly",
+        "Part of Q&A;: Abbr.",
+        "It's found in a key: Abbr."
+      ]
+    },
+    {
+      "index": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "TYSON",
+      "clues": [
+        "Boxer/Broadway star Mike",
+        "\"Roots\" actress Cicely",
+        "Chicken purveyor",
+        "Cicely of \"The Help\"",
+        "\"Miss Jane Pittman\" portrayer",
+        "Actress and Presidential Medal of Freedom recipient Cicely",
+        "Big name in frozen chicken",
+        "Company that makes Ball Park Franks",
+        "Jane Pittman portrayer",
+        "Boxer nicknamed \"Iron Mike\""
+      ]
+    },
+    {
+      "index": 7,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "PEELS",
+      "clues": [
+        "Certain spa treatments",
+        "Some 38-Across treatments",
+        "Banana throwaways",
+        "Banana coats",
+        "Fruit rinds",
+        "Bananas' coverings",
+        "Some cocktail garnishes",
+        "Takes (off)",
+        "Day spa facial procedures",
+        "Has sunburn woes"
+      ]
+    },
+    {
+      "index": 8,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 3,
+      "answer": "DND",
+      "clues": [
+        "Tabletop RPG with warlocks and wizards",
+        "Fantasy RPG",
+        "Tabletop RPG",
+        "RPG with a \"Monster Manual,\" casually",
+        "Pastime inspired by JRR Tolkien",
+        "Tabletop role-playing game, for short",
+        "Game with a 56-Across character class, for short",
+        "RPG with warlocks and paladins",
+        "Game inspired by JRR Tolkien",
+        "Role-playing game with a 20-sided die, familiarly, and a feature of this puzzle's four longest answers"
+      ]
+    }
+  ],
+  "shape": [
+    [
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      0
+    ]
+  ]
+}

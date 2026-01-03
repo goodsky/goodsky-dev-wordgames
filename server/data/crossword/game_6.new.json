@@ -1,0 +1,241 @@
+{
+  "clues": [
+    {
+      "index": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "AGILE",
+      "clues": [
+        "Good at tumbling",
+        "Limber",
+        "Physically flexible",
+        "Like an aerial dancer",
+        "Quick on one's feet",
+        "Physically nimble",
+        "Fleet of foot",
+        "Light on the feet",
+        "Quick, mentally or physically",
+        "Peter Criss adjective?"
+      ]
+    },
+    {
+      "index": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ACES",
+      "clues": [
+        "They don't get sent back to the server",
+        "Prize-winning quartet, most likely",
+        "Opposite of bombs",
+        "Blackjack needs",
+        "Usually high cards",
+        "Blasts through",
+        "Quick Wimbledon points",
+        "Bullets in poker",
+        "Air force heroes",
+        "Quick points in tennis"
+      ]
+    },
+    {
+      "index": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "CAREW",
+      "clues": [
+        "All-Star 18 consecutive times from 1967 to 1984",
+        "Minnesota Twin who won seven American League batting titles",
+        "Hall-of-Famer Rod",
+        "Baseball Hall of Famer Rod",
+        "Hall of Famer in whose honor the annual American League batting title is named",
+        "Rod with seven batting championships",
+        "1977 American League MVP",
+        "Baseball Hall-of-Famer Rod",
+        "Panama-born MLB Hall of Famer",
+        "Slugger Rod"
+      ]
+    },
+    {
+      "index": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "EVENT",
+      "clues": [
+        "Pole vault, e.g.",
+        "Facebook invitation",
+        "Historical occurrence",
+        "Musical happening",
+        "Datebook entry",
+        "Part of a track meet",
+        "Big to-do",
+        "Festival or big show",
+        "Planner's focus",
+        "Actual in-person thing with people at it, hopefully soon"
+      ]
+    },
+    {
+      "index": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "SEND",
+      "clues": [
+        "Bad button to click accidentally",
+        "\"God ___ Conspirator\" Coheed and Cambria",
+        "Overjoy",
+        "Fire off, as an email",
+        "Email program button",
+        "Use email or text",
+        "Pop in the mail",
+        "Summon, with \"for\"",
+        "Email screen button",
+        "Outlook command"
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "IGAVE",
+      "clues": [
+        "Words on some blood drive stickers",
+        "Reply to a pledge seeker",
+        "\"__ at the office\"",
+        "Statement after a pledge drive",
+        "\"__ it my best shot\"",
+        "Non-donation declaration",
+        "Response to a pledge drive request",
+        "Brush-off to a solicitor",
+        "\"___ at the office\"",
+        "Brushoff to a solicitor"
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "ISBN",
+      "clues": [
+        "Cover letters?",
+        "13-digit ID since 2007",
+        "10- or 13-digit ID",
+        "Novel's ID",
+        "Volume's ID",
+        "Book jacket info: Abbr.",
+        "Book ID",
+        "Library-book ID",
+        "Library ID",
+        "Number on the books?: Abbr."
+      ]
+    },
+    {
+      "index": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "SIREN",
+      "clues": [
+        "Killer in a myth that's pretty misogynist, if you think about it",
+        "Fire engine signal",
+        "Ambulance's warning sound",
+        "What goes \"wee woo wee woo wee woo\"",
+        "Fire truck sound",
+        "Ambulance noisemaker",
+        "Police car's sound",
+        "Fire truck device",
+        "Sound from an ambulance",
+        "Street clearer"
+      ]
+    },
+    {
+      "index": 7,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "BLEND",
+      "clues": [
+        "Liquefy in the kitchen",
+        "Coffee, often",
+        "Whiskey choice",
+        "Combine smoothly",
+        "Some of this and some of that",
+        "Smooth combination",
+        "Go well together",
+        "Go together",
+        "Fuse",
+        "Coffee selection"
+      ]
+    },
+    {
+      "index": 8,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "NEWT",
+      "clues": [
+        "Eye of ___ (part of a witch's brew)",
+        "Creature mentioned by the witches in \"Macbeth\"",
+        "Animal studied for its regenerative abilities",
+        "Brightly colored salamander",
+        "Author/politician Gingrich",
+        "Garter snake prey",
+        "Former Man of the House?",
+        "Japanese fire-bellied ____",
+        "Spotted aquarium dweller",
+        "In \"Monty Python and the Holy Grail\", a peasant was turned into one but \"got better\""
+      ]
+    }
+  ],
+  "shape": [
+    [
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0
+    ]
+  ]
+}

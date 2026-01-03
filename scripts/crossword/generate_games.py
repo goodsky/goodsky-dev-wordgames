@@ -283,10 +283,9 @@ def main(clues_file, shapes_file, output_dir, games_to_generate=1, shape_name=No
     clues_index = load_json_file(clues_file)
     word_index = build_word_index(clues_index.keys(), verbose=verbose)
 
-    crossword_shape = load_crossword_shape(shapes_file, shape_name=shape_name, verbose=verbose)
-
     for i in range(games_to_generate):
         print(f"\nGenerating crossword game {i + 1}/{games_to_generate}...")
+        crossword_shape = load_crossword_shape(shapes_file, shape_name=shape_name, verbose=verbose)
 
         start_time = time.time()
         game = generate_game(crossword_shape, clues_index, word_index, verbose=verbose)

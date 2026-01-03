@@ -1,4 +1,5 @@
 {
+  "difficulty": "HARD",
   "clues": [
     {
       "index": 1,
@@ -43,12 +44,10 @@
       "answer": "OTERI",
       "clues": [
         "The Spartan Cheerleaders comedienne",
-        "Cheri once on 51-Across",
         "One-time \"Saturday Night Live\" performer Cheri",
         "Comic actor Cheri",
         "Comedian Cheri who does a mean Barbara Walters",
         "Cheri of \"Scary Movie\"",
-        "\"S.N.L.\" castmate of Shannon and Gasteyer",
         "Ferrell's fellow cheerleader on \"SNL\"",
         "Ferrell's partner in \"SNL\" Spartan Cheerleaders bits",
         "Cheri of SNL cheerleader sketches"
@@ -143,7 +142,7 @@
       "answer": "AVEDA",
       "clues": [
         "Salon brand with 100% vegan products",
-        "Cosmetics brand owned by Est\u00e9e Lauder",
+        "Cosmetics brand owned by Estée Lauder",
         "Vegan beauty brand headquartered in Minnesota",
         "Minnesota-based cosmetics company",
         "Vegan beauty brand owned by Estee Lauder",
@@ -182,7 +181,6 @@
       "length": 4,
       "answer": "EDIE",
       "clues": [
-        "With 24-Down, five-time nominee for Outstanding Lead Actress in a Comedy Series",
         "Falco of the big and small screen",
         "Jackie for seven years on Showtime",
         "___ Brickell & New Bohemians",

@@ -1,0 +1,237 @@
+{
+  "clues": [
+    {
+      "index": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "NBATV",
+      "clues": [
+        "Sports network that airs \"Courtside Cinema\"",
+        "Pro hoops network",
+        "Airer of Lakers games",
+        "Hoops cable channel",
+        "Outlet with court coverage",
+        "Network that carries \"Hardwood Classics\"",
+        "Channel for hoops fans",
+        "Channel that shows Thunder games",
+        "Sports league-backed cable network",
+        "Network that airs Pelicans games"
+      ]
+    },
+    {
+      "index": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "NHL",
+      "clues": [
+        "Icemen's org.",
+        "Apt sports org. for this puzzle",
+        "Org. for Kings and Senators",
+        "Bobby Orr's org.",
+        "Org. with Ducks and Penguins",
+        "St. Louis Blues org.",
+        "Org. playing on ice",
+        "Org. with Canadiens and Canucks",
+        "Jets and Sharks' org.",
+        "Org. with 30 franchises"
+      ]
+    },
+    {
+      "index": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "HAGUE",
+      "clues": [
+        "Escher museum site, with \"The\"",
+        "Dutch court site, with \"The\"",
+        "Dutch seat of government, with \"the\"",
+        "The ___ (Dutch city)",
+        "___ Tribunal",
+        "___ Tribunal (international court)",
+        "The __, Netherlands",
+        "International Criminal Court setting, with \"the\"",
+        "Escher Museum site, with \"The\"",
+        "See 4-Down"
+      ]
+    },
+    {
+      "index": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "LYING",
+      "clues": [
+        "Telling tall tales",
+        "Why Pinocchio's nose grows",
+        "Fooling the polygraph",
+        "Perjurer's predilection",
+        "Deceiving",
+        "More than misleading",
+        "Making things up",
+        "Inventing things",
+        "Making stuff up",
+        "Telling tales"
+      ]
+    },
+    {
+      "index": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "ABAYA",
+      "clues": [
+        "Relative of a burqa",
+        "Loose-fitting Muslim robe",
+        "Long Muslim robe",
+        "Modest dress worn in Muslim communities",
+        "Flowy robe",
+        "Long, loose robe"
+      ]
+    },
+    {
+      "index": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "AMS",
+      "clues": [
+        "Wake-up times, for short",
+        "Alarm-setting hrs.",
+        "Pro-___ (some tournaments)",
+        "Grand -- (sporty Pontiacs)",
+        "Half the time?: Abbr.",
+        "Alarming times?",
+        "Appt. book page halves",
+        "More than one 31 Across: Abbr.",
+        "Mornings, informally",
+        "Times in classifieds"
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 3,
+      "answer": "ACS",
+      "clues": [
+        "Window coolers",
+        "Cooling systs.",
+        "Appliances that cool: Abbr.",
+        "Temp. reducers",
+        "Brief coolers?",
+        "Some window units (Abbr.)",
+        "Products made by Friedrich, for short",
+        "Units measured in BTUs",
+        "Rm. coolers",
+        "Carriers of comfort, briefly"
+      ]
+    },
+    {
+      "index": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "MAGIC",
+      "clues": [
+        "Wizard's skill",
+        "Illusionist's act",
+        "Making a coin vanish, e.g.",
+        "Penn and Teller's shtick",
+        "Pulling a rabbit out of a hat, e.g.",
+        "David Copperfield's specialty",
+        "Card game subtitled \"The Gathering\"",
+        "NBA great's nickname",
+        "Abracadabra stuff",
+        "Collectible-card game subtitled \"The Gathering\""
+      ]
+    },
+    {
+      "index": 7,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "STUNS",
+      "clues": [
+        "Astonishes",
+        "Floors",
+        "Gives an electric jolt",
+        "Awes",
+        "Blows away",
+        "Leaves shocked",
+        "What shreddin' guitarist does",
+        "Knocks dizzy",
+        "Renders senseless",
+        "Blows the mind of"
+      ]
+    },
+    {
+      "index": 8,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 3,
+      "answer": "VEG",
+      "clues": [
+        "Loll around, in slang",
+        "Really chill, with 'out'",
+        "Carrot, briefly",
+        "MEATLESS, FOR SHORT",
+        "-- out (chill)",
+        "Laze about",
+        "Be a couch potato",
+        "Kick back",
+        "___ out (relax completely)",
+        "Act the couch potato (with \"out\")"
+      ]
+    }
+  ],
+  "shape": [
+    [
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      0
+    ]
+  ]
+}

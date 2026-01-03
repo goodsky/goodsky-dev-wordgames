@@ -1,4 +1,5 @@
 {
+  "difficulty": "HARD",
   "clues": [
     {
       "index": 1,
@@ -10,11 +11,9 @@
       "clues": [
         "Congresswoman Omar",
         "Representative Omar of Minnesota",
-        "@___ (Rep. Omar's handle)",
         "Representative Omar",
         "Minnesota's __ Omar",
         "Omar of Congress",
-        "Representative Omar who supports abolishing ICE",
         "Congresswoman __ Omar",
         "Congresswoman ___ Omar",
         "Minnesota representative Omar"
@@ -88,7 +87,7 @@
         "Piratic sidekick",
         "Disney boatswain",
         "Barrie villain",
-        "\"Jolly Roge\"r pirate",
+        "\"Jolly Roger\" pirate",
         "\"Now let's give him a big hand... 'cause he's only got one!\" speaker, in film",
         "Captain Hook's underling",
         "Hook underling",
