@@ -1,0 +1,241 @@
+{
+  "clues": [
+    {
+      "index": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "CHIC",
+      "clues": [
+        "Trendy",
+        "In high style",
+        "Smart",
+        "Current",
+        "Fashionably elegant",
+        "'70s R&B/Disco band",
+        "High-style",
+        "Sporting the latest",
+        "Hip",
+        "Quite the fashion plate"
+      ]
+    },
+    {
+      "index": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "CHAKA",
+      "clues": [
+        "Former Rufus singer Khan",
+        "Maia ___, first Black woman NFL official",
+        "\"Queen of Funk\" Khan",
+        "Grammy winner Khan",
+        "Given name adopted by the \"Queen of Funk\"",
+        "\"What's Going On\" singer ___ Khan",
+        "R&B singer Khan",
+        "Singer Khan",
+        "Singer ___ Khan",
+        "Khan of Rufus"
+      ]
+    },
+    {
+      "index": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "HIDEF",
+      "clues": [
+        "Film option, for short",
+        "TV spec",
+        "Plasma TV descriptor",
+        "Sharp, on a TV, informally",
+        "Nice and clear, on TV",
+        "Part of HDTV, briefly",
+        "Very clear",
+        "Superior screen resolution",
+        "Like many NFL broadcasts",
+        "TV type, and, read differently, what you do four times in this puzzle"
+      ]
+    },
+    {
+      "index": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "ISLET",
+      "clues": [
+        "Shipwreck spot, maybe",
+        "Atoll element",
+        "Comic strip landmass with a single palm tree",
+        "Key in a chain, maybe",
+        "Ocean land",
+        "Bit of land in a river",
+        "Atlas dot",
+        "Archipelago dot",
+        "Lighthouse site, perhaps",
+        "Waterlocked land"
+      ]
+    },
+    {
+      "index": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "CHEM",
+      "clues": [
+        "Sci. class with a lab requirement",
+        "Bio relative",
+        "Study with equations, for short",
+        "A science class, briefly",
+        "Type of lab",
+        "Subject of an orgo class",
+        "Class with titrations, for short",
+        "HS science class",
+        "Nobel subj.",
+        "High-school sci."
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "SHISH",
+      "clues": [
+        "Skewer, in a sense",
+        "Turkish for \"skewer\"",
+        "__ kebab",
+        "With 51-Down, skewered Middle Eastern dish",
+        "Spit for a kebab",
+        "___ kebab",
+        "\"Skewer\" in Turkish",
+        "With 52-Down, grilled fare",
+        "-- kebab",
+        "Turk's spit"
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "SLAW",
+      "clues": [
+        "Word from the Dutch for \"salad\"",
+        "Barbecue side dish",
+        "Side with fish and chips",
+        "What may give a burger crunch",
+        "Side dish with pastrami",
+        "White side",
+        "Hash house side",
+        "Cabbage shredded for a picnic",
+        "Side for a sandwich",
+        "Cole___ (picnic side)"
+      ]
+    },
+    {
+      "index": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "LADLE",
+      "clues": [
+        "Molten-metal vessel",
+        "Scoop for soup",
+        "Soup kitchen server",
+        "Serving tool",
+        "Scoop",
+        "Tureen's server",
+        "Dish out",
+        "Serving utensil for stew",
+        "Chef's utensil",
+        "Chowder server"
+      ]
+    },
+    {
+      "index": 7,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "AKEEM",
+      "clues": [
+        "12-time NBA All-Star Olajuwon, as originally spelled",
+        "Prince ___, Eddie Murphy's role in \"Coming to America\"",
+        "Eddie's \"Coming to America\" role",
+        "Prince ___, Eddie Murphy film role",
+        "\"Coming 2 America\" prince",
+        "Eddie Murphy's role in \"Coming to America\"",
+        "\"Coming to America\" protagonist",
+        "\"Coming to/2 America\" royal",
+        "Prince played by Eddie Murphy in \"Coming to America\"",
+        "\"Coming to America\" prince"
+      ]
+    },
+    {
+      "index": 8,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "WAFT",
+      "clues": [
+        "Drift through the air, as odors",
+        "Float on the breeze",
+        "Float through the air",
+        "Travel on air, as an odor",
+        "Float like a feather in the breeze",
+        "Go over the airwaves?",
+        "Drift, like a nice smell",
+        "Carry lightly on a breeze",
+        "Drift gracefully",
+        "Drift, as an aroma"
+      ]
+    }
+  ],
+  "shape": [
+    [
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0
+    ]
+  ]
+}

@@ -6,6 +6,7 @@
         onShareGame,
         onHowToPlay,
         onReportIssue,
+        onCheckPuzzle,
         onKidModeToggle,
         onSoundToggle
     } = $props();
@@ -29,6 +30,11 @@
     function handleReportIssue() {
         menuOpen = false;
         onReportIssue?.();
+    }
+
+    function handleCheckPuzzle() {
+        menuOpen = false;
+        onCheckPuzzle?.();
     }
 
     function openHowToPlay() {
@@ -92,6 +98,9 @@
                     </button>
                     <button class="menu-item" onclick={handleShareGame}>
                         Share Game
+                    </button>
+                    <button class="menu-item" onclick={handleCheckPuzzle}>
+                        Check Puzzle
                     </button>
                     <button class="menu-item" onclick={handleReportIssue}>
                         Report Issue

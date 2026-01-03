@@ -1,0 +1,238 @@
+{
+  "clues": [
+    {
+      "index": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "ILHAN",
+      "clues": [
+        "Congresswoman Omar",
+        "Representative Omar of Minnesota",
+        "@___ (Rep. Omar's handle)",
+        "Representative Omar",
+        "Minnesota's __ Omar",
+        "Omar of Congress",
+        "Representative Omar who supports abolishing ICE",
+        "Congresswoman __ Omar",
+        "Congresswoman ___ Omar",
+        "Minnesota representative Omar"
+      ]
+    },
+    {
+      "index": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "IMPS",
+      "clues": [
+        "Bedevilers",
+        "Folklore pests",
+        "Mischievous sprites",
+        "Sprites",
+        "Shenanigan pullers",
+        "Evil spirits",
+        "Mischievous little devils",
+        "Tiny terrors",
+        "Rascally rapscallions",
+        "Satans in training?"
+      ]
+    },
+    {
+      "index": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "MARNI",
+      "clues": [
+        "Nixon who sang for Natalie Wood in \"West Side Story\"",
+        "Soprano Nixon who sang solos in many movie musicals",
+        "Film-dubbing soprano Nixon",
+        "Singer Nixon who dubbed for Natalie Wood in \"West Side Story\"",
+        "Nixon with a voice",
+        "Ghost singer Nixon",
+        "Dubbing luminary Nixon",
+        "Soprano Nixon",
+        "Dubbing legend Nixon",
+        "\"West Side Story\" dubbing legend Nixon"
+      ]
+    },
+    {
+      "index": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "PROST",
+      "clues": [
+        "Toast with a raised stein",
+        "Toast while hoisting a stein",
+        "Apt rhyme for \"toast\"",
+        "German toast",
+        "\"Cheers!,\" in Berlin",
+        "German's \"Cheers!\"",
+        "Oktoberfest toast"
+      ]
+    },
+    {
+      "index": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "SMEE",
+      "clues": [
+        "Piratic sidekick",
+        "Disney boatswain",
+        "Barrie villain",
+        "\"Jolly Roge\"r pirate",
+        "\"Now let's give him a big hand... 'cause he's only got one!\" speaker, in film",
+        "Captain Hook's underling",
+        "Hook underling",
+        "Hand for one without a hand, in fiction",
+        "Hook accompanier",
+        "He called his cutlass \"Johnny Corkscrew\""
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "ALARM",
+      "clues": [
+        "Morning waker-upper",
+        "A snooze button delays it",
+        "Morning startler",
+        "Wake-up call alternative",
+        "Chili hotness unit",
+        "Buzz in the morning",
+        "Cell phone function",
+        "Aid for heavy sleepers",
+        "Unscientific unit of spiciness",
+        "Bedside buzzer"
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "ATMS",
+      "clues": [
+        "Help in maintaining cash flow, briefly",
+        "They're often pressed for cash",
+        "Cash caches",
+        "Convenience store conveniences",
+        "24-hr. money sources",
+        "Casino cash dispensers",
+        "Bread producers?",
+        "Dough sources: Abbr.",
+        "S&Ls;' cash dispensers",
+        "Many people bank on them"
+      ]
+    },
+    {
+      "index": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "THROE",
+      "clues": [
+        "Sharp pang",
+        "Painful episode",
+        "Spasm",
+        "Fit",
+        "Violent pang",
+        "Violent pain",
+        "Pang of pain",
+        "Violent spasm",
+        "Spasm of pain",
+        "Pang"
+      ]
+    },
+    {
+      "index": 7,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "MANSE",
+      "clues": [
+        "Pastor's place",
+        "Rector's residence",
+        "Church residence",
+        "Parson's pad",
+        "Albs housing",
+        "Dwelling of clergymen",
+        "Clergyman's home",
+        "Clergyman's quarters",
+        "Minister's abode",
+        "Where a minister lives"
+      ]
+    },
+    {
+      "index": 8,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "SNIT",
+      "clues": [
+        "Cross condition",
+        "Vexed state",
+        "Upset state",
+        "Agitated fit",
+        "Mini-rage",
+        "State",
+        "Sulky fit",
+        "Bad mood",
+        "Grumpy condition",
+        "Ornery mood"
+      ]
+    }
+  ],
+  "shape": [
+    [
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0
+    ]
+  ]
+}

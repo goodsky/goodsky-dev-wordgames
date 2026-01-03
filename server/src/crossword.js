@@ -2,6 +2,8 @@ const express = require('express');
 const path = require('path');
 const fs = require('fs');
 
+const crosswordReportRouter = require('./crosswordReport');
+
 const GAMES_DIR = path.join(__dirname, '../data/crossword');
 
 const games = {};
@@ -72,6 +74,8 @@ function selectRandomClue(clueObj) {
 loadGames();
 
 const router = express.Router();
+
+router.use('/report', crosswordReportRouter);
 
 // API endpoint to get a new game
 // Query params:

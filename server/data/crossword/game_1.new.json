@@ -1,0 +1,235 @@
+{
+  "clues": [
+    {
+      "index": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "VOIP",
+      "clues": [
+        "Telephone-on-the-web tech",
+        "Telephone-on-the-web technology",
+        "Telephone-through-data-lines tech, for short",
+        "Technology in which phone lines may be hooked up to a cable modem, for short"
+      ]
+    },
+    {
+      "index": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "VIVID",
+      "clues": [
+        "Brilliant",
+        "Quite bright",
+        "Lively, as an imagination",
+        "Intensely bright",
+        "Brightly colored",
+        "Graphic",
+        "Striking",
+        "Very strong",
+        "Colorful",
+        "Strikingly bright"
+      ]
+    },
+    {
+      "index": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "OTERI",
+      "clues": [
+        "The Spartan Cheerleaders comedienne",
+        "Cheri once on 51-Across",
+        "One-time \"Saturday Night Live\" performer Cheri",
+        "Comic actor Cheri",
+        "Comedian Cheri who does a mean Barbara Walters",
+        "Cheri of \"Scary Movie\"",
+        "\"S.N.L.\" castmate of Shannon and Gasteyer",
+        "Ferrell's fellow cheerleader on \"SNL\"",
+        "Ferrell's partner in \"SNL\" Spartan Cheerleaders bits",
+        "Cheri of SNL cheerleader sketches"
+      ]
+    },
+    {
+      "index": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "IMDUE",
+      "clues": [
+        "\"My luck is bound to change!\"",
+        "\"My luck has to change at some point\"",
+        "\"Something ought to finally go my way\"",
+        "\"Things are bound to go my way soon\"",
+        "\"My luck will turn\"",
+        "\"My luck is bound to change\"",
+        "\"It should be my turn soon\"",
+        "\"It's my time\"",
+        "\"My luck is coming soon!\"",
+        "\"My luck HAS to change!\""
+      ]
+    },
+    {
+      "index": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "PEAS",
+      "clues": [
+        "Food items catapulted with a spoon, maybe",
+        "Shepherd's pie ingredients",
+        "They're often paired with carrots",
+        "Carrots' partners",
+        "Wasabi ___ (bar snack)",
+        "\"The E.N.D.\" Black Eyed ___",
+        "Spherical veggies",
+        "Hoppin' John ingredients",
+        "Shepherd's pie vegetables",
+        "Edible spheroids"
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "HITME",
+      "clues": [
+        "\"I want another card\"",
+        "Alternative to \"stand\"",
+        "Blackjack order",
+        "Blackjack player's command",
+        "Request that's risky if you're over 18?",
+        "Words spoken at 10, often",
+        "Request to keep playing",
+        "Blackjack declaration",
+        "Provocation heard in Fight Clu --wait, forget I said anything",
+        "Request at 11"
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "HAVE",
+      "clues": [
+        "\". . . and what ___ you\"",
+        "Keep",
+        "Metallica \"I ___ lost the will to live\"",
+        "\"I ___ a dream ...\"",
+        "Maintain",
+        "Eat or drink",
+        "\"I ___ an idea!\"",
+        "Choose from the restaurant menu",
+        "Bryan Adams \"Do I ___ to Say the Words?\"",
+        "Privileged one"
+      ]
+    },
+    {
+      "index": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "AVEDA",
+      "clues": [
+        "Salon brand with 100% vegan products",
+        "Cosmetics brand owned by Est\u00e9e Lauder",
+        "Vegan beauty brand headquartered in Minnesota",
+        "Minnesota-based cosmetics company",
+        "Vegan beauty brand owned by Estee Lauder",
+        "Maker of Invati hair products",
+        "Cosmetics brand owned by Estee Lauder",
+        "Eco-friendly spa brand",
+        "Estee Lauder cosmetics brand",
+        "Spa brand with a Sanskrit name"
+      ]
+    },
+    {
+      "index": 7,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "VIRUS",
+      "clues": [
+        "Mono, e.g.",
+        "Bug first discovered in 1898",
+        "It may be written in code",
+        "Computer woe",
+        "Cold cause",
+        "Cybersecurity concern",
+        "Hacker's creation",
+        "Computer malady",
+        "Computer \"infection\"",
+        "Malware delivery"
+      ]
+    },
+    {
+      "index": 8,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "EDIE",
+      "clues": [
+        "With 24-Down, five-time nominee for Outstanding Lead Actress in a Comedy Series",
+        "Falco of the big and small screen",
+        "Jackie for seven years on Showtime",
+        "___ Brickell & New Bohemians",
+        "Emmy-winning Falco",
+        "\"Grey Gardens\" nickname",
+        "\"Factory Girl\" subject Sedgwick",
+        "Sedgwick portrayed in \"Factory Girl\"",
+        "___ Parker (handbag retailer)",
+        "Falco of \"Tommy\""
+      ]
+    }
+  ],
+  "shape": [
+    [
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0
+    ]
+  ]
+}

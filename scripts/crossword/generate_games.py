@@ -273,8 +273,8 @@ def generate_game(shape, clues_index, word_index, verbose=False):
     clues = format_crossword_clues(filled_slots, clues_index)
 
     return {
+        'clues': clues,
         'shape': puzzle_grid,
-        'clues': clues
     }
 
 
@@ -311,8 +311,11 @@ def get_next_available_file(output_dir, base_name="game", extension=".json"):
 
     index = 1
     while True:
-        candidate_file = output_path / f"{base_name}_{index}{extension}"
-        if not candidate_file.exists():
+        # We will generate files with the file suffix .new.json to indicate they are newly generated
+        # But we still want to keep counting up from existing files without .new
+        candidate_file = output_path / f"{base_name}_{index}.new{extension}"
+        existing_files = list(output_path.glob(f"{base_name}_{index}*{extension}"))
+        if not existing_files:
             return candidate_file
         index += 1
 

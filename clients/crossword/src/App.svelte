@@ -2,6 +2,7 @@
   import { onMount } from "svelte";
   import MenuBar from "./MenuBar.svelte";
   import SplashScreen from "./SplashScreen.svelte";
+  import ReportIssue from "./ReportIssue.svelte";
 
   let isLoading = $state(true);
   let gameId = $state(null);
@@ -18,6 +19,8 @@
   let shareUrl = $state('');
   let copiedToClipboard = $state(false);
   let showSplashScreen = $state(true);
+  let showReportIssue = $state(false);
+  let incorrectCells = $state(new Set()); // Cells marked as incorrect from check
   
   // MenuBar state
   let kidMode = $state(false);
@@ -223,6 +226,61 @@
     return cells;
   }
 
+  // Get the ghost letter for a cell in kid mode
+  function getGhostLetter(row, col) {
+    if (!kidMode || !clues[currentClueIndex]) return '';
+    
+    const clue = clues[currentClueIndex];
+    const { row: clueRow, col: clueCol, direction, answer } = clue;
+    
+    // Check if this cell is part of the current clue
+    if (direction === 'across') {
+      if (row === clueRow && col >= clueCol && col < clueCol + answer.length) {
+        const index = col - clueCol;
+        return answer[index];
+      }
+    } else {
+      if (col === clueCol && row >= clueRow && row < clueRow + answer.length) {
+        const index = row - clueRow;
+        return answer[index];
+      }
+    }
+    
+    return '';
+  }
+
+  // Check if a cell has a wrong answer in kid mode
+  function hasWrongAnswer(row, col) {
+    if (!kidMode) return false;
+    
+    const userLetter = userAnswers[row][col];
+    if (!userLetter) return false; // No user input, not wrong
+    
+    // Check all clues to find the correct answer for this cell
+    for (const clue of clues) {
+      const { row: clueRow, col: clueCol, direction, answer } = clue;
+      
+      if (direction === 'across') {
+        if (row === clueRow && col >= clueCol && col < clueCol + answer.length) {
+          const index = col - clueCol;
+          return userLetter !== answer[index];
+        }
+      } else {
+        if (col === clueCol && row >= clueRow && row < clueRow + answer.length) {
+          const index = row - clueRow;
+          return userLetter !== answer[index];
+        }
+      }
+    }
+    
+    return false;
+  }
+
+  // Check if cell is marked as incorrect from check puzzle
+  function isIncorrectCell(row, col) {
+    return incorrectCells.has(`${row}-${col}`);
+  }
+
   // Check if the current word is completely filled
   function isCurrentWordComplete() {
     if (!lastFocusedCell) return false;
@@ -344,6 +402,25 @@
       cell.focus();
       lastFocusedCell = { row, col };
     }
+
+    if (cell instanceof HTMLInputElement) {
+      cell.select();
+    }
+  }
+
+  function handleCellFocus(row, col, event) {
+    // In kid mode, clear wrong answers when focusing
+    if (hasWrongAnswer(row, col)) {
+      userAnswers[row][col] = '';
+      grid[row][col].letter = '';
+      event.target.value = '';
+      // Trigger reactivity
+      userAnswers = userAnswers;
+      grid = grid;
+    }
+    
+    // Select the text in the input
+    /** @type {HTMLInputElement} */ (event.target).select();
   }
 
   function refocusGrid() {
@@ -400,10 +477,36 @@
   }
 
   function handleReportIssue() {
-    // Stub implementation - will be implemented later
-    console.log('Report issue functionality coming soon');
-    alert('Report issue feature coming soon!');
+    showReportIssue = true;
+  }
+
+  function handleCheckPuzzle() {
+    const newIncorrectCells = new Set();
+    
+    // Check all filled cells against correct answers
+    for (const clue of clues) {
+      const { row, col, direction, answer } = clue;
+      for (let i = 0; i < answer.length; i++) {
+        const r = direction === 'across' ? row : row + i;
+        const c = direction === 'across' ? col + i : col;
+        const userLetter = userAnswers[r][c];
+        
+        // Mark as incorrect if filled and wrong
+        if (userLetter && userLetter !== answer[i]) {
+          newIncorrectCells.add(`${r}-${c}`);
+        }
+      }
+    }
+    
+    incorrectCells = newIncorrectCells;
     setTimeout(refocusGrid, 100);
+  }
+
+  function clearIncorrectCell(row, col) {
+    if (incorrectCells.has(`${row}-${col}`)) {
+      incorrectCells.delete(`${row}-${col}`);
+      incorrectCells = new Set(incorrectCells); // Trigger reactivity
+    }
   }
 
   function handleKidModeToggle() {
@@ -436,6 +539,7 @@
 
   function handleInput(row, col, event) {
     let value = event.target.value;
+    clearIncorrectCell(row, col);
     
     // If multiple chars (selection didn't work), take the last one (newly typed)
     if (value.length > 1) {
@@ -476,6 +580,10 @@
         // If current cell has content, clear it
         userAnswers[row][col] = '';
         grid[row][col].letter = '';
+        clearIncorrectCell(row, col);
+        // Trigger reactivity
+        userAnswers = userAnswers;
+        grid = grid;
       } else {
         // If cell is empty, move to previous cell and clear it
         const prevCell = findPreviousCell(row, col);
@@ -484,6 +592,10 @@
           grid[prevCell.row][prevCell.col].letter = '';
           updateClueForCell(prevCell.row, prevCell.col);
           focusCell(prevCell.row, prevCell.col);
+          clearIncorrectCell(prevCell.row, prevCell.col);
+          // Trigger reactivity
+          userAnswers = userAnswers;
+          grid = grid;
         }
       }
     } else if (event.key === 'Enter') {
@@ -547,6 +659,7 @@
       onShareGame={handleShareGame}
       onHowToPlay={handleHowToPlay}
       onReportIssue={handleReportIssue}
+      onCheckPuzzle={handleCheckPuzzle}
       onKidModeToggle={handleKidModeToggle}
       onSoundToggle={handleSoundToggle}
     />
@@ -564,7 +677,7 @@
                 {#if cell.blocked}
                   <div class="cell blocked"></div>
                 {:else}
-                  <div class="cell" class:highlighted={isHighlighted(rowIndex, colIndex)}>
+                  <div class="cell" class:highlighted={isHighlighted(rowIndex, colIndex)} class:wrong-answer={hasWrongAnswer(rowIndex, colIndex)} class:incorrect-cell={isIncorrectCell(rowIndex, colIndex)}>
                     {#if cell.clueIndex}
                       <span class="clue-number">{cell.clueIndex}</span>
                     {/if}
@@ -577,9 +690,10 @@
                       autocapitalize="characters"
                       spellcheck="false"
                       value={cell.letter}
+                      placeholder={getGhostLetter(rowIndex, colIndex)}
                       oninput={(e) => handleInput(rowIndex, colIndex, e)}
                       onkeydown={(e) => handleKeyDown(rowIndex, colIndex, e)}
-                      onfocus={(e) => /** @type {HTMLInputElement} */ (e.target).select()}
+                      onfocus={(e) => handleCellFocus(rowIndex, colIndex, e)}
                       onclick={() => handleCellClick(rowIndex, colIndex)}
                       data-row={rowIndex}
                       data-col={colIndex}
@@ -703,6 +817,17 @@
       </div>
     </div>
   {/if}
+
+  {#if showReportIssue}
+    <ReportIssue 
+      gameId={gameId}
+      clue={clues[currentClueIndex]}
+      onClose={() => {
+        showReportIssue = false;
+        setTimeout(refocusGrid, 100);
+      }}
+    />
+  {/if}
 </main>
 
 <style>
@@ -817,6 +942,28 @@
 
   .cell-input:focus {
     background: #ffffcc;
+  }
+
+  .cell-input::placeholder {
+    color: #d0d0d0;
+    opacity: 1;
+    font-weight: normal;
+  }
+
+  .cell.wrong-answer {
+    background-color: #ffcccc !important;
+  }
+
+  .cell.wrong-answer .cell-input:not(:focus) {
+    background-color: #ffcccc;
+  }
+
+  .cell.incorrect-cell {
+    background-color: #ffcccc !important;
+  }
+
+  .cell.incorrect-cell .cell-input:not(:focus) {
+    background-color: #ffcccc;
   }
 
   .clue-display {

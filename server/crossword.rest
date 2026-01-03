@@ -1,7 +1,40 @@
 ### =================
+### Production
+### =================
+
+### Get the reported clues
+GET https://wordgames.goodsky.dev/api/crossword/report
+
+
+### Clear the report
+DELETE https://wordgames.goodsky.dev/api/crossword/report
+
+
+### =================
 ### DEVELOPMENT
 ### (Localhost)
 ### =================
 
-## Get a new game
+### Get a new game
 GET http://localhost:3000/api/crossword/newgame
+
+
+### Get the reported clues
+GET http://localhost:3000/api/crossword/report
+
+
+### Clear the report
+DELETE http://localhost:3000/api/crossword/report
+
+### Send a report
+POST http://localhost:3000/api/crossword/report
+Content-Type: application/json
+
+{
+    "gameId": "1",
+    "clueIndex": 5,
+    "clueDirection": "across",
+    "clue": "Capital of France",
+    "answer": "PARIS",
+    "comment": "This clue is incorrect or misleading."
+}
