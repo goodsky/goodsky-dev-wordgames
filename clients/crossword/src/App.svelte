@@ -364,31 +364,6 @@
     setTimeout(focusNextBlank, 100);
   }
 
-  function handleInput(row, col, event) {
-    const value = event.target.value.toUpperCase();
-    // Only allow single letters
-    if (value.length <= 1 && /^[A-Z]*$/.test(value)) {
-      userAnswers[row][col] = value;
-      grid[row][col].letter = value;
-      
-      // Check if word is complete after entering a letter
-      if (value.length === 1) {
-        // Check if puzzle is complete
-        setTimeout(() => checkPuzzle(), 100);
-        
-        if (isCurrentWordComplete()) {
-          // Move to next clue if word is complete
-          nextClue();
-        } else {
-          // Otherwise, advance to next blank cell in the current word
-          focusNextBlank();
-        }
-      }
-    } else {
-      event.target.value = userAnswers[row][col];
-    }
-  }
-
   // Handle cell click - toggle between across/down if clicking same cell
   function handleCellClick(row, col) {
     const isSameCell = lastFocusedCell && lastFocusedCell.row === row && lastFocusedCell.col === col;
@@ -417,7 +392,25 @@
   }
 
   function handleKeyDown(row, col, event) {
-    if (event.key === 'Backspace') {
+    // Handle letter input
+    if (event.key.length === 1 && /^[a-zA-Z]$/.test(event.key)) {
+      event.preventDefault();
+      const letter = event.key.toUpperCase();
+      
+      userAnswers[row][col] = letter;
+      grid[row][col].letter = letter;
+      
+      // Check if puzzle is complete
+      setTimeout(() => checkPuzzle(), 100);
+      
+      if (isCurrentWordComplete()) {
+        // Move to next clue if word is complete
+        nextClue();
+      } else {
+        // Otherwise, advance to next blank cell in the current word
+        focusNextBlank();
+      }
+    } else if (event.key === 'Backspace') {
       event.preventDefault();
       
       if (userAnswers[row][col]) {
@@ -525,7 +518,6 @@
                       autocapitalize="characters"
                       spellcheck="false"
                       value={cell.letter}
-                      oninput={(e) => handleInput(rowIndex, colIndex, e)}
                       onkeydown={(e) => handleKeyDown(rowIndex, colIndex, e)}
                       onclick={() => handleCellClick(rowIndex, colIndex)}
                       data-row={rowIndex}
@@ -670,7 +662,7 @@
   .container {
     background: white;
     border-radius: 8px;
-    padding: 20px;
+    padding: 20px 0;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     max-width: 500px;
     width: 100%;
@@ -688,6 +680,7 @@
     flex: 1;
     min-height: 0;
     overflow: hidden;
+    padding: 0 20px;
   }
 
   .grid-wrapper {
@@ -769,7 +762,6 @@
     border-radius: 8px;
     border: 1px solid #dee2e6;
     flex-shrink: 0;
-    flex-basis: auto;
   }
 
   .clue-button {
