@@ -1,5 +1,7 @@
 <script>
   import { onMount } from "svelte";
+  import MenuBar from "./MenuBar.svelte";
+  import SplashScreen from "./SplashScreen.svelte";
 
   let isLoading = $state(true);
   let gameId = $state(null);
@@ -11,6 +13,15 @@
   let lastFocusedCell = $state(null); // Track last focused cell: {row, col}
   let showModal = $state(false);
   let isCorrect = $state(false);
+  let showHowToPlay = $state(false);
+  let showShareModal = $state(false);
+  let shareUrl = $state('');
+  let copiedToClipboard = $state(false);
+  let showSplashScreen = $state(true);
+  
+  // MenuBar state
+  let kidMode = $state(false);
+  let soundOn = $state(false);
 
   onMount(() => {
     const params = new URLSearchParams(window.location.search);
@@ -313,6 +324,46 @@
     loadGame(null);
   }
 
+  function handleShareGame() {
+    const baseUrl = `${window.location.origin}${window.location.pathname}`;
+    shareUrl = `${baseUrl}?id=${gameId}`;
+    copiedToClipboard = false;
+    showShareModal = true;
+  }
+
+  function copyShareUrl() {
+    navigator.clipboard.writeText(shareUrl).then(() => {
+      copiedToClipboard = true;
+      setTimeout(() => {
+        copiedToClipboard = false;
+      }, 2000);
+    });
+  }
+
+  function closeShareModal() {
+    showShareModal = false;
+  }
+
+  function handleHowToPlay() {
+    showHowToPlay = true;
+  }
+
+  function closeHowToPlay() {
+    showHowToPlay = false;
+  }
+
+  function handleReportIssue() {
+    // Stub implementation - will be implemented later
+    console.log('Report issue functionality coming soon');
+    alert('Report issue feature coming soon!');
+  }
+
+  function handlePlayClick() {
+    showSplashScreen = false;
+    // Focus first cell after user tap - this triggers mobile keyboard
+    setTimeout(focusNextBlank, 100);
+  }
+
   function handleInput(row, col, event) {
     const value = event.target.value.toUpperCase();
     // Only allow single letters
@@ -433,15 +484,28 @@
   }
 </script>
 
+{#if showSplashScreen}
+  <SplashScreen onPlay={handlePlayClick} />
+{/if}
+
 <main>
   <div class="container">
+    <MenuBar 
+      bind:kidMode
+      bind:soundOn
+      onNewGame={newGame}
+      onShareGame={handleShareGame}
+      onHowToPlay={handleHowToPlay}
+      onReportIssue={handleReportIssue}
+    />
     {#if isLoading}
       <p>Loading puzzle...</p>
     {:else}
       <div class="game-area">
-        <div 
-          class="crossword-grid" 
-          style="grid-template-columns: repeat({grid[0].length}, 1fr); --grid-cols: {grid[0].length}; --grid-rows: {grid.length};"
+        <div class="grid-wrapper">
+          <div 
+            class="crossword-grid" 
+            style="grid-template-columns: repeat({grid[0].length}, 1fr); --grid-cols: {grid[0].length}; --grid-rows: {grid.length};"
           >
             {#each grid as rowCells, rowIndex}
               {#each rowCells as cell, colIndex}
@@ -455,6 +519,11 @@
                     <input
                       type="text"
                       maxlength="1"
+                      inputmode="text"
+                      autocomplete="off"
+                      autocorrect="off"
+                      autocapitalize="characters"
+                      spellcheck="false"
                       value={cell.letter}
                       oninput={(e) => handleInput(rowIndex, colIndex, e)}
                       onkeydown={(e) => handleKeyDown(rowIndex, colIndex, e)}
@@ -468,6 +537,7 @@
               {/each}
             {/each}
           </div>
+        </div>
 
         <div class="clue-display">
           <button class="clue-button" onclick={previousClue} aria-label="Previous clue">
@@ -492,6 +562,67 @@
       </div>
     {/if}
   </div>
+
+  {#if showShareModal}
+    <!-- svelte-ignore a11y_click_events_have_key_events -->
+    <!-- svelte-ignore a11y_no_static_element_interactions -->
+    <div class="modal-overlay" onclick={closeShareModal}>
+      <!-- svelte-ignore a11y_click_events_have_key_events -->
+      <!-- svelte-ignore a11y_no_static_element_interactions -->
+      <div class="modal" onclick={(e) => e.stopPropagation()}>
+        <h2>Share Game</h2>
+        <p>Share this puzzle with a friend:</p>
+        <div class="share-url-container">
+          <input 
+            type="text" 
+            readonly 
+            value={shareUrl}
+            class="share-url-input"
+          />
+          <button class="copy-btn" onclick={copyShareUrl}>
+            {copiedToClipboard ? 'Copied!' : 'Copy'}
+          </button>
+        </div>
+        <div class="modal-buttons">
+          <button class="modal-button" onclick={closeShareModal}>
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  {/if}
+
+  {#if showHowToPlay}
+    <!-- svelte-ignore a11y_click_events_have_key_events -->
+    <!-- svelte-ignore a11y_no_static_element_interactions -->
+    <div class="modal-overlay" onclick={closeHowToPlay}>
+      <!-- svelte-ignore a11y_click_events_have_key_events -->
+      <!-- svelte-ignore a11y_no_static_element_interactions -->
+      <div class="modal how-to-play-modal" onclick={(e) => e.stopPropagation()}>
+        <h2>How to Play</h2>
+        <div class="instructions">
+          <p><strong>Objective:</strong> Fill in the crossword grid with the correct letters based on the clues.</p>
+          
+          <p><strong>Controls:</strong></p>
+          <ul>
+            <li><strong>Click a cell</strong> to focus it. Click again to toggle between across/down clues.</li>
+            <li><strong>Type a letter</strong> to fill the cell and advance to the next blank.</li>
+            <li><strong>Backspace</strong> to delete and move backward.</li>
+            <li><strong>Arrow keys</strong> to navigate the grid.</li>
+            <li><strong>Tab</strong> to toggle between across/down at the current cell.</li>
+            <li><strong>Enter</strong> to move to the next clue.</li>
+          </ul>
+          
+          <p><strong>Clue Navigation:</strong> Use the arrow buttons at the bottom to switch between clues, or click any cell in the grid.</p>
+          
+          <p><strong>Completion:</strong> The puzzle will automatically check when all cells are filled!</p>
+        </div>
+        <div class="modal-buttons">
+          <button class="modal-button primary" onclick={closeHowToPlay}>Got it!</button>
+        </div>
+      </div>
+    </div>
+  {/if}
 
   {#if showModal}
     <!-- svelte-ignore a11y_click_events_have_key_events -->
@@ -556,17 +687,25 @@
     gap: 20px;
     flex: 1;
     min-height: 0;
-    overflow: auto;
+    overflow: hidden;
+  }
+
+  .grid-wrapper {
+    flex: 1;
+    min-height: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .crossword-grid {
     display: grid;
     gap: 0;
     border: none;
-    width: 100%;
     max-width: 100%;
+    max-height: 100%;
     aspect-ratio: var(--grid-cols) / var(--grid-rows);
-    flex-shrink: 1;
   }
 
   .cell {
@@ -630,6 +769,7 @@
     border-radius: 8px;
     border: 1px solid #dee2e6;
     flex-shrink: 0;
+    flex-basis: auto;
   }
 
   .clue-button {
@@ -699,6 +839,38 @@
     text-align: center;
   }
 
+  .how-to-play-modal {
+    max-width: 500px;
+    text-align: left;
+  }
+
+  .how-to-play-modal h2 {
+    text-align: center;
+  }
+
+  .instructions {
+    margin: 0 0 20px 0;
+  }
+
+  .instructions p {
+    margin: 10px 0;
+    text-align: left;
+  }
+
+  .instructions ul {
+    margin: 10px 0;
+    padding-left: 20px;
+  }
+
+  .instructions li {
+    margin: 8px 0;
+    line-height: 1.5;
+  }
+
+  .instructions strong {
+    color: #333;
+  }
+
   .modal h2 {
     margin: 0 0 15px 0;
     color: #333;
@@ -744,22 +916,55 @@
     background: #555;
   }
 
+  .share-url-container {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .share-url-input {
+    flex: 1;
+    padding: 0.75rem;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 0.875rem;
+    font-family: monospace;
+  }
+
+  .copy-btn {
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    border: 2px solid #333;
+    background-color: #333;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    white-space: nowrap;
+  }
+
+  .copy-btn:hover {
+    background-color: #555;
+  }
+
   @media (max-width: 480px) {
+    main {
+      padding: 0px;
+    }
+
     .container {
-      padding: 15px;
+      padding: 10px;
       border-radius: 0;
     }
 
-    h1 {
-      font-size: 20px;
-    }
-
     .clue-display {
-      padding: 12px;
+      padding: 10px;
       gap: 10px;
     }
 
-    .nav-button {
+    .clue-button {
       width: 35px;
       height: 35px;
       font-size: 18px;
