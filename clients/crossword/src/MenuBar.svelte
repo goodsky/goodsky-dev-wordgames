@@ -265,15 +265,6 @@
         background-color: #f0f0f0;
     }
 
-    .menu-item.active {
-        background: #ffd43b;
-        color: #333;
-    }
-
-    .menu-item.active:hover {
-        background: #fcc419;
-    }
-
     .menu-item + .menu-item {
         border-top: 1px solid #ddd;
     }
