@@ -1,0 +1,236 @@
+{
+  "clues": [
+    {
+      "index": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "GONAD",
+      "clues": [
+        "Ball, as it were",
+        "Ovary, e.g.",
+        "Ovary, for example",
+        "Gamete producer",
+        "Reproductive gland"
+      ]
+    },
+    {
+      "index": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "GIBBS",
+      "clues": [
+        "The Bee Gees family",
+        "Lead agent on \"NCIS\"",
+        "Obama press secretary",
+        "Barry, Robin and Maurice of the Bee Gees",
+        "Pro Football Hall of Fame coach Joe",
+        "Bee Gees family",
+        "Mega-selling singing family",
+        "Longtime Redskins coach Joe",
+        "Brothers who sang \"Stayin' Alive\"",
+        "Bee Gees brothers"
+      ]
+    },
+    {
+      "index": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "OTERI",
+      "clues": [
+        "Castmate of Gasteyer, Ferrell et al.",
+        "Cheri who played Judge Judy on \"SNL\"",
+        "Spartan cheerleader of \"Saturday Night Live\"",
+        "Ferrell's \"SNL\" cheerleading partner",
+        "Perot impersonator on \"SNL\"",
+        "'90s \"SNL\" regular Cheri",
+        "\"Liar Liar\" actress Cheri",
+        "Comic Cheri",
+        "Former \"SNL\" performer Cheri",
+        "Cheri formerly of \"S.N.L.\""
+      ]
+    },
+    {
+      "index": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "NASAL",
+      "clues": [
+        "Like a twangy voice",
+        "Twangy-sounding",
+        "Like one's voice when one has a cold, maybe",
+        "Like Fran Drescher's voice",
+        "Word with spray or passage",
+        "Country descriptor, sometimes",
+        "Snooty?",
+        "Like some French vowels",
+        "Descriptor for M and N",
+        "__ congestion (cold symptom)"
+      ]
+    },
+    {
+      "index": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "ALTHO",
+      "clues": [
+        "Even if, casually",
+        "Whereas, briefly",
+        "Notwithstanding that, for short",
+        "Even if, in verse",
+        "Clipped conjunction",
+        "Even s'posing",
+        "In spite of the fact that, briefly",
+        "Even if, cut",
+        "In spite of, to poets",
+        "Despite, for lazy texters"
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 5,
+      "answer": "DOSES",
+      "clues": [
+        "Dispensary quantities",
+        "Prescription specs",
+        "Medication amounts",
+        "Amounts of medicines",
+        "Pill amounts",
+        "Teaspoonfuls or tablets",
+        "Script specifications",
+        "VIP on a float, maybe",
+        "Prescription amounts",
+        "Med measures"
+      ]
+    },
+    {
+      "index": 6,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "ITALO",
+      "clues": [
+        "Novel-writer Calvino",
+        "Calvino or Balbo",
+        "Writer -- Calvino",
+        "Novelist Calvino",
+        "___-Abyssinian War",
+        "Prefix for Rome's country",
+        "\"Invisible Cities\" writer Calvino",
+        "European-origin prefix",
+        "\"Invisible Cities\" author Calvino",
+        "Ethnic prefix"
+      ]
+    },
+    {
+      "index": 7,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "BESTS",
+      "clues": [
+        "Tops",
+        "Tops in a contest",
+        "Outplays",
+        "Whips",
+        "Is victorious over",
+        "Surpasses",
+        "Records that may be \"personal\"",
+        "Triumphs over",
+        "Conquers",
+        "Outdoes"
+      ]
+    },
+    {
+      "index": 8,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "BRAHE",
+      "clues": [
+        "Danish astronomer Tycho ___",
+        "Astronomer Tycho who coined the term 'nova'",
+        "Astronomer Tycho",
+        "Astronomer Tycho ___",
+        "Kepler's contemporary and assistant",
+        "Astronomer who lost part of his nose in a sword duel",
+        "Astronomer who coined the term \"nova\"",
+        "Danish astronomer Tycho who lost part of his nose in a duel",
+        "Danish astronomer who followed Copernicus",
+        "Danish astronomer who was exhumed twice, once to examine the causes of death and once to identify the material of his artificial nose"
+      ]
+    },
+    {
+      "index": 9,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 5,
+      "answer": "SILOS",
+      "clues": [
+        "Rural towers",
+        "Some launch sites",
+        "Domed-top structures, perhaps",
+        "Holders of fodder",
+        "Fodder holders",
+        "Grain holders",
+        "Isolates, in business-speak",
+        "Farm storage spots",
+        "Missile holders",
+        "Cylindrical structures"
+      ]
+    }
+  ],
+  "shape": [
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  ]
+}

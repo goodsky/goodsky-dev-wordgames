@@ -1,0 +1,227 @@
+{
+  "clues": [
+    {
+      "index": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "GYROS",
+      "clues": [
+        "Sandwiches often topped with tzatziki",
+        "Food cart offerings",
+        "Pita sandwiches",
+        "Some food festival fare",
+        "Sandwiches served with tzatziki",
+        "Pita-wrapped Greek sandwiches",
+        "They're sometimes topped with tzatziki",
+        "Sandwiches in pitas",
+        "Tzatziki-topped sandwiches",
+        "Street food favorites topped with tzatziki"
+      ]
+    },
+    {
+      "index": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "GYROS",
+      "clues": [
+        "Greek sandwiches",
+        "Greek deli buys",
+        "Sandwiches on pita",
+        "Sandwiches on pita bread",
+        "They're often served with tzatziki",
+        "Sandwiches sparking many a pronunciation debate",
+        "Wrap relatives",
+        "Street food favorites topped with tzatziki",
+        "Greek restaurant offerings",
+        "Sandwiches often topped with tzatziki"
+      ]
+    },
+    {
+      "index": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "YEARN",
+      "clues": [
+        "Feel a longing",
+        "Have a longing",
+        "Long wistfully",
+        "Pine (for)",
+        "Long for",
+        "Hanker, and a synonym for the ends of 21-, 26-, 43- and 50-Across",
+        "Pine, like someone drawing \"AL + PV 4EVA\" in a notebook (hi, I just got engaged)",
+        "Desire strongly",
+        "Have an itch",
+        "Hanker"
+      ]
+    },
+    {
+      "index": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "RAITA",
+      "clues": [
+        "Yogurt-based condiment served to cool hot curry dishes",
+        "Biryani side",
+        "Sauce with yogurt and cucumber",
+        "Sauce served with biryani",
+        "Curry's cooling accompaniment",
+        "Yogurt-based Indian condiment",
+        "Popadam dip",
+        "Indian yogurt dish",
+        "Naan dipping sauce",
+        "Yogurt prepared with produce, herbs and spices"
+      ]
+    },
+    {
+      "index": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "ORTIZ",
+      "clues": [
+        "2005 A.L. Hank Aaron Award winner",
+        "Red Sox great in Cooperstown since 2022",
+        "Boxer Luis, nicknamed \"King Kong\"",
+        "Ana of \"Ugly Betty\"",
+        "Baseballer David a.k.a. 'Big Papi'",
+        "Baseball's \"Big Papi\"",
+        "Red Sox slugger David",
+        "Tito of mixed martial arts",
+        "Ana of \"Love, Victor\"",
+        "David ___, baseball's Big Papi"
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 5,
+      "answer": "SNAZZ",
+      "clues": [
+        "Spiff (up)",
+        "Flashy quality",
+        "___ up (make fancier)"
+      ]
+    },
+    {
+      "index": 6,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "YEARN",
+      "clues": [
+        "Jones",
+        "Have a hankering",
+        "Ache for",
+        "Pine for",
+        "Be homesick (for)",
+        "Feel wistful",
+        "Pine (for)",
+        "Pine",
+        "More than want",
+        "Have a hankering (for)"
+      ]
+    },
+    {
+      "index": 7,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "RAITA",
+      "clues": [
+        "Yogurt-based side dish in Indian cuisine",
+        "Indian condiment",
+        "Yogurt and cucumber side dish",
+        "Yogurty dish with a curry",
+        "Dahi-based Indian dish",
+        "Yogurt-based condiment served with 24-Across",
+        "Naan dipping sauce",
+        "Yogurty side dish of India",
+        "Yogurt condiment sometimes made with cucumber",
+        "Biryani side"
+      ]
+    },
+    {
+      "index": 8,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "ORTIZ",
+      "clues": [
+        "Slugger David who was a hero of the 2013 World Series",
+        "Bosox #34",
+        "2006 A.L. home run champ",
+        "2022 National Baseball Hall of Fame inductee who gave a bilingual induction speech",
+        "Actress Ana of \"Love, Victor\"",
+        "2005 A.L. Hank Aaron Award winner",
+        "Baseball slugger David known as Big Papi",
+        "David of the Red Sox",
+        "David who is baseball's \"Big Papi\"",
+        "David who (greatly) helped the 50-Down win the World Series in 2004"
+      ]
+    },
+    {
+      "index": 9,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 5,
+      "answer": "SNAZZ",
+      "clues": [
+        "Flashy quality",
+        "___ up (make fancier)",
+        "Spiff (up)"
+      ]
+    }
+  ],
+  "shape": [
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  ]
+}

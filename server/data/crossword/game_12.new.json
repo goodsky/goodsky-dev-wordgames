@@ -1,0 +1,241 @@
+{
+  "clues": [
+    {
+      "index": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "FAIRE",
+      "clues": [
+        "Laissez-___",
+        "Savoir-___",
+        "Ren ___",
+        "Renaissance ___",
+        "Ren ___ (LARPers spot)",
+        "Renaissance __",
+        "Ren ___ (old-timey event)",
+        "Ren ___ (role-playing festival)",
+        "Elizabethan expo",
+        "Renaissance-themed festival"
+      ]
+    },
+    {
+      "index": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "FACT",
+      "clues": [
+        "You can't deny it",
+        "Indisputable point",
+        "Checker's concern",
+        "True piece of information",
+        "It's undeniable",
+        "\"It's a __!\"",
+        "\"Twelve plus one\" anagrams to \"eleven plus two,\" e.g.",
+        "Basis of a trivia question",
+        "\"An octopus has three hearts,\" e.g.",
+        "You should believe one"
+      ]
+    },
+    {
+      "index": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "ACTAS",
+      "clues": [
+        "Represent",
+        "Assume the function of",
+        "Fill the role of",
+        "Play the part of",
+        "Represent for a bit",
+        "Have the part of",
+        "Be, but not in one's normal capacity",
+        "Perform the duties of",
+        "Serve in the capacity of",
+        "Portray the role of"
+      ]
+    },
+    {
+      "index": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "CRABS",
+      "clues": [
+        "Fiddler and king",
+        "Alaska king and others",
+        "Shore dinner entree",
+        "They move sideways",
+        "Whine connoisseurs?",
+        "Sea creatures with claws",
+        "They can be \"fiddlers\" or \"ghosts\"",
+        "Crustaceans that pinch",
+        "Grumps",
+        "Constant complainers"
+      ]
+    },
+    {
+      "index": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "TANS",
+      "clues": [
+        "Beachgoers get them",
+        "Many vacationers bring them home",
+        "Lifeguards have good ones",
+        "Light browns",
+        "They may be fake",
+        "Results of sunbathing",
+        "Sunbathing goals",
+        "Beach shades",
+        "Salon services",
+        "Bronzes in the sun"
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "STAN",
+      "clues": [
+        "Be a devoted backer of, in slang",
+        "Polish-American applied mathematician Ulam, familiarly, who was born on this day in 1909",
+        "\"Captain America: The First Avenger\" actor Sebastian",
+        "Musial of the diamond",
+        "___ Lee, longtime head of Marvel Comics",
+        "Idolize, in modern lingo",
+        "Lee of Marvel Comics",
+        "A \"South Park\" kid",
+        "Be a superfanboy",
+        "Hulk cocreator Lee"
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "SACRA",
+      "clues": [
+        "Bones that are not formed until adolescence",
+        "Neighbors of 7-Down",
+        "They were once called \"holy bones\"",
+        "Pelvic parts",
+        "Spinal bases",
+        "Wedge-shaped bones",
+        "Pelvic bones",
+        "Vertebral column parts",
+        "Triangular pelvic bones",
+        "Parts of pelvises"
+      ]
+    },
+    {
+      "index": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "TITAN",
+      "clues": [
+        "Atlas, for one (Nissan)",
+        "Captain of industry",
+        "Moon larger than Mercury",
+        "Powerful god",
+        "Pre-Olympian god of Greek mythology",
+        "Nashville athlete",
+        "Atlas, for instance",
+        "Phoebe or Cronus",
+        "Industry magnate",
+        "Elder god in Greek mythology"
+      ]
+    },
+    {
+      "index": 7,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "ARABS",
+      "clues": [
+        "Many Dubai residents",
+        "Most Lebanese",
+        "One side in a 1967 war",
+        "Typical Kuwaitis",
+        "Many Maghrebis",
+        "About 450 million people",
+        "Some Muslims",
+        "Men from Mecca",
+        "Ishmael's descendants",
+        "Many Qatar natives"
+      ]
+    },
+    {
+      "index": 8,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "NESS",
+      "clues": [
+        "Highlands headland",
+        "Noted loch",
+        "Author Patrick of \"The Knife of Never Letting Go\"",
+        "Loch of fame",
+        "\"The Untouchables\" crimefighter Eliot",
+        "Suffix with \"dark\" or \"bright\"",
+        "Noun-forming ending",
+        "1930s Chicago crimefighter",
+        "The Loch __ monster",
+        "Costner film role"
+      ]
+    }
+  ],
+  "shape": [
+    [
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0
+    ]
+  ]
+}

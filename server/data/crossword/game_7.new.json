@@ -1,0 +1,240 @@
+{
+  "clues": [
+    {
+      "index": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "STRUG",
+      "clues": [
+        "Kerri ___, U.S. gymnastics star at the 1996 Olympics",
+        "Olympic gymnast Kerri",
+        "Member of the \"magnificent\" 1996 U.S. women's gymnastics team",
+        "1996 gold-medal-winning gymnast who landed her final Olympic vault on a sprained ankle",
+        "1990s Olympian Kerri",
+        "Gymnast Kerri who performed an iconic vault in the 1996 Olympics",
+        "Kerri of gymnastics",
+        "Gymnast Kerri",
+        "Gymnastics gold medalist Kerri"
+      ]
+    },
+    {
+      "index": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "SLR",
+      "clues": [
+        "High-end camera type, initially",
+        "35mm camera type",
+        "Certain camera, initially",
+        "Photog's purchase",
+        "Camera with mirrors inside",
+        "Digital ___ camera",
+        "Many a Nikon",
+        "Camera type favored by many hobbyists, briefly",
+        "Konica Minolta offering, once",
+        "Canon letters"
+      ]
+    },
+    {
+      "index": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "LEONI",
+      "clues": [
+        "\"Madam Secretary\" actress",
+        "\"The Family Man\" co-star T\u00e9a",
+        "Sandler's \"Spanglish\" co-star",
+        "See 62-Down",
+        "Tea in Hollywood",
+        "Actress Tea",
+        "Tea of \"Spanglish\"",
+        "\"Madam Secretary\" star T\u00e9a",
+        "\"Ghost Town\" actress",
+        "Actress T\u00e9a of \"Fun With Dick and Jane\""
+      ]
+    },
+    {
+      "index": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "RAMIS",
+      "clues": [
+        "Director Harold",
+        "\"Caddyshack\" director Harold",
+        "Actor/director Harold",
+        "\"Caddyshack\" director",
+        "Onetime \"SCTV\" head writer Harold",
+        "\"Ghostbusters\" star",
+        "Co-star of 1984's \"Ghostbusters\"",
+        "\"Ghostbusters\" cast member",
+        "Director who was once an associate editor at Playboy",
+        "Harold who directed \"Caddyshack\""
+      ]
+    },
+    {
+      "index": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "STEAL",
+      "clues": [
+        "Big deal",
+        "Lift",
+        "Rickey Henderson specialty",
+        "One of Rickey Henderson's record 1,406",
+        "Heck of a deal",
+        "Appropriate inappropriately",
+        "Pilfer",
+        "Thieve",
+        "Take illegally",
+        "Be light-fingered"
+      ]
+    },
+    {
+      "index": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "SAT",
+      "clues": [
+        "Emulated Humpty Dumpty and Little Miss Muffet",
+        "Pulled up a chair",
+        "Rested one's legs",
+        "Didn't play, say",
+        "Prepared to rock a rocker",
+        "Occupied a seat",
+        "Watched the little ones",
+        "What both Miss Muffet and Humpty Dumpty did",
+        "College entrance exam",
+        "Remained unused"
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 3,
+      "answer": "LAC",
+      "clues": [
+        "Initials of a pro basketball team",
+        "Body of eau",
+        "Lancelot du ___ (Round Table knight)",
+        "Sup\u00e9rieur, par exemple",
+        "France/Switzerland's ___ Leman",
+        "France's ___ du Bourget",
+        "Spot for un canard",
+        "___ du Flambeau, Wis.",
+        "Novel \"Hotel du ___\"",
+        "It finishes Fond du in Wisconsin"
+      ]
+    },
+    {
+      "index": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "AROMA",
+      "clues": [
+        "Appetite enhancer",
+        "Sachet emanation",
+        "Word combined with \"therapy\"",
+        "Thanksgiving dinner drawer",
+        "Clue that coffee's on",
+        "Pleasant odor",
+        "Bakery emanation",
+        "Invisible lure",
+        "Appetite activator",
+        "Pleasant coffee emanation"
+      ]
+    },
+    {
+      "index": 7,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "TUNIC",
+      "clues": [
+        "Old Roman habit?",
+        "Sword-and-sandal movie costume",
+        "Loose garment",
+        "Roman garment of yore",
+        "Forum wear",
+        "Viking garment",
+        "Robin Hood costume component",
+        "Unisex garment of ancient Rome",
+        "\"Julius Caesar\" outfit",
+        "Cop coat"
+      ]
+    },
+    {
+      "index": 8,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 3,
+      "answer": "GIS",
+      "clues": [
+        "They have their boots on the ground",
+        "Joe and Jane",
+        "Subjects of a 1944 bill, for short",
+        "USO-show audience",
+        "Ones getting base pay",
+        "Dogfaces",
+        "U.S. enlistees",
+        "Uniforms worn by throwers",
+        "Karate robes",
+        "Joe and co., e.g."
+      ]
+    }
+  ],
+  "shape": [
+    [
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      0
+    ]
+  ]
+}
