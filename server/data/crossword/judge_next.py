@@ -54,7 +54,7 @@ def main():
             writer.writerows(rows)
 
         print(f"Created {ratings_filepath} ({len(rows)} clues)")
-        print("\nFill in the 'RATING' column for each clue with: EASY, HARD, or REJECT")
+        print("\nFill in the 'DIFFICULTY' column for each clue with: EASY, HARD, or REJECT")
         print(f"(Optional) Edit clues using: `./edit_clues.py --add-clue {ratings_filepath} <Answer> <Clue> <Difficulty>`")
         print(f"Then run: `./judge_commit.py {ratings_filepath}`")
         return
