@@ -1,61 +1,50 @@
-Use your extensive experience with crossword puzzle to judge the difficulty of new puzzles and reword, edit, or remove confusing clues from a puzzle to help curate a high quality game set for beginner crossword solvers.
+# Crossword Clue Difficulty Rating
 
-# Crossword Game Files
-In this directory are a list of crossword games in json format. New games will always have the file format game_N.new.json. Games that have already been reviewed will be in the file format game_N.json (without the .new.json extension). You can safely ignore all games that ahve already been reviewed. Your task involves ONLY new games.
+Your task is to use the provided Python scripts to rate the difficulty of crossword clues for beginner solvers.
 
-The game files will contain an array of crossword ANSWERS each with an array of potential CLUES. You will be responsible for judging the difficulty of both the ANSWER word and the CLUE leading to the answer. The file may contain other fields, but you can safely ignore all other fields that are not the ANSWERS and the CLUES. A sample of the file format is provided below:
+## Instructions
+Follow the these steps in order. DO NOT use any other methods to rate the crossword clues. If these steps do not work, ask for help from the user.
 
-{
-    "clues": [
-        {
-            "index": 1,
-            "direction": "across",
-            "row": 0,
-            "col": 1,
-            "length": 6,
-            "answer": "ANSWER",
-            "clues": [
-                "$CLUE1",
-                "$CLUE2",
-                "$CLUE3",
-                "$CLUE4",
-                ...
-            ]
-        },
-        ...
-    ],
-    ...
-}
+1. Run the `judge_next.py` script to begin judging a new crossword puzzle. If the script says there are no new games to judge, then you are done and you can stop working! Otherwise, continue to the next step.
 
-# Judging Criteria
-You will be judging how challenging the crossword answers and clues would be to solve for beginner level crossword solvers. Answers that are obscure will have a higher difficulty rating. Clues that require specific pop culture references or tricky interpretations have a higher difficulty rating. The available categories for puzzles are as follows:
-   - EASY: All answers and clues are solvable by beginner level crossword solvers
-   - HARD: Some answers or clues are challenging and will require cross-word clues to solve
-   - REJECT: Any answer or clue is UNREASONABLE to expect a beginner level crossword player to solve
+2. Read the `game_N.ratings.tsv` file.
 
-After juding a puzzle, you MUST follow these steps:
- 1. Rename the file from game_N.new.json to game_N.json. (i.e. remove the .new)
- 2. Add a new field to the top of the JSON file with your judgement following the format shown below
+3. For each row in the TSV, look at the CLUE and ANSWER column and then fill in the RATING value with EASY, HARD, or REJECT. Use the Difficulty Guidelines section for detailed instructions. **Important:** Use the Edit tool (not Write) to fill in only the RATING column. This keeps diffs clean and avoids introducing whitespace changes.
 
-{
-    "difficulty": "$your_rating",
-    "clues": [
-        ...
-    ],
-    ...
-}
+5. Run the `edit_clues.py --find-hard <game_N.ratings.tsv>` when you are done to identify any answers that are missing an EASY difficulty clue.
 
-# Additional Editing Options
-You are encouraged to edit or remove CLUES that are increasing the difficulty rating of a puzzle. Especially if a clue is potentially causing a REJECT judgement. You are able to do all of the following actions:
- 1. Remove obscure or misleading CLUES strings from the clue array
- 2. Edit CLUE strings to remove ambiguity or fix errors
+6. (Optional) If you can think of an EASY clue for any of the answers that do not have one, you may run `edit_clues.py --add-clue <game_N.ratings.tsv> "<Answer>" "<Clue>" "EASY"` with your custom generated clue. Consider adding 3-5 if possible. If an answer has NO POSSIBLE easy clue, then skip this step for that answer.
 
-Note that if an ANSWER is UNREASONABLE or OBSCURE leading to a REJECT judgement, you will not be able to change it. NEVER change an ANSWER since that will break the puzzle.
+4. Run the `judge_commit.py <game_N.ratings.tsv>` script once you are done to commit your work.
 
-# Final Guidelines
- * Judge the difficulty of crossword games based on the ANSWER words and CLUE strings
- * REJECT games that are too challenging for beginner crossword puzzle solvers.
- * EDIT the CLUE strings when you can help lower the difficulty of the crossword.
- * NEVER change the ANSWER words
- * NEVER remove an ANSWER word
- * Remember that crosswords are a playful and fun way to spend time. Be creative. And have fun!
+5. Return to step 1 to continue judging the next puzzle.
+
+# Difficulty Guidelines
+
+## Beginner Crossword Solvers
+ - These crossword puzzles are intended for beginner solvers.
+ - Our beginner solvers are more knowledgeable in math and science. Consider these categories as EASY.
+ - Our beginner solvers do not get cultural references from before 2013. Consider those HARD. Cultural references from after 2013 may be EASY. Use your judgement.
+
+## Difficulty Guidelines
+### **1 (EASY)**:
+   - Common knowledge
+   - Straightforward definition
+   - May be math, science, or post-2013 cultural references
+   - No obscure references
+
+### **2 (HARD)**:
+   - Requires specific cultural references
+   - Challenging wordplay
+   - Cryptics
+
+### **3 (REJECT)**:
+   - References to other clues that are unavailable
+   - Incorrect, offensive, or too obscure to expect new solvers to know
+
+## Final Reminders
+- Use the scripts to create new *.ratings.tsv files and then use the difficulty guidelines to fill in the DIFFICULTY column.
+- Run the scripts to commit your ratings to the game file.
+- Continue judging games until either you've been instructed to stop or the scripts say there are not games left
+- Remember, crosswords are meant to be fun! So keep a playful and fun attitude while judging. Have fun!
+
