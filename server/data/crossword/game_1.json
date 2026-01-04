@@ -1,4 +1,5 @@
 {
+  "difficulty": "HARD",
   "clues": [
     {
       "index": 1,
@@ -12,7 +13,8 @@
         "Telephone-on-the-web technology",
         "Telephone-through-data-lines tech, for short",
         "Technology in which phone lines may be hooked up to a cable modem, for short"
-      ]
+      ],
+      "hardClues": []
     },
     {
       "index": 1,
@@ -32,7 +34,8 @@
         "Very strong",
         "Colorful",
         "Strikingly bright"
-      ]
+      ],
+      "hardClues": []
     },
     {
       "index": 2,
@@ -41,7 +44,8 @@
       "col": 2,
       "length": 5,
       "answer": "OTERI",
-      "clues": [
+      "clues": [],
+      "hardClues": [
         "The Spartan Cheerleaders comedienne",
         "One-time \"Saturday Night Live\" performer Cheri",
         "Comic actor Cheri",
@@ -70,7 +74,8 @@
         "\"It's my time\"",
         "\"My luck is coming soon!\"",
         "\"My luck HAS to change!\""
-      ]
+      ],
+      "hardClues": []
     },
     {
       "index": 4,
@@ -87,9 +92,11 @@
         "Wasabi ___ (bar snack)",
         "\"The E.N.D.\" Black Eyed ___",
         "Spherical veggies",
-        "Hoppin' John ingredients",
         "Shepherd's pie vegetables",
         "Edible spheroids"
+      ],
+      "hardClues": [
+        "Hoppin' John ingredients"
       ]
     },
     {
@@ -108,8 +115,10 @@
         "Words spoken at 10, often",
         "Request to keep playing",
         "Blackjack declaration",
-        "Provocation heard in Fight Clu --wait, forget I said anything",
         "Request at 11"
+      ],
+      "hardClues": [
+        "Provocation heard in Fight Clu --wait, forget I said anything"
       ]
     },
     {
@@ -120,14 +129,15 @@
       "length": 4,
       "answer": "HAVE",
       "clues": [
-        "\". . . and what ___ you\"",
         "Keep",
-        "Metallica \"I ___ lost the will to live\"",
         "\"I ___ a dream ...\"",
         "Maintain",
         "Eat or drink",
         "\"I ___ an idea!\"",
-        "Choose from the restaurant menu",
+        "Choose from the restaurant menu"
+      ],
+      "hardClues": [
+        "Metallica \"I ___ lost the will to live\"",
         "Bryan Adams \"Do I ___ to Say the Words?\"",
         "Privileged one"
       ]
@@ -139,7 +149,8 @@
       "col": 0,
       "length": 5,
       "answer": "AVEDA",
-      "clues": [
+      "clues": [],
+      "hardClues": [
         "Salon brand with 100% vegan products",
         "Cosmetics brand owned by Estée Lauder",
         "Vegan beauty brand headquartered in Minnesota",
@@ -161,7 +172,6 @@
       "answer": "VIRUS",
       "clues": [
         "Mono, e.g.",
-        "Bug first discovered in 1898",
         "It may be written in code",
         "Computer woe",
         "Cold cause",
@@ -170,6 +180,9 @@
         "Computer malady",
         "Computer \"infection\"",
         "Malware delivery"
+      ],
+      "hardClues": [
+        "Bug first discovered in 1898"
       ]
     },
     {
@@ -180,6 +193,10 @@
       "length": 4,
       "answer": "EDIE",
       "clues": [
+        "Short name for Edith",
+        "Nickname for Edith"
+      ],
+      "hardClues": [
         "Falco of the big and small screen",
         "Jackie for seven years on Showtime",
         "___ Brickell & New Bohemians",

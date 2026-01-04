@@ -9,7 +9,7 @@ Follow the these steps in order. DO NOT use any other methods to rate the crossw
 
 2. Read the `game_N.ratings.tsv` file.
 
-3. For each row in the TSV, look at the CLUE and ANSWER column and then fill in the RATING value with EASY, HARD, or REJECT. Use the Difficulty Guidelines section for detailed instructions. **Important:** Use the Edit tool (not Write) to fill in only the RATING column. This keeps diffs clean and avoids introducing whitespace changes.
+3. For each row in the TSV, look at the CLUE and ANSWER column and then fill in the DIFFICULTY value with EASY, HARD, or REJECT. Use the Difficulty Guidelines section for detailed instructions.
 
 5. Run the `edit_clues.py --find-hard <game_N.ratings.tsv>` when you are done to identify any answers that are missing an EASY difficulty clue.
 

@@ -67,26 +67,24 @@ def process_ratings_file(ratings_filepath):
     with open(source_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
-    # Build a lookup from (answer, clue_text) -> rating
-    rating_lookup = {(c["ANSWER"], c["CLUE"]): c["DIFFICULTY"] for c in rated_clues}
+    # Group rated clues by answer
+    answer_clues = defaultdict(lambda: {"easy": [], "hard": []})
+    for clue_row in rated_clues:
+        answer = clue_row["ANSWER"]
+        clue_text = clue_row["CLUE"]
+        rating = clue_row["DIFFICULTY"]
+        
+        if rating == "EASY":
+            answer_clues[answer]["easy"].append(clue_text)
+        elif rating == "HARD":
+            answer_clues[answer]["hard"].append(clue_text)
+        # REJECT clues are omitted
 
-    # Apply ratings to the original structure
+    # Apply clues to the original structure
     for entry in data.get("clues", []):
         answer = entry["answer"]
-        clue_texts = entry.get("clues", [])
-        easy_clues = []
-        hard_clues = []
-
-        for clue_text in clue_texts:
-            rating = rating_lookup.get((answer, clue_text), "REJECT")
-            if rating == "EASY":
-                easy_clues.append(clue_text)
-            elif rating == "HARD":
-                hard_clues.append(clue_text)
-            # REJECT clues are omitted
-
-        entry["clues"] = easy_clues
-        entry["hardClues"] = hard_clues
+        entry["clues"] = answer_clues[answer]["easy"]
+        entry["hardClues"] = answer_clues[answer]["hard"]
 
     # Calculate overall difficulty
     difficulty = calculate_difficulty(data["clues"])
