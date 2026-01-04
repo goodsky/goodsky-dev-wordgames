@@ -1,4 +1,5 @@
 {
+  "difficulty": "EASY",
   "clues": [
     {
       "index": 1,
@@ -8,16 +9,18 @@
       "length": 5,
       "answer": "NBATV",
       "clues": [
-        "Sports network that airs \"Courtside Cinema\"",
         "Pro hoops network",
         "Airer of Lakers games",
         "Hoops cable channel",
         "Outlet with court coverage",
-        "Network that carries \"Hardwood Classics\"",
         "Channel for hoops fans",
         "Channel that shows Thunder games",
         "Sports league-backed cable network",
         "Network that airs Pelicans games"
+      ],
+      "hardClues": [
+        "Sports network that airs \"Courtside Cinema\"",
+        "Network that carries \"Hardwood Classics\""
       ]
     },
     {
@@ -29,13 +32,14 @@
       "answer": "NHL",
       "clues": [
         "Icemen's org.",
-        "Apt sports org. for this puzzle",
         "Org. for Kings and Senators",
-        "Bobby Orr's org.",
         "Org. with Ducks and Penguins",
         "St. Louis Blues org.",
         "Org. playing on ice",
-        "Org. with Canadiens and Canucks",
+        "Org. with Canadiens and Canucks"
+      ],
+      "hardClues": [
+        "Bobby Orr's org.",
         "Jets and Sharks' org.",
         "Org. with 30 franchises"
       ]
@@ -48,16 +52,17 @@
       "length": 5,
       "answer": "HAGUE",
       "clues": [
-        "Escher museum site, with \"The\"",
         "Dutch court site, with \"The\"",
         "Dutch seat of government, with \"the\"",
         "The ___ (Dutch city)",
         "___ Tribunal",
         "___ Tribunal (international court)",
         "The __, Netherlands",
-        "International Criminal Court setting, with \"the\"",
-        "Escher Museum site, with \"The\"",
-        "See 4-Down"
+        "International Criminal Court setting, with \"the\""
+      ],
+      "hardClues": [
+        "Escher museum site, with \"The\"",
+        "Escher Museum site, with \"The\""
       ]
     },
     {
@@ -71,13 +76,15 @@
         "Telling tall tales",
         "Why Pinocchio's nose grows",
         "Fooling the polygraph",
-        "Perjurer's predilection",
         "Deceiving",
         "More than misleading",
         "Making things up",
-        "Inventing things",
         "Making stuff up",
         "Telling tales"
+      ],
+      "hardClues": [
+        "Perjurer's predilection",
+        "Inventing things"
       ]
     },
     {
@@ -91,7 +98,9 @@
         "Relative of a burqa",
         "Loose-fitting Muslim robe",
         "Long Muslim robe",
-        "Modest dress worn in Muslim communities",
+        "Modest dress worn in Muslim communities"
+      ],
+      "hardClues": [
         "Flowy robe",
         "Long, loose robe"
       ]
@@ -107,13 +116,14 @@
         "Wake-up times, for short",
         "Alarm-setting hrs.",
         "Pro-___ (some tournaments)",
-        "Grand -- (sporty Pontiacs)",
         "Half the time?: Abbr.",
         "Alarming times?",
         "Appt. book page halves",
-        "More than one 31 Across: Abbr.",
         "Mornings, informally",
         "Times in classifieds"
+      ],
+      "hardClues": [
+        "Grand -- (sporty Pontiacs)"
       ]
     },
     {
@@ -130,10 +140,12 @@
         "Temp. reducers",
         "Brief coolers?",
         "Some window units (Abbr.)",
-        "Products made by Friedrich, for short",
         "Units measured in BTUs",
         "Rm. coolers",
         "Carriers of comfort, briefly"
+      ],
+      "hardClues": [
+        "Products made by Friedrich, for short"
       ]
     },
     {
@@ -151,9 +163,11 @@
         "Pulling a rabbit out of a hat, e.g.",
         "David Copperfield's specialty",
         "Card game subtitled \"The Gathering\"",
-        "NBA great's nickname",
         "Abracadabra stuff",
         "Collectible-card game subtitled \"The Gathering\""
+      ],
+      "hardClues": [
+        "NBA great's nickname"
       ]
     },
     {
@@ -170,10 +184,12 @@
         "Awes",
         "Blows away",
         "Leaves shocked",
-        "What shreddin' guitarist does",
         "Knocks dizzy",
         "Renders senseless",
         "Blows the mind of"
+      ],
+      "hardClues": [
+        "What shreddin' guitarist does"
       ]
     },
     {
@@ -194,7 +210,8 @@
         "Kick back",
         "___ out (relax completely)",
         "Act the couch potato (with \"out\")"
-      ]
+      ],
+      "hardClues": []
     }
   ],
   "shape": [

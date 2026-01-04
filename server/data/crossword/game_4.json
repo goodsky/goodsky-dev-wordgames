@@ -1,4 +1,5 @@
 {
+  "difficulty": "EASY",
   "clues": [
     {
       "index": 1,
@@ -9,15 +10,17 @@
       "answer": "BAYED",
       "clues": [
         "Sounded like coyotes",
-        "Ululated",
         "Made a sound like a hound",
-        "Sang in the moonlight, maybe",
         "Howled like a wolf",
         "Was a howl-raiser",
-        "Serenaded the moon",
         "Howled",
         "Howled like a hound",
         "Emulated a wolf"
+      ],
+      "hardClues": [
+        "Ululated",
+        "Sang in the moonlight, maybe",
+        "Serenaded the moon"
       ]
     },
     {
@@ -28,12 +31,15 @@
       "length": 3,
       "answer": "BOI",
       "clues": [
+        "Internet slang for 'boy'"
+      ],
+      "hardClues": [
         "OutKast rapper Big ___",
         "Big -- (rapper)",
         "'Sk8er --' (2002 Avril Lavigne hit)",
         "Lesbian adopting a mannish look, in LGBT slang",
         "Avril Lavigne's \"Sk8er ___\"",
-        "\"Sk8er ___\" (early-aughts hit for Avril Lavigne)",
+        "Sk8er ___ (early-aughts hit for Avril Lavigne)",
         "Certain genderqueer identity",
         "Rapper Big __",
         "Word after \"Big\" or \"Sk8er\"",
@@ -48,16 +54,18 @@
       "length": 5,
       "answer": "OLSEN",
       "clues": [
-        "Co-worker of Kent and Lane",
         "Surname of some famous twins",
-        "Lane associate",
-        "The ___ twins, stars of \"Holiday in the Sun\"",
         "Surname of twin actresses",
         "Elizabeth in six Marvel movies",
-        "Lois Lane colleague",
         "Elizabeth who plays Wanda in {/WandaVision/}",
-        "\"Superman\" character Jimmy",
+        "Superman character Jimmy",
         "Elizabeth of \"WandaVision\""
+      ],
+      "hardClues": [
+        "Co-worker of Kent and Lane",
+        "Lane associate",
+        "The ___ twins, stars of \"Holiday in the Sun\"",
+        "Lois Lane colleague"
       ]
     },
     {
@@ -70,15 +78,16 @@
       "clues": [
         "Self-deprecating remark from a Boomer",
         "Exclamation upon realizing that people born in 2000 can legally drink now, maybe",
-        "\"I can't believe 'Legally Blonde' came out over 20 years ago!\"",
+        "I can't believe 'Legally Blonde' came out over 20 years ago!",
         "Exclamation after realizing your younger colleagues don't get your references",
         "Remark from one who feels out of touch",
         "Exclamation after not understanding Gen Z slang, maybe",
-        "\"Things just ain't what they used to be\"",
+        "Things just ain't what they used to be",
         "Jokey remark after missing a modern reference",
         "Exclamation after realizing some Gen Alpha kids are 14, maybe",
         "Comment after realizing you're sleepy at 8 p.m."
-      ]
+      ],
+      "hardClues": []
     },
     {
       "index": 4,
@@ -90,14 +99,15 @@
       "clues": [
         "Valvoline alternative",
         "Frequent Nascar sponsor",
-        "Oomph! degreaser brand",
         "Automotive brand paired with Armor All",
-        "'The Racer's Edge'",
-        "Havoline rival",
         "Initials seen at Indy",
         "Lucas Oil competitor",
-        "Talladega decal",
-        "Racing sponsor founded in 7 Down"
+        "Talladega decal"
+      ],
+      "hardClues": [
+        "Oomph! degreaser brand",
+        "'The Racer's Edge'",
+        "Havoline rival"
       ]
     },
     {
@@ -112,12 +122,14 @@
         "Hayek in movies",
         "Hayek of Hollywood",
         "Hayek who portrays a psychic in \"House of Gucci\"",
-        "Hayek of \"Wild Wild West\"",
-        "Arabic name meaning \"peace\"",
         "Frida Kahlo portrayer Hayek",
-        "\"Frida\" star Hayek",
+        "Frida star Hayek",
         "Hayek of \"Frida\"",
-        "\"Frida\" actress Hayek"
+        "Frida actress Hayek"
+      ],
+      "hardClues": [
+        "Hayek of \"Wild Wild West\"",
+        "Arabic name meaning \"peace\""
       ]
     },
     {
@@ -131,12 +143,14 @@
         "Interview seg.",
         "R.S.V.P., e.g.: Abbr.",
         "Q&A; part: Abbr.",
-        "Age units, in Arles",
-        "Years, to Yves",
         "T or F, on tests",
         "Q&A part: Abbr.",
         "Y or N, possibly",
-        "Part of Q&A;: Abbr.",
+        "Part of Q&A;: Abbr."
+      ],
+      "hardClues": [
+        "Age units, in Arles",
+        "Years, to Yves",
         "It's found in a key: Abbr."
       ]
     },
@@ -149,15 +163,17 @@
       "answer": "TYSON",
       "clues": [
         "Boxer/Broadway star Mike",
-        "\"Roots\" actress Cicely",
         "Chicken purveyor",
         "Cicely of \"The Help\"",
-        "\"Miss Jane Pittman\" portrayer",
         "Actress and Presidential Medal of Freedom recipient Cicely",
         "Big name in frozen chicken",
         "Company that makes Ball Park Franks",
-        "Jane Pittman portrayer",
         "Boxer nicknamed \"Iron Mike\""
+      ],
+      "hardClues": [
+        "Roots actress Cicely",
+        "Miss Jane Pittman portrayer",
+        "Jane Pittman portrayer"
       ]
     },
     {
@@ -169,7 +185,6 @@
       "answer": "PEELS",
       "clues": [
         "Certain spa treatments",
-        "Some 38-Across treatments",
         "Banana throwaways",
         "Banana coats",
         "Fruit rinds",
@@ -178,7 +193,8 @@
         "Takes (off)",
         "Day spa facial procedures",
         "Has sunburn woes"
-      ]
+      ],
+      "hardClues": []
     },
     {
       "index": 8,
@@ -194,11 +210,11 @@
         "RPG with a \"Monster Manual,\" casually",
         "Pastime inspired by JRR Tolkien",
         "Tabletop role-playing game, for short",
-        "Game with a 56-Across character class, for short",
         "RPG with warlocks and paladins",
         "Game inspired by JRR Tolkien",
         "Role-playing game with a 20-sided die, familiarly, and a feature of this puzzle's four longest answers"
-      ]
+      ],
+      "hardClues": []
     }
   ],
   "shape": [

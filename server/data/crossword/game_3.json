@@ -1,4 +1,5 @@
 {
+  "difficulty": "HARD",
   "clues": [
     {
       "index": 1,
@@ -10,14 +11,16 @@
       "clues": [
         "Trendy",
         "In high style",
-        "Smart",
-        "Current",
         "Fashionably elegant",
-        "'70s R&B/Disco band",
         "High-style",
         "Sporting the latest",
         "Hip",
         "Quite the fashion plate"
+      ],
+      "hardClues": [
+        "Smart",
+        "Current",
+        "'70s R&B/Disco band"
       ]
     },
     {
@@ -27,13 +30,14 @@
       "col": 1,
       "length": 5,
       "answer": "CHAKA",
-      "clues": [
+      "clues": [],
+      "hardClues": [
         "Former Rufus singer Khan",
         "Maia ___, first Black woman NFL official",
-        "\"Queen of Funk\" Khan",
+        "Queen of Funk Khan",
         "Grammy winner Khan",
         "Given name adopted by the \"Queen of Funk\"",
-        "\"What's Going On\" singer ___ Khan",
+        "What's Going On singer ___ Khan",
         "R&B singer Khan",
         "Singer Khan",
         "Singer ___ Khan",
@@ -49,14 +53,16 @@
       "answer": "HIDEF",
       "clues": [
         "Film option, for short",
-        "TV spec",
         "Plasma TV descriptor",
         "Sharp, on a TV, informally",
         "Nice and clear, on TV",
         "Part of HDTV, briefly",
-        "Very clear",
         "Superior screen resolution",
         "Like many NFL broadcasts"
+      ],
+      "hardClues": [
+        "TV spec",
+        "Very clear"
       ]
     },
     {
@@ -68,15 +74,17 @@
       "answer": "ISLET",
       "clues": [
         "Shipwreck spot, maybe",
-        "Atoll element",
         "Comic strip landmass with a single palm tree",
-        "Key in a chain, maybe",
         "Ocean land",
         "Bit of land in a river",
         "Atlas dot",
-        "Archipelago dot",
         "Lighthouse site, perhaps",
         "Waterlocked land"
+      ],
+      "hardClues": [
+        "Atoll element",
+        "Key in a chain, maybe",
+        "Archipelago dot"
       ]
     },
     {
@@ -92,11 +100,13 @@
         "Study with equations, for short",
         "A science class, briefly",
         "Type of lab",
-        "Subject of an orgo class",
         "Class with titrations, for short",
         "HS science class",
         "Nobel subj.",
         "High-school sci."
+      ],
+      "hardClues": [
+        "Subject of an orgo class"
       ]
     },
     {
@@ -112,10 +122,11 @@
         "__ kebab",
         "Spit for a kebab",
         "___ kebab",
-        "\"Skewer\" in Turkish",
+        "Skewer in Turkish",
         "-- kebab",
         "Turk's spit"
-      ]
+      ],
+      "hardClues": []
     },
     {
       "index": 5,
@@ -125,16 +136,18 @@
       "length": 4,
       "answer": "SLAW",
       "clues": [
-        "Word from the Dutch for \"salad\"",
         "Barbecue side dish",
         "Side with fish and chips",
         "What may give a burger crunch",
         "Side dish with pastrami",
-        "White side",
-        "Hash house side",
         "Cabbage shredded for a picnic",
         "Side for a sandwich",
         "Cole___ (picnic side)"
+      ],
+      "hardClues": [
+        "Word from the Dutch for \"salad\"",
+        "White side",
+        "Hash house side"
       ]
     },
     {
@@ -145,16 +158,18 @@
       "length": 5,
       "answer": "LADLE",
       "clues": [
-        "Molten-metal vessel",
         "Scoop for soup",
         "Soup kitchen server",
         "Serving tool",
-        "Scoop",
-        "Tureen's server",
         "Dish out",
         "Serving utensil for stew",
         "Chef's utensil",
         "Chowder server"
+      ],
+      "hardClues": [
+        "Molten-metal vessel",
+        "Scoop",
+        "Tureen's server"
       ]
     },
     {
@@ -164,17 +179,18 @@
       "col": 0,
       "length": 5,
       "answer": "AKEEM",
-      "clues": [
+      "clues": [],
+      "hardClues": [
         "12-time NBA All-Star Olajuwon, as originally spelled",
         "Prince ___, Eddie Murphy's role in \"Coming to America\"",
         "Eddie's \"Coming to America\" role",
         "Prince ___, Eddie Murphy film role",
-        "\"Coming 2 America\" prince",
+        "Coming 2 America prince",
         "Eddie Murphy's role in \"Coming to America\"",
-        "\"Coming to America\" protagonist",
-        "\"Coming to/2 America\" royal",
+        "Coming to America protagonist",
+        "Coming to/2 America royal",
         "Prince played by Eddie Murphy in \"Coming to America\"",
-        "\"Coming to America\" prince"
+        "Coming to America prince"
       ]
     },
     {
@@ -190,11 +206,13 @@
         "Float through the air",
         "Travel on air, as an odor",
         "Float like a feather in the breeze",
-        "Go over the airwaves?",
         "Drift, like a nice smell",
         "Carry lightly on a breeze",
         "Drift gracefully",
         "Drift, as an aroma"
+      ],
+      "hardClues": [
+        "Go over the airwaves?"
       ]
     }
   ],

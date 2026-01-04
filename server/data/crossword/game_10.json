@@ -1,4 +1,5 @@
 {
+  "difficulty": "EASY",
   "clues": [
     {
       "index": 1,
@@ -13,11 +14,13 @@
         "Bit of April 1 mischief",
         "April fool, e.g.",
         "Short-sheeting a bed, e.g.",
-        "Jape on April 1st",
         "April 1 mischief",
         "Short-sheeting or T.P.'ing",
         "Practical joker's deed",
         "Caper"
+      ],
+      "hardClues": [
+        "Jape on April 1st"
       ]
     },
     {
@@ -30,7 +33,7 @@
       "clues": [
         "Intends (to)",
         "Preparations",
-        "\"I have other ___, sorry\"",
+        "I have other ___, sorry",
         "Builder's specs",
         "They often fall through",
         "Schemes",
@@ -38,7 +41,8 @@
         "Calendar entries",
         "They might change suddenly",
         "Schedules"
-      ]
+      ],
+      "hardClues": []
     },
     {
       "index": 2,
@@ -55,8 +59,10 @@
         "Clunker car",
         "Fruit that makes your lips pucker",
         "Problematic car purchase",
+        "Cocktail slice"
+      ],
+      "hardClues": [
         "One on the verge of a breakdown?",
-        "Cocktail slice",
         "Non-starter?"
       ]
     },
@@ -69,15 +75,17 @@
       "answer": "APPLE",
       "clues": [
         "Familiar fruit logo",
-        "Eris' \"golden\" fruit, in mythology",
         "Tech giant",
-        "Brown betty ingredient",
         "Snow White's undoing",
         "i-opening company?",
         "___ II (Jobs-Wozniak creation)",
         "Popular pie",
-        "Cook's concern?",
         "Pie fruit"
+      ],
+      "hardClues": [
+        "Eris' \"golden\" fruit, in mythology",
+        "Brown betty ingredient",
+        "Cook's concern?"
       ]
     },
     {
@@ -88,16 +96,27 @@
       "length": 5,
       "answer": "NOLIE",
       "clues": [
-        "\"You can believe me!\"",
-        "\"That's the truth!\"",
-        "\"It's the truth, I swear!\"",
+        "You can believe me!",
+        "That's the truth!",
+        "It's the truth, I swear!",
         "'I swear it!'",
-        "\"Dead serious!\"",
-        "\"On my honor\"",
-        "\"Cross my heart\"",
-        "\"Cross my heart\"\u009d",
-        "\"Honest to goodness!\"",
-        "\"I ain't bullshitting\""
+        "Dead serious!",
+        "On my honor",
+        "Cross my heart",
+        "Cross my heart",
+        "Honest to goodness!",
+        "For realsies",
+        "Response to a skeptic",
+        "I swear it's true!",
+        "Bet on it!",
+        "I promise!",
+        "I kid you not!",
+        "Honest!",
+        "Honest to goodness!"
+      ],
+      "hardClues": [
+        "2012 2 Chainz single",
+        "Really?"
       ]
     },
     {
@@ -108,14 +127,16 @@
       "length": 5,
       "answer": "STEEL",
       "clues": [
-        "Tuning fork makeup",
         "Girder composition",
         "Stainless --",
         "Metaphor for strength",
         "Kind of guitar or band",
         "Construction metal",
         "Strong material from a mill",
-        "Epitome of hardness",
+        "Epitome of hardness"
+      ],
+      "hardClues": [
+        "Tuning fork makeup",
         "Bethlehem product, once",
         "Basis of Andrew Carnegie's fortune"
       ]
@@ -131,14 +152,14 @@
         "Tend to, as an overgrown houseplant",
         "Do a gardener's chore",
         "Save a seedling, perhaps",
-        "-",
         "Provide room for growth, perhaps",
         "Tend to an overgrown fern",
         "Give more room to grow, perhaps",
         "Tend to an overgrown plant",
         "Put into new soil, as a houseplant",
         "Transplant, in a way"
-      ]
+      ],
+      "hardClues": []
     },
     {
       "index": 7,
@@ -158,7 +179,8 @@
         "Long way from scanty",
         "Beyond sufficient",
         "More than sufficient"
-      ]
+      ],
+      "hardClues": []
     },
     {
       "index": 8,
@@ -168,16 +190,27 @@
       "length": 5,
       "answer": "NOLIE",
       "clues": [
-        "2012 2 Chainz single",
-        "\"For realsies\"",
+        "You can believe me!",
+        "That's the truth!",
+        "It's the truth, I swear!",
+        "'I swear it!'",
+        "Dead serious!",
+        "On my honor",
+        "Cross my heart",
+        "Cross my heart",
+        "Honest to goodness!",
+        "For realsies",
         "Response to a skeptic",
-        "\"I swear it's true!\"",
-        "\"Bet on it!\"",
-        "\"I promise!\"",
-        "\"Really?\"",
-        "\"I kid you not!\"",
-        "\"Honest!\"",
-        "\"Honest to goodness!\""
+        "I swear it's true!",
+        "Bet on it!",
+        "I promise!",
+        "I kid you not!",
+        "Honest!",
+        "Honest to goodness!"
+      ],
+      "hardClues": [
+        "2012 2 Chainz single",
+        "Really?"
       ]
     },
     {
@@ -193,11 +226,13 @@
         "Stage a protest, perhaps",
         "Pay homage",
         "Get ready to be dubbed",
-        "Go low?",
         "Use a prayer rug",
         "Prepare to give a ring?",
-        "Take a stand without standing",
         "Prepare to pray"
+      ],
+      "hardClues": [
+        "Go low?",
+        "Take a stand without standing"
       ]
     }
   ],

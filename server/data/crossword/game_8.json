@@ -1,4 +1,5 @@
 {
+  "difficulty": "EASY",
   "clues": [
     {
       "index": 1,
@@ -17,17 +18,7 @@
         "They're sometimes topped with tzatziki",
         "Sandwiches in pitas",
         "Tzatziki-topped sandwiches",
-        "Street food favorites topped with tzatziki"
-      ]
-    },
-    {
-      "index": 1,
-      "direction": "across",
-      "row": 0,
-      "col": 0,
-      "length": 5,
-      "answer": "GYROS",
-      "clues": [
+        "Street food favorites topped with tzatziki",
         "Greek sandwiches",
         "Greek deli buys",
         "Sandwiches on pita",
@@ -38,7 +29,39 @@
         "Street food favorites topped with tzatziki",
         "Greek restaurant offerings",
         "Sandwiches often topped with tzatziki"
-      ]
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "GYROS",
+      "clues": [
+        "Sandwiches often topped with tzatziki",
+        "Food cart offerings",
+        "Pita sandwiches",
+        "Some food festival fare",
+        "Sandwiches served with tzatziki",
+        "Pita-wrapped Greek sandwiches",
+        "They're sometimes topped with tzatziki",
+        "Sandwiches in pitas",
+        "Tzatziki-topped sandwiches",
+        "Street food favorites topped with tzatziki",
+        "Greek sandwiches",
+        "Greek deli buys",
+        "Sandwiches on pita",
+        "Sandwiches on pita bread",
+        "They're often served with tzatziki",
+        "Sandwiches sparking many a pronunciation debate",
+        "Wrap relatives",
+        "Street food favorites topped with tzatziki",
+        "Greek restaurant offerings",
+        "Sandwiches often topped with tzatziki"
+      ],
+      "hardClues": []
     },
     {
       "index": 2,
@@ -53,11 +76,22 @@
         "Long wistfully",
         "Pine (for)",
         "Long for",
-        "Hanker, and a synonym for the ends of 21-, 26-, 43- and 50-Across",
         "Pine, like someone drawing \"AL + PV 4EVA\" in a notebook (hi, I just got engaged)",
         "Desire strongly",
         "Have an itch",
-        "Hanker"
+        "Hanker",
+        "Have a hankering",
+        "Ache for",
+        "Pine for",
+        "Be homesick (for)",
+        "Feel wistful",
+        "Pine (for)",
+        "Pine",
+        "More than want",
+        "Have a hankering (for)"
+      ],
+      "hardClues": [
+        "Jones"
       ]
     },
     {
@@ -69,15 +103,26 @@
       "answer": "RAITA",
       "clues": [
         "Yogurt-based condiment served to cool hot curry dishes",
-        "Biryani side",
         "Sauce with yogurt and cucumber",
-        "Sauce served with biryani",
         "Curry's cooling accompaniment",
         "Yogurt-based Indian condiment",
-        "Popadam dip",
         "Indian yogurt dish",
         "Naan dipping sauce",
-        "Yogurt prepared with produce, herbs and spices"
+        "Yogurt prepared with produce, herbs and spices",
+        "Yogurt-based side dish in Indian cuisine",
+        "Indian condiment",
+        "Yogurt and cucumber side dish",
+        "Yogurty dish with a curry",
+        "Naan dipping sauce",
+        "Yogurty side dish of India",
+        "Yogurt condiment sometimes made with cucumber"
+      ],
+      "hardClues": [
+        "Biryani side",
+        "Sauce served with biryani",
+        "Popadam dip",
+        "Dahi-based Indian dish",
+        "Biryani side"
       ]
     },
     {
@@ -88,16 +133,27 @@
       "length": 5,
       "answer": "ORTIZ",
       "clues": [
+        "Baseballer David a.k.a. 'Big Papi'",
+        "Baseball's \"Big Papi\"",
+        "Red Sox slugger David",
+        "Ana of \"Love, Victor\"",
+        "David ___, baseball's Big Papi",
+        "Slugger David who was a hero of the 2013 World Series",
+        "2022 National Baseball Hall of Fame inductee who gave a bilingual induction speech",
+        "Actress Ana of \"Love, Victor\"",
+        "Baseball slugger David known as Big Papi",
+        "David of the Red Sox",
+        "David who is baseball's \"Big Papi\""
+      ],
+      "hardClues": [
         "2005 A.L. Hank Aaron Award winner",
         "Red Sox great in Cooperstown since 2022",
         "Boxer Luis, nicknamed \"King Kong\"",
         "Ana of \"Ugly Betty\"",
-        "Baseballer David a.k.a. 'Big Papi'",
-        "Baseball's \"Big Papi\"",
-        "Red Sox slugger David",
         "Tito of mixed martial arts",
-        "Ana of \"Love, Victor\"",
-        "David ___, baseball's Big Papi"
+        "Bosox #34",
+        "2006 A.L. home run champ",
+        "2005 A.L. Hank Aaron Award winner"
       ]
     },
     {
@@ -110,8 +166,12 @@
       "clues": [
         "Spiff (up)",
         "Flashy quality",
-        "___ up (make fancier)"
-      ]
+        "___ up (make fancier)",
+        "Flashy quality",
+        "___ up (make fancier)",
+        "Spiff (up)"
+      ],
+      "hardClues": []
     },
     {
       "index": 6,
@@ -121,7 +181,15 @@
       "length": 5,
       "answer": "YEARN",
       "clues": [
-        "Jones",
+        "Feel a longing",
+        "Have a longing",
+        "Long wistfully",
+        "Pine (for)",
+        "Long for",
+        "Pine, like someone drawing \"AL + PV 4EVA\" in a notebook (hi, I just got engaged)",
+        "Desire strongly",
+        "Have an itch",
+        "Hanker",
         "Have a hankering",
         "Ache for",
         "Pine for",
@@ -131,6 +199,9 @@
         "Pine",
         "More than want",
         "Have a hankering (for)"
+      ],
+      "hardClues": [
+        "Jones"
       ]
     },
     {
@@ -141,15 +212,26 @@
       "length": 5,
       "answer": "RAITA",
       "clues": [
+        "Yogurt-based condiment served to cool hot curry dishes",
+        "Sauce with yogurt and cucumber",
+        "Curry's cooling accompaniment",
+        "Yogurt-based Indian condiment",
+        "Indian yogurt dish",
+        "Naan dipping sauce",
+        "Yogurt prepared with produce, herbs and spices",
         "Yogurt-based side dish in Indian cuisine",
         "Indian condiment",
         "Yogurt and cucumber side dish",
         "Yogurty dish with a curry",
-        "Dahi-based Indian dish",
-        "Yogurt-based condiment served with 24-Across",
         "Naan dipping sauce",
         "Yogurty side dish of India",
-        "Yogurt condiment sometimes made with cucumber",
+        "Yogurt condiment sometimes made with cucumber"
+      ],
+      "hardClues": [
+        "Biryani side",
+        "Sauce served with biryani",
+        "Popadam dip",
+        "Dahi-based Indian dish",
         "Biryani side"
       ]
     },
@@ -161,16 +243,27 @@
       "length": 5,
       "answer": "ORTIZ",
       "clues": [
+        "Baseballer David a.k.a. 'Big Papi'",
+        "Baseball's \"Big Papi\"",
+        "Red Sox slugger David",
+        "Ana of \"Love, Victor\"",
+        "David ___, baseball's Big Papi",
         "Slugger David who was a hero of the 2013 World Series",
-        "Bosox #34",
-        "2006 A.L. home run champ",
         "2022 National Baseball Hall of Fame inductee who gave a bilingual induction speech",
         "Actress Ana of \"Love, Victor\"",
-        "2005 A.L. Hank Aaron Award winner",
         "Baseball slugger David known as Big Papi",
         "David of the Red Sox",
-        "David who is baseball's \"Big Papi\"",
-        "David who (greatly) helped the 50-Down win the World Series in 2004"
+        "David who is baseball's \"Big Papi\""
+      ],
+      "hardClues": [
+        "2005 A.L. Hank Aaron Award winner",
+        "Red Sox great in Cooperstown since 2022",
+        "Boxer Luis, nicknamed \"King Kong\"",
+        "Ana of \"Ugly Betty\"",
+        "Tito of mixed martial arts",
+        "Bosox #34",
+        "2006 A.L. home run champ",
+        "2005 A.L. Hank Aaron Award winner"
       ]
     },
     {
@@ -181,10 +274,14 @@
       "length": 5,
       "answer": "SNAZZ",
       "clues": [
+        "Spiff (up)",
+        "Flashy quality",
+        "___ up (make fancier)",
         "Flashy quality",
         "___ up (make fancier)",
         "Spiff (up)"
-      ]
+      ],
+      "hardClues": []
     }
   ],
   "shape": [

@@ -11,6 +11,7 @@
   let grid = $state([]); // 2D array of cell objects for display
   let userAnswers = $state([]); // 2D array of user input letters
   let currentClueIndex = $state(0); // Index in clues array
+  let currentClueVariantIndex = $state([]); // Array tracking clue variant index for each clue
   let lastFocusedCell = $state(null); // Track last focused cell: {row, col}
   let showModal = $state(false);
   let isCorrect = $state(false);
@@ -74,6 +75,9 @@
         // Then by column
         return a.col - b.col;
       });
+      
+      // Initialize clue variant index array (0 for each clue)
+      currentClueVariantIndex = new Array(clues.length).fill(0);
       
       buildDisplayGrid(rawGrid);
     } catch (error) {
@@ -200,7 +204,7 @@
       const acrossClue = cellClues.find(c => c.direction === 'across');
       const targetClue = sameDirectionClue || acrossClue || cellClues[0];
       const targetIndex = clues.indexOf(targetClue);
-      if (targetIndex !== -1) {
+      if (targetIndex !== -1 && targetIndex !== currentClueIndex) {
         currentClueIndex = targetIndex;
       }
     }
@@ -351,6 +355,16 @@
       }
     }
     return null;
+  }
+
+  function cycleClue() {
+    // Cycle through available clues for the current clue object
+    const currentClue = clues[currentClueIndex];
+    if (currentClue?.clues && currentClue.clues.length > 0) {
+      currentClueVariantIndex[currentClueIndex] = (currentClueVariantIndex[currentClueIndex] + 1) % currentClue.clues.length;
+      // Trigger reactivity
+      currentClueVariantIndex = [...currentClueVariantIndex];
+    }
   }
 
   function previousClue() {
@@ -714,12 +728,12 @@
           </button>
           <!-- svelte-ignore a11y_click_events_have_key_events -->
           <!-- svelte-ignore a11y_no_static_element_interactions -->
-          <div class="clue-content" onclick={toggleClueDirection} onmousedown={(e) => e.preventDefault()} role="button" tabindex="0">
+          <div class="clue-content" onclick={cycleClue} onmousedown={(e) => e.preventDefault()} role="button" tabindex="0">
             <div class="clue-label">
               {clues[currentClueIndex]?.index} {clues[currentClueIndex]?.direction}
             </div>
             <div class="clue-text">
-              {clues[currentClueIndex]?.clue}
+              {clues[currentClueIndex]?.clues?.[currentClueVariantIndex[currentClueIndex]]}
             </div>
           </div>
           <button class="clue-button" onclick={nextClue} onmousedown={(e) => e.preventDefault()} aria-label="Next clue">
@@ -782,7 +796,7 @@
             <li><strong>Enter</strong> to move to the next clue.</li>
           </ul>
           
-          <p><strong>Clue Navigation:</strong> Use the arrow buttons at the bottom to switch between clues, or click any cell in the grid.</p>
+          <p><strong>Clue Navigation:</strong> Use the arrow buttons at the bottom to switch between clues. Click the clue text to cycle through alternate clues for the same word.</p>
           
           <p><strong>Completion:</strong> The puzzle will automatically check when all cells are filled!</p>
         </div>

@@ -30,8 +30,17 @@ function getGameById(gameId) {
     return games[gameId] || null;
 }
 
-function getRandomGame() {
-    const gameIds = Object.keys(games);
+function getRandomGame(difficulty = 'EASY') {
+    const gameIds = Object.keys(games).filter(id => {
+        const game = games[id];
+        if (difficulty === 'HARD') {
+            // For hard mode, return both EASY and HARD games
+            return game.difficulty === 'EASY' || game.difficulty === 'HARD';
+        } else {
+            // For easy mode (default), only return EASY games
+            return game.difficulty === 'EASY';
+        }
+    });
     
     if (gameIds.length === 0) {
         return null;
@@ -57,9 +66,13 @@ function populatePuzzleGrid(shape, clues) {
     return grid;
 }
 
-function selectRandomClue(clueObj) {
-    const randomIndex = Math.floor(Math.random() * clueObj.clues.length);
-    const clue = clueObj.clues[randomIndex];
+function prepareClueObject(clueObj, includeHard = false) {
+    let availableClues = [...clueObj.clues];
+    
+    // If includeHard is true, merge hardClues with clues
+    if (includeHard && clueObj.hardClues && clueObj.hardClues.length > 0) {
+        availableClues = [...availableClues, ...clueObj.hardClues];
+    }
 
     return {
         index: clueObj.index,
@@ -67,7 +80,7 @@ function selectRandomClue(clueObj) {
         row: clueObj.row,
         col: clueObj.col,
         answer: clueObj.answer.toUpperCase(),
-        clue: clue,
+        clues: availableClues,
     };
 }
 
@@ -80,8 +93,15 @@ router.use('/report', crosswordReportRouter);
 // API endpoint to get a new game
 // Query params:
 //   - id: specific game ID to load
+//   - difficulty: 'easy' (default) or 'hard'
 router.get('/newgame', (req, res) => {
     const requestedId = req.query.id;
+    const requestedDifficulty = (req.query.difficulty || 'easy').toUpperCase();
+    
+    // Validate difficulty parameter
+    if (requestedDifficulty !== 'EASY' && requestedDifficulty !== 'HARD') {
+        return res.status(400).json({ error: 'Difficulty must be "easy" or "hard"' });
+    }
 
     let game;
     if (requestedId) {
@@ -91,18 +111,20 @@ router.get('/newgame', (req, res) => {
             return res.status(404).json({ error: `Game with id '${requestedId}' not found` });
         }
     } else {
-        // Pick a random game
-        game = getRandomGame();
+        // Pick a random game based on difficulty
+        game = getRandomGame(requestedDifficulty);
         if (!game) {
-            return res.status(404).json({ error: 'No games available' });
+            return res.status(404).json({ error: `No ${requestedDifficulty.toLowerCase()} games available` });
         }
     }
 
+    const includeHard = requestedDifficulty === 'HARD';
+    
     game_object = {
         id: game.id,
         grid: populatePuzzleGrid(game.shape, game.clues),
         clues: game.clues.map(
-            (clueObj) => selectRandomClue(clueObj)
+            (clueObj) => prepareClueObject(clueObj, includeHard)
         ),
     }
 

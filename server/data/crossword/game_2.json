@@ -1,4 +1,5 @@
 {
+  "difficulty": "HARD",
   "clues": [
     {
       "index": 1,
@@ -7,7 +8,8 @@
       "col": 1,
       "length": 5,
       "answer": "ILHAN",
-      "clues": [
+      "clues": [],
+      "hardClues": [
         "Congresswoman Omar",
         "Representative Omar of Minnesota",
         "Representative Omar",
@@ -36,7 +38,8 @@
         "Tiny terrors",
         "Rascally rapscallions",
         "Satans in training?"
-      ]
+      ],
+      "hardClues": []
     },
     {
       "index": 2,
@@ -45,7 +48,8 @@
       "col": 2,
       "length": 5,
       "answer": "MARNI",
-      "clues": [
+      "clues": [],
+      "hardClues": [
         "Nixon who sang for Natalie Wood in \"West Side Story\"",
         "Soprano Nixon who sang solos in many movie musicals",
         "Film-dubbing soprano Nixon",
@@ -55,7 +59,7 @@
         "Dubbing luminary Nixon",
         "Soprano Nixon",
         "Dubbing legend Nixon",
-        "\"West Side Story\" dubbing legend Nixon"
+        "West Side Story dubbing legend Nixon"
       ]
     },
     {
@@ -68,11 +72,13 @@
       "clues": [
         "Toast with a raised stein",
         "Toast while hoisting a stein",
-        "Apt rhyme for \"toast\"",
         "German toast",
-        "\"Cheers!,\" in Berlin",
+        "Cheers!, in Berlin",
         "German's \"Cheers!\"",
         "Oktoberfest toast"
+      ],
+      "hardClues": [
+        "Apt rhyme for \"toast\""
       ]
     },
     {
@@ -84,14 +90,16 @@
       "answer": "SMEE",
       "clues": [
         "Piratic sidekick",
-        "Disney boatswain",
-        "Barrie villain",
-        "\"Jolly Roger\" pirate",
-        "\"Now let's give him a big hand... 'cause he's only got one!\" speaker, in film",
+        "Jolly Roger pirate",
         "Captain Hook's underling",
         "Hook underling",
+        "Hook accompanier"
+      ],
+      "hardClues": [
+        "Disney boatswain",
+        "Barrie villain",
+        "Now let's give him a big hand... 'cause he's only got one! speaker, in film",
         "Hand for one without a hand, in fiction",
-        "Hook accompanier",
         "He called his cutlass \"Johnny Corkscrew\""
       ]
     },
@@ -107,12 +115,14 @@
         "A snooze button delays it",
         "Morning startler",
         "Wake-up call alternative",
-        "Chili hotness unit",
         "Buzz in the morning",
         "Cell phone function",
         "Aid for heavy sleepers",
-        "Unscientific unit of spiciness",
         "Bedside buzzer"
+      ],
+      "hardClues": [
+        "Chili hotness unit",
+        "Unscientific unit of spiciness"
       ]
     },
     {
@@ -129,10 +139,12 @@
         "Convenience store conveniences",
         "24-hr. money sources",
         "Casino cash dispensers",
-        "Bread producers?",
         "Dough sources: Abbr.",
-        "S&Ls;' cash dispensers",
         "Many people bank on them"
+      ],
+      "hardClues": [
+        "Bread producers?",
+        "S&Ls;' cash dispensers"
       ]
     },
     {
@@ -146,13 +158,15 @@
         "Sharp pang",
         "Painful episode",
         "Spasm",
-        "Fit",
         "Violent pang",
         "Violent pain",
         "Pang of pain",
         "Violent spasm",
         "Spasm of pain",
         "Pang"
+      ],
+      "hardClues": [
+        "Fit"
       ]
     },
     {
@@ -164,15 +178,17 @@
       "answer": "MANSE",
       "clues": [
         "Pastor's place",
-        "Rector's residence",
         "Church residence",
         "Parson's pad",
-        "Albs housing",
         "Dwelling of clergymen",
         "Clergyman's home",
         "Clergyman's quarters",
         "Minister's abode",
         "Where a minister lives"
+      ],
+      "hardClues": [
+        "Rector's residence",
+        "Albs housing"
       ]
     },
     {
@@ -183,16 +199,17 @@
       "length": 4,
       "answer": "SNIT",
       "clues": [
-        "Cross condition",
         "Vexed state",
         "Upset state",
         "Agitated fit",
         "Mini-rage",
-        "State",
         "Sulky fit",
         "Bad mood",
         "Grumpy condition",
         "Ornery mood"
+      ],
+      "hardClues": [
+        "Cross condition"
       ]
     }
   ],

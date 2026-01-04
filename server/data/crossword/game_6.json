@@ -1,4 +1,5 @@
 {
+  "difficulty": "HARD",
   "clues": [
     {
       "index": 1,
@@ -16,7 +17,9 @@
         "Physically nimble",
         "Fleet of foot",
         "Light on the feet",
-        "Quick, mentally or physically",
+        "Quick, mentally or physically"
+      ],
+      "hardClues": [
         "Peter Criss adjective?"
       ]
     },
@@ -29,7 +32,6 @@
       "answer": "ACES",
       "clues": [
         "They don't get sent back to the server",
-        "Prize-winning quartet, most likely",
         "Opposite of bombs",
         "Blackjack needs",
         "Usually high cards",
@@ -38,6 +40,9 @@
         "Bullets in poker",
         "Air force heroes",
         "Quick points in tennis"
+      ],
+      "hardClues": [
+        "Prize-winning quartet, most likely"
       ]
     },
     {
@@ -47,7 +52,8 @@
       "col": 2,
       "length": 5,
       "answer": "CAREW",
-      "clues": [
+      "clues": [],
+      "hardClues": [
         "All-Star 18 consecutive times from 1967 to 1984",
         "Minnesota Twin who won seven American League batting titles",
         "Hall-of-Famer Rod",
@@ -76,7 +82,9 @@
         "Part of a track meet",
         "Big to-do",
         "Festival or big show",
-        "Planner's focus",
+        "Planner's focus"
+      ],
+      "hardClues": [
         "Actual in-person thing with people at it, hopefully soon"
       ]
     },
@@ -89,8 +97,6 @@
       "answer": "SEND",
       "clues": [
         "Bad button to click accidentally",
-        "\"God ___ Conspirator\" Coheed and Cambria",
-        "Overjoy",
         "Fire off, as an email",
         "Email program button",
         "Use email or text",
@@ -98,6 +104,10 @@
         "Summon, with \"for\"",
         "Email screen button",
         "Outlook command"
+      ],
+      "hardClues": [
+        "God ___ Conspirator Coheed and Cambria",
+        "Overjoy"
       ]
     },
     {
@@ -110,14 +120,16 @@
       "clues": [
         "Words on some blood drive stickers",
         "Reply to a pledge seeker",
-        "\"__ at the office\"",
+        "__ at the office",
         "Statement after a pledge drive",
-        "\"__ it my best shot\"",
-        "Non-donation declaration",
+        "__ it my best shot",
         "Response to a pledge drive request",
         "Brush-off to a solicitor",
-        "\"___ at the office\"",
+        "___ at the office",
         "Brushoff to a solicitor"
+      ],
+      "hardClues": [
+        "Non-donation declaration"
       ]
     },
     {
@@ -128,7 +140,6 @@
       "length": 4,
       "answer": "ISBN",
       "clues": [
-        "Cover letters?",
         "13-digit ID since 2007",
         "10- or 13-digit ID",
         "Novel's ID",
@@ -138,6 +149,9 @@
         "Library-book ID",
         "Library ID",
         "Number on the books?: Abbr."
+      ],
+      "hardClues": [
+        "Cover letters?"
       ]
     },
     {
@@ -148,7 +162,6 @@
       "length": 5,
       "answer": "SIREN",
       "clues": [
-        "Killer in a myth that's pretty misogynist, if you think about it",
         "Fire engine signal",
         "Ambulance's warning sound",
         "What goes \"wee woo wee woo wee woo\"",
@@ -158,6 +171,9 @@
         "Fire truck device",
         "Sound from an ambulance",
         "Street clearer"
+      ],
+      "hardClues": [
+        "Killer in a myth that's pretty misogynist, if you think about it"
       ]
     },
     {
@@ -178,7 +194,8 @@
         "Go together",
         "Fuse",
         "Coffee selection"
-      ]
+      ],
+      "hardClues": []
     },
     {
       "index": 8,
@@ -192,12 +209,14 @@
         "Creature mentioned by the witches in \"Macbeth\"",
         "Animal studied for its regenerative abilities",
         "Brightly colored salamander",
-        "Author/politician Gingrich",
         "Garter snake prey",
-        "Former Man of the House?",
         "Japanese fire-bellied ____",
         "Spotted aquarium dweller",
         "In \"Monty Python and the Holy Grail\", a peasant was turned into one but \"got better\""
+      ],
+      "hardClues": [
+        "Author/politician Gingrich",
+        "Former Man of the House?"
       ]
     }
   ],
