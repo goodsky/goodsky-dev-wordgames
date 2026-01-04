@@ -1,0 +1,266 @@
+{
+  "difficulty": "HARD",
+  "timestamp": "2026-01-04T15:27:15.494949",
+  "clues": [
+    {
+      "index": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "XRATED",
+      "clues": [
+        "Like DVDs in a restricted room",
+        "Far from G",
+        "Explicit, in a way",
+        "Like porn",
+        "Pornographic",
+        "Beyond suggestive",
+        "Most restricted, filmwise"
+      ],
+      "hardClues": [
+        "Hot, in a way",
+        "Dirty",
+        "Beyond blue"
+      ]
+    },
+    {
+      "index": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "RIFEST",
+      "clues": [
+        "Most widespread",
+        "Most abundant",
+        "Most common"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "ARISTA",
+      "clues": [
+        "Major record label since 1974"
+      ],
+      "hardClues": [
+        "Record label for Kenny G",
+        "Whitney Houston's record label",
+        "Capitol competitor",
+        "Label for two \"Aretha\" albums",
+        "___ Nashville (country label)",
+        "Record label for Cee Lo and Whitney Houston",
+        "It signed Milli Vanilli in 1989 (turns out that was a pretty big mistake...)",
+        "Record label for Whitney Houston",
+        "Sony Music Entertainment subsidiary"
+      ]
+    },
+    {
+      "index": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 6,
+      "answer": "TARTAR",
+      "clues": [
+        "Sauce for seafood",
+        "Sauce with sole",
+        "__ sauce (seafood topping)",
+        "__ sauce: seafood dressing",
+        "Seafood sauce",
+        "It builds up on teeth",
+        "Kind of sauce with a repetitive name"
+      ],
+      "hardClues": [
+        "Canine's coat?",
+        "Calculus, in dentistry",
+        "Deposit on some choppers"
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "answer": "ESSENE",
+      "clues": [],
+      "hardClues": [
+        "Ancient abstainer",
+        "Ascetic of yore",
+        "Dead Sea Scrolls scribe",
+        "Early ascetic",
+        "Jewish ascetic of yore",
+        "Reputed Dead Sea Scrolls writer",
+        "Ancient Jewish sect",
+        "One of the reputed Dead Sea Scrolls writers",
+        "Jewish sectarian associated with the Dead Sea Scrolls",
+        "Ancient Qumran denizen"
+      ]
+    },
+    {
+      "index": 6,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "answer": "IRAS",
+      "clues": [
+        "Savings plans, briefly",
+        "Good ways to save, initially",
+        "Some plans for the future, briefly",
+        "Nest egg accts.",
+        "SEP and Roth, for two",
+        "Some nest egg investments",
+        "Nest-egg accounts"
+      ],
+      "hardClues": [
+        "Some S&L; deposit destinations",
+        "S&L; offerings",
+        "S&L nest eggs"
+      ]
+    },
+    {
+      "index": 7,
+      "direction": "across",
+      "row": 2,
+      "col": 1,
+      "length": 4,
+      "answer": "FIRS",
+      "clues": [
+        "Fragrant evergreens",
+        "Christmas lot selection",
+        "Christmastime purchases",
+        "Alpine evergreens",
+        "Some cone producers"
+      ],
+      "hardClues": [
+        "Two are named after Douglas and Fraser",
+        "Balsams",
+        "Maine forest mainstay",
+        "Mountain growths",
+        "Trees with upright cones"
+      ]
+    },
+    {
+      "index": 8,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 4,
+      "answer": "ESTE",
+      "clues": [
+        "Sevilla-to-Granada direction",
+        "Dirección de Guadalajara a Querétaro",
+        "Toward el Atlántico, from Cuba",
+        "Desde Madrid a Mallorca",
+        "El Salvador's \"east\"",
+        "Where el sol rises"
+      ],
+      "hardClues": [
+        "Direction that becomes its opposite when an \"O\" is added to its front",
+        "Villa d'___, Tivoli",
+        "Noble house of Italy",
+        "Sister of Danielle and Alana"
+      ]
+    },
+    {
+      "index": 9,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 4,
+      "answer": "STAN",
+      "clues": [
+        "Be a devoted backer of, in slang",
+        "Fanatical fan, in slang",
+        "Person losing their freakin' mind at the Eras Tour",
+        "Obsessive dedicatee, informally",
+        "Suffix in the names of seven U.N. members"
+      ],
+      "hardClues": [
+        "_____ & Ollie (2018 John C. Reilly biopic)",
+        "Ollie's simpering sidekick",
+        "___ the Man (Cardinal nickname)",
+        "Persian word for \"country\"",
+        "Musial or Laurel"
+      ]
+    },
+    {
+      "index": 10,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 6,
+      "answer": "STARES",
+      "clues": [
+        "Doesn't just glance",
+        "Fixed gazes",
+        "Long looks",
+        "Looks intensely",
+        "They may be blank or glassy",
+        "Icy expressions",
+        "Hard looks",
+        "Vacant looks",
+        "Looks fixedly",
+        "Knockouts attract them"
+      ],
+      "hardClues": []
+    }
+  ],
+  "shape": [
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  ]
+}

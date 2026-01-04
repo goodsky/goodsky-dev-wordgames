@@ -1,0 +1,316 @@
+{
+  "difficulty": "HARD",
+  "timestamp": "2026-01-04T15:40:43.160753",
+  "clues": [
+    {
+      "index": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "DEATHS",
+      "clues": [
+        "Opposites of births",
+        "Sudden ___ (tie-breakers)",
+        "Sudden ___ (overtimes)",
+        "Video game failures",
+        "Insurable events",
+        "Slasher film plethora"
+      ],
+      "hardClues": [
+        "Aesop Rock \"1000 ___\"",
+        "There are eight in \"Hamlet\"",
+        "__-head: Hell's Angels insignia",
+        "And Then There Were None multitude"
+      ]
+    },
+    {
+      "index": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "DYAN",
+      "clues": [],
+      "hardClues": [
+        "Cannon shot in Hollywood",
+        "Cannon in the movies",
+        "Cannon of cinema",
+        "Revenge of the Pink Panther actress Cannon",
+        "Bob & Carol & Ted & Alice Oscar nominee Cannon",
+        "Actress Cannon of \"Heaven Can Wait\"",
+        "Cannon who played Alice in \"Bob & Carol & Ted & Alice\"",
+        "The Last of Sheila actress Cannon",
+        "Actress Cannon of Ally McBeal",
+        "Cannon shot on a set?"
+      ]
+    },
+    {
+      "index": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 6,
+      "answer": "YENTAS",
+      "clues": [
+        "Gossip collectors",
+        "They spread dirt",
+        "Inveterate gossips",
+        "Dirt spreaders",
+        "Folks getting into dirt",
+        "Yiddish gossips",
+        "Gossips",
+        "Busybodies",
+        "People all up in your business"
+      ],
+      "hardClues": [
+        "Shtetl gossips"
+      ]
+    },
+    {
+      "index": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 5,
+      "answer": "ALIEN",
+      "clues": [
+        "ALF or ET",
+        "1979 Sigourney Weaver film",
+        "Stranger",
+        "Sigourney Weaver sci-fi thriller",
+        "Exotic",
+        "Visitor from Venus, say",
+        "Flying-saucer pilot",
+        "Star Trek extra's role, often",
+        "Predator's opponent, in the movies",
+        "Visitor from a distant galaxy"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 4,
+      "answer": "NEAR",
+      "clues": [
+        "Just steps away",
+        "Just about",
+        "Within arm's length",
+        "Closing in",
+        "In the vicinity",
+        "Only a day away, say",
+        "A mere stone's throw from",
+        "Word with by or sighted",
+        "Far's opposite"
+      ],
+      "hardClues": [
+        "The spring is __ when green geese are a-breeding: Shak."
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 1,
+      "length": 5,
+      "answer": "PRATE",
+      "clues": [
+        "Chatter foolishly",
+        "Empty talk",
+        "Babble on and on",
+        "Talk too much",
+        "Jabber",
+        "Gab",
+        "Babble nonsense",
+        "Talk nonsense",
+        "Foolish talk",
+        "Orate senselessly"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 5,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 5,
+      "answer": "PEELE",
+      "clues": [
+        "Lovecraft Country executive producer Jordan",
+        "Filmmaker Jordan",
+        "Get Out writer/director Jordan",
+        "Director who started on \"MADtv\"",
+        "Key's partner",
+        "Key partner",
+        "Key partner?",
+        "Key's partner on a Comedy Central show"
+      ],
+      "hardClues": [
+        "Shakespeare contemporary",
+        "Shakespeare contemporary George"
+      ]
+    },
+    {
+      "index": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "CRANIA",
+      "clues": [
+        "Cases for brains",
+        "They've got brains",
+        "Thinking caps",
+        "They're brainy",
+        "Holders of thoughts?",
+        "A lot of thinking is done in them",
+        "Head cases",
+        "Images on a timeline of human evolution, maybe"
+      ],
+      "hardClues": [
+        "Ethmoid bones are parts of them",
+        "Trepanning targets"
+      ]
+    },
+    {
+      "index": 6,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 4,
+      "answer": "CHEN",
+      "clues": [
+        "Julie ___ Moonves, \"Big Brother\" host",
+        "Julie on TV",
+        "Julie of \"The Talk\"",
+        "Longtime \"Big Brother\" host",
+        "Big Brother host",
+        "Steve who co-founded YouTube"
+      ],
+      "hardClues": [
+        "Joan of \"The Last Emperor\"",
+        "Julie of \"The Early Show\"",
+        "Autumn in New York director Joan",
+        "Restaurateur Joyce"
+      ]
+    },
+    {
+      "index": 7,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 6,
+      "answer": "HATTER",
+      "clues": [
+        "Mad ___ (Wonderland character)",
+        "Mad man of fiction",
+        "Why is a raven like a writing-desk? speaker in \"Alice's Adventures in Wonderland\"",
+        "Carroll's mad tea-drinker",
+        "Mad figure of fiction",
+        "Mad acquaintance of Alice",
+        "Milliner",
+        "Mad one at a tea party",
+        "Twinkle, twinkle, little bat singer",
+        "Mad __"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 8,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 5,
+      "answer": "ETHAN",
+      "clues": [
+        "___ Allen (furniture chain)",
+        "Allen or Hawke",
+        "Hawke in films",
+        "Hawke of film",
+        "Hawke of \"Sinister\"",
+        "Sinister actor Hawke",
+        "Hawke or Frome"
+      ],
+      "hardClues": [
+        "___ Allen Express (Amtrak train in the Northeast)",
+        "___ Frome (Edith Wharton classic)",
+        "Vermont patriot Allen"
+      ]
+    },
+    {
+      "index": 9,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 4,
+      "answer": "NESS",
+      "clues": [
+        "Effective ending",
+        "Ending like -acity",
+        "Popular cryptozoological study setting",
+        "Suffix with good and willing",
+        "Highland loch"
+      ],
+      "hardClues": [
+        "Crimefighter of early '60s TV",
+        "Top Untouchable",
+        "Punk Mike",
+        "Author Patrick of \"The Knife of Never Letting Go\"",
+        "Untouchable leader?"
+      ]
+    }
+  ],
+  "shape": [
+    [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ]
+  ]
+}

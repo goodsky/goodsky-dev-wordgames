@@ -108,7 +108,7 @@ def format_crossword_clues_dictionary(wordlist_file, clues_file, output_file, pa
 
     if parameters is None:
         parameters = {
-            'min_length': 3,
+            'min_length': 2,
             'max_length': 7,
             'min_year': 2009,
             'max_year': None,

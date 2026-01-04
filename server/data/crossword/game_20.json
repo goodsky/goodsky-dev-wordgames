@@ -1,0 +1,273 @@
+{
+  "difficulty": "EASY",
+  "timestamp": "2026-01-04T15:34:32.755296",
+  "clues": [
+    {
+      "index": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "SEEMLY",
+      "clues": [
+        "Having good manners",
+        "Fitting",
+        "Suitable",
+        "Socially suitable and polite",
+        "In good taste",
+        "Of pleasing appearance",
+        "Respectable",
+        "Proper",
+        "Appropriate"
+      ],
+      "hardClues": [
+        "Decorous"
+      ]
+    },
+    {
+      "index": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "STEADY",
+      "clues": [
+        "Unwavering",
+        "Cool, calm, and collected",
+        "Easy now ...",
+        "Regular",
+        "Regular beau",
+        "Reliable",
+        "Uninterrupted",
+        "Slow partner?",
+        "Dependable"
+      ],
+      "hardClues": [
+        "Main squeeze"
+      ]
+    },
+    {
+      "index": 3,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "EATSIT",
+      "clues": [
+        "Totally wipes out",
+        "Face-plants",
+        "Wipes out",
+        "Wipes out, in slang",
+        "Absorbs the financial hit",
+        "Catches a face full of dirt",
+        "Face-plants, say",
+        "Suffers a bad defeat, in slang",
+        "Falls flat on one's face",
+        "Fails ignominiously, in slang"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "answer": "ALAI",
+      "clues": [
+        "Jai ___ (fast court game)",
+        "Jai follower",
+        "Jai ___ (fast-paced game)",
+        "Jai ___ (court game)"
+      ],
+      "hardClues": [
+        "It means \"merry\" in Basque",
+        "End of a fronton game?",
+        "Court game's finale?",
+        "Second word of a game name that rhymes with the first",
+        "End of a Basque ball game?",
+        "End of a court game"
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 2,
+      "length": 4,
+      "answer": "TANS",
+      "clues": [
+        "Changes color, in a way",
+        "Tropical acquisitions, maybe",
+        "Soaks up some sun",
+        "Works with leather",
+        "Summer skin shades",
+        "Beach souvenirs",
+        "Sunbathers' goals",
+        "Certain salon services",
+        "Prepares, as hides"
+      ],
+      "hardClues": [
+        "Flagellates"
+      ]
+    },
+    {
+      "index": 6,
+      "direction": "down",
+      "row": 1,
+      "col": 3,
+      "length": 4,
+      "answer": "SPIT",
+      "clues": [
+        "BBQ stick",
+        "Pig roast need",
+        "Barbecue tool",
+        "Cooking rod",
+        "Narrow point of land",
+        "Skewer for roasting",
+        "Rotisserie piece"
+      ],
+      "hardClues": [
+        "You don't ___ into the wind (Jim Croce)",
+        "Brochette",
+        "Fast-paced two-player card game"
+      ]
+    },
+    {
+      "index": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 4,
+      "answer": "ISLE",
+      "clues": [
+        "Small bit of land in the water",
+        "Capri or Man",
+        "Oceanic oasis",
+        "Shipwreck site, perhaps",
+        "Key",
+        "Ireland, the Emerald ___",
+        "Getaway locale",
+        "Seaplane stop",
+        "Word after Emerald or desert",
+        "South Seas land?"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 8,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "ELAPSE",
+      "clues": [
+        "Tick down",
+        "Go by, like time",
+        "Pass, as time",
+        "Slip by, like time",
+        "Slip away, as time",
+        "Slip away",
+        "Slip by (as time)",
+        "Run out"
+      ],
+      "hardClues": [
+        "Go on and on",
+        "Roll along"
+      ]
+    },
+    {
+      "index": 9,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 6,
+      "answer": "MANILA",
+      "clues": [
+        "Folder material",
+        "Capital on the island of Luzon",
+        "The Philippines' capital",
+        "Light-brown paper",
+        "World's most densely populated city",
+        "Most densely populated city in the world",
+        "Pearl of the Orient capital",
+        "Sturdy paper"
+      ],
+      "hardClues": [
+        "MacArthur's home, 1935-1941",
+        "Capital city that's an anagram of a member of a kingdom"
+      ]
+    },
+    {
+      "index": 10,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 6,
+      "answer": "LISTED",
+      "clues": [
+        "Placed on a roster",
+        "In the book",
+        "On a menu, for instance",
+        "Itemized",
+        "Ticked off",
+        "On the market, as a house",
+        "Put on the rolls",
+        "On Nasdaq, say",
+        "Like many stocks and phone numbers",
+        "In the phone directory"
+      ],
+      "hardClues": []
+    }
+  ],
+  "shape": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ]
+}

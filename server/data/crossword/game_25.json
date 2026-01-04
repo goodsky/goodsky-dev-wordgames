@@ -1,0 +1,270 @@
+{
+  "difficulty": "EASY",
+  "timestamp": "2026-01-04T15:39:32.357958",
+  "clues": [
+    {
+      "index": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "EATSUP",
+      "clues": [
+        "Completely consumes",
+        "Devours",
+        "Really, really likes",
+        "Enjoys greatly",
+        "Devours and then some",
+        "Consumes completely",
+        "Really savors",
+        "Greatly enjoys",
+        "Devours quickly",
+        "Revels in"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "ALLEGE",
+      "clues": [
+        "Accuse tentatively",
+        "Accuse without proof",
+        "Purport",
+        "Make a accusation",
+        "Put forth without proof",
+        "Claim to be true",
+        "Put forth",
+        "Make accusations",
+        "Declare to be true",
+        "Declare under oath"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "TEETHE",
+      "clues": [
+        "Cut incisors",
+        "Acquire molars",
+        "Grow canines",
+        "Grow molars, e.g.",
+        "Grow molars",
+        "Grow choppers",
+        "Cut one's canines",
+        "Prepare to chew?",
+        "Acquire bicuspids",
+        "Use a ring, maybe"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 6,
+      "answer": "SOARED",
+      "clues": [
+        "Increased rapidly",
+        "Flew to great heights",
+        "Rode a thermal current",
+        "Shot up",
+        "Went aloft",
+        "Made like a majestic eagle",
+        "Took wing",
+        "Rose impressively",
+        "Flew majestically"
+      ],
+      "hardClues": [
+        "Emulated Icarus"
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "answer": "UNREEL",
+      "clues": [
+        "Disentangle, as fishing line",
+        "Let out, as a line",
+        "Let out in casting",
+        "Wind off a spool",
+        "Let out, as a fishing line",
+        "Let out, as fishing line",
+        "Remove from a spindle",
+        "Opposite of wind up",
+        "Remove from a spool",
+        "Wind off of a spool"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 6,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "answer": "LEON",
+      "clues": [
+        "Nuevo ___ (Mexican state)"
+      ],
+      "hardClues": [
+        "Clinton Chief of Staff Panetta",
+        "Crime novelist Donna",
+        "Novelist Uris",
+        "Heavyweight Spinks",
+        "Boxer Spinks who upset Muhammad Ali",
+        "Grandfather of the musical Followill family, after whom their popular band was named",
+        "Foucault with a pendulum",
+        "Former Secretary of Defense Panetta",
+        "One of boxing's Spinks brothers"
+      ]
+    },
+    {
+      "index": 7,
+      "direction": "across",
+      "row": 2,
+      "col": 1,
+      "length": 4,
+      "answer": "LEAR",
+      "clues": [
+        "King who says \"Nothing will come of nothing\"",
+        "King of the stage",
+        "Tragic king of literature"
+      ],
+      "hardClues": [
+        "Sitcom king Norman",
+        "Come not between the dragon and his wrath speaker",
+        "Royal film role for Welles",
+        "Darkness and devils! shouter",
+        "Personal-aircraft pioneer",
+        "Shakespeare character who says \"How sharper than a serpent's tooth it is / To have a thankless child!\"",
+        "The \"he\" in the line \"'Tis the infirmity of his age: yet he hath ever but slenderly known himself\""
+      ]
+    },
+    {
+      "index": 8,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 4,
+      "answer": "ETRE",
+      "clues": [
+        "Being, in Belleville",
+        "French being",
+        "To be, in Cannes",
+        "Being in Bordeaux",
+        "To be, to Henri",
+        "To be, to Zola",
+        "Being: Fr."
+      ],
+      "hardClues": [
+        "____ Supreme (French epithet for God)",
+        "Peut-__: French \"perhaps\"",
+        "Vichy infinitive"
+      ]
+    },
+    {
+      "index": 9,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 4,
+      "answer": "GHEE",
+      "clues": [
+        "Butter used in Indian cuisine",
+        "Butter used by Indians",
+        "Indian liquid butter",
+        "Form of clarified butter",
+        "Delhi butter",
+        "Butter on roti",
+        "Naan topper"
+      ],
+      "hardClues": [
+        "Clarified butter you might use in rabri",
+        "Fat in laddus",
+        "Butter whose name shares an etymology with \"Christ\""
+      ]
+    },
+    {
+      "index": 10,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 6,
+      "answer": "NEEDLE",
+      "clues": [
+        "Tool for a knitter",
+        "Item for a sewer",
+        "It has only one eye",
+        "Pointy thing \"in a haystack\"",
+        "Thread partner",
+        "It's in the groove",
+        "Phonograph stylus",
+        "Hypo",
+        "Part of an applause-o-meter"
+      ],
+      "hardClues": []
+    }
+  ],
+  "shape": [
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  ]
+}

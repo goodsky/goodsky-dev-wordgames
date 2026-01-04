@@ -1,0 +1,401 @@
+{
+  "difficulty": "EASY",
+  "timestamp": "2026-01-04T15:33:34.354608",
+  "clues": [
+    {
+      "index": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 7,
+      "answer": "WORSHIP",
+      "clues": [
+        "Adore",
+        "Bow down to, perhaps",
+        "Deify",
+        "Idolize",
+        "Church activity"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "answer": "WWE",
+      "clues": [
+        "TV's ___ Raw",
+        "Smackdown! org.",
+        "Raw org.",
+        "Former employer of Dwayne (The Rock) Johnson, for short",
+        "Onetime org. for John Cena",
+        "Monday Night Raw sports org.",
+        "Org. with annual SummerSlams and Royal Rumbles",
+        "Org. with lots of \"Raw\" footage"
+      ],
+      "hardClues": [
+        "Org. that maintains kayfabe during shows",
+        "Org. with the wrestler Gail Kim"
+      ]
+    },
+    {
+      "index": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "WOE",
+      "clues": [
+        "Trouble",
+        "Trial",
+        "__ is me!",
+        "Grievous state",
+        "Dejection",
+        "Cause of trouble",
+        "Heartbreak",
+        "Bad things that happen to good people"
+      ],
+      "hardClues": [
+        "What Wednesday's child is full of",
+        "Apt closing rhyme with \"Romeo\""
+      ]
+    },
+    {
+      "index": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "EASELED",
+      "clues": [
+        "Ready, as a canvas",
+        "Like still-wet painting, say",
+        "Supported on a stand, as a painting"
+      ],
+      "hardClues": [
+        "Like some wet nudes?"
+      ]
+    },
+    {
+      "index": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 5,
+      "answer": "HOOAH",
+      "clues": [
+        "Army battle cry"
+      ],
+      "hardClues": [
+        "Word that \"can do anything from getting a Soldier off the hook to earning him or her pushups\", per army.mil",
+        "U.S. Army interjection",
+        "U.S. Army cry"
+      ]
+    },
+    {
+      "index": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 1,
+      "length": 5,
+      "answer": "HASNT",
+      "clues": [
+        "It __ happened yet",
+        "It ___ sunk in yet",
+        "___ really hit me yet . . .",
+        "It ___ been easy",
+        "It ___ kicked in yet",
+        "Ain't got"
+      ],
+      "hardClues": [
+        "Lacks, in brief",
+        "Never acquired",
+        "Word before a prayer",
+        "Does without"
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 5,
+      "answer": "HANES",
+      "clues": [
+        "Fruit of the Loom rival",
+        "Purveyor of tagless T-shirts",
+        "Brand name on a waistband",
+        "Waistband brand",
+        "Michael Jordan's underwear brand",
+        "Brand endorsed by Michael Jordan"
+      ],
+      "hardClues": [
+        "Just wait'll we get our ___ on you! (underwear slogan)",
+        "Underwear brand that recently ended their relationship with Charlie Sheen",
+        "Noted name among boxers",
+        "Brief name?"
+      ]
+    },
+    {
+      "index": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 7,
+      "answer": "DARESAY",
+      "clues": [
+        "Think probable",
+        "Think it likely",
+        "Venture to utter",
+        "Venture to state",
+        "Think likely",
+        "Speculate",
+        "Venture an opinion",
+        "Venture to postulate",
+        "Venture to express",
+        "Assume as probable"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 6,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "DOI",
+      "clues": [
+        "___ want to know?",
+        "Heck, yeah!",
+        "___ amuse you?",
+        "You'd better believe it!",
+        "Question that may be answered \"And how!\"",
+        "Words before dare or ever",
+        "'-- dare?'",
+        "Oh, yeah!",
+        "Emphatic acceptance",
+        "Interrogative \"And how!\""
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 7,
+      "direction": "down",
+      "row": 2,
+      "col": 6,
+      "length": 3,
+      "answer": "YDS",
+      "clues": [
+        "Gridiron stat: Abbr.",
+        "Fractions of a mi.",
+        "A mi. has 1,760",
+        "NFL rushing stat",
+        "Rushing stats: Abbr.",
+        "NFL field units.",
+        "Footballers' measures: Abbr.",
+        "Gridiron gains (Abbr.)",
+        "Rushing stat: Abbr."
+      ],
+      "hardClues": [
+        "Furlong divs."
+      ]
+    },
+    {
+      "index": 8,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "OSS",
+      "clues": [
+        "Bygone espionage org.",
+        "Spy grp. created by FDR",
+        "WWII espionage group",
+        "Pre-CIA org.",
+        "Spy org. created by FDR",
+        "'40s spy org."
+      ],
+      "hardClues": [
+        "1946 Alan Ladd film",
+        "Org. that catcher Moe Berg worked for",
+        "Org. in \"The Catcher Was a Spy\"",
+        "Wild Bill Donovan's org."
+      ]
+    },
+    {
+      "index": 9,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 3,
+      "answer": "END",
+      "clues": [
+        "Caboose's place",
+        "Tackle's neighbor on the line",
+        "Word after deep or dead",
+        "Word with living or dead",
+        "Tight NFL position",
+        "Last part",
+        "Ruin",
+        "Sign off",
+        "Wind down or wind up",
+        "Delete key neighbor"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 10,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 7,
+      "answer": "INHALES",
+      "clues": [
+        "Eats with gusto",
+        "Eats quickly",
+        "Gets some air",
+        "Takes on air",
+        "Takes a breath",
+        "Smells the coffee, e.g.",
+        "Fills one's lungs",
+        "Draws a breath"
+      ],
+      "hardClues": [
+        "Respires",
+        "Has an inspiration"
+      ]
+    },
+    {
+      "index": 11,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 3,
+      "answer": "ALA",
+      "clues": [
+        "Turkey ___ king",
+        "Words after \"chicken\" and before \"king\"",
+        "Near Miss.?",
+        "In the mode of",
+        "Near-Miss. state",
+        "Tuscaloosa's st.",
+        "Kind of like",
+        "Phrase on a menu"
+      ],
+      "hardClues": [
+        "___ vapeur (steamed)",
+        "Arroz ___ velanciana"
+      ]
+    },
+    {
+      "index": 12,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "answer": "TILES",
+      "clues": [
+        "Bathroom floor pieces, often",
+        "Floor pieces",
+        "Word-game pieces",
+        "Bath flooring",
+        "Hearth decorations",
+        "Mosaic pieces",
+        "Roofing in Spanish-style housing",
+        "Patio pieces"
+      ],
+      "hardClues": [
+        "Subway array",
+        "Mosaicist's supply"
+      ]
+    },
+    {
+      "index": 13,
+      "direction": "across",
+      "row": 6,
+      "col": 2,
+      "length": 3,
+      "answer": "PAD",
+      "clues": [
+        "Paw part",
+        "Walk very quietly",
+        "Fill with fluff",
+        "Steno's need",
+        "Inflate, in a way",
+        "Stuff",
+        "___ Thai",
+        "Word after \"sketch\" or \"stamp\"",
+        "Launching area",
+        "Menstrual product"
+      ],
+      "hardClues": []
+    }
+  ],
+  "shape": [
+    [
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ]
+  ]
+}

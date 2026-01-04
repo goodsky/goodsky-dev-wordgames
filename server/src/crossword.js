@@ -23,7 +23,9 @@ function loadGames() {
         });
     }
 
-    console.log(`Loaded ${Object.keys(games).length} crossword games`);
+    const easyCount = Object.values(games).filter(g => g.difficulty === 'EASY').length;
+    const hardCount = Object.values(games).filter(g => g.difficulty === 'HARD').length;
+    console.log(`Loaded ${Object.keys(games).length} crossword games (${easyCount} easy, ${hardCount} hard)`);
 }
 
 function getGameById(gameId) {
@@ -31,16 +33,7 @@ function getGameById(gameId) {
 }
 
 function getRandomGame(difficulty = 'EASY') {
-    const gameIds = Object.keys(games).filter(id => {
-        const game = games[id];
-        if (difficulty === 'HARD') {
-            // For hard mode, return both EASY and HARD games
-            return game.difficulty === 'EASY' || game.difficulty === 'HARD';
-        } else {
-            // For easy mode (default), only return EASY games
-            return game.difficulty === 'EASY';
-        }
-    });
+    const gameIds = Object.keys(games).filter(id => games[id].difficulty == difficulty)
     
     if (gameIds.length === 0) {
         return null;
@@ -72,6 +65,12 @@ function prepareClueObject(clueObj, includeHard = false) {
     // If includeHard is true, merge hardClues with clues
     if (includeHard && clueObj.hardClues && clueObj.hardClues.length > 0) {
         availableClues = [...availableClues, ...clueObj.hardClues];
+    }
+
+    // Shuffle the clues array
+    for (let i = availableClues.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [availableClues[i], availableClues[j]] = [availableClues[j], availableClues[i]];
     }
 
     return {

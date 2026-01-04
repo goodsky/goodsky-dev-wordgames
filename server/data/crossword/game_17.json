@@ -1,0 +1,403 @@
+{
+  "difficulty": "HARD",
+  "timestamp": "2026-01-04T15:30:21.802864",
+  "clues": [
+    {
+      "index": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "answer": "SAC",
+      "clues": [
+        "Animal pouch",
+        "Cul-de-__ (dead end)",
+        "Pollen pocket",
+        "Anatomical container",
+        "Small animal pouch",
+        "Amniotic ___",
+        "Egg ___"
+      ],
+      "hardClues": [
+        "Tribe allied with the Fox",
+        "Van Morrison \"Cul De ___\"",
+        "Kind of fly, for short"
+      ]
+    },
+    {
+      "index": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 7,
+      "answer": "SEATTLE",
+      "clues": [
+        "Home of the Kraken",
+        "Space Needle's city",
+        "Where Starbucks started",
+        "Where Starbucks was founded",
+        "City that's home to the Space Needle"
+      ],
+      "hardClues": [
+        "Western terminus of I-90",
+        "City named for a Suquamish chief",
+        "City where protests delayed the World Trade Organization meetings on November 30, 1999",
+        "City that lost its NBA team in 2008"
+      ]
+    },
+    {
+      "index": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "AED",
+      "clues": [
+        "Device used in conjunction with CPR, for short",
+        "Defib letters",
+        "Its last letter stands for \"defibrillator\"",
+        "Emergency device found in most public places (Abbr.)",
+        "Device found near first-aid kits",
+        "Device an EMT might shout \"Clear!\" before using",
+        "Defibrillator letters",
+        "Device that might be used after CPR",
+        "Device whose use is part of CPR certification"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "CUESTAS",
+      "clues": [],
+      "hardClues": [
+        "Hills with only one scarp",
+        "Spanish hillsides",
+        "Hills with gentle slopes on one side and steep slopes on the other"
+      ]
+    },
+    {
+      "index": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 5,
+      "answer": "TEEUP",
+      "clues": [
+        "Get ready to swing",
+        "Get ready for a drive, in golf",
+        "Begin a hole",
+        "Do some course prep?",
+        "Prepare to start a football game",
+        "Start a golf hole",
+        "Prepare to hit a golf ball",
+        "Start a golf game",
+        "Begin a course"
+      ],
+      "hardClues": [
+        "Make easier to drive"
+      ]
+    },
+    {
+      "index": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 1,
+      "length": 5,
+      "answer": "TOTIE",
+      "clues": [],
+      "hardClues": [
+        "Comic Fields who was an Ed Sullivan regular",
+        "Funny lady Fields",
+        "Comic Fields",
+        "Borscht Belt comedienne Fields",
+        "Funnywoman Fields",
+        "Fields with multiple \"Ed Sullivan Show\" appearances",
+        "Fields of farce",
+        "The Ed Sullivan Show regular Fields",
+        "Comedienne Fields",
+        "Funny Fields"
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 5,
+      "answer": "PATES",
+      "clues": [
+        "Meaty spreads",
+        "Expensive spreads",
+        "Cracker spreads",
+        "Rich spreads",
+        "Some fancy cracker spreads",
+        "Some appetizer spreads",
+        "Hors d'oeuvre spreads",
+        "Party spreads",
+        "Gourmet spreads",
+        "Spread things"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 7,
+      "answer": "DOADEAL",
+      "clues": [
+        "Reach an agreement",
+        "Negotiate with success",
+        "Negotiate successfully",
+        "Come to terms",
+        "Conclude negotiations successfully"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 6,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "DAL",
+      "clues": [
+        "Indian lentil stew",
+        "Spiced lentil stew",
+        "{/___ makhani/} (Indian dish)",
+        "The NFL's Cowboys, on scoreboards",
+        "Chana ___ (chickpea dish)",
+        "Indian bean dish",
+        "___ makhani",
+        "Masoor ___ (spiced lentil dish)"
+      ],
+      "hardClues": [
+        "___ segno (from the repeat sign, in music)",
+        "___ segno (musical repeat sign)"
+      ]
+    },
+    {
+      "index": 7,
+      "direction": "down",
+      "row": 2,
+      "col": 6,
+      "length": 3,
+      "answer": "LPS",
+      "clues": [
+        "Record collector's collection",
+        "Vinyl purchases, for short",
+        "Vinyl for DJs",
+        "Audiophile collection",
+        "Yard sale staples",
+        "Vinyl stack",
+        "They sound so much better than streaming, supposedly"
+      ],
+      "hardClues": [
+        "Hi-fi platters",
+        "They take their turns in clubs",
+        "Early RCA output"
+      ]
+    },
+    {
+      "index": 8,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "ATT",
+      "clues": [
+        "QB's try: Abbr.",
+        "Abbr. in a quarterback's stat line",
+        "It might result in a TD or an INT",
+        "www.___.com (cellular carrier's URL)",
+        "Parent company of Cricket Wireless",
+        "Try by Brady: Abbr.",
+        "Legal professional: Abbr.",
+        "Quarterback's stat: Abbr."
+      ],
+      "hardClues": [
+        "Grisham hero, often: Abbr.",
+        "One with a J.D."
+      ]
+    },
+    {
+      "index": 9,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 3,
+      "answer": "STP",
+      "clues": [
+        "Big advertiser at auto races",
+        "Indy 500 initials",
+        "NASCAR sponsor since 1971",
+        "Race car driver's additive",
+        "Canful at a gas station",
+        "Automotive brand with an oval logo",
+        "Helping Engines Run Better sloganeer",
+        "Brand at the Indy 500",
+        "Pennzoil rival"
+      ],
+      "hardClues": [
+        "Letters on some old greasy hats"
+      ]
+    },
+    {
+      "index": 10,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 7,
+      "answer": "LITOTES",
+      "clues": [
+        "Understatement using double negatives, like 'not bad'"
+      ],
+      "hardClues": [
+        "... using ___: \"Mary had no giant lamb / Its fleece was not unwhite\"",
+        "Figure of speech that employs ironic understatement",
+        "Figure of speech like \"no mean feat\"",
+        "Not too bad for \"very good\"",
+        "Rhetorical device like \"not half bad\" or \"not too shabby\"",
+        "Not too shabby and \"no ordinary love,\" e.g.",
+        "Figure of speech like \"not unlike\"",
+        "Understated figure of speech, in rhetoric"
+      ]
+    },
+    {
+      "index": 11,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 3,
+      "answer": "OLD",
+      "clues": [
+        "Familiar, as a joke",
+        "Like most codgers",
+        "Full of years",
+        "Not current",
+        "Not relevant anymore",
+        "Overdone",
+        "Told too much",
+        "Heard a lot before",
+        "Out of fashion"
+      ],
+      "hardClues": [
+        "Antediluvian"
+      ]
+    },
+    {
+      "index": 12,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "answer": "ELLAS",
+      "clues": [
+        "Plural Spanish pronoun",
+        "Those girls, in Guadalajara",
+        "Those women, in Spain"
+      ],
+      "hardClues": [
+        "Fitzgerald and Grasso",
+        "Fitzgerald et al.",
+        "Greece, to Greeks",
+        "Singer Fitzgerald, and others",
+        "Singers Mai and Fitzgerald",
+        "Miss ___ Playhouse: jazz CD for kids",
+        "La ___"
+      ]
+    },
+    {
+      "index": 13,
+      "direction": "across",
+      "row": 6,
+      "col": 2,
+      "length": 3,
+      "answer": "EDS",
+      "clues": [
+        "Book righters, for short",
+        "Newsroom figs.",
+        "Masthead pros",
+        "Newspaper VIPs",
+        "Vogue VIPs"
+      ],
+      "hardClues": [
+        "Koch and O'Neill",
+        "They may ask, \"What's the dele, yo?\": Abbr. (I'm so sorry for this)",
+        "Op- --",
+        "Shape changers, briefly",
+        "Wynn and Harris"
+      ]
+    }
+  ],
+  "shape": [
+    [
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ]
+  ]
+}

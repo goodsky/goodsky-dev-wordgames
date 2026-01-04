@@ -1,0 +1,251 @@
+{
+  "difficulty": "HARD",
+  "timestamp": "2026-01-04T15:23:47.983242",
+  "clues": [
+    {
+      "index": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "PST",
+      "clues": [
+        "Ore. setting for part of the year",
+        "SFO hrs.",
+        "Rose Parade setting?",
+        "Winter clock setting in LA",
+        "West Coast clock setting",
+        "L.A. winter clock setting",
+        "Seattle hrs.",
+        "Wash. setting"
+      ],
+      "hardClues": [
+        "Athletic setting: Abbr.",
+        "Salem's setting: Abbr."
+      ]
+    },
+    {
+      "index": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "PANSY",
+      "clues": [
+        "Flower with colorful blotches",
+        "Multicolored spring flower",
+        "Violet in a bed",
+        "Violet relative",
+        "Richly colored violet",
+        "Variously colored flower",
+        "Violet hybrid",
+        "Flower that's also a girl's name",
+        "Violet variety"
+      ],
+      "hardClues": [
+        "Another name for heartsease"
+      ]
+    },
+    {
+      "index": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "STATE",
+      "clues": [
+        "Alaska or Arkansas",
+        "Washington, e.g.",
+        "Indiana, e.g.",
+        "Montana or Maine",
+        "Any one of New England's six",
+        "Orally report",
+        "Put into words"
+      ],
+      "hardClues": [
+        "Coin for Colorado or Connecticut",
+        "Alcorn __: HBCU in Mississippi",
+        "Washington, but not Jefferson"
+      ]
+    },
+    {
+      "index": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "TARON",
+      "clues": [],
+      "hardClues": [
+        "Egerton of the \"Kingsman\" films (RAN TO anagram)",
+        "Egerton who played Elton John in \"Rocketman\""
+      ]
+    },
+    {
+      "index": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "FATAL",
+      "clues": [
+        "__ flaw",
+        "Decisive, as a mistake",
+        "Bad for you and then some",
+        "Like many whodunit poisonings",
+        "Like the most serious error",
+        "Terminal",
+        "Lethal",
+        "Like some computer errors"
+      ],
+      "hardClues": [
+        "Like some attractions",
+        "Disastrous Pearl Jam song?"
+      ]
+    },
+    {
+      "index": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "FSU",
+      "clues": [
+        "Home of the 'Noles",
+        "College in Tallahassee, for short",
+        "The A.C.C.'s Seminoles",
+        "Coll. football's Seminoles",
+        "Southern sch. nicknamed for a local native tribe",
+        "Seminoles' sch."
+      ],
+      "hardClues": [
+        "Barry Jenkins' Tallahassee alma mater",
+        "Sch. with a campus in Panama City",
+        "Chief Osceola riding Renegade introduces its home games: Abbr.",
+        "Sch. of 2013 Heisman Trophy winner Jameis Winston"
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 3,
+      "answer": "LEO",
+      "clues": [
+        "First name in \"The Great Gatsby\" cast",
+        "Man's name with beastly origins",
+        "Astrological fire sign",
+        "What the sun enters in August"
+      ],
+      "hardClues": [
+        "Regulus' constellation",
+        "Uncle on Seinfeld",
+        "Fifth sign",
+        "First name in Russian literature",
+        "The MGM lion",
+        "Constellation that includes Regulus"
+      ]
+    },
+    {
+      "index": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "SNARE",
+      "clues": [
+        "Game-stopping device",
+        "___ drum",
+        "Catch",
+        "Double-headed drum",
+        "Game catcher",
+        "Poacher's trap",
+        "Drum type",
+        "Drum variety"
+      ],
+      "hardClues": [
+        "Game keeper?",
+        "Drum string"
+      ]
+    },
+    {
+      "index": 7,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "USTOO",
+      "clues": [
+        "We wanna go also",
+        "We feel the same way!",
+        "We feel that way also",
+        "We wanna join you!",
+        "So do we!",
+        "So are we!",
+        "We wanna join!",
+        "We feel the same way",
+        "We want in!"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 8,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 3,
+      "answer": "YEN",
+      "clues": [
+        "Strong urge",
+        "Currency represented by the symbol ¥",
+        "Yokohama cash",
+        "Wistful wishing",
+        "Strong longing",
+        "Itch",
+        "Have a ___ for",
+        "Urge"
+      ],
+      "hardClues": [
+        "Money spent for your sake"
+      ]
+    }
+  ],
+  "shape": [
+    [
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      0
+    ]
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "difficulty": "EASY",
+  "timestamp": "2026-01-04T15:28:46.339374",
+  "clues": [
+    {
+      "index": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 7,
+      "answer": "TOUSLES",
+      "clues": [
+        "Messes up, as the hair",
+        "Musses, as hair",
+        "Musses",
+        "Ruffles, as the hair"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "answer": "TIP",
+      "clues": [
+        "Money left on a diner table",
+        "Waiter's delight",
+        "Diner's prerogative",
+        "Part of the iceberg?",
+        "A hot one is timely"
+      ],
+      "hardClues": [
+        "Foul ___",
+        "You might wait for it",
+        "Hint from a tout",
+        "Cause a disturbance in"
+      ]
+    },
+    {
+      "index": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "IBN",
+      "clues": [
+        "Son of, in foreign names",
+        "Word in many Arabic names",
+        "Mac : Scottish :: ___ : Arabic",
+        "Son of a ...?",
+        "Arabic name part that's equivalent to \"-son\"",
+        "Son of, in Arabic names",
+        "Arabic name part"
+      ],
+      "hardClues": [
+        "___ al-Haytham, medieval mathematician called \"the father of modern optics\"",
+        "Arabic patronymic",
+        "Arabic patronymic part"
+      ]
+    },
+    {
+      "index": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "PETSCAN",
+      "clues": [
+        "3-D image in medical diagnoses",
+        "Medical 3-D image",
+        "Test that uses radioactive tracers",
+        "X-ray alternative",
+        "MRI alternative",
+        "MRI alternative involving the injection of a tracer chemical",
+        "Nuclear medicine image",
+        "3D medical image"
+      ],
+      "hardClues": [
+        "Apt diagnostic aid for a veterinarian",
+        "Apt medical image for a vet?"
+      ]
+    },
+    {
+      "index": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 1,
+      "length": 5,
+      "answer": "SALEM",
+      "clues": [
+        "Massachusetts city that becomes a tourist hot spot in October",
+        "Beaver State's capital",
+        "Bad place for witches, once",
+        "City of witch trials",
+        "Oregon capital",
+        "The Crucible setting"
+      ],
+      "hardClues": [
+        "Site of a Massachusetts tourist shop named \"Witch Way Gifts\"",
+        "Where the National Guard was born",
+        "TV show that takes place in 17th century Massachusetts",
+        "City offering a Haunted Passport"
+      ]
+    },
+    {
+      "index": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 5,
+      "answer": "SOBER",
+      "clues": [
+        "Not drunk",
+        "Not at all wasted?",
+        "Sedate",
+        "Not at all wasted",
+        "Off the sauce",
+        "Not at all tipsy",
+        "Not loaded?"
+      ],
+      "hardClues": [
+        "Grave",
+        "Hate Bein' ___ (2012 Chief Keef hit)",
+        "Gravely serious"
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 5,
+      "answer": "REKEY",
+      "clues": [
+        "Enter again, as an access code",
+        "Enter again, as text",
+        "Enter again, as a password",
+        "Adjust, as a lock",
+        "Type in again",
+        "Change, like a lock",
+        "Change, as a lock",
+        "Type in anew",
+        "Enter again, as data",
+        "Type again"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 6,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "HAH",
+      "clues": [
+        "That'll show you!",
+        "Curt laugh",
+        "That'll show 'em!",
+        "Told you!",
+        "That's funny!",
+        "You thought you got me!",
+        "Baloney!",
+        "Ri-i-ight!",
+        "When pigs fly!",
+        "Brief chuckle"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 7,
+      "answer": "HAUNTED",
+      "clues": [
+        "If I pay $40 for a ___ house I better die (@hodgesboi15 tweet)",
+        "Like some houses",
+        "Spook-frequented",
+        "Ghost-filled",
+        "Obsessed",
+        "Full of spirits",
+        "Spirit-filled?",
+        "Filled with spirit"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 7,
+      "direction": "down",
+      "row": 2,
+      "col": 6,
+      "length": 3,
+      "answer": "DIS",
+      "clues": [
+        "Put down, modern-style",
+        "Affront, in street slang",
+        "Prefix for \"satisfied\" or \"honorable\"",
+        "Talk trash to",
+        "Belittle",
+        "Start to respect",
+        "Prefix with \"respect\"",
+        "Criticize, in slang",
+        "Put down"
+      ],
+      "hardClues": [
+        "Put down, to P. Diddy"
+      ]
+    },
+    {
+      "index": 8,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "ALS",
+      "clues": [
+        "Neurodegenerative disease, for short",
+        "Lou Gehrig's Disease, for short"
+      ],
+      "hardClues": [
+        "Kaline and Capone",
+        "Hangout for the Fonz",
+        "Hirschfeld and Jaffee",
+        "Gore and Michaels",
+        "Unser Sr. and Jr.",
+        "Three NASCAR Unsers",
+        "Franken and Capone",
+        "Racing Unsers"
+      ]
+    },
+    {
+      "index": 9,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 3,
+      "answer": "SKI",
+      "clues": [
+        "Snowmobile attachment",
+        "Bit of winter sports equipment",
+        "Slender slider",
+        "Maneuver through moguls",
+        "Stick in the snow",
+        "Vacation at Vail",
+        "Type of winter boot"
+      ],
+      "hardClues": [
+        "Travel between poles?",
+        "Zigzag in Zermatt",
+        "Compete in the super G"
+      ]
+    },
+    {
+      "index": 10,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 7,
+      "answer": "HELICES",
+      "clues": [
+        "Springs, e.g.",
+        "Rotini, e.g.",
+        "Spiral shapes",
+        "Spirals"
+      ],
+      "hardClues": [
+        "Shapes studied by Dr. Watson and his partner"
+      ]
+    },
+    {
+      "index": 11,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 3,
+      "answer": "IDA",
+      "clues": [
+        "1890 admission to the Union: Abbr.",
+        "Potato state: Abbr.",
+        "___ B. Wells, journalist who won a posthumous Pulitzer in 2020",
+        "Twin Falls st.",
+        "NAACP co-founder ___ B. Wells"
+      ],
+      "hardClues": [
+        "First lady in 1900",
+        "A first name among first ladies",
+        "Lupino of Hollywood",
+        "Journalist Tarbell",
+        "Lupino of 'Moontide'"
+      ]
+    },
+    {
+      "index": 12,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "answer": "MEDAY",
+      "clues": [
+        "Time for self-care",
+        "Time to treat yourself",
+        "Time to focus on oneself",
+        "Treat yourself event",
+        "Treat yourself occasion",
+        "Occasion for alone time",
+        "Time taken for \"self-love\"",
+        "Occasion for self-care",
+        "Time for pampering oneself"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 13,
+      "direction": "across",
+      "row": 6,
+      "col": 2,
+      "length": 3,
+      "answer": "SAN",
+      "clues": [
+        "Antonio's title",
+        "Japanese surname follower",
+        "__ Andreas fault",
+        "__ Diego, CA",
+        "Antonio beginning",
+        "Title for Jose or Diego?",
+        "___ Diego Zoo",
+        "Word in California place names",
+        "__ Juan, PR"
+      ],
+      "hardClues": []
+    }
+  ],
+  "shape": [
+    [
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ]
+  ]
+}

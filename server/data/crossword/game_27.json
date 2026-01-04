@@ -1,0 +1,307 @@
+{
+  "difficulty": "EASY",
+  "timestamp": "2026-01-04T15:42:34.251129",
+  "clues": [
+    {
+      "index": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "AMIS",
+      "clues": [
+        "Parisian pals",
+        "The Zone of Interest writer Martin",
+        "Pals around in Paris?",
+        "Pierre's male pals"
+      ],
+      "hardClues": [
+        "Author who wrote, \"Weapons are like money; no one knows the meaning of enough\"",
+        "The Rachel Papers novelist Martin",
+        "Côte d'Azur comrades",
+        "Writer Kingsley",
+        "_____ avec bénéfices (certain sexual partners, in French)",
+        "London Fields writer Martin"
+      ]
+    },
+    {
+      "index": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "AMAS",
+      "clues": [
+        "Amo, ___, amat (Latin trio)",
+        "Sessions that start with an intro like \"Hi, I'm u/ChrisPine. Let's chat!\": Abbr.",
+        "Reddit Q&As",
+        "Part of a Latin 101 trio",
+        "User-submitted Q&A sessions, online",
+        "Amo, ___, amat",
+        "Grammys rival on ABC since '73"
+      ],
+      "hardClues": [
+        "Amo, ___, I love a lass ...",
+        "You love, to Livy",
+        "___ Veritas (\"Practical Magic\" love spell)"
+      ]
+    },
+    {
+      "index": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "MECCA",
+      "clues": [
+        "Destination during a hajj",
+        "Major draw",
+        "Muslim pilgrimage site",
+        "Islam's spiritual center",
+        "Where many pilgrims progress to?",
+        "Annual destination of about 2.5 million pilgrims"
+      ],
+      "hardClues": [
+        "What a mosque's mihrab points toward",
+        "It's faced when performing salah",
+        "City whose population more than doubles during Dhu al-Hijjah"
+      ]
+    },
+    {
+      "index": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "AMELIA",
+      "clues": [
+        "Earhart of aviation",
+        "Pilot Earhart",
+        "Bedelia of kid-lit",
+        "Aviation pioneer Earhart",
+        "Kid lit's ___ Bedelia",
+        "Earhart who said, \"There's more to life than being a passenger\""
+      ],
+      "hardClues": [
+        "Obstacle racer Boone",
+        "Name in worldwide July 1937 headlines",
+        "Vanity Fair girl",
+        "2009 biopic about a flyer"
+      ]
+    },
+    {
+      "index": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 6,
+      "answer": "SEDERS",
+      "clues": [
+        "Passover dinners",
+        "Meals inspired by Exodus 13",
+        "Four Questions feasts",
+        "Rituals including the Cup of Elijah",
+        "Feasts commemorating the Exodus",
+        "Meals during which a door is opened for Elijah",
+        "Passover celebrations",
+        "Ritual repasts"
+      ],
+      "hardClues": [
+        "Reading-and-feeding occasions",
+        "Mid-Nisan feasts"
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "MEMED",
+      "clues": [
+        "Made into a GIF, perhaps"
+      ],
+      "hardClues": [
+        "Turned into an /r/fffffffuuuuuuuuuuuu post, say"
+      ]
+    },
+    {
+      "index": 6,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 5,
+      "answer": "DARES",
+      "clues": [
+        "Takes a risk",
+        "Acts boldly",
+        "Starts of some pranks",
+        "Screws up the courage",
+        "Playground challenges",
+        "Tempts fate",
+        "They may lead to risky moves",
+        "Shows some courage",
+        "Challenges issued on playgrounds, perhaps",
+        "Has the gall (to)"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 7,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "ICEDAM",
+      "clues": [
+        "Roof hazard",
+        "Gutter nuisance in cold climates",
+        "Winter roof blockage",
+        "Winter river blocker",
+        "Cold weather roofing problem",
+        "Gutter concern in winter",
+        "Winter obstruction",
+        "Winter blockage",
+        "Sort of gutter blockage",
+        "Gutter blockage in winter"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 8,
+      "direction": "down",
+      "row": 2,
+      "col": 5,
+      "length": 4,
+      "answer": "MAST",
+      "clues": [
+        "Nautical spar",
+        "Mizzen or main",
+        "Canvas support",
+        "Sail pole",
+        "Pole sometimes topped with a crow's nest",
+        "Support that's often rigged",
+        "Schooner part",
+        "Staff on deck"
+      ],
+      "hardClues": [
+        "The second-tallest structure ever built (after the Burj Khalifa) was one",
+        "One of a yawl's two"
+      ]
+    },
+    {
+      "index": 9,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 6,
+      "answer": "SCLERA",
+      "clues": [
+        "Eyeball cover",
+        "Outer eye layer",
+        "Eyeball part",
+        "White of the eye",
+        "Eye muscles attach to it",
+        "Eyeball's outer layer",
+        "Uncolored part of the eye",
+        "Eye layer",
+        "White in the face?",
+        "Optic protector"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 10,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 5,
+      "answer": "AIRES",
+      "clues": [
+        "Million attachments",
+        "Buenos __, Argentina",
+        "Buenos -- (capital of Argentina)",
+        "Spanish winds",
+        "Million ending",
+        "Winds, in a South American city name",
+        "Part of a South American capital",
+        "Endings for \"million\"",
+        "Endings for \"billion\""
+      ],
+      "hardClues": [
+        "Rivers in England, France and Australia"
+      ]
+    },
+    {
+      "index": 11,
+      "direction": "across",
+      "row": 5,
+      "col": 2,
+      "length": 4,
+      "answer": "ASST",
+      "clues": [
+        "The \"A\" of TA: Abbr.",
+        "Elf, to Santa (abbr.)",
+        "Short right hand?",
+        "Staffer: Abbr.",
+        "Lead-in to ed. or prof.",
+        "Rt.-hand person",
+        "Aide, in ads",
+        "Start of a subordinate title: Abbr.",
+        "Job title abbr.",
+        "Second, for short"
+      ],
+      "hardClues": []
+    }
+  ],
+  "shape": [
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  ]
+}

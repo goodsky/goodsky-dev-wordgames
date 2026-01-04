@@ -1,0 +1,306 @@
+{
+  "difficulty": "EASY",
+  "timestamp": "2026-01-04T15:26:02.004325",
+  "clues": [
+    {
+      "index": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "PSIS",
+      "clues": [
+        "Trident resemblers",
+        "Pitchfork resemblers",
+        "Greek letters resembling pitchforks",
+        "Trident-shaped Greek letters",
+        "Pitchfork-shaped letters",
+        "Greek letters shaped like pitchforks",
+        "Greek letters that look like tridents"
+      ],
+      "hardClues": [
+        "Letters between chis and omegas",
+        "Letters that sound despondent?",
+        "They resemble Indiana University's logo"
+      ]
+    },
+    {
+      "index": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "PLAITS",
+      "clues": [
+        "Pigtails, e.g.",
+        "Braids",
+        "Hair braids",
+        "Makes braids in",
+        "Twisted locks"
+      ],
+      "hardClues": [
+        "Knotless ___"
+      ]
+    },
+    {
+      "index": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "SALMON",
+      "clues": [
+        "Sockeye, e.g.",
+        "Waterfall-jumping fish",
+        "Pinkish orange",
+        "Pink shade",
+        "Fish that spawns in fresh water",
+        "Common sushi fish",
+        "Chinook or sockeye fish"
+      ],
+      "hardClues": [
+        "Bluegrass jam band Leftover ___",
+        "Fish in lohikeitto"
+      ]
+    },
+    {
+      "index": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 6,
+      "answer": "INLINE",
+      "clues": [
+        "__ skating",
+        "Waiting to buy tickets, say",
+        "Queuing for tickets, e.g.",
+        "Kind of skate",
+        "Waiting for service",
+        "Waiting at the bank, say",
+        "Queued",
+        "Waiting one's turn"
+      ],
+      "hardClues": [
+        "Up (for)",
+        "Standing near the door"
+      ]
+    },
+    {
+      "index": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "answer": "SKULKS",
+      "clues": [
+        "Moves stealthily",
+        "Hides with evil intent",
+        "Hides like a coward",
+        "Moves furtively",
+        "Hides in the shadows"
+      ],
+      "hardClues": [
+        "Is catlike"
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "CBS",
+      "clues": [
+        "ABC competitor",
+        "'Survivor' airer",
+        "Ghosts channel",
+        "The Good Wife and \"The Good Fight\" network",
+        "The Good Wife network"
+      ],
+      "hardClues": [
+        "Scorpion airer",
+        "Semi radios",
+        "Longtime Masters airer",
+        "Couric's network",
+        "Tough as Nails network"
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "CLANK",
+      "clues": [
+        "Sound of a sword striking a shield",
+        "Knight's sound",
+        "Sword-on-armor sound",
+        "Metal sound",
+        "Sword-on-sword sound",
+        "Haunted castle sound",
+        "Sound of chains",
+        "Metallic sound",
+        "Sound of armor"
+      ],
+      "hardClues": [
+        "Sound effect in Verdi's \"Anvil Chorus\""
+      ]
+    },
+    {
+      "index": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "BALLUP",
+      "clues": [
+        "Shape, as dough",
+        "Crumple, as paper",
+        "Shape, as dough for cloverleaf rolls",
+        "Assume a fetal position",
+        "Crumple"
+      ],
+      "hardClues": [
+        "Wad",
+        "Botch"
+      ]
+    },
+    {
+      "index": 7,
+      "direction": "down",
+      "row": 2,
+      "col": 5,
+      "length": 3,
+      "answer": "PEA",
+      "clues": [
+        "Pod resident?",
+        "Sugar snap ___",
+        "Fried rice bit",
+        "Word with soup or shooter",
+        "Stew staple",
+        "Cause of some royal sleeplessness"
+      ],
+      "hardClues": [
+        "Swee'--",
+        "What a shooter may shoot",
+        "Shooter insert"
+      ]
+    },
+    {
+      "index": 8,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 6,
+      "answer": "SIMILE",
+      "clues": [
+        "Cold as ice or \"big as life\"",
+        "Idiom with \"as\" in the middle",
+        "Float like a butterfly or \"sting like a bee\"",
+        "Quiet as a mouse, e.g.",
+        "Comparison in writing",
+        "As plain as day, e.g.",
+        "As clear as mud, e.g.",
+        "Run like the wind, e.g.",
+        "Thick as thieves, e.g.",
+        "'Cute as a button,' e.g."
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 9,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 5,
+      "answer": "TONKA",
+      "clues": [
+        "Hasbro brand",
+        "Maker of toy trucks",
+        "Toy truck maker",
+        "Big name in toy trucks",
+        "Mighty Dump Truck maker",
+        "Mighty Dump Truck toymaker",
+        "Name on some small trucks",
+        "Toy truck name"
+      ],
+      "hardClues": [
+        "Truck company named for a Minnesota lake (I know... there are a lot of them)",
+        "Pound Puppies maker"
+      ]
+    },
+    {
+      "index": 10,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 4,
+      "answer": "SNES",
+      "clues": [
+        "Donkey Kong Country game console, for short",
+        "16-bit Sega Genesis competitor, for short",
+        "1990s game console release, initially",
+        "Donkey Kong Country platform, briefly",
+        "1990s gaming release, initially",
+        "Mario Kart console, initially",
+        "Sega Genesis competitor, in brief",
+        "Mario Paint console, initially",
+        "Classic game console, for short"
+      ],
+      "hardClues": [
+        "Platform for the video game \"Al Unser Jr.'s Road to the Top\""
+      ]
+    }
+  ],
+  "shape": [
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ]
+  ]
+}

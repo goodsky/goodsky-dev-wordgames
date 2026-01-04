@@ -1,0 +1,262 @@
+{
+  "difficulty": "HARD",
+  "timestamp": "2026-01-04T15:36:39.070980",
+  "clues": [
+    {
+      "index": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "ESSENE",
+      "clues": [],
+      "hardClues": [
+        "Certain Judean",
+        "Ancient Qumran denizen",
+        "Early ascetic",
+        "Dead Sea Scrolls writer",
+        "Dead Sea Scrolls scribe",
+        "Ancient holy scroller?",
+        "Sect during the time of Jesus",
+        "Old ascetic",
+        "Ancient ascetic",
+        "Group member from the time of Jesus"
+      ]
+    },
+    {
+      "index": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "ONTAPE",
+      "clues": [
+        "Like some old books",
+        "Preserved, in a way",
+        "Like some books",
+        "Captured for posterity, maybe",
+        "Like books for long-distance road trips",
+        "Recorded, somewhat quaintly",
+        "Like some '90s audiobooks"
+      ],
+      "hardClues": [
+        "Available for reviewing, perhaps",
+        "Canned",
+        "Like some books nowadays"
+      ]
+    },
+    {
+      "index": 3,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "SHAMAN",
+      "clues": [
+        "Tribe healer",
+        "Faith healer",
+        "Tribal doctor",
+        "High priest who heals the sick",
+        "Spiritual healer who can enter into a trance state",
+        "Spiritual healer",
+        "Tribal healer",
+        "Presider over some sacred ceremonies",
+        "Mystical medicine man"
+      ],
+      "hardClues": [
+        "Leader at a powwow"
+      ]
+    },
+    {
+      "index": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "answer": "HERE",
+      "clues": [
+        "Location often marked with a star",
+        "Attendance response",
+        "Roll-call shout",
+        "Is this the right spot?",
+        "Epitaph start",
+        "Take some!",
+        "Present",
+        "Partner of \"now\"",
+        "Present and accounted for"
+      ],
+      "hardClues": [
+        "It Can't Happen ___ (Sinclair Lewis novel)"
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 2,
+      "length": 4,
+      "answer": "AERO",
+      "clues": [
+        "Aviation prefix for dynamic",
+        "Sleek, in auto-speak",
+        "Prefix for space or nautical",
+        "Musical prefix with smith?",
+        "Dynamic prefix",
+        "Lead-in to -stat",
+        "Sleek, in car-speak",
+        "Prefix with ballistics",
+        "Prefix with space or nautical"
+      ],
+      "hardClues": [
+        "Hyundai ___ (bus that sounds like it can fly)"
+      ]
+    },
+    {
+      "index": 6,
+      "direction": "down",
+      "row": 1,
+      "col": 3,
+      "length": 4,
+      "answer": "MOAB",
+      "clues": [
+        "Biblical kingdom or its Utah namesake",
+        "Utah town near Arches and Canyonlands National Parks",
+        "Biblical kingdom in modern-day Jordan",
+        "Utah city near Canyonlands National Park",
+        "Biblical kingdom",
+        "City by Arches National Park",
+        "City south of Utah's Arches National Park",
+        "Old Testament kingdom"
+      ],
+      "hardClues": [
+        "Ancient kingdom east of Judah",
+        "Biblical kingdom north of Edom"
+      ]
+    },
+    {
+      "index": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 4,
+      "answer": "AUTO",
+      "clues": [
+        "Parking space filler",
+        "Biographical opening?",
+        "Type of insurance",
+        "One's wheels",
+        "Manual mode's counterpart",
+        "You may set a camera on it",
+        "Thermostat setting",
+        "Prefix with \"play\"",
+        "Indy racer",
+        "Start to {/complete/}"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 8,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "SEEOUT",
+      "clues": [
+        "Escort from the premises",
+        "Escort to the door",
+        "Escort to the exit",
+        "Stick with to the end",
+        "Escort through the exit",
+        "Escort",
+        "Complete, as a task",
+        "Persevere with",
+        "Show the door"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 9,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 6,
+      "answer": "ERRATA",
+      "clues": [
+        "Some goofs",
+        "Editorial oversights",
+        "Accounting of mistakes",
+        "Typos",
+        "Typos and such",
+        "Listed mistakes",
+        "Slip-ups",
+        "What you might issue if you write alot and very welll?"
+      ],
+      "hardClues": [
+        "Gaffe paper?",
+        "Improved book list?"
+      ]
+    },
+    {
+      "index": 10,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 6,
+      "answer": "NEOBOP",
+      "clues": [],
+      "hardClues": [
+        "'80s jazz subgenre"
+      ]
+    }
+  ],
+  "shape": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ]
+}

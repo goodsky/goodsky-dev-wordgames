@@ -1,0 +1,407 @@
+{
+  "difficulty": "EASY",
+  "timestamp": "2026-01-04T15:31:54.937001",
+  "clues": [
+    {
+      "index": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "answer": "PLS",
+      "clues": [
+        "Texting entreaty",
+        "I'm begging u",
+        "Polite e-request",
+        "TY partner, in text-speak",
+        "Counterpart to thx",
+        "TY may follow it",
+        "Texting counterpart of \"TY\"",
+        "i'm begging u",
+        "Polite word in a text msg."
+      ],
+      "hardClues": [
+        "Start of a sequence ending in \"thx\""
+      ]
+    },
+    {
+      "index": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 7,
+      "answer": "PHONEME",
+      "clues": [
+        "Sh, \"th\" or \"ou\"",
+        "Distinct unit of sound in a specified language",
+        "Linguistic unit",
+        "Basic linguistic unit",
+        "Unit of speech, in linguistics",
+        "Unit of sound in linguistics",
+        "Speech unit"
+      ],
+      "hardClues": [
+        "Figure of speech?"
+      ]
+    },
+    {
+      "index": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "LOW",
+      "clues": [
+        "That's a ___ blow!",
+        "Simmering stove setting",
+        "Like bass notes",
+        "Air-conditioner setting",
+        "Daily weather factoid",
+        "Blender setting",
+        "Weather map feature",
+        "High contrast?",
+        "Electric fan setting"
+      ],
+      "hardClues": [
+        "Blue"
+      ]
+    },
+    {
+      "index": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "SEEDING",
+      "clues": [
+        "Ranking contestants",
+        "Gardening chore",
+        "Tournament director's task",
+        "Playoff ranking"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 5,
+      "answer": "SHOED",
+      "clues": [
+        "Like some horses",
+        "Furnished with footwear",
+        "Furnished with footgear",
+        "Worked with horses, in a way"
+      ],
+      "hardClues": [
+        "Did a farrier's work on",
+        "Did a farrier's task",
+        "Worked on as a smithy might",
+        "Functioned as a farrier",
+        "Acted the farrier",
+        "Did a smith's job on"
+      ]
+    },
+    {
+      "index": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 1,
+      "length": 5,
+      "answer": "SHARI",
+      "clues": [
+        "New parents' alternative for Sara",
+        "Actress Headley of {/Coming to America/} and {/Coming 2 America/}"
+      ],
+      "hardClues": [
+        "Lamb Chop puppeteer Lewis",
+        "Noted ventriloquist Lewis",
+        "Lamb Chop's handler",
+        "Lewis who voiced Hush Puppy",
+        "Lamb Chop puppeteer Lewis",
+        "Handy Lewis",
+        "One of the Belafontes",
+        "Lewis with Lamb Chop"
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 5,
+      "answer": "DREDD",
+      "clues": [
+        "2012 title judge played by Karl Urban",
+        "2012 Karl Urban movie"
+      ],
+      "hardClues": [
+        "Judge ___: 1995 Stalle film",
+        "Judge ___ (1995 Stallone movie)",
+        "Stallone title role",
+        "1995 Stallone title role",
+        "Judicial title role for Stallone",
+        "Judge ___ (1995 Sylvester Stallone film)",
+        "Title judge of a 1995 sci-fi film",
+        "Stallone's sci-fi judge"
+      ]
+    },
+    {
+      "index": 6,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "STP",
+      "clues": [
+        "Motor oil letters",
+        "Major NASCAR sponsor",
+        "Engine-cleaning brand",
+        "Sprint Cup Series sponsor",
+        "Brand advertised on many Nascar autos",
+        "Additive that sponsors NASCAR racers"
+      ],
+      "hardClues": [
+        "Son of a Gun! vinyl protectant maker",
+        "Brand promoted by Andy Granatelli",
+        "Slick 50 competitor",
+        "Lady Picture Show band, for short"
+      ]
+    },
+    {
+      "index": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 7,
+      "answer": "SHOWERS",
+      "clues": [
+        "Gift-giving occasions",
+        "Locker room adjunct",
+        "Springtime forecast",
+        "April weather said to bring May flowers",
+        "April forecast"
+      ],
+      "hardClues": [
+        "An ejected player might be sent to them"
+      ]
+    },
+    {
+      "index": 7,
+      "direction": "down",
+      "row": 2,
+      "col": 6,
+      "length": 3,
+      "answer": "SEE",
+      "clues": [
+        "__, I told you so!",
+        "Have an aha moment",
+        "Can't ___ the forest for the trees",
+        "Have good eyesight",
+        "Here's the thing...",
+        "Have a gander",
+        "Take notice",
+        "You got it now?"
+      ],
+      "hardClues": [
+        "Mazzy Star \"So Tonight That I Might ___\"",
+        "Prophesy"
+      ]
+    },
+    {
+      "index": 8,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "TAN",
+      "clues": [
+        "Beachgoer's goal",
+        "Beach perk",
+        "Shoe color",
+        "Neutral slacks shade",
+        "Booth takeaway",
+        "Not quite burn",
+        "Soak up some sun",
+        "Khakilike color"
+      ],
+      "hardClues": [
+        "Larrup",
+        "Acquired during downtime"
+      ]
+    },
+    {
+      "index": 9,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 3,
+      "answer": "DEE",
+      "clues": [
+        "Whoop-__-do",
+        "Zip-a-___-Doo-Dah",
+        "Bad ending?",
+        "Denmark's capital?",
+        "Near failure"
+      ],
+      "hardClues": [
+        "River to Aberdeen",
+        "Actress Sandra",
+        "Sandra married to Bobby Darin",
+        "Back on board?",
+        "One of two divided borders?"
+      ]
+    },
+    {
+      "index": 10,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 7,
+      "answer": "PRESIDE",
+      "clues": [
+        "Act as chairperson",
+        "Chair a meeting",
+        "Officiate",
+        "Act the chairperson",
+        "Have the chair",
+        "Have jurisdiction (over)",
+        "Have authority",
+        "Exercise control",
+        "Be the chair",
+        "Act the chair"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 11,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 3,
+      "answer": "SIC",
+      "clues": [
+        "[Don't blame me for this one]",
+        "[Not my error!]",
+        "Bracketed qualification",
+        "[The error was in the original]",
+        "Printed disclaimer",
+        "[Original author's mistake]",
+        "'Not a typo' indicator",
+        "(Someone else's mistake)"
+      ],
+      "hardClues": [
+        "So, to Cicero",
+        "Set (on)"
+      ]
+    },
+    {
+      "index": 12,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "answer": "IMIND",
+      "clues": [
+        "That does bother me",
+        "Could you actually not?",
+        "Yes, it bothers me",
+        "Actually, it is a problem with me",
+        "Objector's words",
+        "Do me a favor and don't, actually",
+        "That bothers me",
+        "Why should ___? (\"No, it doesn't bother me\")",
+        "Yes, it does bother me!"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 13,
+      "direction": "across",
+      "row": 6,
+      "col": 2,
+      "length": 3,
+      "answer": "ECG",
+      "clues": [
+        "Beat record: Abbr.",
+        "ER test",
+        "Beat sheet, for short",
+        "Hosp. procedure with a readout",
+        "Hospital reading: abbr.",
+        "Heart lines: Abbr.",
+        "Beat recorder: Abbr.",
+        "Heartbeat recording: Abbr."
+      ],
+      "hardClues": [
+        "Ticker tape?",
+        "It makes waves: Abbr."
+      ]
+    }
+  ],
+  "shape": [
+    [
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ]
+  ]
+}

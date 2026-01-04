@@ -1,0 +1,269 @@
+{
+  "difficulty": "HARD",
+  "timestamp": "2026-01-04T15:38:41.336854",
+  "clues": [
+    {
+      "index": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "SALINE",
+      "clues": [
+        "Salt-based",
+        "Preserver of contacts",
+        "Kind of solution for contacts",
+        "Solution for people with poor vision?",
+        "Surgical solution",
+        "Like the sea",
+        "Teardrop descriptor",
+        "Dry-eyes solution",
+        "Contacts wearer's solution",
+        "Solution for an ophthalmological problem?"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "ADMIRE",
+      "clues": [
+        "Hold in high esteem",
+        "See as a role model",
+        "Look up to",
+        "Regard with wonder",
+        "Look to as a role model",
+        "Have high regard for",
+        "Venerate",
+        "Think much of",
+        "Look upon with great regard",
+        "Prize"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "LIEDER",
+      "clues": [
+        "German art songs"
+      ],
+      "hardClues": [
+        "Art songs whose name is German for \"songs\"",
+        "German ballads",
+        "Schubert wrote over 600 of them",
+        "Schubert compositions",
+        "Schubert songs",
+        "German tunes",
+        "Songs of German folk tradition",
+        "German musical entertainment",
+        "Schumann songs",
+        "German classical songs"
+      ]
+    },
+    {
+      "index": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 6,
+      "answer": "INSOLE",
+      "clues": [
+        "Odor absorber, perhaps",
+        "Cushion upon which a ball rests",
+        "It's just under a foot",
+        "Foot pad?",
+        "It's often underfoot",
+        "Loafer liner",
+        "Oxford section",
+        "Relief for plantar fasciitis",
+        "Shoe pad",
+        "Oxford pad, e.g."
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "answer": "NEALON",
+      "clues": [],
+      "hardClues": [
+        "SNL alum Kevin",
+        "SNL'er for 13 seasons",
+        "Carvey's \"Pumping Up With Hans & Franz\" partner on SNL",
+        "SNL alum alongside Hartman and Carvey",
+        "SNL graduate Kevin",
+        "Comic Kevin",
+        "Kevin ___, former \"Weekend Update\" anchor on \"S.N.L.\"",
+        "Comic actor Kevin",
+        "Saturday Night Live cast member who played Mr. No-Depth Perception",
+        "1995 \"SNL\" departure"
+      ]
+    },
+    {
+      "index": 6,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "answer": "DINE",
+      "clues": [
+        "Have a seven-course meal",
+        "Eat by candlelight, say",
+        "Have supper",
+        "Enjoy a meal",
+        "Feast fancily",
+        "Sup in style",
+        "Enjoy a spread",
+        "Celebrate an anniversary, say, with \"out\"",
+        "Frequent eateries",
+        "Wine partner"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 7,
+      "direction": "across",
+      "row": 2,
+      "col": 1,
+      "length": 4,
+      "answer": "MESA",
+      "clues": [
+        "Grand Canyon sight",
+        "High, flat land feature",
+        "Walled land formation",
+        "Landscape feature in some Wile E. Coyote cartoons",
+        "Road Runner cartoon sight",
+        "Tablelike landform",
+        "Plateau's cousin",
+        "Painted Desert sight"
+      ],
+      "hardClues": [
+        "Colorado's North Table Mountain, e.g."
+      ]
+    },
+    {
+      "index": 8,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 4,
+      "answer": "IDOL",
+      "clues": [
+        "Beyonce, to the Beyhive",
+        "Archaeological artifact",
+        "Hollywood favorite",
+        "Fan mail recipient",
+        "Ten Commandments no-no",
+        "Object of blind devotion",
+        "Taylor Swift, for Swifties",
+        "Token of immunity in \"Survivor\"",
+        "Archaeological treasure"
+      ],
+      "hardClues": [
+        "Rocker Billy ___"
+      ]
+    },
+    {
+      "index": 9,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 4,
+      "answer": "RELO",
+      "clues": [
+        "Move, to a Realtor",
+        "Change places, briefly?",
+        "Move for the job, briefly",
+        "Move, in real estate speak",
+        "Part of a corp. job offer, sometimes",
+        "Move, in some ads",
+        "Pull up stakes, to a Realtor",
+        "Move, slangily",
+        "Change of places, in the real estate biz",
+        "Change of address, to a Realtor"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 10,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 6,
+      "answer": "SERENE",
+      "clues": [
+        "Not easily ruffled",
+        "Pacific",
+        "Far from flustered",
+        "Calm",
+        "Not at all chaotic",
+        "Like a spa environment, you'd hope",
+        "Unrattled",
+        "Unflappable",
+        "Cool and collected",
+        "Undisturbed"
+      ],
+      "hardClues": []
+    }
+  ],
+  "shape": [
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  ]
+}

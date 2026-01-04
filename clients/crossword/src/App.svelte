@@ -3,6 +3,7 @@
   import MenuBar from "./MenuBar.svelte";
   import SplashScreen from "./SplashScreen.svelte";
   import ReportIssue from "./ReportIssue.svelte";
+  import { speakWord } from "./textToSpeech.js";
 
   let isLoading = $state(true);
   let gameId = $state(null);
@@ -25,7 +26,8 @@
   
   // MenuBar state
   let kidMode = $state(false);
-  let soundOn = $state(false);
+  let soundOn = $state(true);
+  let difficulty = $state('EASY');
 
   onMount(() => {
     const params = new URLSearchParams(window.location.search);
@@ -49,7 +51,10 @@
 
   async function loadGame(id) {
     isLoading = true;
-    const url = `/api/crossword/newgame${id ? `?id=${id}` : ''}`;
+    const params = new URLSearchParams();
+    if (id) params.append('id', id);
+    if (difficulty) params.append('difficulty', difficulty);
+    const url = `/api/crossword/newgame${params.toString() ? `?${params.toString()}` : ''}`;
 
     try {
       const response = await fetch(url);
@@ -306,6 +311,24 @@
     return isOnLastCell;
   }
 
+  // Check if the current word is correct
+  function isCurrentWordCorrect() {
+    if (!clues[currentClueIndex]) return false;
+    
+    const clue = clues[currentClueIndex];
+    const { row, col, direction, answer } = clue;
+    
+    for (let i = 0; i < answer.length; i++) {
+      const r = direction === 'across' ? row : row + i;
+      const c = direction === 'across' ? col + i : col;
+      if (userAnswers[r][c] !== answer[i]) {
+        return false;
+      }
+    }
+    
+    return true;
+  }
+
   // Find next blank cell in the current clue word
   function findNextBlankInWord() {
     const cells = getCurrentClueCells();
@@ -531,6 +554,12 @@
     setTimeout(refocusGrid, 100);
   }
 
+  function handleDifficultyToggle() {
+    // Reload with new difficulty
+    loadGame(null);
+    setTimeout(refocusGrid, 100);
+  }
+
   function handlePlayClick() {
     showSplashScreen = false;
     // Focus first cell after user tap - this triggers mobile keyboard
@@ -576,7 +605,16 @@
     // Check if puzzle is complete
     setTimeout(() => checkPuzzle(), 100);
     
+    if (kidMode && soundOn) {
+      speakWord(letter);
+    }
+
     if (isCurrentWordComplete()) {
+      // Speak the word if in kid mode, sound is on, and word is correct
+      if (kidMode && soundOn && isCurrentWordCorrect()) {
+        const clue = clues[currentClueIndex];
+        setTimeout(() => speakWord(clue.answer), 1000);
+      }
       // Move to next clue if word is complete
       nextClue();
     } else {
@@ -669,6 +707,7 @@
     <MenuBar 
       bind:kidMode
       bind:soundOn
+      bind:difficulty
       onNewGame={newGame}
       onShareGame={handleShareGame}
       onHowToPlay={handleHowToPlay}
@@ -676,6 +715,7 @@
       onCheckPuzzle={handleCheckPuzzle}
       onKidModeToggle={handleKidModeToggle}
       onSoundToggle={handleSoundToggle}
+      onDifficultyToggle={handleDifficultyToggle}
     />
     {#if isLoading}
       <p>Loading puzzle...</p>

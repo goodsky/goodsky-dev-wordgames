@@ -1,13 +1,15 @@
 <script>
     let {
         kidMode = $bindable(false),
-        soundOn = $bindable(false),
+        soundOn = $bindable(true),
+        difficulty = $bindable('EASY'),
         onNewGame,
         onShareGame,
         onHowToPlay,
         onReportIssue,
         onCheckPuzzle,
         onKidModeToggle,
+        onDifficultyToggle,
         onSoundToggle
     } = $props();
     
@@ -44,6 +46,15 @@
     function handleKidModeToggle() {
         kidMode = !kidMode;
         onKidModeToggle?.();
+    }
+
+    function toggleDifficulty() {
+        if (difficulty === 'EASY') {
+            difficulty = 'HARD';
+        } else {
+            difficulty = 'EASY';
+        }
+        onDifficultyToggle?.();
     }
 
     function toggleSoundOn() {
@@ -104,6 +115,9 @@
                     </button>
                     <button class="menu-item" onclick={handleReportIssue}>
                         Report Issue
+                    </button>
+                    <button class="menu-item" onclick={toggleDifficulty}>
+                        Difficulty: <span class="status-box">{difficulty}</span>
                     </button>
                     <button class="menu-item" onclick={toggleSoundOn}>
                         Sound: <span class="status-box">{soundOn ? 'ON' : 'OFF'}</span>

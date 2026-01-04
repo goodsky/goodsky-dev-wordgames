@@ -1,0 +1,268 @@
+{
+  "difficulty": "EASY",
+  "timestamp": "2026-01-04T15:37:41.808655",
+  "clues": [
+    {
+      "index": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "GAMEON",
+      "clues": [
+        "The competition begins!",
+        "Time to play!",
+        "Challenge accepted!",
+        "Get ready to rumble!",
+        "Let's get ready to rumble!",
+        "Now we've got a competition!",
+        "All right, let's play!",
+        "I accept the challenge!",
+        "Let's play!",
+        "Bring it!"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "ADSITE",
+      "clues": [
+        "The Brave browser can block a lot of its content",
+        "What a pop-up link might lead to",
+        "Pop-up destination",
+        "Web page full of pop-ups",
+        "Where a pop-up leads",
+        "Target of a pop-up blocker",
+        "Spammy web page",
+        "Where a pop-up may send you"
+      ],
+      "hardClues": [
+        "Pop-up business?"
+      ]
+    },
+    {
+      "index": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "MAORIS",
+      "clues": [
+        "Some New Zealanders",
+        "Many kiwis",
+        "Haka dancers",
+        "About a sixth of all New Zealanders",
+        "New Zealand minority"
+      ],
+      "hardClues": [
+        "Relatives of Tahitians",
+        "Whale Rider extras",
+        "They call their native language \"te reo\"",
+        "Hunters of the now-extinct moa",
+        "Kiwis that weren't imported?"
+      ]
+    },
+    {
+      "index": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 6,
+      "answer": "ERMINE",
+      "clues": [
+        "White fur",
+        "Valuable fur",
+        "Wrap for a queen",
+        "Royal fur",
+        "Fine wrap",
+        "Lustrous fur",
+        "Fur source",
+        "Weasel that turns white in the winter",
+        "Fur that's a symbol of royalty"
+      ],
+      "hardClues": [
+        "Small mammal that determinedly hides"
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "answer": "ONESET",
+      "clues": [
+        "It usually doesn't make a match",
+        "U.S. Open unit",
+        "Short tennis session",
+        "Quick round of tennis, maybe",
+        "Quick round of tennis",
+        "Part of a match",
+        "Quick bit of tennis",
+        "Quick court contest",
+        "Quick tennis match"
+      ],
+      "hardClues": [
+        "Opening band's allotment"
+      ]
+    },
+    {
+      "index": 6,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "answer": "DARN",
+      "clues": [
+        "Make whole, in a way",
+        "Close up, as a hole",
+        "Geez!",
+        "Mend, in a way",
+        "___ tootin'!",
+        "Shucks",
+        "Repair with needle and thread",
+        "Blasted",
+        "What rotten luck!"
+      ],
+      "hardClues": [
+        "Put in stitches"
+      ]
+    },
+    {
+      "index": 7,
+      "direction": "across",
+      "row": 2,
+      "col": 1,
+      "length": 4,
+      "answer": "SOME",
+      "clues": [
+        "Indefinite amount",
+        "Opposite of none",
+        "__ of the time (now and then)",
+        "Roughly",
+        "Neither none nor all",
+        "___ assembly required",
+        "Indistinct number",
+        "More than a few"
+      ],
+      "hardClues": [
+        "__ people call me the space cowboy ..."
+      ]
+    },
+    {
+      "index": 8,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 4,
+      "answer": "IRIS",
+      "clues": [
+        "Type of flower or part of the eye",
+        "Visionary flower?",
+        "It might be baby blue",
+        "It regulates the size of the pupil",
+        "Bearded bloom",
+        "You can see right through it",
+        "Good name for a florist"
+      ],
+      "hardClues": [
+        "Flower with upright petals called \"standards\""
+      ]
+    },
+    {
+      "index": 9,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 4,
+      "answer": "TINE",
+      "clues": [
+        "Small part of a fork",
+        "Prong of a fork",
+        "There's a point to it",
+        "Antler part",
+        "Spork feature",
+        "Spork point"
+      ],
+      "hardClues": [
+        "Silver-plated sticker",
+        "Poker at a table",
+        "Strip poker?"
+      ]
+    },
+    {
+      "index": 10,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 6,
+      "answer": "RESETS",
+      "clues": [
+        "Clears, as a stopwatch",
+        "Creates anew, as a password",
+        "Adjusts a tripmeter",
+        "Clears all data from",
+        "Puts back to 0",
+        "Updates, as a clock",
+        "Moves back to zero",
+        "Puts back to 000",
+        "Starts over, in a way"
+      ],
+      "hardClues": []
+    }
+  ],
+  "shape": [
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  ]
+}

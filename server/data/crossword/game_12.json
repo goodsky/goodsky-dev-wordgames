@@ -1,0 +1,261 @@
+{
+  "difficulty": "HARD",
+  "timestamp": "2026-01-04T15:22:50.875061",
+  "clues": [
+    {
+      "index": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "SALSA",
+      "clues": [
+        "Chef's creation",
+        "Cantina dip",
+        "Mexican eatery staple",
+        "Topper for tacos",
+        "Nacho partner",
+        "Saucy dance?",
+        "A dance and a dip",
+        "Dip... or a dance with dips",
+        "Lively Latin dance",
+        "Cantina condiment"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "SMASH",
+      "clues": [
+        "Attack like The Hulk",
+        "Megahit",
+        "Break like the Hulk",
+        "Hard badminton shot",
+        "Hard tennis shot",
+        "Wimbledon shot",
+        "Shatter"
+      ],
+      "hardClues": [
+        "Producer's dream",
+        "Bomb's opposite",
+        "Put-away shot"
+      ]
+    },
+    {
+      "index": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "MCATS",
+      "clues": [
+        "Exams for drs. to be",
+        "Exams for future OBs",
+        "Exams for aspiring MDs",
+        "Exams for many junior biology majors",
+        "Exams for future docs",
+        "Exams for would-be drs.",
+        "What aspiring docs take",
+        "Exams for future drs."
+      ],
+      "hardClues": [
+        "Their possible scores range from 472 to 528 (kinda random...): Abbr.",
+        "Exams evaluating Scientific Inquiry skills"
+      ]
+    },
+    {
+      "index": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "AUDIT",
+      "clues": [
+        "CPA's job",
+        "One may expose an embezzler",
+        "IRS woe",
+        "Tax evader's fear",
+        "Tax cheat's fear",
+        "Inspection by accountants",
+        "Review the finances of",
+        "Embezzler's worry"
+      ],
+      "hardClues": [
+        "Comptroller's task",
+        "Book review?"
+      ]
+    },
+    {
+      "index": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "STENO",
+      "clues": [
+        "Testimony transcriber, for short",
+        "Pro at generating transcripts",
+        "Court transcriber",
+        "Transcript preparer"
+      ],
+      "hardClues": [
+        "One used to being dictated to",
+        "Short shorthand writer?",
+        "Dictator's employee?",
+        "Writer of short letters",
+        "One who responds to a dictator?",
+        "Court pro"
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 5,
+      "answer": "HEDER",
+      "clues": [],
+      "hardClues": [
+        "Napoleon Dynamite actor Jon",
+        "Napoleon Dynamite star",
+        "Dynamite actor Jon?",
+        "Jon who played Napoleon Dynamite",
+        "Napoleon Dynamite star Jon",
+        "Napoleon Dynamite actor Jon",
+        "Sian ___, director of the Best Picture winner \"CODA\"",
+        "Jon of \"Napoleon Dynamite\"",
+        "He was Dynamite",
+        "'Napoleon Dynamite star Jon'"
+      ]
+    },
+    {
+      "index": 6,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "ACUTE",
+      "clues": [
+        "Not quite right, perhaps",
+        "Not chronic",
+        "Like an angle that's neither right nor obtuse",
+        "Seriously painful",
+        "Type of angle or pain",
+        "Stabbing, as pain",
+        "Sharp-sighted",
+        "Urgent"
+      ],
+      "hardClues": [
+        "The Kinks \"___ Schizophrenia Paranoia Blues\""
+      ]
+    },
+    {
+      "index": 7,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "LADED",
+      "clues": [
+        "Loaded, as a ship",
+        "Packed with freight"
+      ],
+      "hardClues": [
+        "Filled with cargo",
+        "Stowed on board",
+        "Brought aboard",
+        "Stored on board",
+        "Packed, as freight",
+        "Put on, as cargo",
+        "Put on cargo",
+        "Got ready for transportation, in a way",
+        "Loaded cargo",
+        "Put in a hold"
+      ]
+    },
+    {
+      "index": 8,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "STINE",
+      "clues": [
+        "Goosebumps series writer",
+        "Author of the \"Fear Street\" series for young readers",
+        "Children's author R. L. ___",
+        "Children's author of scary tales",
+        "Fear Street author R.L.",
+        "Kids' author R.L. --",
+        "Fear Street series author"
+      ],
+      "hardClues": [
+        "Author of the \"Mostly Ghostly\" book series",
+        "Horror author hidden in \"bloodthirstiness\"",
+        "Welcome to Dead House author"
+      ]
+    },
+    {
+      "index": 9,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 5,
+      "answer": "ASTOR",
+      "clues": [],
+      "hardClues": [
+        "Mary of \"The Maltese Falcon\"",
+        "Family name of the first American multimillionaire",
+        "Early American merchant",
+        "Prominent patron of Poe",
+        "Early American fur tycoon",
+        "Mary or John Jacob",
+        "The Great Lie Oscar winner Mary",
+        "United States' first multi-millionaire",
+        "Britain's historic Lady ___",
+        "Financier aboard the \"Titanic\""
+      ]
+    }
+  ],
+  "shape": [
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  ]
+}

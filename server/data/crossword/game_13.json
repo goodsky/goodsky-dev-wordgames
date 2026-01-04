@@ -1,0 +1,261 @@
+{
+  "difficulty": "EASY",
+  "timestamp": "2026-01-04T15:24:45.652036",
+  "clues": [
+    {
+      "index": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "TAPES",
+      "clues": [
+        "Gets on audio",
+        "Records on the VCR",
+        "Race winners may break them",
+        "Contents of cassettes",
+        "Patches up, in a way",
+        "Fastens, in a way",
+        "Adhesive rolls",
+        "Stakeout evidence"
+      ],
+      "hardClues": [
+        "Watergate ___ (audio recordings available on the Nixon Library's Web site)",
+        "The Anderson ___ (1971 Sean Connery movie)"
+      ]
+    },
+    {
+      "index": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "TILER",
+      "clues": [
+        "Backsplash installer, often",
+        "Grout user",
+        "Flooring specialist",
+        "Mosaic maker, maybe",
+        "Backsplash installer",
+        "Ceramic installer",
+        "Floor worker, of a sort"
+      ],
+      "hardClues": [
+        "Roof worker",
+        "Wall worker",
+        "Bath artisan"
+      ]
+    },
+    {
+      "index": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "ALONE",
+      "clues": [
+        "Using no help",
+        "Without backing",
+        "Without accomplices",
+        "Isolated from others",
+        "Home ___ (Macaulay Culkin film)",
+        "Single",
+        "Without a plus-one"
+      ],
+      "hardClues": [
+        "Having no equal",
+        "Dokken \"___ Again\"",
+        "How Lindbergh crossed the Atlantic"
+      ]
+    },
+    {
+      "index": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "POTTS",
+      "clues": [
+        "Annie of \"Young Sheldon\"",
+        "Mrs. ___, \"Beauty and the Beast\" character",
+        "Surname of the Beast's head housekeeper (which ended up ironically apt after the curse, I mean, what are the odds?)",
+        "Annie who voiced Bo Peep in \"Toy Story\"",
+        "Young Sheldon actress Annie",
+        "Chip ___ (\"Beauty and the Beast\" teacup)"
+      ],
+      "hardClues": [
+        "Annie of \"Designing Women\"",
+        "Designing Women cast member",
+        "Ghostbusters actress Annie",
+        "Disney \"Mrs.\" voiced by Angela Lansbury"
+      ]
+    },
+    {
+      "index": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "ESTEE",
+      "clues": [
+        "First name in scents",
+        "Cosmetics company cofounder Lauder",
+        "Lauder of lipsticks and such",
+        "Lauder of the beauty biz",
+        "First name in perfumes"
+      ],
+      "hardClues": [
+        "Name on Re-Nutriv products",
+        "Coco's cosmetics contemporary",
+        "Laudable Lauder",
+        "R&B band The Word singer",
+        "Chanel No. 5 competitor"
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 5,
+      "answer": "START",
+      "clues": [
+        "Originate",
+        "React in surprise",
+        "First stage",
+        "Go, on a Monopoly board, e.g.",
+        "Kickoff",
+        "Super Nintendo controller button",
+        "Dive in, so to speak",
+        "Sudden fright",
+        "Set in motion",
+        "Gunshot at a track meet"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 6,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "ILOST",
+      "clues": [
+        "Also-ran's terse summary",
+        "Runner-up's lament",
+        "Statement of defeat",
+        "Terse concession",
+        "You're too good",
+        "Postgame lament",
+        "Runner-up's report",
+        "Postgame recap?"
+      ],
+      "hardClues": [
+        "Diet testimonial starter",
+        "Since ___ My Baby (1965 Temptations hit)"
+      ]
+    },
+    {
+      "index": 7,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "LOTTA",
+      "clues": [
+        "Whole bunch of, informally",
+        "Great deal of, informally",
+        "Host of, in slang",
+        "Large quantity of, informally"
+      ],
+      "hardClues": [
+        "Whole ___ Love (Led Zeppelin song)",
+        "Whole __ Shakin' Goin' On",
+        "Whole ___ Love (Led Zeppelin hit)",
+        "Whole ___ Love (Led Zeppelin)",
+        "People Got a ___ Nerve (Neko Case song)",
+        "Nicolette Larson \"___ Love\""
+      ]
+    },
+    {
+      "index": 8,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "ENTER",
+      "clues": [
+        "Keyboard button",
+        "Punch in",
+        "Door's open!",
+        "Play direction",
+        "Maze sign",
+        "Maze prompt",
+        "Register"
+      ],
+      "hardClues": [
+        "Record",
+        "Rap response"
+      ]
+    },
+    {
+      "index": 9,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 5,
+      "answer": "RESET",
+      "clues": [
+        "Bowling-alley button",
+        "Briefly unplug, perhaps",
+        "Put an odometer back to zero",
+        "Return to 000",
+        "Put back to zero",
+        "Start-over button"
+      ],
+      "hardClues": [
+        "Right, in a way",
+        "Zero",
+        "Adjust the chronograph, e.g.",
+        "Button misguided career move begs"
+      ]
+    }
+  ],
+  "shape": [
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  ]
+}

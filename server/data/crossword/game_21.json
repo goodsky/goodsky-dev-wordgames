@@ -1,0 +1,272 @@
+{
+  "difficulty": "EASY",
+  "timestamp": "2026-01-04T15:35:39.157773",
+  "clues": [
+    {
+      "index": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "LASSOS",
+      "clues": [
+        "Rodeo loops",
+        "Head catchers",
+        "Rodeo ropes",
+        "Gets in the loop?",
+        "Cowboy ropes",
+        "Calf catchers",
+        "Cowgirls' tools",
+        "Rodeo snares",
+        "Ropes on a ranch",
+        "They slow mustangs"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "SEWARD",
+      "clues": [
+        "Secretary of State who arranged the Alaska Purchase"
+      ],
+      "hardClues": [
+        "Alaska was his \"Folly\"",
+        "Politician with a famous folly",
+        "City on the Kenai Peninsula",
+        "Alaska's purchaser",
+        "Town with the motto \"Alaska Starts Here!\"",
+        "Alaska Purchase arranger",
+        "Lincoln's Secretary of State",
+        "Negotiator of the Alaska purchase",
+        "Negotiator of Alaska's purchase",
+        "Into the Woods attendant"
+      ]
+    },
+    {
+      "index": 3,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "ALLELE",
+      "clues": [
+        "Mutated gene",
+        "Genotype determinant",
+        "Gene mutation",
+        "Genetic variant",
+        "Gene variant",
+        "One may be dominant",
+        "One of a pair of genes",
+        "Gene arising through mutation",
+        "One of a gene pair"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "answer": "LEAP",
+      "clues": [
+        "Huge jump",
+        "Dramatic ascent",
+        "Spring through the air",
+        "Jump like a kangaroo",
+        "A look might precede one",
+        "Spring",
+        "Frogs do it",
+        "Abandon ship, in a way",
+        "__ year (2020, for one)"
+      ],
+      "hardClues": [
+        "One may be flying"
+      ]
+    },
+    {
+      "index": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 2,
+      "length": 4,
+      "answer": "LAME",
+      "clues": [
+        "Feeble, as excuses go",
+        "Unsatisfactory, as an excuse",
+        "Uninspired, as an effort",
+        "Woefully unimpressive",
+        "Hardly adequate",
+        "Terse dismissal",
+        "Poor, as excuses go"
+      ],
+      "hardClues": [
+        "Fabric with metallic threads",
+        "Fabric woven with metallic threads",
+        "Fabric with interwoven metallic threads"
+      ]
+    },
+    {
+      "index": 6,
+      "direction": "down",
+      "row": 1,
+      "col": 3,
+      "length": 4,
+      "answer": "ECON",
+      "clues": [
+        "Subj. for Janet Yellen",
+        "M.B.A. subj.",
+        "Major for a future MBA",
+        "Grad school major",
+        "Bus. major's class",
+        "Pre-business school major",
+        "Supply chain's subj.",
+        "Bus. major's course"
+      ],
+      "hardClues": [
+        "Subj. involving bread?",
+        "Topic of the \"guns versus butter\" model, briefly"
+      ]
+    },
+    {
+      "index": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 4,
+      "answer": "LOSE",
+      "clues": [
+        "Receive fewer votes",
+        "Fail to win a medal",
+        "Shed",
+        "Disappoint one's fans",
+        "What you may do when you snooze?"
+      ],
+      "hardClues": [
+        "Shake, as one's tail?",
+        "Almost win",
+        "Get blitzed",
+        "Engineer a tank",
+        "Have the high score in a golf tournament"
+      ]
+    },
+    {
+      "index": 8,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "SEACOW",
+      "clues": [
+        "Underwater herbivore",
+        "Creature with a paddlelike tail",
+        "Docile marine mammal",
+        "Manatee",
+        "Manatee, e.g.",
+        "Gulf of Mexico herbivore",
+        "Slow-moving marine herbivore",
+        "Dugong or manatee",
+        "Large marine herbivore"
+      ],
+      "hardClues": []
+    },
+    {
+      "index": 9,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 6,
+      "answer": "SAMOSA",
+      "clues": [
+        "Savory Indian appetizer",
+        "Triangular Indian pastry",
+        "Indian appetizer",
+        "Pastry often served with mint chutney",
+        "Indian turnover",
+        "Savory pastry",
+        "Punjabi pastry",
+        "Chutney-dipped appetizer"
+      ],
+      "hardClues": [
+        "___ chaat",
+        "App before vindaloo"
+      ]
+    },
+    {
+      "index": 10,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 6,
+      "answer": "OPENER",
+      "clues": [
+        "Band before the headliner",
+        "Any intro",
+        "Word with \"garage\" or \"bottle\"",
+        "First act at a concert",
+        "Swiss Army knife tool",
+        "First act",
+        "Season's first game",
+        "Series start"
+      ],
+      "hardClues": [
+        "First to bet",
+        "Church key, e.g."
+      ]
+    }
+  ],
+  "shape": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ]
+}
