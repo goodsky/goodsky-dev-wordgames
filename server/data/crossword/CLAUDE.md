@@ -5,7 +5,7 @@ Your task is to use the provided Python scripts to rate the difficulty of crossw
 ## Instructions
 Follow the these steps in order. DO NOT use any other methods to rate the crossword clues. If these steps do not work, ask for help from the user.
 
-1. Run the `judge_next.py` script to begin judging a new crossword puzzle. If the script says there are no new games to judge, then you are done and you can stop working! Otherwise, continue to the next step.
+1. Run the `judge_next.py` script to begin judging a new crossword puzzle. If the script says there are no new games to judge, then run `archive_clues.py 50 50` to archive old puzzles and stop working. Otherwise, continue to the next step.
 
 2. Read the `game_N.ratings.tsv` file.
 

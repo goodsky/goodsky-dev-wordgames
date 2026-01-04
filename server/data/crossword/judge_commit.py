@@ -10,6 +10,7 @@ import glob
 import csv
 import sys
 from collections import defaultdict
+from datetime import datetime
 
 
 def calculate_difficulty(clue_entries):
@@ -89,8 +90,9 @@ def process_ratings_file(ratings_filepath):
     # Calculate overall difficulty
     difficulty = calculate_difficulty(data["clues"])
 
-    # Add difficulty at top level
-    data = {"difficulty": difficulty, **data}
+    # Add difficulty and timestamp at top level
+    timestamp = datetime.now().isoformat()
+    data = {"difficulty": difficulty, "timestamp": timestamp, **data}
 
     # Write output file
     output_filepath = source_file.replace(".new.json", ".json")
