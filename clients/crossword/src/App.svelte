@@ -825,20 +825,17 @@
         <h2>How to Play</h2>
         <div class="instructions">
           <p><strong>Objective:</strong> Fill in the crossword grid with the correct letters based on the clues.</p>
-          
-          <p><strong>Controls:</strong></p>
-          <ul>
-            <li><strong>Click a cell</strong> to focus it. Click again to toggle between across/down clues.</li>
-            <li><strong>Type a letter</strong> to fill the cell and advance to the next blank.</li>
-            <li><strong>Backspace</strong> to delete and move backward.</li>
-            <li><strong>Arrow keys</strong> to navigate the grid.</li>
-            <li><strong>Tab</strong> to toggle between across/down at the current cell.</li>
-            <li><strong>Enter</strong> to move to the next clue.</li>
-          </ul>
-          
-          <p><strong>Clue Navigation:</strong> Use the arrow buttons at the bottom to switch between clues. Click the clue text to cycle through alternate clues for the same word.</p>
-          
-          <p><strong>Completion:</strong> The puzzle will automatically check when all cells are filled!</p>
+
+          <p><strong>Controls:</strong> Use your keyboard to type letters. Tap in the grid to move your selection.</p>
+
+          <p><strong>Difficulty:</strong> Toggle between EASY and HARD puzzles in the menu.</p>
+
+          <p><strong>Kid Mode:</strong> Enable kid mode to make the game solvable by a preschooler who is learning their letters!</p>
+
+          <h2>Credits</h2>
+          <p><strong>Developed by:</strong> <a href="mailto:goodsky@outlook.com">Skyler Goodell</a></p>
+          <p><strong>Word list: </strong> <a href="https://www.spreadthewordlist.com" target="_blank" rel="noopener noreferrer">https://www.spreadthewordlist.com</a></p>
+          <p><strong>Clue database:</strong> <a href="https://xd.saul.pw" target="_blank" rel="noopener noreferrer">https://xd.saul.pw</a></p>
         </div>
         <div class="modal-buttons">
           <button class="modal-button primary" onclick={closeHowToPlay}>Got it!</button>
@@ -1112,29 +1109,6 @@
     text-align: center;
   }
 
-  .instructions {
-    margin: 0 0 20px 0;
-  }
-
-  .instructions p {
-    margin: 10px 0;
-    text-align: left;
-  }
-
-  .instructions ul {
-    margin: 10px 0;
-    padding-left: 20px;
-  }
-
-  .instructions li {
-    margin: 8px 0;
-    line-height: 1.5;
-  }
-
-  .instructions strong {
-    color: #333;
-  }
-
   .modal h2 {
     margin: 0 0 15px 0;
     color: #333;
@@ -1178,6 +1152,19 @@
 
   .modal-button.primary:hover {
     background: #555;
+  }
+
+  .instructions {
+    margin: 0 0 10px 0;
+  }
+
+  .instructions p {
+    margin: 10px;
+    text-align: left;
+  }
+
+  .instructions strong {
+    color: #333;
   }
 
   .share-url-container {
