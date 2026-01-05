@@ -329,6 +329,17 @@
     return true;
   }
 
+  // Check if focus is on the last cell of the current clue
+  function isLastLetterInClue() {
+    if (!lastFocusedCell) return false;
+    
+    const cells = getCurrentClueCells();
+    if (cells.length === 0) return false;
+    
+    const lastCell = cells[cells.length - 1];
+    return lastFocusedCell.row === lastCell.row && lastFocusedCell.col === lastCell.col;
+  }
+
   // Find next blank cell in the current clue word
   function findNextBlankInWord() {
     const cells = getCurrentClueCells();
@@ -345,6 +356,12 @@
     const nextBlank = findNextBlankInWord();
     if (nextBlank) {
       focusCell(nextBlank.row, nextBlank.col);
+    } else {
+      // focus on the first cell in the current clue (even if filled)
+      const cells = getCurrentClueCells();
+      if (cells.length > 0) {
+        focusCell(cells[0].row, cells[0].col);
+      }
     }
   }
 
@@ -365,15 +382,33 @@
   }
 
   function findPreviousCell(row, col) {
-    // Try previous column first
-    if (col - 1 >= 0 && !grid[row][col - 1].blocked) {
-      return { row, col: col - 1 };
-    }
-    // Try previous row
-    for (let r = row - 1; r >= 0; r--) {
-      for (let c = grid[r].length - 1; c >= 0; c--) {
-        if (!grid[r][c].blocked) {
-          return { row: r, col: c };
+    const currentClue = clues[currentClueIndex];
+    const direction = currentClue?.direction || 'across';
+    
+    if (direction === 'across') {
+      // For across clues, move left first
+      if (col - 1 >= 0 && !grid[row][col - 1].blocked) {
+        return { row, col: col - 1 };
+      }
+      // Then try previous rows (right to left)
+      for (let r = row - 1; r >= 0; r--) {
+        for (let c = grid[r].length - 1; c >= 0; c--) {
+          if (!grid[r][c].blocked) {
+            return { row: r, col: c };
+          }
+        }
+      }
+    } else {
+      // For down clues, move up first
+      if (row - 1 >= 0 && !grid[row - 1][col].blocked) {
+        return { row: row - 1, col };
+      }
+      // Then try previous columns (bottom to top)
+      for (let c = col - 1; c >= 0; c--) {
+        for (let r = grid.length - 1; r >= 0; r--) {
+          if (!grid[r][c].blocked) {
+            return { row: r, col: c };
+          }
         }
       }
     }
@@ -620,6 +655,9 @@
       }
       // Move to next clue if word is complete
       nextClue();
+    }
+    if (isLastLetterInClue()) {
+      focusNextBlank();
     } else {
       // Otherwise, advance to next cell in the current word
       focusNextCell();
