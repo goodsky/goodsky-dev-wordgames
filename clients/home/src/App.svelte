@@ -92,10 +92,18 @@
   margin-top: 0.5rem;
   font-style: italic;
   color: #333;
-  background: rgb(46, 236, 29);
-  padding: 0.2rem 0.4rem;
+  background: linear-gradient(90deg, 
+    #ffb3ba 0%, 
+    #ffcc99 16.67%, 
+    #ffffba 33.33%, 
+    #baffc9 50%, 
+    #bae1ff 66.67%, 
+    #d5b3ff 83.33%, 
+    #ffb3ff 100%);
+  padding: 0.3rem 0.5rem;
   border-radius: 8px;
   width: fit-content;
+  font-weight: bold;
 }
 
 .play-crossword {

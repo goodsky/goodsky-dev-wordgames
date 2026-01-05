@@ -346,8 +346,11 @@
         revealingCategories = false;
     }
 
-    function handlePlayClick() {
+    function handlePlayClick(enableKidMode = false) {
         showSplash = false;
+        if (enableKidMode) {
+            kidMode = true;
+        }
     }
 
     // Calculate font size based on word length and container size

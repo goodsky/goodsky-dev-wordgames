@@ -303,8 +303,11 @@
     showNotification('New puzzle!', 'info', 1000);
   }
 
-  function handlePlayClick() {
+  function handlePlayClick(enableKidMode = false) {
     showSplashScreen = false;
+    if (enableKidMode) {
+      kidAssistMode = true;
+    }
   }
 </script>
 

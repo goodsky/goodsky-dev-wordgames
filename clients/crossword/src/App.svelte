@@ -560,8 +560,11 @@
     setTimeout(refocusGrid, 100);
   }
 
-  function handlePlayClick() {
+  function handlePlayClick(enableKidMode = false) {
     showSplashScreen = false;
+    if (enableKidMode) {
+      kidMode = true;
+    }
     // Focus first cell after user tap - this triggers mobile keyboard
     setTimeout(focusNextBlank, 100);
   }

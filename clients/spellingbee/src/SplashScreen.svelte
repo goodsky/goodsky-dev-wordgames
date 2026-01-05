@@ -4,6 +4,10 @@
   function handlePlayClick() {
     onPlay();
   }
+
+  function handleKidModeClick() {
+    onPlay(true);
+  }
 </script>
 
 <div class="splash-screen">
@@ -12,6 +16,7 @@
   <h3>How many words can you make with 7 letters?</h3>
   <h3><i>Now with Kid Mode for ages 4+!</i></h3>
   <button class="play-button" onclick={handlePlayClick}>Play</button>
+  <button class="kid-mode-button" onclick={handleKidModeClick}>Kid Mode</button>
 </div>
 
 <style>
@@ -50,11 +55,12 @@
     background-color: black;
     color: white;
     font-size: 1.5rem;
-    padding: 0.75rem 5rem;
+    padding: 0.75rem 1rem;
     border: none;
     border-radius: 32px;
     cursor: pointer;
     transition: all 0.2s;
+    width: 200px;
   }
 
   .play-button:hover {
@@ -63,6 +69,35 @@
   }
 
   .play-button:active {
+    transform: scale(0.95);
+  }
+
+  .kid-mode-button {
+    background: linear-gradient(90deg, 
+      #ffb3ba 0%, 
+      #ffcc99 16.67%, 
+      #ffffba 33.33%, 
+      #baffc9 50%, 
+      #bae1ff 66.67%, 
+      #d5b3ff 83.33%, 
+      #ffb3ff 100%);
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.75rem 1rem;
+    border: 2px solid black;
+    border-radius: 32px;
+    cursor: pointer;
+    transition: all 0.2s;
+    width: 200px;
+  }
+
+  .kid-mode-button:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+  }
+
+  .kid-mode-button:active {
     transform: scale(0.95);
   }
 </style>
