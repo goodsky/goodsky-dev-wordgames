@@ -10,6 +10,7 @@ const PUBLIC_DIR = path.join(__dirname, '../public');
 const CONNECTIONS_DIR = path.join(PUBLIC_DIR, 'connections');
 const CROSSWORD_DIR = path.join(PUBLIC_DIR, 'crossword');
 const HOME_DIR = path.join(PUBLIC_DIR, 'home');
+const RHYMES_DIR = path.join(PUBLIC_DIR, 'rhymes');
 const SPELLINGBEE_DIR = path.join(PUBLIC_DIR, 'spellingbee');
 
 const app = express();
@@ -33,6 +34,11 @@ app.use('/api/spellingbee', spellingbeeRouter);
 app.use('/spellingbee', express.static(SPELLINGBEE_DIR));
 app.get('/spellingbee', (req, res) => {
     res.sendFile(path.join(SPELLINGBEE_DIR, 'index.html'));
+});
+
+app.use('/rhymes', express.static(RHYMES_DIR));
+app.get('/rhymes', (req, res) => {
+    res.sendFile(path.join(RHYMES_DIR, 'index.html'));
 });
 
 app.use('/', express.static(HOME_DIR));

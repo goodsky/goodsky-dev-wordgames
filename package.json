@@ -17,20 +17,23 @@
     "install:crossword": "cd clients/crossword && npm install --include=dev",
     "install:home": "cd clients/home && npm install --include=dev",
     "install:spellingbee": "cd clients/spellingbee && npm install --include=dev",
+    "install:rhymes": "cd clients/rhymes && npm install --include=dev",
     "install:server": "cd server && npm install",
-    "postinstall": "npm run install:connections && npm run install:crossword && npm run install:home && npm run install:spellingbee && npm run install:server",
+    "postinstall": "npm run install:connections && npm run install:crossword && npm run install:home && npm run install:rhymes && npm run install:spellingbee && npm run install:server",
     "build:connections": "cd clients/connections && npm run build",
     "build:crossword": "cd clients/crossword && npm run build",
     "build:home": "cd clients/home && npm run build",
     "build:spellingbee": "cd clients/spellingbee && npm run build",
-    "build": "npm run build:connections && npm run build:crossword && npm run build:home && npm run build:spellingbee",
+    "build:rhymes": "cd clients/rhymes && npm run build",
+    "build": "npm run build:connections && npm run build:crossword && npm run build:home && npm run build:rhymes && npm run build:spellingbee",
     "start": "cd server && npm start",
     "dev:connections": "cd clients/connections && npm run dev",
     "dev:crossword": "cd clients/crossword && npm run dev",
     "dev:home": "cd clients/home && npm run dev",
     "dev:spellingbee": "cd clients/spellingbee && npm run dev",
+    "dev:rhymes": "cd clients/rhymes && npm run dev",
     "dev:server": "cd server && npm run dev",
-    "dev": "concurrently \"npm run dev:connections\" \"npm run dev:crossword\" \"npm run dev:home\" \"npm run dev:spellingbee\" \"npm run dev:server\""
+    "dev": "concurrently \"npm run dev:connections\" \"npm run dev:crossword\" \"npm run dev:home\" \"npm run dev:rhymes\" \"npm run dev:spellingbee\" \"npm run dev:server\""
   },
   "devDependencies": {
     "concurrently": "^9.2.1"
