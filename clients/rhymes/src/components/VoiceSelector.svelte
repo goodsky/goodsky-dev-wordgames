@@ -27,15 +27,11 @@
     }
   });
 
-  // Sort voices: English first, then by name
+  // Filter to English voices only, then sort by name
   let sortedVoices = $derived(
-    [...voices].sort((a, b) => {
-      const aEnglish = isEnglishVoice(a);
-      const bEnglish = isEnglishVoice(b);
-      if (aEnglish && !bEnglish) return -1;
-      if (!aEnglish && bEnglish) return 1;
-      return getVoiceDisplayName(a).localeCompare(getVoiceDisplayName(b));
-    })
+    [...voices]
+      .filter(v => isEnglishVoice(v))
+      .sort((a, b) => getVoiceDisplayName(a).localeCompare(getVoiceDisplayName(b)))
   );
 
   function handleVoiceSelect(voice: SpeechSynthesisVoice) {
@@ -76,9 +72,6 @@
             </span>
             <span class="voice-name">
               {getVoiceDisplayName(voice)}
-              {#if !isEnglishVoice(voice)}
-                <span class="voice-lang">({voice.lang})</span>
-              {/if}
             </span>
             <button
               class="preview-button"
@@ -189,11 +182,6 @@
     font-size: 16px;
     color: #333;
     text-align: left;
-  }
-
-  .voice-lang {
-    font-size: 12px;
-    color: #666;
   }
 
   .preview-button {

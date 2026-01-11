@@ -67,7 +67,8 @@ export function speakWord(word: string, voice?: SpeechSynthesisVoice): void {
   window.speechSynthesis.cancel();
 
   // Keep only ASCII characters (removes emojis and other Unicode symbols)
-  const textToSpeak = word.replace(/[^\x20-\x7E]/g, '').trim();
+  // Lowercase to prevent TTS from spelling out "words" like DAT as D-A-T
+  const textToSpeak = word.replace(/[^\x20-\x7E]/g, '').trim().toLowerCase();
 
   // Only speak if there's text remaining after filtering
   if (textToSpeak) {

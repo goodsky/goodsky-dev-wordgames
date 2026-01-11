@@ -36,7 +36,18 @@
     speakWord(newWord);
   }
 
-  function getCurrentDisplayWord(): string {
+  function getCurrentPrefix(): string | null {
+    if (displayWord && lastClickedSound) {
+      return lastClickedSound;
+    }
+    return null;
+  }
+
+  function getCurrentSuffix(): string {
+    return WORD_ENTRIES[selectedWordIndex].rhymeSuffix;
+  }
+
+  function getFullWord(): string {
     if (displayWord) {
       return displayWord;
     }
@@ -61,7 +72,13 @@
 
     <div class="display-area" class:show-rhyme={showRhyme}>
       <span class="current-emoji">{WORD_ENTRIES[selectedWordIndex].emoji}</span>
-      <span class="current-word">{getCurrentDisplayWord()}</span>
+      <span class="current-word">
+        {#if getCurrentPrefix()}
+          <span class="word-prefix">{getCurrentPrefix()}</span><span class="word-suffix">{getCurrentSuffix()}</span>
+        {:else}
+          {getFullWord()}
+        {/if}
+      </span>
     </div>
 
     <div class="emoji-row">
@@ -194,6 +211,16 @@
     font-weight: bold;
     color: #333;
     letter-spacing: 4px;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  .word-prefix {
+    color: #FF6B6B;
+  }
+
+  .word-suffix {
+    color: #333;
   }
 
   .emoji-row {
@@ -214,6 +241,8 @@
     background: rgba(255, 255, 255, 0.8);
     padding: 12px 24px;
     border-radius: 16px;
+    user-select: none;
+    -webkit-user-select: none;
   }
 
   @media (max-width: 480px) {

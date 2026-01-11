@@ -31,6 +31,14 @@
       </div>
       <div class="play-connections-icon"></div>
     </a>
+    <a href="/rhymes" class="game-button play-rhymes">
+      <div class="game-button-text">
+        <div class="header-rhymes">Fun with Rhymes</div>
+        <div class="game-button-description">Play with sounds and letters!</div>
+        <div class="game-button-callout"><i>For preschoolers!</i></div>
+      </div>
+      <div class="play-rhymes-icon">🔤</div>
+    </a>
   </div>
   <footer>
       <p>Created by <a href="mailto:goodsky@outlook.com">Skyler Goodell</a></p>
@@ -181,6 +189,33 @@
     -webkit-mask: url('/idea.svg') no-repeat center;
     mask-size: contain;
     -webkit-mask-size: contain;
+}
+
+.play-rhymes {
+  background-color: #87CEEB;
+  color: black;
+  border: 2px solid #333;
+}
+
+.play-rhymes:hover {
+  background-color: #a8dcf0;
+}
+
+.header-rhymes {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Comic Sans MS', 'Chalkboard', cursive, sans-serif;
+}
+
+.play-rhymes-icon {
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    justify-self: center;
+    font-size: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer {
