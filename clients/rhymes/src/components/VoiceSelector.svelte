@@ -49,6 +49,13 @@
       onClose();
     }
   }
+
+  function handleVoiceKeydown(event: KeyboardEvent, voice: SpeechSynthesisVoice) {
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault();
+      handleVoiceSelect(voice);
+    }
+  }
 </script>
 
 {#if isOpen}
@@ -62,6 +69,7 @@
             class="voice-item"
             class:selected={selectedVoiceName === voice.name}
             onclick={() => handleVoiceSelect(voice)}
+            onkeydown={(e) => handleVoiceKeydown(e, voice)}
             role="button"
             tabindex="0"
           >
