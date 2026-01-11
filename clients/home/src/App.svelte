@@ -67,6 +67,7 @@
 .game-buttons-container {
   display: flex;
   flex-direction: column;
+  margin-bottom: 2rem;
 }
 
 .game-button {
@@ -219,11 +220,12 @@
 }
 
 footer {
-  position: absolute;
-  bottom: 10px;
+  margin-top: 2rem;
+  padding: 1rem 0;
   font-size: 0.8rem;
   font-family: Arial, Helvetica, sans-serif;
   color: #333;
+  text-align: center;
 }
 
 </style>
